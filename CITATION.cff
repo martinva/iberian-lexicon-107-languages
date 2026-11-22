@@ -5,6 +5,7 @@ title: "El léxico de los plomos ibéricos ante 107 lenguas: una comparación es
 authors:
   - family-names: "Martín Valladolid"
     given-names: "David"
+    orcid: "https://orcid.org/0009-0003-4884-2573"
 date-released: "2026-11-20"
 version: "1.0"
 abstract: "Datos, criterios, algoritmos, programas y especificación funcional para reproducir la comparación cuantitativa del léxico de los plomos ibéricos con el de otras lenguas."
@@ -16,3 +17,17 @@ keywords:
   - Iberian
   - Basque
 license: MIT
+repository-code: "https://github.com/martinva/iberian-lexicon-107-languages"
+url: "https://iberico.martinva.org"
+preferred-citation:
+  type: article
+  title: "The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First"
+  authors:
+    - family-names: "Martín Valladolid"
+      given-names: "David"
+      orcid: "https://orcid.org/0009-0003-4884-2573"
+  year: 2026
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.24443589"
+  url: "https://doi.org/10.5281/zenodo.24443589"

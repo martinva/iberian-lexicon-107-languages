@@ -3,16 +3,44 @@
   "@type": "SoftwareSourceCode",
   "name": "El léxico de los plomos ibéricos ante 107 lenguas: repositorio de réplica / The lexicon of the Iberian lead plaques against 107 languages: replication repository",
   "description": "Datos, criterios, algoritmos, programas y especificación funcional para reproducir la comparación cuantitativa del léxico de los plomos ibéricos con el de otras lenguas. / Data, criteria, algorithms, programs and functional specification to reproduce the quantitative comparison of the lexicon of the Iberian lead plaques with that of other languages.",
-  "author": [{"@type": "Person", "familyName": "Martín Valladolid", "givenName": "David"}],
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Martín Valladolid",
+      "givenName": "David",
+      "@id": "https://orcid.org/0009-0003-4884-2573"
+    }
+  ],
   "codeRepository": "https://github.com/martinva/iberian-lexicon-107-languages",
   "license": "https://spdx.org/licenses/MIT",
   "programmingLanguage": "Python",
   "runtimePlatform": "Python 3.10+",
-  "softwareRequirements": ["numpy>=1.24", "matplotlib>=3.5 (figures only)"],
+  "softwareRequirements": [
+    "numpy>=1.24",
+    "matplotlib>=3.5 (figures only)"
+  ],
   "version": "1.0",
   "dateCreated": "2026-11-20",
-  "keywords": ["Iberian", "Basque", "Palaeohispanic languages", "quantitative linguistics", "CLDF", "permutation test", "ibérico", "euskera", "lenguas paleohispánicas", "lingüística cuantitativa"],
+  "keywords": [
+    "Iberian",
+    "Basque",
+    "Palaeohispanic languages",
+    "quantitative linguistics",
+    "CLDF",
+    "permutation test",
+    "ibérico",
+    "euskera",
+    "lenguas paleohispánicas",
+    "lingüística cuantitativa"
+  ],
   "applicationCategory": "Historical linguistics",
   "developmentStatus": "active",
-  "readme": "https://github.com/martinva/iberian-lexicon-107-languages/blob/main/README.md"
+  "readme": "https://github.com/martinva/iberian-lexicon-107-languages/blob/main/README.md",
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "name": "The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First",
+    "identifier": "https://doi.org/10.5281/zenodo.24443589",
+    "datePublished": "2026-11-22"
+  },
+  "url": "https://iberico.martinva.org"
 }

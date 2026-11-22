@@ -4,6 +4,10 @@
 
 *English version: `README.md`.*
 
+**Artículo:** Martín Valladolid, D. (2026). *El léxico de los plomos ibéricos ante 107 lenguas: una comparación estadística en la que el euskera ocupa el primer lugar* (ediciones inglesa y española). Zenodo. [https://doi.org/10.5281/zenodo.24443589](https://doi.org/10.5281/zenodo.24443589) · Web: [iberico.martinva.org](https://iberico.martinva.org)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24443589.svg)](https://doi.org/10.5281/zenodo.24443589)
+
 [![comprobacion](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/comprobacion.yml/badge.svg)](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/comprobacion.yml) [![cldf](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/cldf.yml/badge.svg)](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/cldf.yml)
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martinva/iberian-lexicon-107-languages/blob/main/reproduce_results.ipynb) — ejecutar todo en el navegador, sin instalar nada.
 
