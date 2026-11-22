@@ -164,7 +164,7 @@ html[lang="en"] [data-l="en"],html[lang="es"] [data-l="es"]{display:revert}
  <thead><tr><th data-l="en">Form</th><th data-l="es">Forma</th><th data-l="en">Proposed meaning</th><th data-l="es">Significado propuesto</th><th data-l="en">Level</th><th data-l="es">Nivel</th><th data-l="en">Inscriptions</th><th data-l="es">Inscripciones</th><th data-l="en">Support</th><th data-l="es">Apoyo</th></tr></thead>
  <tbody id="rows"><tr><td colspan="5" class="n">…</td></tr></tbody>
 </table></div>
-<p class="note"><span data-l="en">Source:</span><span data-l="es">Fuente:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/tree/main/1_fuentes_lexicas/iberico/cldf"><code>1_fuentes_lexicas/iberico/cldf/</code></a> (forms.csv, parameters.csv).</p>
+<p class="note"><span data-l="en">Source:</span><span data-l="es">Fuente:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/tree/main/1_fuentes_lexicas/iberico/cldf"><code>1_fuentes_lexicas/iberico/cldf/</code></a> (forms.csv, parameters.csv) · <a href="terminos/"><span data-l="en">one page per term</span><span data-l="es">una página por término</span></a></p>
 
 <h2 id="check"><span data-l="en">Check it yourself</span><span data-l="es">Compruébalo tú</span></h2>
 <ul class="plain">
@@ -214,7 +214,7 @@ html[lang="en"] [data-l="en"],html[lang="es"] [data-l="es"]{display:revert}
  function render(){var s=q.value.trim().toLowerCase(),g=fg.value,l=fl.value,es=html.lang==='es';
   var r=DATA.filter(function(d){return(!g||d.group===g)&&(!l||d.level===l)&&(!s||[d.form,d.en,d.es,d.inscr,d.note].join(' ').toLowerCase().indexOf(s)>=0)});
   count.textContent=r.length+(es?' de ':' of ')+DATA.length+(es?' formas':' forms');
-  rows.innerHTML=r.map(function(d){return '<tr><td class="f">'+esc(d.form)+'</td><td>'+esc(es?d.es:d.en)+'</td><td class="l">'+esc(d.level)+'</td><td class="l">'+esc(d.inscr||'—')+'</td><td class="n">'+esc(d.note)+'</td></tr>'}).join('')||'<tr><td colspan="5" class="n">—</td></tr>'}
+  rows.innerHTML=r.map(function(d){return '<tr><td class="f"><a href="'+esc(d.page)+'">'+esc(d.form)+'</a></td><td>'+esc(es?d.es:d.en)+'</td><td class="l">'+esc(d.level)+'</td><td class="l">'+esc(d.inscr||'—')+'</td><td class="n">'+esc(d.note)+'</td></tr>'}).join('')||'<tr><td colspan="5" class="n">—</td></tr>'}
  fetch('data/inventory.json').then(function(r){return r.json()}).then(function(d){DATA=d;
   Array.from(new Set(d.map(function(x){return x.group}))).forEach(function(v){var o=document.createElement('option');o.value=v;fg.appendChild(o)});
   Array.from(new Set(d.map(function(x){return x.level}))).sort().forEach(function(v){var o=document.createElement('option');o.value=v;o.text=v;fl.appendChild(o)});
