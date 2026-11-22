@@ -124,7 +124,6 @@ The meanings of the 30 lead-plaque units come from the four monographs of the se
 | Monograph III: ownership, partnerships and bilateral clauses | [10.5281/zenodo.23614005](https://doi.org/10.5281/zenodo.23614005) |
 | Monograph IV: synthesis, phonology and comparative evaluation | [10.5281/zenodo.23617694](https://doi.org/10.5281/zenodo.23617694) |
 | Complete English edition (Monographs I–IV) | [10.5281/zenodo.23620146](https://doi.org/10.5281/zenodo.23620146) |
-| Executive synthesis (EN / ES / DE) | [10.5281/zenodo.23677389](https://doi.org/10.5281/zenodo.23677389) |
 
 The provenance of each meaning (level, source, whether a Basque comparison was involved) is listed unit by unit in Annex D of the article and in `2_criterios/`.
 

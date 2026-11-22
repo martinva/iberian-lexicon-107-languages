@@ -9,7 +9,6 @@ Registrados el 22-11-2026 a partir de las capturas de Zenodo que pasó David. Ca
 | Monografía III | 10.5281/zenodo.23614005 | 10.5281/zenodo.23614006 | 10.5281/zenodo.23651603 |
 | Monografía IV | 10.5281/zenodo.23617694 | 10.5281/zenodo.23617695 | 10.5281/zenodo.23651735 |
 | Edición completa en inglés (Monografías I–IV) | 10.5281/zenodo.23620146 | 10.5281/zenodo.23620147 | 10.5281/zenodo.23651852 |
-| Síntesis ejecutiva (EN/ES/DE) | 10.5281/zenodo.23677389 | — | 10.5281/zenodo.23677390 (única versión) |
 
 Comprobación: en las cinco obras con v1, el DOI de concepto es el número de la v1 menos uno, como es habitual en Zenodo; la ficha de la Monografía I en `zenodo.org/records/23610039` resuelve a la v4.0 (comprobado el 22-11-2026). Los DOI de versión v4 de II–IV se han leído de capturas de pantalla: comprobar antes de citarlos. La v4 de la edición completa en inglés es 23651852 (confirmado por David).
 
