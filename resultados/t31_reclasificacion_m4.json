@@ -1,0 +1,60 @@
+{
+ "original_v38": {
+  "nivel II con correspondencia vasca señalada después": {
+   "unidades_del_grupo": 6,
+   "comparables_con_el_euskera": 6,
+   "z_euskera": -7.27,
+   "puesto": 1,
+   "siguiente": "Galician",
+   "z_siguiente": -2.83,
+   "lenguas_comparadas": 25
+  },
+  "nivel II sin correspondencia señalada": {
+   "unidades_del_grupo": 13,
+   "comparables_con_el_euskera": 12,
+   "z_euskera": -4.43,
+   "puesto": 1,
+   "siguiente": "Tagalog",
+   "z_siguiente": -4.25,
+   "lenguas_comparadas": 32
+  },
+  "nivel II sin correspondencia señalada y sin los préstamos latinos": {
+   "unidades_del_grupo": 9,
+   "comparables_con_el_euskera": 8,
+   "z_euskera": -3.15,
+   "puesto": 1,
+   "siguiente": "Albanian",
+   "z_siguiente": -2.41,
+   "lenguas_comparadas": 31
+  }
+ },
+ "reclasificada_m4_final": {
+  "nivel II con correspondencia vasca señalada después": {
+   "unidades_del_grupo": 8,
+   "comparables_con_el_euskera": 8,
+   "z_euskera": -8.17,
+   "puesto": 1,
+   "siguiente": "Galician",
+   "z_siguiente": -3.08,
+   "lenguas_comparadas": 28
+  },
+  "nivel II sin correspondencia señalada": {
+   "unidades_del_grupo": 11,
+   "comparables_con_el_euskera": 10,
+   "z_euskera": -3.44,
+   "puesto": 2,
+   "siguiente": "Tagalog",
+   "z_siguiente": -4.56,
+   "lenguas_comparadas": 31
+  },
+  "nivel II sin correspondencia señalada y sin los préstamos latinos": {
+   "unidades_del_grupo": 7,
+   "comparables_con_el_euskera": 6,
+   "z_euskera": -1.85,
+   "puesto": 2,
+   "siguiente": "Hawaiian",
+   "z_siguiente": -1.95,
+   "lenguas_comparadas": 29
+  }
+ }
+}

@@ -1,0 +1,1 @@
+NOTA: Grok (modo Fast) usó búsqueda web (la interfaz indica 24 fuentes); el encargo del cloze no la prohibía expresamente (fallo de diseño, anotado). Grok B y C no se ejecutaron: límite del plan gratuito del proveedor.

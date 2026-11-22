@@ -1,0 +1,30 @@
+
+===== solo plomos · clases completas · muestra igualada de 134 formas
+  Narbonense–Rosellón  inscripciones  607 plomos  14 formas  205 | euskera puesto 1, relativa -2.16 | igualada: relativa -2.16 ± 0.07, primero 197/300
+  Cataluña             inscripciones  448 plomos  33 formas  206 | euskera puesto 1, relativa -2.52 | igualada: relativa -2.52 ± 0.06, primero 300/300
+  Ebro–Castellón       inscripciones  205 plomos  29 formas  225 | euskera puesto 1, relativa -2.39 | igualada: relativa -2.38 ± 0.07, primero 300/300
+  Valencia             inscripciones  221 plomos  36 formas  353 | euskera puesto 1, relativa -2.49 | igualada: relativa -2.48 ± 0.09, primero 300/300
+  Sudeste              inscripciones  105 plomos  23 formas  134 | euskera puesto 1, relativa -2.37 | igualada: relativa -2.37 ± 0.00, primero 300/300
+
+===== solo plomos · reducidas a lo que el ibérico escribe · muestra igualada de 134 formas
+  Narbonense–Rosellón  inscripciones  607 plomos  14 formas  205 | euskera puesto 1, relativa -1.94 | igualada: relativa -1.91 ± 0.08, primero 263/300
+  Cataluña             inscripciones  448 plomos  33 formas  205 | euskera puesto 1, relativa -2.33 | igualada: relativa -2.32 ± 0.06, primero 300/300
+  Ebro–Castellón       inscripciones  205 plomos  29 formas  225 | euskera puesto 1, relativa -2.32 | igualada: relativa -2.31 ± 0.07, primero 300/300
+  Valencia             inscripciones  221 plomos  36 formas  352 | euskera puesto 1, relativa -2.25 | igualada: relativa -2.23 ± 0.10, primero 300/300
+  Sudeste              inscripciones  105 plomos  23 formas  134 | euskera puesto 1, relativa -2.03 | igualada: relativa -2.03 ± 0.00, primero 300/300
+  variación dentro del ibérico (solo plomos; 67 formas por muestra): {'n': 67, 'misma_zona': 0.101, 'vecinas': 0.119, 'no_vecinas': 0.124, 'extremos': 0.13}
+
+===== todas las inscripciones · clases completas · muestra igualada de 221 formas
+  Narbonense–Rosellón  inscripciones  607 plomos  14 formas  676 | euskera puesto 1, relativa -2.25 | igualada: relativa -2.25 ± 0.07, primero 300/300
+  Cataluña             inscripciones  448 plomos  33 formas  604 | euskera puesto 1, relativa -2.37 | igualada: relativa -2.36 ± 0.07, primero 300/300
+  Ebro–Castellón       inscripciones  205 plomos  29 formas  411 | euskera puesto 1, relativa -2.37 | igualada: relativa -2.37 ± 0.06, primero 300/300
+  Valencia             inscripciones  221 plomos  36 formas  609 | euskera puesto 1, relativa -2.42 | igualada: relativa -2.43 ± 0.07, primero 300/300
+  Sudeste              inscripciones  105 plomos  23 formas  221 | euskera puesto 1, relativa -2.42 | igualada: relativa -2.42 ± 0.00, primero 300/300
+
+===== todas las inscripciones · reducidas a lo que el ibérico escribe · muestra igualada de 221 formas
+  Narbonense–Rosellón  inscripciones  607 plomos  14 formas  670 | euskera puesto 1, relativa -2.06 | igualada: relativa -2.06 ± 0.09, primero 300/300
+  Cataluña             inscripciones  448 plomos  33 formas  599 | euskera puesto 1, relativa -2.17 | igualada: relativa -2.16 ± 0.08, primero 300/300
+  Ebro–Castellón       inscripciones  205 plomos  29 formas  411 | euskera puesto 1, relativa -2.23 | igualada: relativa -2.22 ± 0.06, primero 300/300
+  Valencia             inscripciones  221 plomos  36 formas  606 | euskera puesto 1, relativa -2.15 | igualada: relativa -2.14 ± 0.08, primero 300/300
+  Sudeste              inscripciones  105 plomos  23 formas  221 | euskera puesto 1, relativa -2.07 | igualada: relativa -2.07 ± 0.00, primero 300/300
+  variación dentro del ibérico (todas las inscripciones; 110 formas por muestra): {'n': 110, 'misma_zona': 0.073, 'vecinas': 0.083, 'no_vecinas': 0.092, 'extremos': 0.101}

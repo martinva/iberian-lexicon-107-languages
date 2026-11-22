@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si usa estos datos, programas o este protocolo, cite el trabajo así. / If you use these data, programs or this protocol, please cite it as below."
+type: software
+title: "El léxico de los plomos ibéricos ante 107 lenguas: una comparación estadística en la que el euskera ocupa el primer lugar. Repositorio de réplica"
+authors:
+  - family-names: "Martín Valladolid"
+    given-names: "David"
+date-released: "2026-11-20"
+version: "1.0"
+abstract: "Datos, criterios, algoritmos, programas y especificación funcional para reproducir la comparación cuantitativa del léxico de los plomos ibéricos con el de otras lenguas."
+keywords:
+  - ibérico
+  - euskera
+  - lenguas paleohispánicas
+  - lingüística cuantitativa
+  - Iberian
+  - Basque
+license: MIT

@@ -1,0 +1,4 @@
+Mistral (Le Chat, chats temporales), cloze, 21-11-2026.
+- Condición A (primado euskera): respuesta a las 19:17 tras «Ejecutada una búsqueda web · Realizadas 5 búsquedas». El juez usó búsqueda web pese a no pedírsele; muchas propuestas son palabras ibéricas reales del corpus (śalir, iunstir, baiteś, saltu, ban, abaŕ, borste, laur, erder, śelki, ogei...), lo que confirma la contaminación de memoria que esta prueba controla.
+- Condición B (primado gallego): en curso a las 19:46.
+- Condición C (sin primar): véase el estado en esta carpeta cuando se recoja.

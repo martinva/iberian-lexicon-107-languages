@@ -1,0 +1,46 @@
+{
+ "unidades_retiradas": [
+  "A11",
+  "A12",
+  "A13",
+  "A16",
+  "A19"
+ ],
+ "unidades_que_quedan": 25,
+ "lenguas_comparadas": 32,
+ "puesto_euskera": 1,
+ "tabla": [
+  [
+   "Basque",
+   -11.844
+  ],
+  [
+   "Galician",
+   -3.608
+  ],
+  [
+   "Catalan",
+   -3.044
+  ],
+  [
+   "Tagalog",
+   -2.768
+  ],
+  [
+   "Asturian",
+   -2.354
+  ],
+  [
+   "Albanian",
+   -2.165
+  ],
+  [
+   "Welsh",
+   -1.994
+  ],
+  [
+   "Sicilian",
+   -1.902
+  ]
+ ]
+}

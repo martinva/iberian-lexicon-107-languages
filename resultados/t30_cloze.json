@@ -1,0 +1,2474 @@
+{
+ "DeepSeek_A": {
+  "filas": [
+   {
+    "codigo": "U02",
+    "unidad": "A23",
+    "propuesta": "alos",
+    "reducida": "aLoS",
+    "distancia": 1.0,
+    "percentil": 35.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U03",
+    "unidad": "A11",
+    "propuesta": "iltir",
+    "reducida": "iLTiR",
+    "distancia": 0.625,
+    "percentil": 3.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U04",
+    "unidad": "N1",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U05",
+    "unidad": "A12",
+    "propuesta": "beles",
+    "reducida": "PeLeS",
+    "distancia": 0.75,
+    "percentil": 8.4,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U06",
+    "unidad": "N10",
+    "propuesta": "abar",
+    "reducida": "aPaR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U07",
+    "unidad": "A7",
+    "propuesta": "kite",
+    "reducida": "KiTe",
+    "distancia": 1.143,
+    "percentil": 69.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U09",
+    "unidad": "A20",
+    "propuesta": "neitin",
+    "reducida": "NeiTiN",
+    "distancia": 0.667,
+    "percentil": 5.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U10",
+    "unidad": "A2",
+    "propuesta": "erder",
+    "reducida": "eRTeR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U11",
+    "unidad": "A5",
+    "propuesta": "guzti",
+    "reducida": "KuSTi",
+    "distancia": 0.889,
+    "percentil": 26.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U12",
+    "unidad": "A10",
+    "propuesta": "saka",
+    "reducida": "SaKa",
+    "distancia": 0.857,
+    "percentil": 12.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U13",
+    "unidad": "A18",
+    "propuesta": "baites",
+    "reducida": "PaiTeS",
+    "distancia": 0.952,
+    "percentil": 30.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U14",
+    "unidad": "A30",
+    "propuesta": "ekiar",
+    "reducida": "eKiaR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U15",
+    "unidad": "A24",
+    "propuesta": "lur",
+    "reducida": "LuR",
+    "distancia": 0.182,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U16",
+    "unidad": "A22",
+    "propuesta": "eban",
+    "reducida": "ePaN",
+    "distancia": 1.25,
+    "percentil": 72.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U17",
+    "unidad": "N2",
+    "propuesta": "bi",
+    "reducida": "Pi",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U18",
+    "unidad": "A21",
+    "propuesta": "seltar",
+    "reducida": "SeLTaR",
+    "distancia": 1.0,
+    "percentil": 64.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U20",
+    "unidad": "A16",
+    "propuesta": "tiker",
+    "reducida": "TiKeR",
+    "distancia": 0.667,
+    "percentil": 13.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U22",
+    "unidad": "A17",
+    "propuesta": "ba",
+    "reducida": "Pa",
+    "distancia": 1.333,
+    "percentil": 34.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U23",
+    "unidad": "N4",
+    "propuesta": "irur",
+    "reducida": "iRuR",
+    "distancia": 0.667,
+    "percentil": 2.3,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U25",
+    "unidad": "A25",
+    "propuesta": "laku",
+    "reducida": "LaKu",
+    "distancia": 1.0,
+    "percentil": 39.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U26",
+    "unidad": "A1",
+    "propuesta": "kite",
+    "reducida": "KiTe",
+    "distancia": 1.143,
+    "percentil": 72.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U27",
+    "unidad": "A9",
+    "propuesta": "bas",
+    "reducida": "PaS",
+    "distancia": 1.231,
+    "percentil": 58.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U28",
+    "unidad": "A29",
+    "propuesta": "muga",
+    "reducida": "MuKa",
+    "distancia": 1.067,
+    "percentil": 52.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U29",
+    "unidad": "A4",
+    "propuesta": "sor",
+    "reducida": "SoR",
+    "distancia": 1.333,
+    "percentil": 89.2,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U30",
+    "unidad": "A15",
+    "propuesta": "ars",
+    "reducida": "aRS",
+    "distancia": 1.0,
+    "percentil": 24.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U31",
+    "unidad": "A6",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.545,
+    "percentil": 0.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U32",
+    "unidad": "A8",
+    "propuesta": "tibas",
+    "reducida": "TiPaS",
+    "distancia": 1.067,
+    "percentil": 70.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U33",
+    "unidad": "A27",
+    "propuesta": "bide",
+    "reducida": "PiTe",
+    "distancia": 0.857,
+    "percentil": 13.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U35",
+    "unidad": "A3",
+    "propuesta": "salir",
+    "reducida": "SaLiR",
+    "distancia": 0.75,
+    "percentil": 15.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U36",
+    "unidad": "A13",
+    "propuesta": "soro",
+    "reducida": "SoRo",
+    "distancia": 0.857,
+    "percentil": 16.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U37",
+    "unidad": "A26",
+    "propuesta": "ur",
+    "reducida": "uR",
+    "distancia": 0.667,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U38",
+    "unidad": "N7",
+    "propuesta": "lau",
+    "reducida": "Lau",
+    "distancia": 1.333,
+    "percentil": 62.0,
+    "bajo_mediana": false,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U39",
+    "unidad": "N20",
+    "propuesta": "bors",
+    "reducida": "PoRS",
+    "distancia": 0.857,
+    "percentil": 17.4,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U40",
+    "unidad": "A14",
+    "propuesta": "ete",
+    "reducida": "eTe",
+    "distancia": 0.8,
+    "percentil": 9.4,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U41",
+    "unidad": "A19",
+    "propuesta": "teban",
+    "reducida": "TePaN",
+    "distancia": 1.143,
+    "percentil": 77.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U42",
+    "unidad": "A28",
+    "propuesta": "turs",
+    "reducida": "TuRS",
+    "distancia": 1.077,
+    "percentil": 73.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   }
+  ],
+  "bajo_mediana": [
+   21,
+   36
+  ],
+  "sin_numerales": [
+   16,
+   30
+  ],
+  "sin_mencion_iberico": [
+   14,
+   27
+  ]
+ },
+ "DeepSeek_B": {
+  "filas": [
+   {
+    "codigo": "U02",
+    "unidad": "A23",
+    "propuesta": "eban",
+    "reducida": "ePaN",
+    "distancia": 0.857,
+    "percentil": 13.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U03",
+    "unidad": "A11",
+    "propuesta": "lur",
+    "reducida": "LuR",
+    "distancia": 1.231,
+    "percentil": 51.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U04",
+    "unidad": "N1",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U05",
+    "unidad": "A12",
+    "propuesta": "bilos",
+    "reducida": "PiLoS",
+    "distancia": 0.875,
+    "percentil": 20.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U06",
+    "unidad": "N10",
+    "propuesta": "abaŕban",
+    "reducida": "aPaRPaN",
+    "distancia": 0.588,
+    "percentil": 0.6,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U07",
+    "unidad": "A7",
+    "propuesta": "kule",
+    "reducida": "KuLe",
+    "distancia": 1.143,
+    "percentil": 66.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U09",
+    "unidad": "A20",
+    "propuesta": "teban",
+    "reducida": "TePaN",
+    "distancia": 1.059,
+    "percentil": 65.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U10",
+    "unidad": "A2",
+    "propuesta": "śei",
+    "reducida": "Sei",
+    "distancia": 1.167,
+    "percentil": 37.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U11",
+    "unidad": "A5",
+    "propuesta": "śum",
+    "reducida": "SuM",
+    "distancia": 1.333,
+    "percentil": 77.7,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U12",
+    "unidad": "A10",
+    "propuesta": "ardi",
+    "reducida": "aRTi",
+    "distancia": 1.286,
+    "percentil": 97.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U13",
+    "unidad": "A18",
+    "propuesta": "aŕe",
+    "reducida": "aRe",
+    "distancia": 1.375,
+    "percentil": 54.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U14",
+    "unidad": "A30",
+    "propuesta": "atin",
+    "reducida": "aTiN",
+    "distancia": 0.923,
+    "percentil": 19.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U15",
+    "unidad": "A24",
+    "propuesta": "laku",
+    "reducida": "LaKu",
+    "distancia": 0.667,
+    "percentil": 9.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U16",
+    "unidad": "A22",
+    "propuesta": "aŕe",
+    "reducida": "aRe",
+    "distancia": 1.286,
+    "percentil": 45.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U17",
+    "unidad": "N2",
+    "propuesta": "bi",
+    "reducida": "Pi",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U18",
+    "unidad": "A21",
+    "propuesta": "take",
+    "reducida": "TaKe",
+    "distancia": 1.125,
+    "percentil": 47.2,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U20",
+    "unidad": "A16",
+    "propuesta": "kese",
+    "reducida": "KeSe",
+    "distancia": 0.769,
+    "percentil": 13.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U22",
+    "unidad": "A17",
+    "propuesta": "aba",
+    "reducida": "aPa",
+    "distancia": 1.2,
+    "percentil": 61.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U23",
+    "unidad": "N4",
+    "propuesta": "ir",
+    "reducida": "iR",
+    "distancia": 0.889,
+    "percentil": 4.1,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U25",
+    "unidad": "A25",
+    "propuesta": "lakar",
+    "reducida": "LaKaR",
+    "distancia": 0.714,
+    "percentil": 11.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U26",
+    "unidad": "A1",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 1.077,
+    "percentil": 38.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U27",
+    "unidad": "A9",
+    "propuesta": "basar",
+    "reducida": "PaSaR",
+    "distancia": 1.125,
+    "percentil": 85.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U28",
+    "unidad": "A29",
+    "propuesta": "sosin",
+    "reducida": "SoSiN",
+    "distancia": 1.059,
+    "percentil": 75.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U29",
+    "unidad": "A4",
+    "propuesta": "śakaŕ",
+    "reducida": "SaKaR",
+    "distancia": 0.833,
+    "percentil": 2.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U30",
+    "unidad": "A15",
+    "propuesta": "muga",
+    "reducida": "MuKa",
+    "distancia": 1.077,
+    "percentil": 50.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U31",
+    "unidad": "A6",
+    "propuesta": "te",
+    "reducida": "Te",
+    "distancia": 1.111,
+    "percentil": 12.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U32",
+    "unidad": "A8",
+    "propuesta": "baiser",
+    "reducida": "PaiSeR",
+    "distancia": 1.0,
+    "percentil": 56.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U33",
+    "unidad": "A27",
+    "propuesta": "seltar",
+    "reducida": "SeLTaR",
+    "distancia": 0.444,
+    "percentil": 1.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U35",
+    "unidad": "A3",
+    "propuesta": "saldu",
+    "reducida": "SaLTu",
+    "distancia": 1.0,
+    "percentil": 56.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U36",
+    "unidad": "A13",
+    "propuesta": "tir",
+    "reducida": "TiR",
+    "distancia": 1.231,
+    "percentil": 58.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U37",
+    "unidad": "A26",
+    "propuesta": "turir",
+    "reducida": "TuRiR",
+    "distancia": 0.571,
+    "percentil": 0.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U38",
+    "unidad": "N7",
+    "propuesta": "ur",
+    "reducida": "uR",
+    "distancia": 1.455,
+    "percentil": 34.8,
+    "bajo_mediana": false,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U39",
+    "unidad": "N20",
+    "propuesta": "ar",
+    "reducida": "aR",
+    "distancia": 1.0,
+    "percentil": 5.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U40",
+    "unidad": "A14",
+    "propuesta": "ekiar",
+    "reducida": "eKiaR",
+    "distancia": 1.077,
+    "percentil": 63.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U41",
+    "unidad": "A19",
+    "propuesta": "neitin",
+    "reducida": "NeiTiN",
+    "distancia": 1.2,
+    "percentil": 64.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U42",
+    "unidad": "A28",
+    "propuesta": "eśiar",
+    "reducida": "eSiaR",
+    "distancia": 1.077,
+    "percentil": 60.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   }
+  ],
+  "bajo_mediana": [
+   16,
+   36
+  ],
+  "sin_numerales": [
+   11,
+   30
+  ],
+  "sin_mencion_iberico": [
+   10,
+   27
+  ]
+ },
+ "DeepSeek_C": {
+  "filas": [
+   {
+    "codigo": "U02",
+    "unidad": "A23",
+    "propuesta": "ebar",
+    "reducida": "ePaR",
+    "distancia": 0.571,
+    "percentil": 0.4,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U03",
+    "unidad": "A11",
+    "propuesta": "abar",
+    "reducida": "aPaR",
+    "distancia": 1.143,
+    "percentil": 57.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U04",
+    "unidad": "N1",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U05",
+    "unidad": "A12",
+    "propuesta": "bar",
+    "reducida": "PaR",
+    "distancia": 1.231,
+    "percentil": 59.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U06",
+    "unidad": "N10",
+    "propuesta": "aba",
+    "reducida": "aPa",
+    "distancia": 0.4,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U07",
+    "unidad": "A7",
+    "propuesta": "ars",
+    "reducida": "aRS",
+    "distancia": 1.077,
+    "percentil": 33.9,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U09",
+    "unidad": "A20",
+    "propuesta": "ate",
+    "reducida": "aTe",
+    "distancia": 0.769,
+    "percentil": 3.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U10",
+    "unidad": "A2",
+    "propuesta": "sike",
+    "reducida": "SiKe",
+    "distancia": 1.143,
+    "percentil": 56.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U11",
+    "unidad": "A5",
+    "propuesta": "art",
+    "reducida": "aRT",
+    "distancia": 1.067,
+    "percentil": 10.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U12",
+    "unidad": "A10",
+    "propuesta": "bilos",
+    "reducida": "PiLoS",
+    "distancia": 0.625,
+    "percentil": 4.9,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U13",
+    "unidad": "A18",
+    "propuesta": "be",
+    "reducida": "Pe",
+    "distancia": 1.6,
+    "percentil": 72.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U14",
+    "unidad": "A30",
+    "propuesta": "bete",
+    "reducida": "PeTe",
+    "distancia": 1.231,
+    "percentil": 82.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U15",
+    "unidad": "A24",
+    "propuesta": "iltir",
+    "reducida": "iLTiR",
+    "distancia": 0.714,
+    "percentil": 7.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U16",
+    "unidad": "A22",
+    "propuesta": "iunstir",
+    "reducida": "JuNSTiR",
+    "distancia": 0.909,
+    "percentil": 43.9,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U17",
+    "unidad": "N2",
+    "propuesta": "bi",
+    "reducida": "Pi",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U18",
+    "unidad": "A21",
+    "propuesta": "sosin",
+    "reducida": "SoSiN",
+    "distancia": 0.778,
+    "percentil": 12.9,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U20",
+    "unidad": "A16",
+    "propuesta": "kaltin",
+    "reducida": "KaLTiN",
+    "distancia": 0.824,
+    "percentil": 33.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U22",
+    "unidad": "A17",
+    "propuesta": "aba",
+    "reducida": "aPa",
+    "distancia": 1.2,
+    "percentil": 55.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U23",
+    "unidad": "N4",
+    "propuesta": "ir",
+    "reducida": "iR",
+    "distancia": 0.889,
+    "percentil": 8.6,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U25",
+    "unidad": "A25",
+    "propuesta": "ter",
+    "reducida": "TeR",
+    "distancia": 0.727,
+    "percentil": 5.3,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U26",
+    "unidad": "A1",
+    "propuesta": "salir",
+    "reducida": "SaLiR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U27",
+    "unidad": "A9",
+    "propuesta": "tir",
+    "reducida": "TiR",
+    "distancia": 0.923,
+    "percentil": 14.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U28",
+    "unidad": "A29",
+    "propuesta": "ar",
+    "reducida": "aR",
+    "distancia": 1.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U29",
+    "unidad": "A4",
+    "propuesta": "ete",
+    "reducida": "eTe",
+    "distancia": 0.75,
+    "percentil": 10.4,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U30",
+    "unidad": "A15",
+    "propuesta": "are",
+    "reducida": "aRe",
+    "distancia": 0.909,
+    "percentil": 12.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U31",
+    "unidad": "A6",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.545,
+    "percentil": 0.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U32",
+    "unidad": "A8",
+    "propuesta": "as",
+    "reducida": "aS",
+    "distancia": 1.2,
+    "percentil": 21.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U33",
+    "unidad": "A27",
+    "propuesta": "bar",
+    "reducida": "PaR",
+    "distancia": 0.462,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U35",
+    "unidad": "A3",
+    "propuesta": "seltar",
+    "reducida": "SeLTaR",
+    "distancia": 0.556,
+    "percentil": 3.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U36",
+    "unidad": "A13",
+    "propuesta": "bite",
+    "reducida": "PiTe",
+    "distancia": 0.857,
+    "percentil": 16.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U37",
+    "unidad": "A26",
+    "propuesta": "lako",
+    "reducida": "LaKo",
+    "distancia": 1.167,
+    "percentil": 65.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U38",
+    "unidad": "N7",
+    "propuesta": "san",
+    "reducida": "SaN",
+    "distancia": 0.923,
+    "percentil": 4.4,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U39",
+    "unidad": "N20",
+    "propuesta": "or",
+    "reducida": "oR",
+    "distancia": 0.8,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U40",
+    "unidad": "A14",
+    "propuesta": "lakar",
+    "reducida": "LaKaR",
+    "distancia": 1.143,
+    "percentil": 74.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U41",
+    "unidad": "A19",
+    "propuesta": "ekiar",
+    "reducida": "eKiaR",
+    "distancia": 1.077,
+    "percentil": 59.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U42",
+    "unidad": "A28",
+    "propuesta": "tars",
+    "reducida": "TaRS",
+    "distancia": 1.077,
+    "percentil": 73.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   }
+  ],
+  "bajo_mediana": [
+   25,
+   36
+  ],
+  "sin_numerales": [
+   19,
+   30
+  ],
+  "sin_mencion_iberico": [
+   19,
+   27
+  ]
+ },
+ "Grok_A": {
+  "filas": [
+   {
+    "codigo": "U02",
+    "unidad": "A23",
+    "propuesta": "ekiar",
+    "reducida": "eKiaR",
+    "distancia": 0.4,
+    "percentil": 2.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U03",
+    "unidad": "A11",
+    "propuesta": "ortin",
+    "reducida": "oRTiN",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U04",
+    "unidad": "N1",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U05",
+    "unidad": "A12",
+    "propuesta": "baser",
+    "reducida": "PaSeR",
+    "distancia": 1.0,
+    "percentil": 47.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U06",
+    "unidad": "N10",
+    "propuesta": "abar",
+    "reducida": "aPaR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U07",
+    "unidad": "A7",
+    "propuesta": "salir",
+    "reducida": "SaLiR",
+    "distancia": 0.5,
+    "percentil": 1.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U09",
+    "unidad": "A20",
+    "propuesta": "iunstir",
+    "reducida": "JuNSTiR",
+    "distancia": 0.952,
+    "percentil": 55.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U10",
+    "unidad": "A2",
+    "propuesta": "erder",
+    "reducida": "eRTeR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U11",
+    "unidad": "A5",
+    "propuesta": "eka",
+    "reducida": "eKa",
+    "distancia": 1.286,
+    "percentil": 48.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U12",
+    "unidad": "A10",
+    "propuesta": "aker",
+    "reducida": "aKeR",
+    "distancia": 0.571,
+    "percentil": 0.7,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U13",
+    "unidad": "A18",
+    "propuesta": "aretake",
+    "reducida": "aReTaKe",
+    "distancia": 1.0,
+    "percentil": 56.2,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U14",
+    "unidad": "A30",
+    "propuesta": "baiti",
+    "reducida": "PaiTi",
+    "distancia": 1.143,
+    "percentil": 74.7,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U15",
+    "unidad": "A24",
+    "propuesta": "soro",
+    "reducida": "SoRo",
+    "distancia": 0.667,
+    "percentil": 7.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U16",
+    "unidad": "A22",
+    "propuesta": "bare",
+    "reducida": "PaRe",
+    "distancia": 1.125,
+    "percentil": 45.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U17",
+    "unidad": "N2",
+    "propuesta": "irur",
+    "reducida": "iRuR",
+    "distancia": 1.333,
+    "percentil": 48.1,
+    "bajo_mediana": false,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U18",
+    "unidad": "A21",
+    "propuesta": "teban",
+    "reducida": "TePaN",
+    "distancia": 0.667,
+    "percentil": 5.3,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U20",
+    "unidad": "A16",
+    "propuesta": "zilar",
+    "reducida": "SiLaR",
+    "distancia": 0.8,
+    "percentil": 27.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U22",
+    "unidad": "A17",
+    "propuesta": "ba",
+    "reducida": "Pa",
+    "distancia": 1.333,
+    "percentil": 34.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U23",
+    "unidad": "N4",
+    "propuesta": "laur",
+    "reducida": "LauR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U25",
+    "unidad": "A25",
+    "propuesta": "lur",
+    "reducida": "LuR",
+    "distancia": 0.727,
+    "percentil": 5.3,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U26",
+    "unidad": "A1",
+    "propuesta": "kitar",
+    "reducida": "KiTaR",
+    "distancia": 0.75,
+    "percentil": 15.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U27",
+    "unidad": "A9",
+    "propuesta": "kort",
+    "reducida": "KoRT",
+    "distancia": 0.133,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U28",
+    "unidad": "A29",
+    "propuesta": "aran",
+    "reducida": "aRaN",
+    "distancia": 0.667,
+    "percentil": 2.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U29",
+    "unidad": "A4",
+    "propuesta": "bale",
+    "reducida": "PaLe",
+    "distancia": 1.2,
+    "percentil": 62.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U30",
+    "unidad": "A15",
+    "propuesta": "etxe",
+    "reducida": "eCe",
+    "distancia": 1.091,
+    "percentil": 31.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U31",
+    "unidad": "A6",
+    "propuesta": "otar",
+    "reducida": "oTaR",
+    "distancia": 1.0,
+    "percentil": 38.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U32",
+    "unidad": "A8",
+    "propuesta": "baseti",
+    "reducida": "PaSeTi",
+    "distancia": 0.875,
+    "percentil": 26.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U33",
+    "unidad": "A27",
+    "propuesta": "urke",
+    "reducida": "uRKe",
+    "distancia": 1.286,
+    "percentil": 92.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U35",
+    "unidad": "A3",
+    "propuesta": "serkir",
+    "reducida": "SeRKiR",
+    "distancia": 0.889,
+    "percentil": 48.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U36",
+    "unidad": "A13",
+    "propuesta": "ortor",
+    "reducida": "oRToR",
+    "distancia": 1.0,
+    "percentil": 51.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U37",
+    "unidad": "A26",
+    "propuesta": "saltu",
+    "reducida": "SaLTu",
+    "distancia": 1.0,
+    "percentil": 44.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U38",
+    "unidad": "N7",
+    "propuesta": "bors",
+    "reducida": "PoRS",
+    "distancia": 1.067,
+    "percentil": 43.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U39",
+    "unidad": "N20",
+    "propuesta": "ogei",
+    "reducida": "oKei",
+    "distancia": 0.333,
+    "percentil": 0.7,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U40",
+    "unidad": "A14",
+    "propuesta": "ilti",
+    "reducida": "iLTi",
+    "distancia": 0.667,
+    "percentil": 6.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U41",
+    "unidad": "A19",
+    "propuesta": "laku",
+    "reducida": "LaKu",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U42",
+    "unidad": "A28",
+    "propuesta": "bari",
+    "reducida": "PaRi",
+    "distancia": 0.667,
+    "percentil": 7.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   }
+  ],
+  "bajo_mediana": [
+   21,
+   36
+  ],
+  "sin_numerales": [
+   16,
+   30
+  ],
+  "sin_mencion_iberico": [
+   14,
+   27
+  ]
+ },
+ "Mistral_A": {
+  "filas": [
+   {
+    "codigo": "U02",
+    "unidad": "A23",
+    "propuesta": "baiteś",
+    "reducida": "PaiTeS",
+    "distancia": 1.059,
+    "percentil": 66.2,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U03",
+    "unidad": "A11",
+    "propuesta": "saltu",
+    "reducida": "SaLTu",
+    "distancia": 1.0,
+    "percentil": 43.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U04",
+    "unidad": "N1",
+    "propuesta": "ban",
+    "reducida": "PaN",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U05",
+    "unidad": "A12",
+    "propuesta": "ibi",
+    "reducida": "iPi",
+    "distancia": 1.167,
+    "percentil": 33.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U06",
+    "unidad": "N10",
+    "propuesta": "abaŕ",
+    "reducida": "aPaR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U07",
+    "unidad": "A7",
+    "propuesta": "oin",
+    "reducida": "oiN",
+    "distancia": 1.167,
+    "percentil": 40.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U09",
+    "unidad": "A20",
+    "propuesta": "beśtan",
+    "reducida": "PeSTaN",
+    "distancia": 0.632,
+    "percentil": 3.3,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U10",
+    "unidad": "A2",
+    "propuesta": "erder",
+    "reducida": "eRTeR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U11",
+    "unidad": "A5",
+    "propuesta": "biltir",
+    "reducida": "PiLTiR",
+    "distancia": 0.8,
+    "percentil": 28.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U12",
+    "unidad": "A10",
+    "propuesta": "abere",
+    "reducida": "aPeRe",
+    "distancia": 0.667,
+    "percentil": 9.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U13",
+    "unidad": "A18",
+    "propuesta": "iunstir",
+    "reducida": "JuNSTiR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U14",
+    "unidad": "A30",
+    "propuesta": "batir",
+    "reducida": "PaTiR",
+    "distancia": 0.8,
+    "percentil": 16.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U15",
+    "unidad": "A24",
+    "propuesta": "larru",
+    "reducida": "LaRu",
+    "distancia": 0.333,
+    "percentil": 0.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U16",
+    "unidad": "A22",
+    "propuesta": "kan",
+    "reducida": "KaN",
+    "distancia": 1.067,
+    "percentil": 15.4,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U17",
+    "unidad": "N2",
+    "propuesta": "borste",
+    "reducida": "PoRSTe",
+    "distancia": 1.231,
+    "percentil": 26.1,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U18",
+    "unidad": "A21",
+    "propuesta": "neitin",
+    "reducida": "NeiTiN",
+    "distancia": 0.737,
+    "percentil": 14.4,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U20",
+    "unidad": "A16",
+    "propuesta": "diru",
+    "reducida": "TiRu",
+    "distancia": 0.769,
+    "percentil": 16.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U22",
+    "unidad": "A17",
+    "propuesta": "abi",
+    "reducida": "aPi",
+    "distancia": 1.2,
+    "percentil": 55.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U23",
+    "unidad": "N4",
+    "propuesta": "laur",
+    "reducida": "LauR",
+    "distancia": 0.0,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U25",
+    "unidad": "A25",
+    "propuesta": "sola",
+    "reducida": "SoLa",
+    "distancia": 1.167,
+    "percentil": 71.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U26",
+    "unidad": "A1",
+    "propuesta": "gorde",
+    "reducida": "KoRTe",
+    "distancia": 1.125,
+    "percentil": 86.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U27",
+    "unidad": "A9",
+    "propuesta": "madi",
+    "reducida": "MaTi",
+    "distancia": 0.857,
+    "percentil": 21.9,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U28",
+    "unidad": "A29",
+    "propuesta": "lura",
+    "reducida": "LuRa",
+    "distancia": 0.8,
+    "percentil": 8.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U29",
+    "unidad": "A4",
+    "propuesta": "kiru",
+    "reducida": "KiRu",
+    "distancia": 1.0,
+    "percentil": 30.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U30",
+    "unidad": "A15",
+    "propuesta": "muga",
+    "reducida": "MuKa",
+    "distancia": 1.077,
+    "percentil": 61.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U31",
+    "unidad": "A6",
+    "propuesta": "śalir",
+    "reducida": "SaLiR",
+    "distancia": 0.714,
+    "percentil": 10.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U32",
+    "unidad": "A8",
+    "propuesta": "baga",
+    "reducida": "PaKa",
+    "distancia": 0.615,
+    "percentil": 2.9,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U33",
+    "unidad": "A27",
+    "propuesta": "erra",
+    "reducida": "eRa",
+    "distancia": 1.0,
+    "percentil": 16.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U35",
+    "unidad": "A3",
+    "propuesta": "śelki",
+    "reducida": "SeLKi",
+    "distancia": 1.125,
+    "percentil": 85.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U36",
+    "unidad": "A13",
+    "propuesta": "bide",
+    "reducida": "PiTe",
+    "distancia": 0.857,
+    "percentil": 16.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U37",
+    "unidad": "A26",
+    "propuesta": "alor",
+    "reducida": "aLoR",
+    "distancia": 0.667,
+    "percentil": 5.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U38",
+    "unidad": "N7",
+    "propuesta": "tor",
+    "reducida": "ToR",
+    "distancia": 1.231,
+    "percentil": 44.6,
+    "bajo_mediana": false,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U39",
+    "unidad": "N20",
+    "propuesta": "ogei",
+    "reducida": "oKei",
+    "distancia": 0.333,
+    "percentil": 0.7,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U40",
+    "unidad": "A14",
+    "propuesta": "goi",
+    "reducida": "Koi",
+    "distancia": 1.2,
+    "percentil": 55.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U41",
+    "unidad": "A19",
+    "propuesta": "erdian",
+    "reducida": "eRTiaN",
+    "distancia": 1.2,
+    "percentil": 81.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U42",
+    "unidad": "A28",
+    "propuesta": "gara",
+    "reducida": "KaRa",
+    "distancia": 1.0,
+    "percentil": 38.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   }
+  ],
+  "bajo_mediana": [
+   22,
+   36
+  ],
+  "sin_numerales": [
+   17,
+   30
+  ],
+  "sin_mencion_iberico": [
+   15,
+   27
+  ]
+ },
+ "Mistral_C": {
+  "filas": [
+   {
+    "codigo": "U02",
+    "unidad": "A23",
+    "propuesta": "are",
+    "reducida": "aRe",
+    "distancia": 1.0,
+    "percentil": 16.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U03",
+    "unidad": "A11",
+    "propuesta": "seler",
+    "reducida": "SeLeR",
+    "distancia": 1.125,
+    "percentil": 72.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U04",
+    "unidad": "N1",
+    "propuesta": "ki",
+    "reducida": "Ki",
+    "distancia": 1.25,
+    "percentil": 46.7,
+    "bajo_mediana": false,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U05",
+    "unidad": "A12",
+    "propuesta": "baide",
+    "reducida": "PaiTe",
+    "distancia": 1.067,
+    "percentil": 62.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U06",
+    "unidad": "N10",
+    "propuesta": "saran",
+    "reducida": "SaRaN",
+    "distancia": 0.857,
+    "percentil": 36.1,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U07",
+    "unidad": "A7",
+    "propuesta": "biur",
+    "reducida": "PiuR",
+    "distancia": 0.571,
+    "percentil": 1.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U09",
+    "unidad": "A20",
+    "propuesta": "batir",
+    "reducida": "PaTiR",
+    "distancia": 0.471,
+    "percentil": 0.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U10",
+    "unidad": "A2",
+    "propuesta": "surbe",
+    "reducida": "SuRPe",
+    "distancia": 0.875,
+    "percentil": 25.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U11",
+    "unidad": "A5",
+    "propuesta": "tultan",
+    "reducida": "TuLTaN",
+    "distancia": 0.9,
+    "percentil": 48.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U12",
+    "unidad": "A10",
+    "propuesta": "behur",
+    "reducida": "PeHuR",
+    "distancia": 0.375,
+    "percentil": 0.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U13",
+    "unidad": "A18",
+    "propuesta": "santir",
+    "reducida": "SaNTiR",
+    "distancia": 0.455,
+    "percentil": 0.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U14",
+    "unidad": "A30",
+    "propuesta": "eske",
+    "reducida": "eSKe",
+    "distancia": 0.923,
+    "percentil": 23.8,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U15",
+    "unidad": "A24",
+    "propuesta": "eban",
+    "reducida": "ePaN",
+    "distancia": 1.167,
+    "percentil": 79.1,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U16",
+    "unidad": "A22",
+    "propuesta": "nebire",
+    "reducida": "NePiRe",
+    "distancia": 0.947,
+    "percentil": 29.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U17",
+    "unidad": "N2",
+    "propuesta": "sanki",
+    "reducida": "SaNKi",
+    "distancia": 1.273,
+    "percentil": 46.8,
+    "bajo_mediana": false,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U18",
+    "unidad": "A21",
+    "propuesta": "turi",
+    "reducida": "TuRi",
+    "distancia": 0.875,
+    "percentil": 10.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U20",
+    "unidad": "A16",
+    "propuesta": "seltar",
+    "reducida": "SeLTaR",
+    "distancia": 0.941,
+    "percentil": 58.3,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U22",
+    "unidad": "A17",
+    "propuesta": "abir",
+    "reducida": "aPiR",
+    "distancia": 1.167,
+    "percentil": 74.6,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U23",
+    "unidad": "N4",
+    "propuesta": "kisar",
+    "reducida": "KiSaR",
+    "distancia": 0.857,
+    "percentil": 20.6,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U25",
+    "unidad": "A25",
+    "propuesta": "talke",
+    "reducida": "TaLKe",
+    "distancia": 1.143,
+    "percentil": 79.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U26",
+    "unidad": "A1",
+    "propuesta": "arsan",
+    "reducida": "aRSaN",
+    "distancia": 1.0,
+    "percentil": 59.7,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U27",
+    "unidad": "A9",
+    "propuesta": "bidiar",
+    "reducida": "PiTiaR",
+    "distancia": 0.941,
+    "percentil": 50.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U28",
+    "unidad": "A29",
+    "propuesta": "ulan",
+    "reducida": "uLaN",
+    "distancia": 1.067,
+    "percentil": 52.4,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U29",
+    "unidad": "A4",
+    "propuesta": "kate",
+    "reducida": "KaTe",
+    "distancia": 0.8,
+    "percentil": 7.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U30",
+    "unidad": "A15",
+    "propuesta": "eta",
+    "reducida": "eTa",
+    "distancia": 0.909,
+    "percentil": 12.5,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U31",
+    "unidad": "A6",
+    "propuesta": "bete",
+    "reducida": "PeTe",
+    "distancia": 0.5,
+    "percentil": 3.1,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U32",
+    "unidad": "A8",
+    "propuesta": "landar",
+    "reducida": "LaNTaR",
+    "distancia": 1.059,
+    "percentil": 71.8,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U33",
+    "unidad": "A27",
+    "propuesta": "saka",
+    "reducida": "SaKa",
+    "distancia": 1.0,
+    "percentil": 32.7,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U35",
+    "unidad": "A3",
+    "propuesta": "seki",
+    "reducida": "SeKi",
+    "distancia": 1.143,
+    "percentil": 70.9,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U36",
+    "unidad": "A13",
+    "propuesta": "arnab",
+    "reducida": "aRNaP",
+    "distancia": 1.125,
+    "percentil": 83.5,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U37",
+    "unidad": "A26",
+    "propuesta": "gaste",
+    "reducida": "KaSTe",
+    "distancia": 1.143,
+    "percentil": 76.0,
+    "bajo_mediana": false,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U38",
+    "unidad": "N7",
+    "propuesta": "sarban",
+    "reducida": "SaRPaN",
+    "distancia": 0.667,
+    "percentil": 2.5,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U39",
+    "unidad": "N20",
+    "propuesta": "berkan",
+    "reducida": "PeRKaN",
+    "distancia": 0.706,
+    "percentil": 5.2,
+    "bajo_mediana": true,
+    "numeral": true,
+    "menciona": true
+   },
+   {
+    "codigo": "U40",
+    "unidad": "A14",
+    "propuesta": "abula",
+    "reducida": "aPuLa",
+    "distancia": 0.769,
+    "percentil": 18.2,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   },
+   {
+    "codigo": "U41",
+    "unidad": "A19",
+    "propuesta": "zati",
+    "reducida": "SaTi",
+    "distancia": 0.833,
+    "percentil": 16.0,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": true
+   },
+   {
+    "codigo": "U42",
+    "unidad": "A28",
+    "propuesta": "alder",
+    "reducida": "aLTeR",
+    "distancia": 0.857,
+    "percentil": 22.6,
+    "bajo_mediana": true,
+    "numeral": false,
+    "menciona": false
+   }
+  ],
+  "bajo_mediana": [
+   18,
+   36
+  ],
+  "sin_numerales": [
+   14,
+   30
+  ],
+  "sin_mencion_iberico": [
+   11,
+   27
+  ]
+ }
+}

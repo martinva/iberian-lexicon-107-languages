@@ -1,0 +1,640 @@
+{
+ "zonas": {
+  "Narbonense–Rosellón": {
+   "inscripciones": 607,
+   "plomos": 14,
+   "signarios": {
+    "LEVANTINO": 604,
+    "GRIEGO": 2,
+    "MERIDIONAL": 1
+   }
+  },
+  "Cataluña": {
+   "inscripciones": 448,
+   "plomos": 33,
+   "signarios": {
+    "LEVANTINO": 448
+   }
+  },
+  "Ebro–Castellón": {
+   "inscripciones": 205,
+   "plomos": 29,
+   "signarios": {
+    "LEVANTINO": 204,
+    "MERIDIONAL": 1
+   }
+  },
+  "Valencia": {
+   "inscripciones": 221,
+   "plomos": 36,
+   "signarios": {
+    "LEVANTINO": 210,
+    "MERIDIONAL": 10,
+    "GRECOIBERICO": 1
+   }
+  },
+  "Sudeste": {
+   "inscripciones": 105,
+   "plomos": 23,
+   "signarios": {
+    "MERIDIONAL": 38,
+    "GRECOIBERICO": 33,
+    "LEVANTINO": 29
+   }
+  }
+ },
+ "solo plomos | clases completas": {
+  "N": 134,
+  "filas": [
+   {
+    "zona": "Narbonense–Rosellón",
+    "formas": 205,
+    "distancia": 0.1975,
+    "puesto_euskera": 1,
+    "relativa": -2.16,
+    "primeras": [
+     [
+      "Basque",
+      0.197
+     ],
+     [
+      "Latin",
+      0.2
+     ],
+     [
+      "Livonian",
+      0.237
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.2063,
+     "puesto_medio": 1.34,
+     "primero": 197,
+     "relativa": -2.16,
+     "relativa_dt": 0.07
+    }
+   },
+   {
+    "zona": "Cataluña",
+    "formas": 206,
+    "distancia": 0.1711,
+    "puesto_euskera": 1,
+    "relativa": -2.52,
+    "primeras": [
+     [
+      "Basque",
+      0.171
+     ],
+     [
+      "Latin",
+      0.202
+     ],
+     [
+      "Bashkir",
+      0.231
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1794,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.52,
+     "relativa_dt": 0.06
+    }
+   },
+   {
+    "zona": "Ebro–Castellón",
+    "formas": 225,
+    "distancia": 0.187,
+    "puesto_euskera": 1,
+    "relativa": -2.39,
+    "primeras": [
+     [
+      "Basque",
+      0.187
+     ],
+     [
+      "Latin",
+      0.206
+     ],
+     [
+      "Bashkir",
+      0.237
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1968,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.38,
+     "relativa_dt": 0.07
+    }
+   },
+   {
+    "zona": "Valencia",
+    "formas": 353,
+    "distancia": 0.1557,
+    "puesto_euskera": 1,
+    "relativa": -2.49,
+    "primeras": [
+     [
+      "Basque",
+      0.156
+     ],
+     [
+      "Latin",
+      0.178
+     ],
+     [
+      "Finnish",
+      0.204
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1704,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.48,
+     "relativa_dt": 0.09
+    }
+   },
+   {
+    "zona": "Sudeste",
+    "formas": 134,
+    "distancia": 0.1935,
+    "puesto_euskera": 1,
+    "relativa": -2.37,
+    "primeras": [
+     [
+      "Basque",
+      0.193
+     ],
+     [
+      "Latin",
+      0.22
+     ],
+     [
+      "Sakha",
+      0.246
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1935,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.37,
+     "relativa_dt": 0.0
+    }
+   }
+  ]
+ },
+ "solo plomos | reducidas a lo que el ibérico escribe": {
+  "N": 134,
+  "filas": [
+   {
+    "zona": "Narbonense–Rosellón",
+    "formas": 205,
+    "distancia": 0.1136,
+    "puesto_euskera": 1,
+    "relativa": -1.94,
+    "primeras": [
+     [
+      "Basque",
+      0.114
+     ],
+     [
+      "Livonian",
+      0.121
+     ],
+     [
+      "Sakha",
+      0.132
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1233,
+     "puesto_medio": 1.12,
+     "primero": 263,
+     "relativa": -1.91,
+     "relativa_dt": 0.08
+    }
+   },
+   {
+    "zona": "Cataluña",
+    "formas": 205,
+    "distancia": 0.0888,
+    "puesto_euskera": 1,
+    "relativa": -2.33,
+    "primeras": [
+     [
+      "Basque",
+      0.089
+     ],
+     [
+      "Sakha",
+      0.113
+     ],
+     [
+      "Bashkir",
+      0.126
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0968,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.32,
+     "relativa_dt": 0.06
+    }
+   },
+   {
+    "zona": "Ebro–Castellón",
+    "formas": 225,
+    "distancia": 0.0982,
+    "puesto_euskera": 1,
+    "relativa": -2.32,
+    "primeras": [
+     [
+      "Basque",
+      0.098
+     ],
+     [
+      "Bashkir",
+      0.122
+     ],
+     [
+      "Sakha",
+      0.123
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1079,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.31,
+     "relativa_dt": 0.07
+    }
+   },
+   {
+    "zona": "Valencia",
+    "formas": 352,
+    "distancia": 0.0708,
+    "puesto_euskera": 1,
+    "relativa": -2.25,
+    "primeras": [
+     [
+      "Basque",
+      0.071
+     ],
+     [
+      "Sakha",
+      0.101
+     ],
+     [
+      "Bashkir",
+      0.109
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0868,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.23,
+     "relativa_dt": 0.1
+    }
+   },
+   {
+    "zona": "Sudeste",
+    "formas": 134,
+    "distancia": 0.1044,
+    "puesto_euskera": 1,
+    "relativa": -2.03,
+    "primeras": [
+     [
+      "Basque",
+      0.104
+     ],
+     [
+      "Sakha",
+      0.11
+     ],
+     [
+      "Livonian",
+      0.122
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1044,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.03,
+     "relativa_dt": 0.0
+    }
+   }
+  ]
+ },
+ "solo plomos | variación dentro del ibérico": {
+  "n": 67,
+  "misma_zona": 0.101,
+  "vecinas": 0.119,
+  "no_vecinas": 0.124,
+  "extremos": 0.13
+ },
+ "todas las inscripciones | clases completas": {
+  "N": 221,
+  "filas": [
+   {
+    "zona": "Narbonense–Rosellón",
+    "formas": 676,
+    "distancia": 0.1603,
+    "puesto_euskera": 1,
+    "relativa": -2.25,
+    "primeras": [
+     [
+      "Basque",
+      0.16
+     ],
+     [
+      "Latin",
+      0.175
+     ],
+     [
+      "Finnish",
+      0.199
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1722,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.25,
+     "relativa_dt": 0.07
+    }
+   },
+   {
+    "zona": "Cataluña",
+    "formas": 604,
+    "distancia": 0.1622,
+    "puesto_euskera": 1,
+    "relativa": -2.37,
+    "primeras": [
+     [
+      "Basque",
+      0.162
+     ],
+     [
+      "Latin",
+      0.184
+     ],
+     [
+      "Burushaski",
+      0.212
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1721,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.36,
+     "relativa_dt": 0.07
+    }
+   },
+   {
+    "zona": "Ebro–Castellón",
+    "formas": 411,
+    "distancia": 0.1696,
+    "puesto_euskera": 1,
+    "relativa": -2.37,
+    "primeras": [
+     [
+      "Basque",
+      0.17
+     ],
+     [
+      "Latin",
+      0.189
+     ],
+     [
+      "Finnish",
+      0.221
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1772,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.37,
+     "relativa_dt": 0.06
+    }
+   },
+   {
+    "zona": "Valencia",
+    "formas": 609,
+    "distancia": 0.1584,
+    "puesto_euskera": 1,
+    "relativa": -2.42,
+    "primeras": [
+     [
+      "Basque",
+      0.158
+     ],
+     [
+      "Latin",
+      0.179
+     ],
+     [
+      "Finnish",
+      0.208
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1684,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.43,
+     "relativa_dt": 0.07
+    }
+   },
+   {
+    "zona": "Sudeste",
+    "formas": 221,
+    "distancia": 0.1754,
+    "puesto_euskera": 1,
+    "relativa": -2.42,
+    "primeras": [
+     [
+      "Basque",
+      0.175
+     ],
+     [
+      "Latin",
+      0.211
+     ],
+     [
+      "Bashkir",
+      0.231
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.1754,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.42,
+     "relativa_dt": 0.0
+    }
+   }
+  ]
+ },
+ "todas las inscripciones | reducidas a lo que el ibérico escribe": {
+  "N": 221,
+  "filas": [
+   {
+    "zona": "Narbonense–Rosellón",
+    "formas": 670,
+    "distancia": 0.0793,
+    "puesto_euskera": 1,
+    "relativa": -2.06,
+    "primeras": [
+     [
+      "Basque",
+      0.079
+     ],
+     [
+      "Sakha",
+      0.101
+     ],
+     [
+      "Livonian",
+      0.11
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0913,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.06,
+     "relativa_dt": 0.09
+    }
+   },
+   {
+    "zona": "Cataluña",
+    "formas": 599,
+    "distancia": 0.0806,
+    "puesto_euskera": 1,
+    "relativa": -2.17,
+    "primeras": [
+     [
+      "Basque",
+      0.081
+     ],
+     [
+      "Sakha",
+      0.1
+     ],
+     [
+      "Bashkir",
+      0.116
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0912,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.16,
+     "relativa_dt": 0.08
+    }
+   },
+   {
+    "zona": "Ebro–Castellón",
+    "formas": 411,
+    "distancia": 0.0843,
+    "puesto_euskera": 1,
+    "relativa": -2.23,
+    "primeras": [
+     [
+      "Basque",
+      0.084
+     ],
+     [
+      "Sakha",
+      0.111
+     ],
+     [
+      "Bashkir",
+      0.114
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0916,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.22,
+     "relativa_dt": 0.06
+    }
+   },
+   {
+    "zona": "Valencia",
+    "formas": 606,
+    "distancia": 0.0751,
+    "puesto_euskera": 1,
+    "relativa": -2.15,
+    "primeras": [
+     [
+      "Basque",
+      0.075
+     ],
+     [
+      "Sakha",
+      0.104
+     ],
+     [
+      "Livonian",
+      0.111
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0858,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.14,
+     "relativa_dt": 0.08
+    }
+   },
+   {
+    "zona": "Sudeste",
+    "formas": 221,
+    "distancia": 0.0837,
+    "puesto_euskera": 1,
+    "relativa": -2.07,
+    "primeras": [
+     [
+      "Basque",
+      0.084
+     ],
+     [
+      "Sakha",
+      0.096
+     ],
+     [
+      "Livonian",
+      0.113
+     ]
+    ],
+    "igualada": {
+     "distancia": 0.0837,
+     "puesto_medio": 1.0,
+     "primero": 300,
+     "relativa": -2.07,
+     "relativa_dt": 0.0
+    }
+   }
+  ]
+ },
+ "todas las inscripciones | variación dentro del ibérico": {
+  "n": 110,
+  "misma_zona": 0.073,
+  "vecinas": 0.083,
+  "no_vecinas": 0.092,
+  "extremos": 0.101
+ }
+}

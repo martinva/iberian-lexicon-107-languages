@@ -1,0 +1,146 @@
+{
+ "parejas": [
+  {
+   "toma": "Basque",
+   "da": "Spanish",
+   "puesto": 76,
+   "distancia": 0.29,
+   "mas_proxima": "Tsez",
+   "distancia_mas_proxima": 0.154
+  },
+  {
+   "toma": "Basque",
+   "da": "Latin",
+   "puesto": 19,
+   "distancia": 0.211,
+   "mas_proxima": "Tsez",
+   "distancia_mas_proxima": 0.154
+  },
+  {
+   "toma": "Basque",
+   "da": "Catalan",
+   "puesto": 65,
+   "distancia": 0.27,
+   "mas_proxima": "Tsez",
+   "distancia_mas_proxima": 0.154
+  },
+  {
+   "toma": "Hungarian",
+   "da": "Turkish",
+   "puesto": 21,
+   "distancia": 0.227,
+   "mas_proxima": "Swedish",
+   "distancia_mas_proxima": 0.168
+  },
+  {
+   "toma": "Romanian",
+   "da": "Bulgarian",
+   "puesto": 7,
+   "distancia": 0.157,
+   "mas_proxima": "Standard Albanian",
+   "distancia_mas_proxima": 0.115
+  },
+  {
+   "toma": "Standard Albanian",
+   "da": "Latin",
+   "puesto": 17,
+   "distancia": 0.207,
+   "mas_proxima": "Romanian",
+   "distancia_mas_proxima": 0.115
+  },
+  {
+   "toma": "Standard Albanian",
+   "da": "Modern Greek",
+   "puesto": 85,
+   "distancia": 0.313,
+   "mas_proxima": "Romanian",
+   "distancia_mas_proxima": 0.115
+  },
+  {
+   "toma": "Japanese",
+   "da": "Mandarin Chinese",
+   "puesto": 73,
+   "distancia": 0.439,
+   "mas_proxima": "Hokkaido Ainu",
+   "distancia_mas_proxima": 0.218
+  },
+  {
+   "toma": "Korean",
+   "da": "Mandarin Chinese",
+   "puesto": 72,
+   "distancia": 0.32,
+   "mas_proxima": "Tsez",
+   "distancia_mas_proxima": 0.195
+  },
+  {
+   "toma": "Finnish",
+   "da": "Swedish",
+   "puesto": 27,
+   "distancia": 0.229,
+   "mas_proxima": "North Karelian",
+   "distancia_mas_proxima": 0.122
+  },
+  {
+   "toma": "English",
+   "da": "French",
+   "puesto": 32,
+   "distancia": 0.276,
+   "mas_proxima": "German",
+   "distancia_mas_proxima": 0.18
+  },
+  {
+   "toma": "Western Farsi",
+   "da": "Standard Arabic",
+   "puesto": 105,
+   "distancia": 0.637,
+   "mas_proxima": "Chechen",
+   "distancia_mas_proxima": 0.152
+  },
+  {
+   "toma": "Turkish",
+   "da": "Standard Arabic",
+   "puesto": 94,
+   "distancia": 0.325,
+   "mas_proxima": "North Azerbaijani",
+   "distancia_mas_proxima": 0.038
+  },
+  {
+   "toma": "Turkish",
+   "da": "Western Farsi",
+   "puesto": 103,
+   "distancia": 0.368,
+   "mas_proxima": "North Azerbaijani",
+   "distancia_mas_proxima": 0.038
+  },
+  {
+   "toma": "Breton",
+   "da": "French",
+   "puesto": 5,
+   "distancia": 0.15,
+   "mas_proxima": "Welsh",
+   "distancia_mas_proxima": 0.119
+  },
+  {
+   "toma": "Armenian",
+   "da": "Western Farsi",
+   "puesto": 96,
+   "distancia": 0.334,
+   "mas_proxima": "Modern Hebrew",
+   "distancia_mas_proxima": 0.173
+  },
+  {
+   "toma": "Hindi",
+   "da": "Western Farsi",
+   "puesto": 87,
+   "distancia": 0.277,
+   "mas_proxima": "Northern Kurdish",
+   "distancia_mas_proxima": 0.131
+  }
+ ],
+ "resumen": {
+  "parejas": 17,
+  "donante_primera": 0,
+  "entre_las_cinco_primeras": 1,
+  "puesto_mediano": 72.0
+ }
+}

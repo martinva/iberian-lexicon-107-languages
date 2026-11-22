@@ -1,0 +1,1160 @@
+{
+ "b_permutacion_wikcionario": [
+  {
+   "diccionario": "Basque",
+   "unidades": 28,
+   "real": 0.432,
+   "permutado": 0.783,
+   "z": -10.091432404028843,
+   "iguales_o_menores": 0,
+   "p": 9.99990000099999e-06,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 9038645231616000,
+    "unidades_que_pueden_cambiar": 27,
+    "permutado": 0.761,
+    "z": -8.339852442707233,
+    "iguales_o_menores": 0,
+    "p": 9.99990000099999e-06
+   }
+  },
+  {
+   "diccionario": "Galician",
+   "unidades": 30,
+   "real": 0.612,
+   "permutado": 0.713,
+   "z": -3.9672383716976802,
+   "iguales_o_menores": 7,
+   "p": 7.999920000799993e-05,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.713,
+    "z": -4.174532386421285,
+    "iguales_o_menores": 5,
+    "p": 5.999940000599994e-05
+   }
+  },
+  {
+   "diccionario": "Albanian",
+   "unidades": 30,
+   "real": 0.643,
+   "permutado": 0.722,
+   "z": -3.1170258171323333,
+   "iguales_o_menores": 118,
+   "p": 0.0011899881001189987,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.695,
+    "z": -2.1245436535246878,
+    "iguales_o_menores": 2047,
+    "p": 0.02047979520204798
+   }
+  },
+  {
+   "diccionario": "Tagalog",
+   "unidades": 29,
+   "real": 0.635,
+   "permutado": 0.714,
+   "z": -3.1074066222061383,
+   "iguales_o_menores": 168,
+   "p": 0.0016899831001689982,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 237264437329920000,
+    "unidades_que_pueden_cambiar": 28,
+    "permutado": 0.721,
+    "z": -3.575479983502284,
+    "iguales_o_menores": 33,
+    "p": 0.00033999660003399966
+   }
+  },
+  {
+   "diccionario": "Catalan",
+   "unidades": 30,
+   "real": 0.626,
+   "permutado": 0.697,
+   "z": -2.693179299948597,
+   "iguales_o_menores": 473,
+   "p": 0.004739952600473996,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.696,
+    "z": -2.816251164976095,
+    "iguales_o_menores": 299,
+    "p": 0.002999970000299997
+   }
+  },
+  {
+   "diccionario": "Asturian",
+   "unidades": 29,
+   "real": 0.717,
+   "permutado": 0.794,
+   "z": -2.6570721956591954,
+   "iguales_o_menores": 582,
+   "p": 0.005829941700582994,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 632705166213120000,
+    "unidades_que_pueden_cambiar": 28,
+    "permutado": 0.786,
+    "z": -2.3942431143403744,
+    "iguales_o_menores": 1076,
+    "p": 0.01076989230107699
+   }
+  },
+  {
+   "diccionario": "Turkish",
+   "unidades": 30,
+   "real": 0.674,
+   "permutado": 0.729,
+   "z": -2.1652088810345966,
+   "iguales_o_menores": 1657,
+   "p": 0.016579834201657984,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.723,
+    "z": -1.9804890033447553,
+    "iguales_o_menores": 2303,
+    "p": 0.023039769602303976
+   }
+  },
+  {
+   "diccionario": "Romanian",
+   "unidades": 29,
+   "real": 0.642,
+   "permutado": 0.685,
+   "z": -1.8427534829555043,
+   "iguales_o_menores": 3563,
+   "p": 0.03563964360356396,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 237264437329920000,
+    "unidades_que_pueden_cambiar": 28,
+    "permutado": 0.679,
+    "z": -1.7168252172870933,
+    "iguales_o_menores": 4584,
+    "p": 0.04584954150458495
+   }
+  },
+  {
+   "diccionario": "Maltese",
+   "unidades": 29,
+   "real": 0.78,
+   "permutado": 0.821,
+   "z": -1.5984841319579681,
+   "iguales_o_menores": 5834,
+   "p": 0.058349416505834945,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.82,
+    "z": -1.5587612374974678,
+    "iguales_o_menores": 6191,
+    "p": 0.061919380806191936
+   }
+  },
+  {
+   "diccionario": "Malagasy",
+   "unidades": 22,
+   "real": 0.875,
+   "permutado": 0.92,
+   "z": -1.4760130101298414,
+   "iguales_o_menores": 7360,
+   "p": 0.07360926390736093,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 877879296000,
+    "unidades_que_pueden_cambiar": 21,
+    "permutado": 0.916,
+    "z": -1.3571741802428972,
+    "iguales_o_menores": 8874,
+    "p": 0.0887491125088749
+   }
+  },
+  {
+   "diccionario": "Irish",
+   "unidades": 30,
+   "real": 0.714,
+   "permutado": 0.745,
+   "z": -1.325675823677725,
+   "iguales_o_menores": 9464,
+   "p": 0.09464905350946491,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.741,
+    "z": -1.1964133918068567,
+    "iguales_o_menores": 11793,
+    "p": 0.11793882061179388
+   }
+  },
+  {
+   "diccionario": "Sicilian",
+   "unidades": 24,
+   "real": 0.806,
+   "permutado": 0.848,
+   "z": -1.2994946481509329,
+   "iguales_o_menores": 9893,
+   "p": 0.09893901060989391,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 77253378048000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.849,
+    "z": -1.3408398155150383,
+    "iguales_o_menores": 9219,
+    "p": 0.0921990780092199
+   }
+  },
+  {
+   "diccionario": "Icelandic",
+   "unidades": 30,
+   "real": 0.676,
+   "permutado": 0.711,
+   "z": -1.2735491685459912,
+   "iguales_o_menores": 10292,
+   "p": 0.1029289707102929,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.714,
+    "z": -1.5462565280095482,
+    "iguales_o_menores": 6309,
+    "p": 0.06309936900630994
+   }
+  },
+  {
+   "diccionario": "Hawaiian",
+   "unidades": 26,
+   "real": 0.898,
+   "permutado": 0.93,
+   "z": -1.1400904733350754,
+   "iguales_o_menores": 12863,
+   "p": 0.12863871361286386,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 376610217984000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.917,
+    "z": -0.7468645576344449,
+    "iguales_o_menores": 22767,
+    "p": 0.22767772322276777
+   }
+  },
+  {
+   "diccionario": "Welsh",
+   "unidades": 30,
+   "real": 0.71,
+   "permutado": 0.734,
+   "z": -0.9545553211457675,
+   "iguales_o_menores": 16923,
+   "p": 0.16923830761692382,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.721,
+    "z": -0.4723440683762833,
+    "iguales_o_menores": 32046,
+    "p": 0.3204667953320467
+   }
+  },
+  {
+   "diccionario": "Malay",
+   "unidades": 28,
+   "real": 0.704,
+   "permutado": 0.728,
+   "z": -0.9235794514305111,
+   "iguales_o_menores": 17698,
+   "p": 0.17698823011769882,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 15817629155328000,
+    "unidades_que_pueden_cambiar": 27,
+    "permutado": 0.732,
+    "z": -1.1518873562542336,
+    "iguales_o_menores": 12700,
+    "p": 0.12700872991270087
+   }
+  },
+  {
+   "diccionario": "Occitan",
+   "unidades": 25,
+   "real": 0.79,
+   "permutado": 0.815,
+   "z": -0.7700255322558867,
+   "iguales_o_menores": 21908,
+   "p": 0.21908780912190878,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 376610217984000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.8,
+    "z": -0.30221103910319635,
+    "iguales_o_menores": 37830,
+    "p": 0.3783062169378306
+   }
+  },
+  {
+   "diccionario": "Latin",
+   "unidades": 30,
+   "real": 0.672,
+   "permutado": 0.687,
+   "z": -0.6579439545045094,
+   "iguales_o_menores": 25186,
+   "p": 0.25186748132518677,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.691,
+    "z": -0.856896207611674,
+    "iguales_o_menores": 19536,
+    "p": 0.1953680463195368
+   }
+  },
+  {
+   "diccionario": "Zulu",
+   "unidades": 25,
+   "real": 0.895,
+   "permutado": 0.906,
+   "z": -0.40332879845434955,
+   "iguales_o_menores": 33958,
+   "p": 0.33958660413395864,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 28970016768000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.926,
+    "z": -1.2843309755267276,
+    "iguales_o_menores": 10113,
+    "p": 0.1011389886101139
+   }
+  },
+  {
+   "diccionario": "Sardinian",
+   "unidades": 16,
+   "real": 0.938,
+   "permutado": 0.95,
+   "z": -0.3089007230472758,
+   "iguales_o_menores": 36867,
+   "p": 0.3686763132368676,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 3628800,
+    "unidades_que_pueden_cambiar": 15,
+    "permutado": 0.951,
+    "z": -0.34185015739313657,
+    "iguales_o_menores": 35531,
+    "p": 0.35531644683553165
+   }
+  },
+  {
+   "diccionario": "Lithuanian",
+   "unidades": 30,
+   "real": 0.821,
+   "permutado": 0.826,
+   "z": -0.20880523753110197,
+   "iguales_o_menores": 41345,
+   "p": 0.4134558654413456,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.835,
+    "z": -0.7060853500379172,
+    "iguales_o_menores": 24011,
+    "p": 0.24011759882401176
+   }
+  },
+  {
+   "diccionario": "Hungarian",
+   "unidades": 30,
+   "real": 0.715,
+   "permutado": 0.709,
+   "z": 0.23749780446103463,
+   "iguales_o_menores": 58536,
+   "p": 0.5853641463585364,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.699,
+    "z": 0.6466009323483737,
+    "iguales_o_menores": 73361,
+    "p": 0.7336126638733612
+   }
+  },
+  {
+   "diccionario": "Quechua",
+   "unidades": 22,
+   "real": 0.915,
+   "permutado": 0.898,
+   "z": 0.5981113226102415,
+   "iguales_o_menores": 72059,
+   "p": 0.7205927940720592,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 219469824000,
+    "unidades_que_pueden_cambiar": 22,
+    "permutado": 0.899,
+    "z": 0.6409366067179562,
+    "iguales_o_menores": 73715,
+    "p": 0.7371526284737152
+   }
+  },
+  {
+   "diccionario": "Somali",
+   "unidades": 15,
+   "real": 0.98,
+   "permutado": 0.956,
+   "z": 0.6113861772484769,
+   "iguales_o_menores": 72241,
+   "p": 0.7224127758722413,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1209600,
+    "unidades_que_pueden_cambiar": 14,
+    "permutado": 0.978,
+    "z": 0.08941546757928502,
+    "iguales_o_menores": 51714,
+    "p": 0.5171448285517145
+   }
+  },
+  {
+   "diccionario": "Hausa",
+   "unidades": 20,
+   "real": 0.928,
+   "permutado": 0.904,
+   "z": 0.7868986559327262,
+   "iguales_o_menores": 78111,
+   "p": 0.7811121888781112,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1741824000,
+    "unidades_que_pueden_cambiar": 19,
+    "permutado": 0.878,
+    "z": 1.7688702528457807,
+    "iguales_o_menores": 96771,
+    "p": 0.9677103228967711
+   }
+  },
+  {
+   "diccionario": "Fijian",
+   "unidades": 13,
+   "real": 0.978,
+   "permutado": 0.932,
+   "z": 0.9314590829431832,
+   "iguales_o_menores": 82276,
+   "p": 0.8227617723822762,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86400,
+    "unidades_que_pueden_cambiar": 11,
+    "permutado": 0.912,
+    "z": 1.710339655932112,
+    "iguales_o_menores": 95817,
+    "p": 0.9581704182958171
+   }
+  },
+  {
+   "diccionario": "Yoruba",
+   "unidades": 25,
+   "real": 0.899,
+   "permutado": 0.869,
+   "z": 0.9366838612126659,
+   "iguales_o_menores": 82513,
+   "p": 0.8251317486825132,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 28970016768000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.878,
+    "z": 0.6895280821034668,
+    "iguales_o_menores": 75055,
+    "p": 0.7505524944750552
+   }
+  },
+  {
+   "diccionario": "Swahili",
+   "unidades": 28,
+   "real": 0.837,
+   "permutado": 0.813,
+   "z": 0.9569105020911922,
+   "iguales_o_menores": 82885,
+   "p": 0.8288517114828852,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 15817629155328000,
+    "unidades_que_pueden_cambiar": 27,
+    "permutado": 0.842,
+    "z": -0.23303750735426765,
+    "iguales_o_menores": 40165,
+    "p": 0.4016559834401656
+   }
+  },
+  {
+   "diccionario": "Finnish",
+   "unidades": 30,
+   "real": 0.696,
+   "permutado": 0.67,
+   "z": 1.0953896837108963,
+   "iguales_o_menores": 86291,
+   "p": 0.8629113708862911,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.673,
+    "z": 1.0367263999077143,
+    "iguales_o_menores": 84990,
+    "p": 0.8499015009849902
+   }
+  },
+  {
+   "diccionario": "Classical Nahuatl",
+   "unidades": 20,
+   "real": 0.977,
+   "permutado": 0.943,
+   "z": 1.1789697498543534,
+   "iguales_o_menores": 88157,
+   "p": 0.8815711842881572,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 28740096000,
+    "unidades_que_pueden_cambiar": 19,
+    "permutado": 0.96,
+    "z": 0.7291432951265234,
+    "iguales_o_menores": 76370,
+    "p": 0.7637023629763703
+   }
+  },
+  {
+   "diccionario": "Indonesian",
+   "unidades": 29,
+   "real": 0.706,
+   "permutado": 0.673,
+   "z": 1.208905102747763,
+   "iguales_o_menores": 88938,
+   "p": 0.8893811061889381,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 126541033242624000,
+    "unidades_que_pueden_cambiar": 28,
+    "permutado": 0.693,
+    "z": 0.4846564823603297,
+    "iguales_o_menores": 67929,
+    "p": 0.6792932070679293
+   }
+  },
+  {
+   "diccionario": "Estonian",
+   "unidades": 28,
+   "real": 0.85,
+   "permutado": 0.815,
+   "z": 1.2397818100133906,
+   "iguales_o_menores": 89343,
+   "p": 0.893431065689343,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 9038645231616000,
+    "unidades_que_pueden_cambiar": 27,
+    "permutado": 0.81,
+    "z": 1.5376482654263435,
+    "iguales_o_menores": 94409,
+    "p": 0.9440905590944091
+   }
+  }
+ ],
+ "b_permutacion_otros": [
+  {
+   "diccionario": "Euskera, Open Data Euskadi",
+   "unidades": 30,
+   "real": 0.452,
+   "permutado": 0.722,
+   "z": -9.100246760157283,
+   "iguales_o_menores": 0,
+   "p": 9.99990000099999e-06,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.714,
+    "z": -7.935354190201968,
+    "iguales_o_menores": 0,
+    "p": 9.99990000099999e-06
+   }
+  },
+  {
+   "diccionario": "Euskera, Azkue (1905-1906)",
+   "unidades": 30,
+   "real": 0.503,
+   "permutado": 0.775,
+   "z": -8.739470496272187,
+   "iguales_o_menores": 0,
+   "p": 9.99990000099999e-06,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.751,
+    "z": -7.2264601847668395,
+    "iguales_o_menores": 0,
+    "p": 9.99990000099999e-06
+   }
+  },
+  {
+   "diccionario": "Euskera, WordNet",
+   "unidades": 30,
+   "real": 0.379,
+   "permutado": 0.636,
+   "z": -9.318334869084165,
+   "iguales_o_menores": 0,
+   "p": 9.99990000099999e-06,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.629,
+    "z": -7.939686319031229,
+    "iguales_o_menores": 0,
+    "p": 9.99990000099999e-06
+   }
+  },
+  {
+   "diccionario": "Castellano, WordNet",
+   "unidades": 30,
+   "real": 0.565,
+   "permutado": 0.602,
+   "z": -1.5896617124495986,
+   "iguales_o_menores": 5805,
+   "p": 0.058059419405805945,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1898115498639360000,
+    "unidades_que_pueden_cambiar": 29,
+    "permutado": 0.602,
+    "z": -1.764179058159659,
+    "iguales_o_menores": 4019,
+    "p": 0.04019959800401996
+   }
+  }
+ ],
+ "c_permutacion_sin_prestamos": [
+  {
+   "diccionario": "Basque",
+   "unidades": 24,
+   "real": 0.42,
+   "permutado": 0.795,
+   "z": -9.77178626338007,
+   "iguales_o_menores": 0,
+   "p": 9.99990000099999e-06,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 658409472000,
+    "unidades_que_pueden_cambiar": 23,
+    "permutado": 0.762,
+    "z": -7.6262685046446075,
+    "iguales_o_menores": 0,
+    "p": 9.99990000099999e-06
+   }
+  },
+  {
+   "diccionario": "Galician",
+   "unidades": 26,
+   "real": 0.655,
+   "permutado": 0.726,
+   "z": -2.63583242861197,
+   "iguales_o_menores": 603,
+   "p": 0.006039939600603994,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.728,
+    "z": -2.988238679127396,
+    "iguales_o_menores": 240,
+    "p": 0.0024099759002409976
+   }
+  },
+  {
+   "diccionario": "Albanian",
+   "unidades": 26,
+   "real": 0.67,
+   "permutado": 0.735,
+   "z": -2.383858379040126,
+   "iguales_o_menores": 1019,
+   "p": 0.01019989800101999,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.7,
+    "z": -1.1514932253975163,
+    "iguales_o_menores": 12833,
+    "p": 0.12833871661283386
+   }
+  },
+  {
+   "diccionario": "Tagalog",
+   "unidades": 25,
+   "real": 0.685,
+   "permutado": 0.728,
+   "z": -1.621803669001556,
+   "iguales_o_menores": 5576,
+   "p": 0.05576944230557694,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 12415721472000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.737,
+    "z": -2.077671314770812,
+    "iguales_o_menores": 2294,
+    "p": 0.022949770502294978
+   }
+  },
+  {
+   "diccionario": "Hawaiian",
+   "unidades": 23,
+   "real": 0.884,
+   "permutado": 0.932,
+   "z": -1.6038273946678157,
+   "iguales_o_menores": 5864,
+   "p": 0.058649413505864945,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 219469824000,
+    "unidades_que_pueden_cambiar": 22,
+    "permutado": 0.917,
+    "z": -1.195920529588986,
+    "iguales_o_menores": 11772,
+    "p": 0.11772882271177289
+   }
+  },
+  {
+   "diccionario": "Catalan",
+   "unidades": 26,
+   "real": 0.664,
+   "permutado": 0.708,
+   "z": -1.58805092363712,
+   "iguales_o_menores": 5905,
+   "p": 0.05905940940590594,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.71,
+    "z": -1.8048031301699254,
+    "iguales_o_menores": 3895,
+    "p": 0.038959610403895964
+   }
+  },
+  {
+   "diccionario": "Turkish",
+   "unidades": 26,
+   "real": 0.694,
+   "permutado": 0.734,
+   "z": -1.4930909243952515,
+   "iguales_o_menores": 7024,
+   "p": 0.07024929750702492,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.731,
+    "z": -1.4383707227212605,
+    "iguales_o_menores": 7431,
+    "p": 0.07431925680743193
+   }
+  },
+  {
+   "diccionario": "Asturian",
+   "unidades": 25,
+   "real": 0.776,
+   "permutado": 0.816,
+   "z": -1.372076137188065,
+   "iguales_o_menores": 8678,
+   "p": 0.08678913210867892,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 28970016768000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.815,
+    "z": -1.4312088071669546,
+    "iguales_o_menores": 7949,
+    "p": 0.07949920500794992
+   }
+  },
+  {
+   "diccionario": "Romanian",
+   "unidades": 25,
+   "real": 0.672,
+   "permutado": 0.701,
+   "z": -1.1977826146730315,
+   "iguales_o_menores": 11688,
+   "p": 0.11688883111168888,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 12415721472000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.701,
+    "z": -1.3285560582508251,
+    "iguales_o_menores": 9511,
+    "p": 0.0951190488095119
+   }
+  },
+  {
+   "diccionario": "Maltese",
+   "unidades": 25,
+   "real": 0.793,
+   "permutado": 0.821,
+   "z": -1.0041752548844096,
+   "iguales_o_menores": 15915,
+   "p": 0.15915840841591583,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.821,
+    "z": -1.0269342352008106,
+    "iguales_o_menores": 15196,
+    "p": 0.15196848031519686
+   }
+  },
+  {
+   "diccionario": "Irish",
+   "unidades": 26,
+   "real": 0.737,
+   "permutado": 0.755,
+   "z": -0.6874505768132742,
+   "iguales_o_menores": 24336,
+   "p": 0.24336756632433676,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.751,
+    "z": -0.5874677467772109,
+    "iguales_o_menores": 27527,
+    "p": 0.2752772472275277
+   }
+  },
+  {
+   "diccionario": "Icelandic",
+   "unidades": 26,
+   "real": 0.701,
+   "permutado": 0.721,
+   "z": -0.6388851804412272,
+   "iguales_o_menores": 25714,
+   "p": 0.25714742852571476,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.728,
+    "z": -1.0019121230007029,
+    "iguales_o_menores": 15927,
+    "p": 0.15927840721592784
+   }
+  },
+  {
+   "diccionario": "Malagasy",
+   "unidades": 19,
+   "real": 0.915,
+   "permutado": 0.932,
+   "z": -0.5034501104158269,
+   "iguales_o_menores": 29887,
+   "p": 0.2988770112298877,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1219276800,
+    "unidades_que_pueden_cambiar": 18,
+    "permutado": 0.931,
+    "z": -0.5587104513126111,
+    "iguales_o_menores": 29116,
+    "p": 0.2911670883291167
+   }
+  },
+  {
+   "diccionario": "Malay",
+   "unidades": 24,
+   "real": 0.721,
+   "permutado": 0.735,
+   "z": -0.4940705617782805,
+   "iguales_o_menores": 30424,
+   "p": 0.3042469575304247,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1034643456000,
+    "unidades_que_pueden_cambiar": 23,
+    "permutado": 0.74,
+    "z": -0.6909418915720978,
+    "iguales_o_menores": 24160,
+    "p": 0.24160758392416076
+   }
+  },
+  {
+   "diccionario": "Sicilian",
+   "unidades": 20,
+   "real": 0.849,
+   "permutado": 0.865,
+   "z": -0.4602544733668289,
+   "iguales_o_menores": 32001,
+   "p": 0.32001679983200165,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 7315660800,
+    "unidades_que_pueden_cambiar": 20,
+    "permutado": 0.861,
+    "z": -0.3507635236281331,
+    "iguales_o_menores": 35957,
+    "p": 0.35957640423595766
+   }
+  },
+  {
+   "diccionario": "Hausa",
+   "unidades": 16,
+   "real": 0.898,
+   "permutado": 0.908,
+   "z": -0.2768226795442776,
+   "iguales_o_menores": 38553,
+   "p": 0.3855361446385536,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 483840,
+    "unidades_que_pueden_cambiar": 15,
+    "permutado": 0.883,
+    "z": 0.5612550791157381,
+    "iguales_o_menores": 70205,
+    "p": 0.7020529794702053
+   }
+  },
+  {
+   "diccionario": "Occitan",
+   "unidades": 22,
+   "real": 0.818,
+   "permutado": 0.82,
+   "z": -0.040080276844630926,
+   "iguales_o_menores": 47730,
+   "p": 0.47730522694773053,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 219469824000,
+    "unidades_que_pueden_cambiar": 22,
+    "permutado": 0.805,
+    "z": 0.3986746221469255,
+    "iguales_o_menores": 64961,
+    "p": 0.6496135038649613
+   }
+  },
+  {
+   "diccionario": "Welsh",
+   "unidades": 26,
+   "real": 0.748,
+   "permutado": 0.749,
+   "z": -0.026717334987049386,
+   "iguales_o_menores": 48822,
+   "p": 0.4882251177488225,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.737,
+    "z": 0.5286404797956732,
+    "iguales_o_menores": 70124,
+    "p": 0.7012429875701243
+   }
+  },
+  {
+   "diccionario": "Hungarian",
+   "unidades": 26,
+   "real": 0.715,
+   "permutado": 0.715,
+   "z": 0.01563333030070026,
+   "iguales_o_menores": 49736,
+   "p": 0.4973650263497365,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.706,
+    "z": 0.35664082899182287,
+    "iguales_o_menores": 62589,
+    "p": 0.6258937410625893
+   }
+  },
+  {
+   "diccionario": "Somali",
+   "unidades": 12,
+   "real": 0.993,
+   "permutado": 0.991,
+   "z": 0.060178396109545194,
+   "iguales_o_menores": 50850,
+   "p": 0.5085049149508505,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 5760,
+    "unidades_que_pueden_cambiar": 11,
+    "permutado": 1.021,
+    "z": -0.8722572842479643,
+    "iguales_o_menores": 19458,
+    "p": 0.19458805411945881
+   }
+  },
+  {
+   "diccionario": "Latin",
+   "unidades": 26,
+   "real": 0.704,
+   "permutado": 0.701,
+   "z": 0.10435594789609974,
+   "iguales_o_menores": 53359,
+   "p": 0.5335946640533594,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.708,
+    "z": -0.18346547963059645,
+    "iguales_o_menores": 41665,
+    "p": 0.41665583344166557
+   }
+  },
+  {
+   "diccionario": "Zulu",
+   "unidades": 21,
+   "real": 0.915,
+   "permutado": 0.91,
+   "z": 0.17805303807038111,
+   "iguales_o_menores": 56398,
+   "p": 0.5639843601563984,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 3135283200,
+    "unidades_que_pueden_cambiar": 20,
+    "permutado": 0.932,
+    "z": -0.6915909613810353,
+    "iguales_o_menores": 24787,
+    "p": 0.24787752122478776
+   }
+  },
+  {
+   "diccionario": "Sardinian",
+   "unidades": 14,
+   "real": 0.965,
+   "permutado": 0.957,
+   "z": 0.1875859310384933,
+   "iguales_o_menores": 56444,
+   "p": 0.5644443555564445,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 103680,
+    "unidades_que_pueden_cambiar": 13,
+    "permutado": 0.957,
+    "z": 0.19397075837891237,
+    "iguales_o_menores": 56109,
+    "p": 0.5610943890561094
+   }
+  },
+  {
+   "diccionario": "Lithuanian",
+   "unidades": 26,
+   "real": 0.844,
+   "permutado": 0.839,
+   "z": 0.21771058895898693,
+   "iguales_o_menores": 58143,
+   "p": 0.5814341856581434,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.853,
+    "z": -0.4386820908281938,
+    "iguales_o_menores": 33017,
+    "p": 0.33017669823301765
+   }
+  },
+  {
+   "diccionario": "Yoruba",
+   "unidades": 21,
+   "real": 0.883,
+   "permutado": 0.857,
+   "z": 0.7193906305253885,
+   "iguales_o_menores": 76210,
+   "p": 0.7621023789762102,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 3135283200,
+    "unidades_que_pueden_cambiar": 20,
+    "permutado": 0.874,
+    "z": 0.3089831790568724,
+    "iguales_o_menores": 61956,
+    "p": 0.6195638043619563
+   }
+  },
+  {
+   "diccionario": "Quechua",
+   "unidades": 18,
+   "real": 0.918,
+   "permutado": 0.893,
+   "z": 0.753885261681692,
+   "iguales_o_menores": 77122,
+   "p": 0.7712222877771222,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 43545600,
+    "unidades_que_pueden_cambiar": 18,
+    "permutado": 0.895,
+    "z": 0.7418555913406472,
+    "iguales_o_menores": 77015,
+    "p": 0.7701522984770153
+   }
+  },
+  {
+   "diccionario": "Estonian",
+   "unidades": 24,
+   "real": 0.84,
+   "permutado": 0.812,
+   "z": 0.9221445001403323,
+   "iguales_o_menores": 82056,
+   "p": 0.8205617943820562,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 658409472000,
+    "unidades_que_pueden_cambiar": 23,
+    "permutado": 0.799,
+    "z": 1.4630193834326404,
+    "iguales_o_menores": 93620,
+    "p": 0.9362006379936201
+   }
+  },
+  {
+   "diccionario": "Classical Nahuatl",
+   "unidades": 17,
+   "real": 0.97,
+   "permutado": 0.94,
+   "z": 0.9344054256981245,
+   "iguales_o_menores": 82398,
+   "p": 0.8239817601823982,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 29030400,
+    "unidades_que_pueden_cambiar": 16,
+    "permutado": 0.965,
+    "z": 0.20095357341919387,
+    "iguales_o_menores": 57948,
+    "p": 0.5794842051579484
+   }
+  },
+  {
+   "diccionario": "Swahili",
+   "unidades": 24,
+   "real": 0.861,
+   "permutado": 0.826,
+   "z": 1.2637588496947296,
+   "iguales_o_menores": 89770,
+   "p": 0.8977010229897701,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 1034643456000,
+    "unidades_que_pueden_cambiar": 23,
+    "permutado": 0.858,
+    "z": 0.13294385182047416,
+    "iguales_o_menores": 54186,
+    "p": 0.5418645813541865
+   }
+  },
+  {
+   "diccionario": "Finnish",
+   "unidades": 26,
+   "real": 0.713,
+   "permutado": 0.679,
+   "z": 1.3723203269148814,
+   "iguales_o_menores": 91647,
+   "p": 0.9164708352916471,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 86910050304000,
+    "unidades_que_pueden_cambiar": 25,
+    "permutado": 0.679,
+    "z": 1.4693373249311912,
+    "iguales_o_menores": 93474,
+    "p": 0.934740652593474
+   }
+  },
+  {
+   "diccionario": "Indonesian",
+   "unidades": 25,
+   "real": 0.719,
+   "permutado": 0.676,
+   "z": 1.4498918039219488,
+   "iguales_o_menores": 93225,
+   "p": 0.9322506774932251,
+   "condicionada_por_longitud": {
+    "permutaciones_distintas_posibles": 7242504192000,
+    "unidades_que_pueden_cambiar": 24,
+    "permutado": 0.699,
+    "z": 0.721958415074985,
+    "iguales_o_menores": 76019,
+    "p": 0.7601923980760192
+   }
+  }
+ ],
+ "a_sustitucion_20000": {
+  "diccionario": "Basque",
+  "formas": 3814,
+  "unidades": 28,
+  "real": 0.432,
+  "azar": 0.817,
+  "z": -12.317608168696038,
+  "p": 4.999750012499375e-05,
+  "iguales_o_menores": 0,
+  "ventaja": 0.384453,
+  "lenguas_comparadas": 32,
+  "p_corregida": 0.0015999200039998
+ }
+}

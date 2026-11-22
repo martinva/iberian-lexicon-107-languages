@@ -1,0 +1,256 @@
+{
+ "R4b": {
+  "emparentadas": [
+   2,
+   8
+  ],
+  "contacto": [
+   0,
+   10
+  ],
+  "p_emparentadas": 0.2778,
+  "p_contacto": 0.0455,
+  "razon": 6.11,
+  "ic95": [
+   0.73,
+   5292.27
+  ],
+  "posterior": {
+   "0.1": 0.404,
+   "0.25": 0.671,
+   "0.5": 0.859,
+   "0.75": 0.948,
+   "0.9": 0.982
+  }
+ },
+ "R4c": {
+  "emparentadas": [
+   8,
+   17
+  ],
+  "contacto": [
+   0,
+   10
+  ],
+  "p_emparentadas": 0.4722,
+  "p_contacto": 0.0455,
+  "razon": 10.39,
+  "ic95": [
+   1.98,
+   9485.36
+  ],
+  "posterior": {
+   "0.1": 0.536,
+   "0.25": 0.776,
+   "0.5": 0.912,
+   "0.75": 0.969,
+   "0.9": 0.989
+  }
+ },
+ "emparentadas_R4b": [
+  {
+   "lengua": "Abkhaz",
+   "designada": "Adyghe",
+   "familia": "Abkhaz-Adyge",
+   "puesto": 10
+  },
+  {
+   "lengua": "Adyghe",
+   "designada": "Abkhaz",
+   "familia": "Abkhaz-Adyge",
+   "puesto": 31
+  },
+  {
+   "lengua": "Standard Arabic",
+   "designada": "Modern Hebrew",
+   "familia": "Afro-Asiatic",
+   "puesto": 2
+  },
+  {
+   "lengua": "Chukchi",
+   "designada": "Itelmen",
+   "familia": "Chukotko-Kamchatkan",
+   "puesto": 6
+  },
+  {
+   "lengua": "Modern Hebrew",
+   "designada": "Standard Arabic",
+   "familia": "Afro-Asiatic",
+   "puesto": 12
+  },
+  {
+   "lengua": "Itelmen",
+   "designada": "Chukchi",
+   "familia": "Chukotko-Kamchatkan",
+   "puesto": 20
+  },
+  {
+   "lengua": "Northern Yukaghir",
+   "designada": "Southern Yukaghir",
+   "familia": "Yukaghir",
+   "puesto": 1
+  },
+  {
+   "lengua": "Southern Yukaghir",
+   "designada": "Northern Yukaghir",
+   "familia": "Yukaghir",
+   "puesto": 1
+  }
+ ],
+ "emparentadas_R4c": [
+  {
+   "lengua": "Abkhaz",
+   "familia": "Abkhaz-Adyge",
+   "mas_proxima": "Dargwa",
+   "acierto": false
+  },
+  {
+   "lengua": "Adyghe",
+   "familia": "Abkhaz-Adyge",
+   "mas_proxima": "Northern Kurdish",
+   "acierto": false
+  },
+  {
+   "lengua": "Aleut",
+   "familia": "Eskimo-Aleut",
+   "mas_proxima": "Khalkha Mongolian",
+   "acierto": false
+  },
+  {
+   "lengua": "Standard Arabic",
+   "familia": "Afro-Asiatic",
+   "mas_proxima": "Lak",
+   "acierto": false
+  },
+  {
+   "lengua": "Buryat",
+   "familia": "Mongolic-Khitan",
+   "mas_proxima": "Sakha",
+   "acierto": false
+  },
+  {
+   "lengua": "Chukchi",
+   "familia": "Chukotko-Kamchatkan",
+   "mas_proxima": "Northern Kurdish",
+   "acierto": false
+  },
+  {
+   "lengua": "Central Siberian Yupik",
+   "familia": "Eskimo-Aleut",
+   "mas_proxima": "Kalaallisut",
+   "acierto": true
+  },
+  {
+   "lengua": "Evenki",
+   "familia": "Tungusic",
+   "mas_proxima": "Nanai",
+   "acierto": true
+  },
+  {
+   "lengua": "Nanai",
+   "familia": "Tungusic",
+   "mas_proxima": "Evenki",
+   "acierto": true
+  },
+  {
+   "lengua": "Modern Hebrew",
+   "familia": "Afro-Asiatic",
+   "mas_proxima": "Armenian",
+   "acierto": false
+  },
+  {
+   "lengua": "Itelmen",
+   "familia": "Chukotko-Kamchatkan",
+   "mas_proxima": "Ket",
+   "acierto": false
+  },
+  {
+   "lengua": "Kalaallisut",
+   "familia": "Eskimo-Aleut",
+   "mas_proxima": "Turkish",
+   "acierto": false
+  },
+  {
+   "lengua": "Khalkha Mongolian",
+   "familia": "Mongolic-Khitan",
+   "mas_proxima": "Kalmyk",
+   "acierto": true
+  },
+  {
+   "lengua": "Manchu",
+   "familia": "Tungusic",
+   "mas_proxima": "Nanai",
+   "acierto": true
+  },
+  {
+   "lengua": "Kalmyk",
+   "familia": "Mongolic-Khitan",
+   "mas_proxima": "Khalkha Mongolian",
+   "acierto": true
+  },
+  {
+   "lengua": "Northern Yukaghir",
+   "familia": "Yukaghir",
+   "mas_proxima": "Southern Yukaghir",
+   "acierto": true
+  },
+  {
+   "lengua": "Southern Yukaghir",
+   "familia": "Yukaghir",
+   "mas_proxima": "Northern Yukaghir",
+   "acierto": true
+  }
+ ],
+ "contacto": [
+  {
+   "toma": "Basque",
+   "da": "Spanish",
+   "puesto": 76
+  },
+  {
+   "toma": "Basque",
+   "da": "Latin",
+   "puesto": 19
+  },
+  {
+   "toma": "Basque",
+   "da": "Catalan",
+   "puesto": 65
+  },
+  {
+   "toma": "Hungarian",
+   "da": "Turkish",
+   "puesto": 21
+  },
+  {
+   "toma": "Japanese",
+   "da": "Mandarin Chinese",
+   "puesto": 73
+  },
+  {
+   "toma": "Korean",
+   "da": "Mandarin Chinese",
+   "puesto": 72
+  },
+  {
+   "toma": "Finnish",
+   "da": "Swedish",
+   "puesto": 27
+  },
+  {
+   "toma": "Western Farsi",
+   "da": "Standard Arabic",
+   "puesto": 105
+  },
+  {
+   "toma": "Turkish",
+   "da": "Standard Arabic",
+   "puesto": 94
+  },
+  {
+   "toma": "Turkish",
+   "da": "Western Farsi",
+   "puesto": 103
+  }
+ ]
+}

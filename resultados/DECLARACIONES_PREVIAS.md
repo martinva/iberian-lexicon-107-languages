@@ -1,0 +1,702 @@
+# Declaraciones previas / Prior declarations
+
+Cada entrada se escribe y se sube al repositorio **antes** de ejecutar la prueba; la fecha la da el historial del repositorio. Dice qué se va a hacer, qué se espera y qué contaría en contra. El resultado se añade después, debajo, sin tocar la declaración.
+
+Each entry is written and pushed to the repository **before** the test is run; the date is given by the repository history. It states what will be done, what is expected and what would count against. The result is added afterwards, below, without touching the declaration.
+
+Las pruebas anteriores al 21-11-2026 se declararon en un registro interno fechado, que no forma parte del repositorio. / Tests prior to 21 November 2026 were declared in a dated internal record, which is not part of the repository.
+
+
+## Trazabilidad / Traceability
+
+Cada declaración y cada resultado están en un *commit* del repositorio `martinva/iberian-basque` (privado mientras dure la revisión; se conservará como registro de fechas cuando se publique). / Each declaration and each result is in a commit of the repository (private during review; it will be kept as the dated record when the work is published).
+
+| Entrada / Entry | Declaración (commit, fecha) / Declaration | Resultado (commit, fecha) / Result |
+|---|---|---|
+| 1. Potencia / power (`t19`) | `d32321d`, 2026-11-21 02:56 (+01:00) | `8e7d2d7`, 2026-11-21 03:30; con el código corregido / with corrected code: `39379e9`, 04:58 |
+| 2. Correcciones y permutación condicionada / corrections and conditioned permutation (`t16`) | `563a840`, 2026-11-21 03:49 | `39379e9`, 2026-11-21 04:58 |
+| 3. Variación entre semillas / seed variation (`t20`) | `2855469`, 2026-11-21 13:04 | `76bcc5a`, 2026-11-21 13:12 |
+| 4. Sin lecturas alternativas / without alternative readings (`t21`) | `c1845fe`, 2026-11-21 15:28 | `e8b5195`, 2026-11-21 15:29 |
+| 7. Jurado ciego de procedencia / blind provenance panel (`t24`) | `f5366af`, 2026-11-21 16:00 | `6b38b38`, 2026-11-21 16:32 |
+| 6. Tamaño del diccionario / dictionary size (`t23`) | `2f367d0`, 2026-11-21 15:49 | `c184804`, 2026-11-21 15:50 |
+| 5. Calibración del perfil / profile calibration (`t22`) | `6d5cb8d`, 2026-11-21 15:36 | `337f5b4`, 2026-11-21 15:37 |
+| 8. Correspondencias regulares / regular correspondences (`t25`) | `584b230`, 2026-11-21 16:50 | `11a533d`, 2026-11-21 16:55 |
+| 11. Origen etimológico y fonotaxis de las palabras vascas emparejadas / etymological status and phonotactics of the matched Basque words (`t27`) | `82839b7`, 2026-11-21 17:34 | `60123a4`, 2026-11-21 17:43 versión 2, corrección de la auditoría / version 2, audit correction: `6c4ca50`, 19:52 |
+| 10. Jurado, segunda pregunta: suficiencia / panel, second question: sufficiency | `1bc218a`, 2026-11-21 17:06 | `fb3353d`, 2026-11-21 17:18 nota de corrección / correction note: `6c4ca50`, 19:52 |
+| 9. Gradiente de prestabilidad / borrowability gradient (`t26`) | `584b230`, 2026-11-21 16:50 | `11a533d`, 2026-11-21 16:55 |
+| 12. Sufijos / suffixes (`t29`, segundo artículo / second article) | `f0049df`, 2026-11-21 18:42; fichas v2 y SHA-256 / v2 records and SHA-256: `49098d5`, 19:08 | `aab61f9`, 19:28 |
+| 13. Predicción prospectiva / prospective prediction (`t28`, segundo artículo) | `f0049df`, 2026-11-21 18:42; fichas y SHA-256 de la clave / records and key SHA-256: `8001508`, 18:53 | `6661a16`, 19:25 |
+| 14. Cloze (`t30`, segundo artículo) | `f0049df`, 2026-11-21 18:42; fichas y encargos / records and briefs: `f62c785`, 19:14 | (pendiente; puntuación parcial en / pending; partial scoring in `6c4ca50`, 19:52) |
+| 15. Predicción prospectiva v2 / prospective prediction v2 (`t28` `preparar2`, segundo artículo) | `c6da6da`, 2026-11-21 19:59; ampliación y SHA definitivo / amplification and final SHA: `60913fb`, 20:01 | (pendiente; primer juez en / pending; first judge in `b9c88d2`) |
+
+Las fechas son las del historial de git, corregidas el 21-11-2026 tras el cotejo de la auditoría (fases 4d y 4f: horas de los resultados de las entradas 12 y 13) contra el bundle: varias horas estaban mal transcritas; los commits eran correctos. / Hours corrected on 21-11-2026 after the phase-4d audit checked them against the bundle; the commits were correct. Las fechas son las del historial de git; los archivos de datos y código de cada estado son los de ese *commit*. Declarar una prueba después de conocer resultados anteriores mejora la trazabilidad, pero no convierte el estudio en una confirmación prospectiva independiente. / Dates are those of the git history; the data and code of each state are those of that commit. Declaring a test after earlier results are known improves traceability but does not turn the study into an independent prospective confirmation.
+
+---
+
+## 1. Potencia y falsos positivos de la prueba con significados (21-11-2026)
+
+**Programa:** `4_programas/t19_potencia_controles.py`.
+
+**Qué se hace.** La prueba de la tabla 10 se repite con 100 muestras de 30 palabras por lengua de control, en lugar de 5. Mismas reglas: 150 sorteos, mínimo de 12 palabras con candidatas, los 35 diccionarios del Wikcionario. Las muestras salen de un generador sembrado con el texto `20261120|potencia|<lengua>`. Lenguas: umbro, gótico, córnico y dálmata (con parientes entre las lenguas de comparación) y etrusco y sumerio (sin ellos).
+
+**Qué se mide.**
+
+1. Potencia: en cuántas de las 100 muestras de cada lengua con parientes la primera lengua es un pariente.
+2. Falsos positivos: en cuántas de las 100 muestras de cada lengua sin parientes la primera lengua alcanza lo que el euskera obtiene con el ibérico. Dos umbrales, fijados con los resultados ya publicados del ibérico: valor de la primera lengua igual o inferior a −9,3 (el menor de los que da el euskera con los diccionarios completos) y separación entre la primera y la segunda lengua igual o superior a 5,6 (la menor de las que se observan con esos diccionarios).
+3. Para todas: distribución del valor de la primera lengua y de la separación con la segunda.
+
+**Qué se espera.** Potencia de al menos el 90 % en dálmata y córnico, de al menos el 80 % en umbro y de al menos el 60 % en gótico. En etrusco y sumerio, ninguna muestra alcanza ninguno de los dos umbrales.
+
+**Qué contaría en contra.** Que más de una muestra de cien de una lengua sin parientes alcance el valor −9,3 o la separación 5,6: significaría que un resultado como el del ibérico puede aparecer sin parentesco con una frecuencia apreciable. También contaría en contra una potencia claramente menor que la esperada.
+
+**Límites conocidos de antemano.** El etrusco tiene solo 108 palabras elegibles, de modo que sus muestras de 30 se solapan mucho y no son independientes. Las palabras de control proceden del mismo diccionario en línea que los diccionarios de comparación. El etrusco tuvo contacto con el latín.
+
+**Resultado (21-11-2026; añadido después de ejecutar; `resultados/t19_potencia_controles.json`).**
+
+| Lengua | Muestras con un pariente en primer lugar | Valor de la primera lengua (mediana; mejor) | Separación con la segunda (mediana; mayor) | Alcanza −9,3 | Alcanza separación 5,6 |
+|---|---|---|---|---|---|
+| Dálmata | 100 de 100 | −14,0; −18,0 | 1,3; 4,7 | 100 | 0 |
+| Umbro | 96 de 100 | −6,2; −10,1 | 1,1; 5,8 | 1 | 1 |
+| Córnico | 91 de 100 | −9,6; −15,1 | 3,0; 8,1 | 64 | 14 |
+| Gótico | 79 de 100 | −4,5; −10,0 | 1,9; 6,6 | 1 | 2 |
+| Etrusco (sin parientes) | — | −3,5; −7,1 | 0,5; 2,6 | 0 | 0 |
+| Sumerio (sin parientes) | — | −2,2; −3,8 | 0,3; 1,8 | 0 | 0 |
+
+Las cuatro previsiones de potencia se cumplen (100, 96, 91 y 79 frente a 90, 80, 90 y 60). Ninguna de las 200 muestras de lenguas sin parientes alcanza ninguno de los dos umbrales: el mejor valor es −7,1 (etrusco) y la mayor separación, 2,6. Nada de lo que contaría en contra se ha observado. La separación baja en dálmata y umbro se debe a que tienen varios parientes entre las lenguas de comparación, que quedan juntos en cabeza.
+
+**Resultado con los programas corregidos (21-11-2026; entrada 2).** Al volver a ejecutar tras las correcciones de la entrada 2, las cifras son: dálmata 100 de 100 (−14,0; −18,0; separación mayor 4,7); umbro 95 (−6,2; −9,4; 5,8); córnico 90 (−9,8; −15,1; 8,1); gótico 79 (−4,6; −9,8; 6,4); etrusco, mejor valor −6,9 y mayor separación 2,6; sumerio, −3,8 y 1,7. Las previsiones siguen cumpliéndose (la del córnico, en el límite: 90 frente a 90) y ninguna de las 200 muestras de lenguas sin parientes alcanza ninguno de los dos umbrales. Los umbrales declarados (−9,3 y 5,6) eran los del diccionario menos favorable antes de las correcciones; con los programas corregidos esos valores son −9,7 y 5,2, y tampoco los alcanza ninguna muestra. Estas son las cifras vigentes; las de la tabla anterior quedan como registro de la primera ejecución.
+
+### 1. Power and false positives of the meaning-based test (21 November 2026)
+
+**Program:** `4_programas/t19_potencia_controles.py`.
+
+**What is done.** The test of Table 10 is repeated with 100 samples of 30 words per control language, instead of 5. Same rules: 150 draws, minimum of 12 words with candidates, the 35 Wiktionary dictionaries. Samples come from a generator seeded with the text `20261120|potencia|<language>`. Languages: Umbrian, Gothic, Cornish and Dalmatian (with relatives among the comparison languages) and Etruscan and Sumerian (without).
+
+**What is measured.**
+
+1. Power: in how many of the 100 samples of each language with relatives the first language is a relative.
+2. False positives: in how many of the 100 samples of each language without relatives the first language reaches what Basque obtains with Iberian. Two thresholds, fixed from the already published Iberian results: value of the first language equal to or below −9.3 (the smallest of those Basque gives with the complete dictionaries) and separation between the first and second language equal to or above 5.6 (the smallest observed with those dictionaries).
+3. For all: distribution of the value of the first language and of the separation from the second.
+
+**What is expected.** Power of at least 90 % for Dalmatian and Cornish, at least 80 % for Umbrian and at least 60 % for Gothic. For Etruscan and Sumerian, no sample reaches either threshold.
+
+**What would count against.** More than one sample in a hundred of a language without relatives reaching the value −9.3 or the separation 5.6: it would mean that a result like that of Iberian can appear without relationship with appreciable frequency. A power clearly lower than expected would also count against.
+
+**Limits known beforehand.** Etruscan has only 108 eligible words, so its samples of 30 overlap heavily and are not independent. The control words come from the same online dictionary as the comparison dictionaries. Etruscan was in contact with Latin.
+
+**Result (21 November 2026; added after running; `resultados/t19_potencia_controles.json`).**
+
+| Language | Samples with a relative in first place | Value of the first language (median; best) | Separation from the second (median; largest) | Reaches −9.3 | Reaches separation 5.6 |
+|---|---|---|---|---|---|
+| Dalmatian | 100 of 100 | −14.0; −18.0 | 1.3; 4.7 | 100 | 0 |
+| Umbrian | 96 of 100 | −6.2; −10.1 | 1.1; 5.8 | 1 | 1 |
+| Cornish | 91 of 100 | −9.6; −15.1 | 3.0; 8.1 | 64 | 14 |
+| Gothic | 79 of 100 | −4.5; −10.0 | 1.9; 6.6 | 1 | 2 |
+| Etruscan (no relatives) | — | −3.5; −7.1 | 0.5; 2.6 | 0 | 0 |
+| Sumerian (no relatives) | — | −2.2; −3.8 | 0.3; 1.8 | 0 | 0 |
+
+The four power expectations are met (100, 96, 91 and 79 against 90, 80, 90 and 60). None of the 200 samples from languages without relatives reaches either threshold: the best value is −7.1 (Etruscan) and the largest separation, 2.6. Nothing that would count against was observed. The low separation for Dalmatian and Umbrian is due to their having several relatives among the comparison languages, which cluster at the top.
+
+---
+
+**Result with the corrected programs (21 November 2026; entry 2).** Run again after the corrections of entry 2, the figures are: Dalmatian 100 of 100 (−14.0; −18.0; largest separation 4.7); Umbrian 95 (−6.2; −9.4; 5.8); Cornish 90 (−9.8; −15.1; 8.1); Gothic 79 (−4.6; −9.8; 6.4); Etruscan, best value −6.9 and largest separation 2.6; Sumerian, −3.8 and 1.7. The predictions still hold (the Cornish one at the limit: 90 against 90) and none of the 200 samples of languages without relatives reaches either threshold. The declared thresholds (−9.3 and 5.6) were those of the least favourable dictionary before the corrections; with the corrected programs those values are −9.7 and 5.2, and no sample reaches them either. These are the figures in force; those of the table above remain as the record of the first run.
+
+## 2. Correcciones tras la auditoría del código y permutación condicionada por la longitud (21-11-2026)
+
+**Origen.** Una auditoría independiente del código (fase 4) encontró errores y diferencias respecto a la especificación. Se corrigen todos antes de volver a ejecutar, y todos los programas se ejecutan de nuevo. Esta entrada se sube antes de esa ejecución.
+
+**Correcciones de código** (ninguna se ha elegido mirando su efecto; se aplican todas):
+
+1. Perfil de sonidos (`t08`): en cada remuestreo se usa una sola muestra ibérica frente a todas las lenguas (antes se sacaba una muestra distinta para cada lengua).
+2. Permutación (`t16`): la semilla se toma del generador sembrado con el texto de la clave (antes todas las claves daban la misma semilla).
+3. Apertium: `<b/>` se convierte en espacio antes de quitar las demás etiquetas, y se eliminan los comentarios del XML (antes se pegaban las palabras de las expresiones de varias palabras).
+4. Grupos de procedencia (`t15`): el nivel I tiene cinco unidades, con *kitar* (antes quedaba en el nivel II por no tener candidatas en euskera).
+5. Letras repetidas: se simplifican todas las repeticiones contiguas (antes, solo una pareja por pasada).
+6. Diacríticos de las palabras de diccionario: se quitan también los de los caracteres precompuestos (ê → e), salvo los que tienen clase propia.
+7. Normalizadores de albanés, fiyiano, zulú, shona y somalí: las sustituciones se aplican en una sola pasada, de modo que lo ya sustituido no vuelve a transformarse.
+8. Área bajo la curva (Anexo A.3): los empates cuentan medio.
+9. Diccionario histórico y dialectal derivado de Trask: se retira del estudio, porque contiene palabras del metalenguaje del diccionario tomadas como formas vascas. Léxico reconstruido: no se usan las formas con vocal o consonante indeterminada (V, C).
+10. Tablas 1 y 2: totales como unión de formas distintas; porcentaje de palabras que repiten una forma ya presente sin contar la primera aparición.
+11. CLDF: 40 unidades, las mismas de los archivos que leen los programas.
+12. Detalles: probabilidades sin redondeo intermedio; mediana y rótulos de mínimo y máximo; suma de la divergencia en orden fijo; la sustitución sin repetición se detiene si no cabe.
+
+**Qué se espera de la nueva ejecución.** El euskera sigue en primer lugar en todas las pruebas principales (30 unidades, 26 unidades, numerales, perfil de sonidos, permutación), con valores que pueden moverse en torno a una unidad. En el grupo de 13 unidades de nivel II sin correspondencia señalada, el euskera queda segundo, tras el tagalo, por un margen pequeño (así lo calculó el auditor con la pertenencia corregida).
+
+**Prueba nueva: permutación condicionada por la longitud** (`t16`, parte d). La auditoría mostró con un ejemplo construido que la permutación libre de los significados también premia la mera correspondencia de longitudes entre las formas y las palabras de su significado. En la variante condicionada, los significados solo se intercambian entre unidades cuya primera forma reducida tiene la misma longitud; las unidades solas en su longitud conservan su significado. 100.000 permutaciones; *p* = (1 + número con valor menor o igual que el real) / 100.001; corrección de Bonferroni por el número de lenguas. Se da también el número de permutaciones distintas posibles, que acota la menor probabilidad alcanzable.
+
+- **Qué se espera:** el euskera sigue siendo la lengua con menor probabilidad, y esta queda por debajo de 0,05 tras la corrección.
+- **Qué contaría en contra:** que la probabilidad corregida del euskera no baje de 0,05, o que otra lengua lo iguale. Significaría que buena parte del resultado de la permutación libre se debe a la correspondencia de longitudes.
+- **Límite conocido:** con 28 unidades repartidas en pocas longitudes, el número de permutaciones posibles es mucho menor que en la permutación libre, y la prueba tiene menos potencia.
+
+**Resultado (21-11-2026; añadido después de ejecutar todos los programas con el código corregido).**
+
+- *Pruebas principales.* El euskera sigue en primer lugar en todas: 30 unidades, de −9,7 a −12,8 según el diccionario completo (antes, de −9,3 a −12,7), con la lengua siguiente entre −3,3 y −4,8; 26 unidades sin préstamos latinos, de −9,6 a −12,1; léxico metrológico, de −10,2 a −11,4; serie numeral, sin cambio (0,317; la siguiente, 0,756); perfil de sonidos, sin cambio en las distancias (0,153; latín 0,174) y primero en 500 de 500 remuestreos y 500 de 500 mitades; permutación libre, −10,1 y ninguna de 100.000 (corregida, 0,0003). Los valores se han movido menos de una unidad, como se esperaba.
+- *Grupo de 13 unidades de nivel II sin correspondencia señalada.* La previsión era que el euskera quedara segundo tras el tagalo por poco. Resultado: euskera −4,43 y tagalo −4,25. El euskera queda primero por un margen que no es significativo; se informa como empate práctico. Sin los cuatro préstamos latinos (9 unidades): euskera −3,15, albanés −2,41.
+- *Controles.* Tabla 10: el pariente es la primera lengua en 18 de 20 muestras (antes, 19): en una muestra del córnico el rumano (−9,7) queda por delante del galés (−9,4).
+- *Permutación condicionada por la longitud.* Euskera: valor −8,34; ninguna de 100.000 permutaciones iguala o mejora la asignación real; *p* = 0,00001; corregida por 32 lenguas, 0,00032. Permutaciones distintas posibles: 9,0 × 10^15; 27 de las 30 unidades pueden cambiar de significado. La previsión se cumple: el euskera tiene la menor probabilidad y queda por debajo de 0,05. Dos lenguas más quedan por debajo de 0,05 tras la corrección: gallego (−4,17; 5 de 100.000; 0,0019) y tagalo (−3,58; 33; 0,011); catalán, 0,096. Ninguna iguala al euskera, que está en el mínimo alcanzable con 100.000 permutaciones. El valor del euskera es menos extremo bajo este azar (−8,3 frente a −10,1 en la permutación libre); como cambian a la vez la media y la desviación del azar, la diferencia no cuantifica una proporción atribuible a la longitud. La previsión literal de esta entrada era la menor *p* corregida y *p* < 0,05 para el euskera; las cero permutaciones iguales o mejores son un resultado adicional, no una previsión. La variante se calculó también, en la misma pasada, sin las cuatro unidades propuestas como préstamos latinos (el programa la aplica en la parte c); el resultado quedó en el `.json` del commit 39379e9 y no se leyó hasta el 21-11-2026 por la tarde: euskera −7,63, ninguna de 100.000, corregida 0,00031; gallego −2,99 (0,075); tagalo −2,08 (0,71). Sin los préstamos, solo el euskera conserva la significación.
+- *Otros cambios.* Las fuentes del euskera pasan de ocho a siete (se retira el diccionario histórico derivado de Trask); el léxico reconstruido tiene 391 formas; tablas 1 y 2: 2.095 formas distintas y 679 no onomásticas en todo el corpus; repetición, 9,3 % en plomo y 20,3 % en cerámica.
+
+### 2. Corrections after the code audit and length-conditioned permutation (21 November 2026)
+
+**Origin.** An independent audit of the code (phase 4) found errors and departures from the specification. All are corrected before running again, and all programs are run again. This entry is pushed before that run.
+
+**Code corrections** (none chosen by looking at its effect; all are applied):
+
+1. Sound profile (`t08`): in each resampling a single Iberian sample is used against all languages (previously a different sample was drawn for each language).
+2. Permutation (`t16`): the seed is taken from the generator seeded with the key text (previously all keys gave the same seed).
+3. Apertium: `<b/>` is turned into a space before the other tags are removed, and XML comments are stripped (previously the words of multi-word expressions were glued together).
+4. Provenance groups (`t15`): level I has five units, with *kitar* (previously it stayed in level II for having no Basque candidates).
+5. Repeated letters: all contiguous repetitions are simplified (previously, only one pair per pass).
+6. Diacritics of dictionary words: those of precomposed characters are also removed (ê → e), except those with a class of their own.
+7. Normalisers for Albanian, Fijian, Zulu, Shona and Somali: substitutions are applied in a single pass, so that what has been substituted is not transformed again.
+8. Area under the curve (Annex A.3): ties count half.
+9. Historical and dialectal dictionary derived from Trask: withdrawn from the study, because it contains words of the dictionary's metalanguage taken as Basque forms. Reconstructed lexicon: forms with an undetermined vowel or consonant (V, C) are not used.
+10. Tables 1 and 2: totals as the union of distinct forms; percentage of words repeating a form already present without counting the first occurrence.
+11. CLDF: 40 units, the same as in the files the programs read.
+12. Details: probabilities without intermediate rounding; median and minimum/maximum labels; divergence summed in a fixed order; substitution without repetition stops if it does not fit.
+
+**What is expected from the new run.** Basque remains first in all the main tests (30 units, 26 units, numerals, sound profile, permutation), with values that may move by about one unit. In the group of 13 level-II units with no correspondence pointed out, Basque comes second, after Tagalog, by a small margin (as the auditor computed with the corrected membership).
+
+**New test: length-conditioned permutation** (`t16`, part d). The audit showed with a constructed example that the free permutation of meanings also rewards the mere correspondence of lengths between the forms and the words of their meaning. In the conditioned variant, meanings are exchanged only among units whose first reduced form has the same length; units alone in their length keep their meaning. 100,000 permutations; *p* = (1 + number with a value less than or equal to the real one) / 100,001; Bonferroni correction for the number of languages. The number of distinct permutations possible, which bounds the smallest attainable probability, is also given.
+
+- **What is expected:** Basque remains the language with the smallest probability, and this stays below 0.05 after correction.
+- **What would count against:** the corrected probability of Basque not falling below 0.05, or another language matching it. It would mean that a good part of the result of the free permutation is due to the correspondence of lengths.
+- **Known limit:** with 28 units spread over few lengths, the number of possible permutations is much smaller than in the free permutation, and the test has less power.
+
+**Result (21 November 2026; added after running all programs with the corrected code).**
+
+- *Main tests.* Basque remains first in all: 30 units, from −9.7 to −12.8 depending on the complete dictionary (before, −9.3 to −12.7), with the next language between −3.3 and −4.8; 26 units without Latin loans, −9.6 to −12.1; metrological lexicon, −10.2 to −11.4; numeral series, unchanged (0.317; next, 0.756); sound profile, distances unchanged (0.153; Latin 0.174) and first in 500 of 500 resamplings and 500 of 500 halves; free permutation, −10.1 and none of 100,000 (corrected, 0.0003). Values moved by less than one unit, as expected.
+- *Group of 13 level-II units with no correspondence pointed out.* The prediction was that Basque would come second after Tagalog by a small margin. Result: Basque −4.43 and Tagalog −4.25. Basque is first by a margin that is not significant; it is reported as a practical tie. Without the four Latin loans (9 units): Basque −3.15, Albanian −2.41.
+- *Controls.* Table 10: the relative is the first language in 18 of 20 samples (before, 19): in one Cornish sample Romanian (−9.7) comes ahead of Welsh (−9.4).
+- *Length-conditioned permutation.* Basque: value −8.34; none of 100,000 permutations equals or improves on the real assignment; *p* = 0.00001; corrected for 32 languages, 0.00032. Distinct permutations possible: 9.0 × 10^15; 27 of the 30 units can change meaning. The prediction holds: Basque has the smallest probability and stays below 0.05. Two more languages fall below 0.05 after correction: Galician (−4.17; 5 of 100,000; 0.0019) and Tagalog (−3.58; 33; 0.011); Catalan, 0.096. None matches Basque, which is at the minimum attainable with 100,000 permutations. The Basque value is less extreme under this null (−8.3 against −10.1 in the free permutation); as both the mean and the deviation of the null change, the difference does not quantify a proportion attributable to length. The literal prediction of this entry was the smallest corrected *p* and *p* < 0.05 for Basque; the zero equal-or-better permutations are an additional result, not a prediction. The variant was also computed, in the same pass, without the four units proposed as Latin loans (the program applies it in part c); the result sat in the `.json` of commit 39379e9 and was not read until the afternoon of 21 November 2026: Basque −7.63, none of 100,000, corrected 0.00031; Galician −2.99 (0.075); Tagalog −2.08 (0.71). Without the loans, only Basque keeps significance.
+- *Other changes.* The Basque sources go from eight to seven (the historical dictionary derived from Trask is withdrawn); the reconstructed lexicon has 391 forms; Tables 1 and 2: 2,095 distinct forms and 679 non-onomastic ones in the whole corpus; repetition, 9.3 % on lead and 20.3 % on pottery.
+
+---
+
+## 3. Variación entre semillas de la prueba con significados (declarada el 21-11-2026, antes de ejecutar)
+
+**Qué se mide.** Cuánto cambian los valores de la tabla 6 cuando cambia la secuencia de sorteos. Es una medida, no un contraste: sirve para decir qué diferencias entre valores no deben interpretarse (Anexo B.7).
+
+**Cómo.** Programa `t20_variacion_semillas.py`: la prueba con significados de la tabla 6 (30 unidades de los plomos, lenguas del Wikcionario, 500 sorteos, mismo mínimo de unidades), repetida 40 veces con claves de sorteo distintas (`variacion|1` a `variacion|40`). De cada repetición se anota el valor de cada lengua. Se dan, para el euskera y para la mejor de las demás lenguas, el valor mediano, los extremos y la desviación típica; la menor separación entre ambos; y la amplitud por lengua.
+
+**Previsión.** El euskera es la primera lengua en las 40 repeticiones; su valor queda entre −11,5 y −14,0, con una amplitud inferior a 1,5 unidades; la separación con la lengua siguiente no baja de 6 unidades en ninguna.
+
+**Qué contaría en contra.** Que el euskera no sea la primera lengua en alguna repetición, o que la separación baje de 5 unidades en alguna. Una amplitud mayor de la prevista no afecta al resultado, pero obligaría a dar los valores del artículo con menos cifras.
+
+**Qué se hará con el resultado.** Se dará en el Anexo B.7 del artículo, sea cual sea.
+
+**Resultado (21-11-2026; añadido después de ejecutar).** Euskera primero en 40 de 40 repeticiones. Valor del euskera: de −11,59 a −13,33; mediana −12,38; desviación típica 0,41; amplitud 1,74. Mejor de las demás lenguas (gallego o tagalo): de −3,93 a −4,44. Separación: menor 7,32; mediana 8,28. Amplitud en las demás lenguas: mediana 0,28; mayor 0,57. La previsión se cumple en el puesto, en el intervalo y en la separación; **no se cumple en la amplitud** (1,74 frente a menos de 1,5). Como se declaró, el artículo lo recoge: los valores del euskera se leen con un margen de en torno a una unidad (Anexo B.7). Las repeticiones se calcularon en dos procesos (1 a 20 y 21 a 40); cada una tiene su propia clave de sorteo, de modo que el reparto no afecta al resultado. Corrección posterior (segunda revisión de la auditoría): el programa guardaba los extremos del euskera con los rótulos «mínimo» y «máximo» invertidos; se renombran como «menos marcado» (−11,59) y «más marcado» (−13,33) y se añade la desviación típica de la mejor rival (0,1), que esta entrada prometía. Las cifras no cambian. Las dos primeras se habían calculado antes en una ejecución interrumpida por su duración, con el mismo resultado.
+
+### 3. Variation between seeds of the meaning-based test (declared on 21 November 2026, before running)
+
+**What is measured.** How much the values of Table 6 change when the sequence of draws changes. It is a measurement, not a test: it serves to say which differences between values should not be interpreted (Annex B.7).
+
+**How.** Program `t20_variacion_semillas.py`: the meaning-based test of Table 6 (30 units of the lead plaques, Wiktionary languages, 500 draws, same minimum of units), repeated 40 times with different draw keys (`variacion|1` to `variacion|40`). For each repetition the value of each language is recorded. For Basque and for the best of the other languages, the median value, the extremes and the standard deviation are given; the smallest separation between the two; and the range per language.
+
+**Prediction.** Basque is the first language in all 40 repetitions; its value lies between −11.5 and −14.0, with a range below 1.5 units; the separation from the next language does not fall below 6 units in any.
+
+**What would count against.** Basque not being the first language in some repetition, or the separation falling below 5 units in some. A range larger than predicted does not affect the result, but would require giving the article's values with fewer digits.
+
+**What will be done with the result.** It will be given in Annex B.7 of the article, whatever it is.
+
+**Result (21 November 2026; added after running).** Basque first in 40 of 40 repetitions. Basque value: from −11.59 to −13.33; median −12.38; standard deviation 0.41; range 1.74. Best of the other languages (Galician or Tagalog): from −3.93 to −4.44. Separation: smallest 7.32; median 8.28. Range in the other languages: median 0.28; largest 0.57. The prediction holds for the rank, the interval and the separation; **it does not hold for the range** (1.74 against less than 1.5). As declared, the article records it: the Basque values are read with a margin of about one unit (Annex B.7). The repetitions were computed in two processes (1 to 20 and 21 to 40); each has its own draw key, so the split does not affect the result. The first two had been computed earlier in a run interrupted because of its duration, with the same result. Later correction (second audit review): the program stored the Basque extremes with the labels "minimum" and "maximum" inverted; they are renamed "least marked" (−11.59) and "most marked" (−13.33), and the standard deviation of the best rival (0.1), which this entry promised, is added. The figures do not change.
+
+---
+
+**Nota añadida el 21-11-2026 (tercera revisión de la auditoría, fase 4c).** La huella de `t20` se amplió del código a las entradas (unidades y diccionarios leídos), como pedía la auditoría. Las repeticiones 1 y 2 se regeneraron con el programa nuevo y coinciden tabla por tabla con las guardadas; las 38 restantes conservan sus tablas y llevan la huella nueva con una nota que lo indica (`nota_huella`). El resumen (`t20_variacion_semillas.json`) es idéntico. / **Note added on 21 November 2026 (third audit review, phase 4c).** The `t20` fingerprint was extended from the code to the inputs (units and dictionaries as read), as the audit requested. Repetitions 1 and 2 were regenerated with the new program and match the stored ones table by table; the other 38 keep their tables and carry the new fingerprint with a note saying so (`nota_huella`). The summary is identical.
+
+## 4. Sin las unidades con lectura alternativa documentada (declarada el 21-11-2026, antes de ejecutar)
+
+**Qué se mide.** El resultado de la prueba con significados (30 unidades, lenguas del Wikcionario) retirando las cinco unidades para las que las monografías dejan abierta, en alguna de sus apariciones, una lectura distinta de la propuesta (nombre de persona o término distinto): A11 *oŕtin* (segmentación antroponímica alternativa de *ortinbeŕe-* en T.07.02), A12 *selki* (la mayoría de sus apariciones son nombres de persona bimembres), A13 *saltu* (*saldulako* leído como nombre de persona por Ferrer i Jané 2026a), A16 *akari* (alternativa de antropónimos con salida en *-ka* en V.17.02) y A19 *laku* (*lakei* como unidad de capacidad según Ferrer i Jané 2022). Responde a la objeción de que la señal pudiera descansar en palabras que los epigrafistas leen como nombres.
+
+**Cómo.** Programa `t21_lecturas_alternativas.py`: las mismas tablas de distancias reales y de azar de `t15` (500 sorteos por lengua, misma clave `plomos`), valor *z* de las 25 unidades restantes para cada lengua con candidatas suficientes, y puesto del euskera.
+
+**Previsión.** El euskera sigue en primer lugar, con un valor entre −9 y −12, y la lengua siguiente no pasa de −4,5.
+
+**Qué contaría en contra.** Que el euskera no sea la primera lengua, o que su valor quede por encima de −7 (la mitad del valor con la lista completa).
+
+**Qué se hará con el resultado.** Se añade a la tabla 10 bis del artículo, sea cual sea.
+
+**Resultado (21-11-2026; añadido después de ejecutar).** 25 unidades, 32 lenguas. Euskera primero, −11,84; siguientes: gallego −3,61, catalán −3,04, tagalo −2,77. La previsión se cumple (commit de la declaración: c1845fe).
+
+### 4. Without the units with a documented alternative reading (declared on 21 November 2026, before running)
+
+**What is measured.** The result of the meaning-based test (30 units, Wiktionary languages) after removing the five units for which the monographs leave open, in some of their attestations, a reading other than the one proposed (a personal name or a different term): A11 *oŕtin* (alternative anthroponymic segmentation of *ortinbeŕe-* in T.07.02), A12 *selki* (most of its attestations are two-member personal names), A13 *saltu* (*saldulako* read as a personal name by Ferrer i Jané 2026a), A16 *akari* (alternative of personal names ending in *-ka* in V.17.02) and A19 *laku* (*lakei* as a capacity unit according to Ferrer i Jané 2022). It answers the objection that the signal might rest on words that epigraphists read as names.
+
+**How.** Program `t21_lecturas_alternativas.py`: the same tables of real and chance distances as `t15` (500 draws per language, same key `plomos`), *z* value of the remaining 25 units for each language with enough candidates, and rank of Basque.
+
+**Prediction.** Basque remains first, with a value between −9 and −12, and the next language does not exceed −4.5.
+
+**What would count against.** Basque not being the first language, or its value above −7 (half the value with the full list).
+
+**What will be done with the result.** It is added to Table 10 bis of the article, whatever it is.
+
+**Result (21 November 2026; added after running).** 25 units, 32 languages. Basque first, −11.84; next: Galician −3.61, Catalan −3.04, Tagalog −2.77. The prediction holds (declaration commit: c1845fe).
+
+---
+
+## 5. Calibración de la distancia entre perfiles (declarada el 21-11-2026, antes de ejecutar)
+
+**Qué se mide.** La prueba sin significados (apartado 7.4) da puestos y distancias, no una probabilidad: dice que el euskera es la lengua de perfil más próximo al ibérico y que ese puesto es estable, pero no con qué frecuencia dos lenguas sin relación conocida quedan a una distancia como la observada (0,153 con las clases completas). Esta calibración responde a eso con la propia base: distancias entre todas las parejas de las 107 lenguas de NorthEuraLex, separadas en parejas de la misma familia y de familias distintas.
+
+**Cómo.** Programa `t22_calibracion_perfil.py`: perfiles como en 4.4; para las 5.671 parejas de lenguas, distancia y tipo (misma familia / familias distintas, por el campo `Family`); percentil de la distancia ibérico–euskera en cada grupo; número de parejas de familias distintas a esa distancia o menos; y, para las lenguas sin parientes en la base, la distancia a su vecino más próximo. Con las clases completas y con las reducidas a lo que el ibérico escribe. Sin sorteos.
+
+**Previsión.** La distancia ibérico–euskera queda dentro del intervalo de las parejas de la misma familia y en el tramo bajo de las de familias distintas: por debajo del percentil 10 de estas con las clases completas y por debajo del percentil 5 con las reducidas. Se prevé también que existan parejas de familias distintas a esa distancia o menos (el euskera tiene un vecino sin parentesco a 0,154), de modo que la calibración no convertirá el resultado en una exclusión del azar.
+
+**Qué contaría en contra.** Que la distancia ibérico–euskera quede por encima de la mediana de las parejas de familias distintas: entonces el primer puesto del euskera diría poco sobre la proximidad en términos absolutos.
+
+**Qué se hará con el resultado.** Se da en el apartado 7.4 y en el 12, sea cual sea, como calibración descriptiva y no como valor *p*.
+
+**Resultado (21-11-2026; añadido después de ejecutar).** Clases completas: ibérico–euskera 0,1533; percentil 6,5 de las 1.053 parejas de la misma familia y 0,11 de las 4.618 de familias distintas (5 a esa distancia o menos: sueco–vepsio 0,1345, komi–ruso 0,1449, finés–canarés 0,1483, checheno–persa 0,1517, bengalí–burushaski 0,1532); de las 9 lenguas sin parientes en la base, una (burushaski) tiene un vecino a esa distancia o menos. Reducidas: 0,0696; percentil 2,4 y 0,02 (1 pareja: estonio–hindi 0,0681); ninguna lengua sin parientes tiene un vecino a esa distancia. La previsión se cumple con margen.
+
+### 5. Calibration of the profile distance (declared on 21 November 2026, before running)
+
+**What is measured.** The meaning-free test (section 7.4) gives ranks and distances, not a probability: it says that Basque is the language of closest profile to Iberian and that the rank is stable, but not how often two languages with no known relationship lie at a distance like the one observed (0.153 with full classes). This calibration answers that with the base itself: distances between all pairs of the 107 NorthEuraLex languages, split into same-family pairs and different-family pairs.
+
+**How.** Program `t22_calibracion_perfil.py`: profiles as in 4.4; for the 5,671 language pairs, distance and type (same family / different families, by the `Family` field); percentile of the Iberian–Basque distance in each group; number of different-family pairs at that distance or less; and, for languages without relatives in the base, the distance to their nearest neighbour. With full classes and with the classes reduced to what the Iberian script writes. No draws.
+
+**Prediction.** The Iberian–Basque distance lies within the range of same-family pairs and in the low tail of different-family pairs: below the 10th percentile of the latter with full classes and below the 5th with reduced classes. It is also expected that different-family pairs at that distance or less exist (Basque has an unrelated neighbour at 0.154), so the calibration will not turn the result into an exclusion of chance.
+
+**What would count against.** The Iberian–Basque distance lying above the median of different-family pairs: the first rank of Basque would then say little about proximity in absolute terms.
+
+**What will be done with the result.** It is given in sections 7.4 and 12, whatever it is, as a descriptive calibration and not as a *p* value.
+
+**Result (21 November 2026; added after running).** Full classes: Iberian–Basque 0.1533; 6.5th percentile of the 1,053 same-family pairs and 0.11th of the 4,618 different-family pairs (5 at that distance or less: Swedish–Veps 0.1345, Komi–Russian 0.1449, Finnish–Kannada 0.1483, Chechen–Persian 0.1517, Bengali–Burushaski 0.1532); of the 9 languages without relatives in the base, one (Burushaski) has a neighbour at that distance or less. Reduced: 0.0696; percentiles 2.4 and 0.02 (1 pair: Estonian–Hindi 0.0681); no language without relatives has a neighbour at that distance. The prediction holds with margin.
+
+---
+
+## 6. Tamaño del diccionario y valor de la prueba (declarada el 21-11-2026, antes de ejecutar)
+
+**Qué se mide.** Si las lenguas con diccionarios más grandes obtienen valores más extremos en la prueba con significados por tener más candidatas, la comparación entre lenguas estaría sesgada. Se mide la correlación de Spearman entre el número de formas de cada diccionario del Wikcionario y su valor *z* en la tabla 6 (30 unidades), con y sin el euskera, y el puesto del euskera por tamaño.
+
+**Cómo.** Programa `t23_tamano_diccionario.py`, sobre `t06_t07_significados.json` ya calculado; sin sorteos.
+
+**Previsión.** La correlación sin el euskera es débil (|ρ| < 0,4) y el euskera del Wikcionario está entre los diccionarios más pequeños (3.814 formas, por debajo de la mediana), de modo que su valor no se explica por el tamaño.
+
+**Qué contaría en contra.** Una correlación negativa fuerte (ρ < −0,5: a más formas, valor más extremo) sin el euskera, o que el euskera estuviera entre los diccionarios más grandes.
+
+**Qué se hará con el resultado.** Se da en el apartado 8.4, sea cual sea.
+
+**Resultado (21-11-2026; añadido después de ejecutar).** 32 lenguas. Spearman(formas, *z*): −0,337 con el euskera; −0,378 sin él (débil, dentro de lo previsto: |ρ| < 0,4, aunque cerca del límite y en el sentido de que los diccionarios grandes dan valores algo más marcados). Euskera: 3.814 formas, puesto 21 de 32 por tamaño (mediana 6.646). Mayores: finés 99.103 (+1,03), rumano 62.247 (−1,27), latín 33.299 (−0,46), húngaro 28.723 (+0,05), catalán 23.392 (−2,96). Previsión cumplida.
+
+### 6. Dictionary size and test value (declared on 21 November 2026, before running)
+
+**What is measured.** If languages with larger dictionaries obtained more extreme values in the meaning-based test because they have more candidates, the comparison between languages would be biased. The Spearman correlation between the number of forms of each Wiktionary dictionary and its *z* value in Table 6 (30 units) is measured, with and without Basque, together with the rank of Basque by size.
+
+**How.** Program `t23_tamano_diccionario.py`, on the already computed `t06_t07_significados.json`; no draws.
+
+**Prediction.** The correlation without Basque is weak (|ρ| < 0.4) and Wiktionary Basque is among the smallest dictionaries (3,814 forms, below the median), so its value is not explained by size.
+
+**What would count against.** A strong negative correlation (ρ < −0.5: more forms, more extreme value) without Basque, or Basque being among the largest dictionaries.
+
+**What will be done with the result.** It is given in section 8.4, whatever it is.
+
+**Result (21 November 2026; added after running).** 32 languages. Spearman(forms, *z*): −0.337 with Basque; −0.378 without it (weak, within the prediction |ρ| < 0.4, though near the limit and in the direction that large dictionaries give somewhat more marked values). Basque: 3,814 forms, rank 21 of 32 by size (median 6,646). Largest: Finnish 99,103 (+1.03), Romanian 62,247 (−1.27), Latin 33,299 (−0.46), Hungarian 28,723 (+0.05), Catalan 23,392 (−2.96). Prediction holds.
+
+---
+
+## 7. Segunda codificación de la procedencia por un jurado ciego (declarada el 21-11-2026, antes de enviar las fichas)
+
+**Qué se mide.** Si la clasificación de la procedencia de cada significado (niveles I, II y III; `2_criterios/FICHAS_procedencia.md`), hecha por el autor, la comparte un lector que no conoce el término ibérico, las lenguas comparadas ni el resultado. Fichas, encargos, reglas y suma SHA-256 de la clave en `2_criterios/jurado/` (véase su LEEME).
+
+**Previsión.** La concordancia con la clasificación del autor es alta pero no total: se prevé que el jurado rebaje al nivel III entre dos y cinco de las 19 unidades de nivel II (las que mencionan un paralelo posterior o una comparación con una lengua romance), y ninguna de las de nivel I. Con la clasificación menos favorable, el euskera sigue primero en los grupos de nivel I y de niveles I y II.
+
+**Qué contaría en contra.** Que el jurado rebaje más de la mitad de las unidades de nivel II, o alguna de nivel I; o que con su clasificación el euskera deje de ser primero en el grupo de niveles I y II.
+
+**Qué se hará con el resultado.** Se publican las respuestas íntegras y la clave, la concordancia y las discrepancias, y la tabla 10 bis con la clasificación menos favorable, sea cual sea.
+
+### 7. Second coding of provenance by a blind panel (declared on 21 November 2026, before sending the records)
+
+**What is measured.** Whether the author's classification of the provenance of each meaning (levels I, II and III; `2_criterios/FICHAS_procedencia.md`) is shared by a reader who knows neither the Iberian term, nor the languages compared, nor the result. Records, briefs, rules and SHA-256 sum of the key in `2_criterios/jurado/` (see its LEEME).
+
+**Prediction.** Agreement with the author's classification is high but not total: the panel is expected to lower to level III between two and five of the 19 level-II units (those mentioning a later parallel or a comparison with a Romance language), and none of the level-I units. With the least favourable classification, Basque remains first in the level-I and level-I-plus-II groups.
+
+**What would count against.** The panel lowering more than half of the level-II units, or any level-I unit; or Basque ceasing to be first in the level-I-plus-II group with its classification.
+
+**What will be done with the result.** The full answers and the key, the agreement and the discrepancies, and Table 10 bis with the least favourable classification are published, whatever the outcome.
+
+**Resultado (21-11-2026, 16:09–16:29; añadido después de recibir las tres respuestas; `2_criterios/jurado/respuestas/`, `resultados/t24_jurado_procedencia.json`).**
+
+Jueces: dos codificadores (Mistral, chat temporal, modo de reflexión; DeepSeek, chat nuevo, «Pensamiento Profundo», búsqueda desactivada) y un crítico (Grok, chat privado, modo «Fast», sin razonamiento extendido por ser el único gratuito). Cada uno recibió solo su encargo y las fichas, en un mensaje; ninguno pidió aclaraciones. Respuestas íntegras, capturas, clave (SHA-256 coincidente con la depositada) y cruce en el directorio citado.
+
+*Controles.* Cinco de seis exactos en los tres jueces (U01 II, U08 III, U19 I, U21 III, U34 I). La sexta, U24 (término que cierra todas las listas de un archivo seguido de la cifra igual al número de nombres), estaba prevista como II y los tres la pusieron en I: el defecto es del control, cuya descripción no deja otra lectura. Ningún juez queda excluido.
+
+*Concordancia entre jueces* (36 unidades): Mistral–DeepSeek 34 de 36 (κ de Cohen 0,91); Mistral–Grok 29 (0,67); DeepSeek–Grok 27 (0,58); los tres, 27; κ de Fleiss 0,72. El crítico es sistemáticamente más bajo, como pedía su encargo.
+
+*Concordancia con el autor:* Mistral 23 de 36 (κ 0,43), DeepSeek 25 (0,53), Grok 19 (0,29); clasificación menos favorable, 19 (0,29). Las discrepancias van todas en un sentido (rebaja):
+
+| Rebaja | Unidades | Jueces |
+|---|---|---|
+| II → III | A8 *aŕeka*, A10 *bekoŕ*, A14 *aŕta*, A15 *alate*, A19 *laku*, A20 *baites* (paralelo señalado después) | los tres |
+| II → III | A12 *selki* (comparación con una palabra prerromana conservada en una lengua romance) | los tres |
+| II → III | A6 *bale*, A9 *koŕta*, A11 *oŕtin*, A13 *saltu* (propuestos como préstamos latinos), A23 *lekaŕ* | solo el crítico |
+| I → II | A17 *kutu*, A30 *ekiar* (contexto documental, no prueba material) | los tres |
+| I → II | A1 *śalir*, A3 *kitar* (metrología y leyendas monetales leídas como distribución) | Mistral y Grok; DeepSeek mantiene I |
+| I → II / III | N20 *oŕkei* (lectura «plausible» de la tinaja) | II Mistral y DeepSeek; III Grok |
+
+Clasificación menos favorable (nivel más bajo dado por cualquiera): nivel I, 3 unidades (A2 *erter*, N1 *ban*, N10 *abaŕ*); nivel II, 11; nivel III, 22. El autor tenía 8, 19 y 9.
+
+*Contraste con la previsión.* Lo principal se cumple: con la clasificación menos favorable el euskera sigue primero en el grupo de niveles I y II (12 unidades, 11 comparables): −6,57 frente a −2,23 del albanés (32 lenguas); con la de cada juez: Mistral −6,60 (siguiente, tagalo −4,13), DeepSeek −6,60 (tagalo −4,13), Grok −6,57 (albanés −2,23). Las dos previsiones secundarias **no se cumplen**: el jurado rebajó 12 de las 19 unidades de nivel II (más de la mitad; se habían previsto entre dos y cinco) y rebajó unidades de nivel I (cinco de ocho; se había previsto ninguna). El grupo «solo nivel I» con la clasificación menos favorable queda en una unidad de los plomos y no puede calcularse (mínimo, cuatro comparables); el nivel III con esa clasificación da −10,81 (gallego −4,24), y el nivel II solo, −6,19 (albanés −2,31).
+
+*Lectura.* El jurado aplicó el criterio escrito («necesita, o usa como apoyo, el parecido con una palabra de una lengua viva») de forma más estricta que el autor en dos puntos que el autor había señalado como límites: cualquier paralelo mencionado, aunque posterior, cuenta como apoyo; y la prueba material de nivel I se exige externa al texto (moneda, peso, bilingüe), no contexto documental. La rebaja de *selki* no estaba prevista y es correcta con el criterio escrito. El resultado estadístico no cambia de sentido con ninguna de las cuatro clasificaciones; cambia el tamaño de los grupos y, con él, la magnitud (de −9,28 con 22 unidades comparables a −6,57 con 11).
+
+**Result (21 November 2026, 16:09–16:29; added after receiving the three answers; `2_criterios/jurado/respuestas/`, `resultados/t24_jurado_procedencia.json`).**
+
+Judges: two coders (Mistral, temporary chat, reasoning mode; DeepSeek, new chat, "Deep Thinking", search off) and one critic (Grok, private chat, "Fast" mode, no extended reasoning as the only free mode). Each received only its brief and the records in one message; none asked for clarification. Full answers, screenshots, key (SHA-256 matching the deposited one) and cross-table in the directory above.
+
+*Controls.* Five of six exact for all three judges. The sixth, U24 (term closing every list of an archive, followed by the figure equal to the number of names), was expected as II and all three gave I: the fault lies in the control, whose description leaves no other reading. No judge is excluded.
+
+*Agreement between judges* (36 units): Mistral–DeepSeek 34 of 36 (Cohen's κ 0.91); Mistral–Grok 29 (0.67); DeepSeek–Grok 27 (0.58); all three 27; Fleiss's κ 0.72. The critic is systematically lower, as its brief required.
+
+*Agreement with the author:* Mistral 23 of 36 (κ 0.43), DeepSeek 25 (0.53), Grok 19 (0.29); least favourable classification 19 (0.29). All discrepancies are downgrades: II → III for the six level-II units with a later parallel (A8, A10, A14, A15, A19, A20), unanimous; II → III for A12 *selki* (comparison with a pre-Roman word preserved in a Romance language), unanimous; II → III for the four proposed Latin loans (A6, A9, A11, A13) and A23, critic only; I → II for A17 *kutu* and A30 *ekiar* (documentary context, not material evidence), unanimous; I → II for A1 *śalir* and A3 *kitar*, Mistral and Grok; N20 *oŕkei* to II (coders) or III (critic). Least favourable classification: level I, 3 units (A2, N1, N10); level II, 11; level III, 22 (author: 8, 19, 9).
+
+*Against the prediction.* The main point holds: with the least favourable classification Basque remains first in the level-I-plus-II group (12 units, 11 comparable): −6.57 against −2.23 for Albanian (32 languages); with each judge's classification: Mistral −6.60 (next Tagalog −4.13), DeepSeek −6.60 (Tagalog −4.13), Grok −6.57 (Albanian −2.23). The two secondary predictions **fail**: the panel lowered 12 of the 19 level-II units (more than half; two to five were expected) and lowered level-I units (five of eight; none was expected). The level-I-only group under the least favourable classification is left with one lead-plaque unit and cannot be computed (minimum four comparable); level III under that classification gives −10.81 (Galician −4.24) and level II alone −6.19 (Albanian −2.31).
+
+*Reading.* The panel applied the written criterion ("needs, or uses as support, resemblance to a word of a living language") more strictly than the author on two points the author had flagged as limits: any parallel mentioned, even a later one, counts as support; and level-I material evidence must be external to the text (coin, weight, bilingual), not documentary context. The downgrade of *selki* was not foreseen and is correct under the written criterion. The statistical result does not change direction under any of the four classifications; the group sizes change and with them the magnitude (from −9.28 with 22 comparable units to −6.57 with 11).
+
+
+
+**Nota (21-11-2026, fase 4d; añadida tras la auditoría).** Balance completo de las cuatro previsiones del plan: (1) euskera primero en el grupo I+II con la clasificación menos favorable: **cumplida**; (2) grupo I por separado: **no evaluable** (menos de cuatro unidades comparables); (3) pocas rebajas de nivel II: **no cumplida** (12 de 19); (4) ninguna rebaja de nivel I: **no cumplida** (5 de 8). «Todas las discrepancias son rebajas» vale solo para la clasificación menos favorable: Mistral y DeepSeek **subieron** A5 (ficha U11, «total») de II a I; la subida no pasa a la agregación porque Grok mantiene II. El control U24 queda en 5 de 6 aciertos: la explicación de la mala calibración es razonable, pero el recuento original se conserva sin reconvertirlo. / **Note (phase 4d).** Full balance of the four plan expectations: (1) Basque first in I+II under the least favourable classification: **met**; (2) group I alone: **not assessable**; (3) few level-II downgrades: **not met** (12 of 19); (4) no level-I downgrades: **not met** (5 of 8). “All discrepancies are downgrades” holds only for the least favourable aggregation: Mistral and DeepSeek **raised** A5 (record U11) from II to I; Grok kept II. Control U24 stays at 5 of 6.
+
+## 8. Regularidad de las correspondencias entre sonidos (declarada el 21-11-2026, antes de ejecutar)
+
+**Programa:** `4_programas/t25_correspondencias.py`.
+
+**Qué se mide.** La herencia común y el préstamo producen palabras parecidas; lo que las distingue, en la lingüística histórica, es que la herencia produce correspondencias *sistemáticas* entre sonidos, también donde las palabras ya no se parecen. Se mide, por tanto, si las correspondencias entre las clases de sonidos del ibérico y las del euskera en las 40 unidades (30 de los plomos y 10 numerales) son más regulares de lo que produce el azar.
+
+**Cómo.** Para cada unidad con candidatas en el Wikcionario vasco se toma la candidata a menor distancia (empates: orden alfabético) y se alinea con la forma ibérica (primera forma, reducida a clases SCA) por el algoritmo de Needleman–Wunsch con coste 1 por sustitución y 1 por hueco, el mismo coste que la distancia de edición del estudio; en los empates del trazado se prefiere la diagonal. Cada columna de la alineación es un par (clase ibérica, clase vasca), con «−» para el hueco. Regularidad: para cada clase ibérica, proporción de sus columnas que van a su correspondiente más frecuente; se promedia sobre las columnas (R), y se calcula también solo sobre las columnas no idénticas (R′), que son las que prueban una correspondencia sistemática y no una simple identidad. Se da lo mismo en el sentido inverso (por clase vasca) y la media de ambos. Se publica la tabla de correspondencias.
+
+**Distribución de azar.** (1) Permutación de los significados: 1.000 veces se empareja cada forma ibérica con la candidata vasca de otra unidad (permutación de las 40), se alinea igual y se calculan R y R′; generador `20261120|correspondencias|permutacion`. (2) Referencia entre lenguas: el mismo cálculo, sin permutar, con cada una de las otras lenguas del Wikcionario que tienen candidatas para al menos el 40 % de las unidades, y puesto del euskera por R′.
+
+**Previsión.** R′ del euskera por encima del percentil 90 de su distribución por permutación, y el euskera entre las tres primeras lenguas por R′. Se prevé que el número de columnas no idénticas sea pequeño (del orden de 40 a 70), de modo que la potencia es baja.
+
+**Qué contaría en contra.** R′ del euskera dentro del intervalo central de la permutación (percentiles 10 a 90) o fuera de las cinco primeras lenguas: no podría afirmarse que las correspondencias sean regulares. Eso contaría contra la herencia como explicación preferible, no contra la afinidad, que descansa en las pruebas anteriores. Un R′ alto tampoco demuestra parentesco: las correspondencias regulares pueden darse en el préstamo masivo de una misma época.
+
+**Límites conocidos de antemano.** Las parejas se eligen por distancia mínima, lo que favorece las identidades; por eso el estadístico central es R′ y la permutación conserva esa selección. Cuarenta parejas no permiten establecer correspondencias en el sentido del método comparativo; esta prueba solo dice si hay más regularidad de la que da el azar.
+
+**Qué se hará con el resultado.** Se publica, sea cual sea, con la tabla de correspondencias, y pasa a la tabla de las explicaciones posibles de las conclusiones.
+
+### 8. Regularity of sound correspondences (declared on 21 November 2026, before running)
+
+**Program:** `4_programas/t25_correspondencias.py`.
+
+**What is measured.** Common inheritance and borrowing both yield similar words; what distinguishes them in historical linguistics is that inheritance yields *systematic* sound correspondences, also where words no longer look alike. It is therefore measured whether the correspondences between Iberian and Basque sound classes in the 40 units (30 lead-plaque units and 10 numerals) are more regular than chance produces.
+
+**How.** For each unit with candidates in the Basque Wiktionary dictionary, the candidate at the smallest distance is taken (ties: alphabetical) and aligned with the Iberian form (first form, reduced to SCA classes) by Needleman–Wunsch with cost 1 per substitution and 1 per gap, the same cost as the study's edit distance; ties in the traceback prefer the diagonal. Each alignment column is a pair (Iberian class, Basque class), with "−" for a gap. Regularity: for each Iberian class, the proportion of its columns going to its most frequent correspondent, averaged over columns (R), and also over non-identical columns only (R′), which are the ones that test a systematic correspondence rather than plain identity. The same is given in the reverse direction (by Basque class) and the mean of both. The correspondence table is published.
+
+**Null distribution.** (1) Meaning permutation: 1,000 times each Iberian form is paired with the Basque candidate of another unit (permutation of the 40), aligned the same way, and R and R′ computed; generator `20261120|correspondencias|permutacion`. (2) Cross-language reference: the same computation, unpermuted, with each of the other Wiktionary languages having candidates for at least 40 % of the units, and Basque's rank by R′.
+
+**Prediction.** Basque's R′ above the 90th percentile of its permutation distribution, and Basque among the first three languages by R′. The number of non-identical columns is expected to be small (of the order of 40 to 70), so power is low.
+
+**What would count against.** Basque's R′ inside the central interval of the permutation (10th to 90th percentile) or outside the first five languages: regularity could not be claimed. That would count against inheritance as the preferable explanation, not against the affinity, which rests on the earlier tests. A high R′ does not prove relationship either: regular correspondences can arise in massive borrowing from one period.
+
+**Limits known beforehand.** Pairs are chosen by minimum distance, which favours identities; hence the central statistic is R′ and the permutation keeps that selection. Forty pairs do not allow correspondences to be established in the sense of the comparative method; this test only says whether there is more regularity than chance gives.
+
+**What will be done with the result.** It is published, whatever it is, with the correspondence table, and enters the table of possible explanations in the conclusions.
+
+**Resultado (21-11-2026; `resultados/t25_correspondencias.json`).** 38 parejas (dos unidades sin candidatas), 195 columnas, 77 no idénticas. R′ del euskera 0,442 (igual por clase ibérica y por clase vasca); permutación: mediana 0,315, percentil 90 0,337, ninguna de las 1.000 alcanza la observada (percentil 100). Entre 32 lenguas, euskera primero por R′; siguiente, lituano 0,385. Comprobación añadida después de ver el resultado, no declarada: R′ crece por azar cuando hay pocas columnas no idénticas (el euskera tiene 77; las demás lenguas, de 100 a 190), así que se igualó el tamaño a 77 columnas por submuestreo (200 submuestras por lengua, 20 por permutación): frente a la permutación el euskera sigue por encima de las 1.000 (mediana 0,378, percentil 90 0,396); entre lenguas sigue primero, pero casi igualado con el lituano (0,442 frente a 0,438; hausa 0,418). Correspondencias no idénticas más frecuentes: *a*:− 6, *R*:− 5, *i*:*a* 4, −:*a* 4, −:*i* 4, *e*:− 3, *a*:*e* 3, *K*:*R* 2. La previsión se cumple en sus dos términos (percentil 100 y primer puesto), pero la comparación de igual tamaño entre lenguas quita casi toda la separación: hay más regularidad de la que da el azar en los emparejamientos, no claramente más que la de otras lenguas. La prueba no decide entre herencia y préstamo. Nota: la declaración describe los costes de la alineación como «1 por sustitución y 1 por hueco, el mismo coste que la distancia del estudio»; los costes usados son exactamente los de la distancia del estudio (vocal 0,5, consonante 1), que es lo que se quería decir. / **Result.** 38 pairs, 195 columns, 77 non-identical; Basque R′ 0.442; permutation median 0.315, 90th percentile 0.337, none of 1,000 reaches it; first of 32 languages (next Lithuanian 0.385). A check added after seeing the result equalises the number of non-identical columns to 77: still above all 1,000 permutations (median 0.378), but among languages barely first (0.442 against Lithuanian 0.438). Prediction met on both terms; the equal-size comparison removes most of the separation between languages. The test does not decide between inheritance and borrowing. The declaration's "cost 1 and 1" wording was imprecise: the alignment uses exactly the study's distance costs (vowel 0.5, consonant 1).
+
+
+
+**Nota de protocolo (21-11-2026, fase 4d; añadida tras la auditoría).** La declaración mezclaba «costes 1/1» con «la misma medida del estudio» (que pondera las vocales a la mitad); el programa siguió la segunda lectura. La auditoría ejecutó la lectura literal 1/1: R′ 0,422, también por encima de las 1.000 permutaciones. El nulo permuta las candidatas ya seleccionadas (una por significado, la más próxima a su forma ibérica), de modo que es condicional a esa selección; la auditoría repitió la selección en cada emparejamiento permutado y el resultado se conserva (mediana 0,386; ninguna de 1.000 alcanza 0,442). Ambas comprobaciones son de la auditoría (fase 4d) y se citan como tales. / **Protocol note (phase 4d).** The declaration mixed “costs 1/1” with “the study measure”; the program followed the latter. The audit ran the literal 1/1 reading (R′ 0.422, still above all 1,000 permutations) and a null that re-selects the candidate at each permuted pairing (median 0.386; none of 1,000 reaches 0.442): the result stands under both.
+
+## 9. Gradiente de prestabilidad de los significados (declarada el 21-11-2026, antes de ejecutar)
+
+**Programa:** `4_programas/t26_prestabilidad.py`.
+
+**Qué se mide.** Si el parecido con el euskera crece con la estabilidad del significado (lo que predice la herencia) o decrece (lo que predice el préstamo cultural). La tabla 11 ya opone significados estables y poco estables en dos grupos; aquí se usa una escala continua: la puntuación de prestabilidad de cada significado en la base mundial de préstamos (Haspelmath y Tadmor 2009; archivo `cldf/parameters.csv` del repositorio `lexibank/wold`, columna `Borrowed_score`, de 0 a 1, solo significados de la lista central).
+
+**Correspondencia unidad–significado, fijada ahora.** A1 *the silver* 0,509; A2 *the half* 0,158; A5 *all* 0,187; A6 *the price* 0,431; A8 *the ditch* 0,483; A9 *the stable or stall* 0,253; A10 *the calf* 0,210; A11 *the garden* 0,462; A12 *the pasture* 0,358; A13 *the woods or forest* 0,165; A14 *the oak* 0,290; A15 *the side* 0,140; A16 *the tax* 0,590; A17 *to write* 0,289; A18 *the master* 0,383; A19 *the friend* 0,413; A20 *the witness* 0,576; A21 *to give* 0,087; A22 *to let go* 0,119; A24 *the land* 0,268; A25 *the valley* 0,184; A26 *the spring or well* 0,205; A27 *the grass* 0,174; A28 *the road* 0,312; A30 *to make* 0,080; N1 *one* 0,130; N2 *two* 0,231; N3 *three* 0,219; N4 *four* 0,212; N5 *five* 0,228; N6 *six* 0,256; N7 *seven* 0,290; N8 *eight* 0,256; N10 *ten* 0,276; N20 *twenty* 0,226. Sin correspondencia en la lista central (quedan fuera): A3 unidad de cuenta, A4 asiento, A7 finca, A23 prenda, A29 monte bajo. Son 35 unidades. La puntuación se copia a mano de la base el 21-11-2026; el archivo con las 35 filas se publica con el programa.
+
+**Cómo.** Para cada unidad, su valor *z* individual frente al euskera del Wikcionario con los sorteos de `t15` (distancia real menos media de los 500 sorteos, dividida por su desviación), y lo mismo con Open Data Euskadi. Correlación de Spearman entre el *z* individual y la prestabilidad. Referencia: la misma correlación para cada una de las otras lenguas del Wikcionario con candidatas suficientes. Sin sorteos nuevos.
+
+**Previsión y lectura.** Se conoce ya el *z* individual de cada unidad (`t15`), de modo que esta prueba no es ciega respecto a él; lo nuevo es la escala de prestabilidad. La previsión es débil: ρ positiva (los significados más prestables se parecen menos al euskera), entre 0 y 0,4. Lo que contaría a favor de la herencia: ρ > 0,3. A favor del préstamo cultural: ρ < −0,3. Entre −0,3 y 0,3: no concluyente, que es el resultado más probable con 35 unidades casi todas del registro económico.
+
+**Qué se hará con el resultado.** Se publica, sea cual sea, y pasa a la tabla de las explicaciones posibles.
+
+### 9. Borrowability gradient of the meanings (declared on 21 November 2026, before running)
+
+**Program:** `4_programas/t26_prestabilidad.py`.
+
+**What is measured.** Whether similarity to Basque grows with the stability of the meaning (as inheritance predicts) or decreases (as cultural borrowing predicts). Table 11 already opposes stable and unstable meanings as two groups; here a continuous scale is used: the borrowability score of each meaning in the World Loanword Database (Haspelmath & Tadmor 2009; file `cldf/parameters.csv` of the `lexibank/wold` repository, column `Borrowed_score`, 0 to 1, core-list meanings only).
+
+**Unit–meaning mapping, fixed now.** As listed in the Spanish text above (35 units; A3, A4, A7, A23 and A29 have no core-list meaning and are left out). Scores copied by hand from the database on 21 November 2026; the 35-row file is published with the program.
+
+**How.** For each unit, its individual *z* against Wiktionary Basque with the `t15` draws (real distance minus the mean of the 500 draws, divided by their deviation), and the same with Open Data Euskadi. Spearman correlation between the individual *z* and borrowability. Reference: the same correlation for each of the other Wiktionary languages with sufficient candidates. No new draws.
+
+**Prediction and reading.** The individual *z* of each unit is already known (`t15`), so this test is not blind to it; what is new is the borrowability scale. The prediction is weak: positive ρ (more borrowable meanings look less like Basque), between 0 and 0.4. In favour of inheritance: ρ > 0.3. In favour of cultural borrowing: ρ < −0.3. Between −0.3 and 0.3: inconclusive, which is the most likely outcome with 35 units almost all from the economic register.
+
+**What will be done with the result.** Published whatever it is, and entered in the table of possible explanations.
+
+**Resultado (21-11-2026; `resultados/t26_prestabilidad.json`).** ρ de Spearman entre el *z* individual y la prestabilidad: −0,146 con el Wikcionario (34 unidades comparables) y −0,039 con Open Data Euskadi (35). Referencia, 33 lenguas del Wikcionario: mediana −0,004, entre −0,452 y +0,305. Dentro del intervalo declarado como no concluyente (−0,3 a 0,3), que era el resultado previsto como más probable. No apoya la herencia ni el préstamo cultural. / **Result.** Spearman ρ −0.146 (Wiktionary, 34 units) and −0.039 (Open Data Euskadi, 35); reference across 33 Wiktionary languages: median −0.004, range −0.452 to +0.305. Inside the interval declared inconclusive (−0.3 to 0.3), the outcome foreseen as most likely. Supports neither inheritance nor cultural borrowing.
+
+
+
+**Nota de protocolo (21-11-2026, fase 4d; añadida tras la auditoría).** La declaración decía «sin sorteos nuevos» y el programa genera 500 sorteos nuevos con la clave `prestabilidad` (misma regla 4.10): queda registrado como desviación; el plan original se conserva arriba. Y deben distinguirse dos previsiones: la direccional (ρ positiva, entre 0 y 0,4) **no** se cumplió (ρ −0,15 y −0,04); la general (resultado no concluyente entre −0,3 y 0,3, previsto como lo más probable) sí. / **Protocol note (phase 4d).** The declaration said “no new draws” but the program generates 500 new draws with its own key (same 4.10 rule): recorded as a deviation. Two predictions must be distinguished: the directional one (positive ρ) was **not** met; the general one (inconclusive) was.
+
+## 10. Jurado ciego, segunda pregunta: suficiencia de la prueba documental (declarada el 21-11-2026, antes de enviar las fichas)
+
+**Por qué.** La entrada 7 preguntó si el significado puede fijarse «sin recurrir» al parecido con una lengua viva, con la regla de que mencionar un paralelo cuenta como apoyo. Los tres jueces la aplicaron así y uno de ellos señaló que una pregunta distinta, la de si la prueba documental basta *por sí sola* aunque la ficha mencione un paralelo, devolvería seis fichas al nivel II. Son dos preguntas distintas y las dos son informativas: la primera mide la exposición a la objeción de circularidad; la segunda, la suficiencia de la prueba documental. Se hace la segunda con el mismo procedimiento y se publican las dos; la primera no se retira ni se sustituye.
+
+**Qué cambia.** Solo la pregunta y la definición del nivel III en los encargos (`ENCARGO_codificador_suficiencia.md`, `ENCARGO_critico_suficiencia.md`): «Dejando aparte cualquier parecido con una lengua viva que la ficha mencione, ¿bastaría la prueba restante, por sí sola, para fijar la función o el significado del término?»; III = «sin el parecido con una palabra de una lengua viva, la prueba restante no basta». Mismas 42 fichas (`FICHAS_A_CIEGAS.md`), misma clave, mismos tres modelos en sesiones nuevas, mismas reglas (controles, nivel más bajo, respuestas íntegras).
+
+**Previsión.** Que las seis unidades de nivel II con paralelo posterior (A8, A10, A14, A15, A19, A20) y *selki* (A12) vuelvan a II en la clasificación menos favorable, y que las de nivel III del autor (A24–A29, numerales N2–N8) sigan en III. Con esa clasificación, euskera primero en el grupo de niveles I y II con una separación igual o mayor que la de la entrada 7.
+
+**Qué contaría en contra.** Que el jurado mantenga en III, con esta pregunta, más de dos de las seis unidades con paralelo posterior: querría decir que la prueba documental de esas unidades no basta ni siquiera dejando aparte el paralelo. Que el euskera no quede primero en el grupo de niveles I y II.
+
+**Qué se hará con el resultado.** Se publica íntegro junto al de la entrada 7, con `t24` ampliado a las dos clasificaciones; en el artículo se dan las dos filas.
+
+### 10. Blind panel, second question: sufficiency of the documentary evidence (declared on 21 November 2026, before sending the records)
+
+**Why.** Entry 7 asked whether the meaning can be fixed "without recourse" to resemblance with a living language, with the rule that mentioning a parallel counts as support. All three judges applied it so, and one noted that a different question, whether the documentary evidence suffices *on its own* even if the record mentions a parallel, would return six records to level II. These are two different questions and both are informative: the first measures exposure to the circularity objection; the second, the sufficiency of the documentary evidence. The second is run with the same procedure and both are published; the first is neither withdrawn nor replaced.
+
+**What changes.** Only the question and the definition of level III in the briefs (`ENCARGO_codificador_suficiencia.md`, `ENCARGO_critico_suficiencia.md`): "Leaving aside any resemblance to a living language the record mentions, would the remaining evidence suffice, on its own, to fix the function or meaning of the term?"; III = "without the resemblance to a living-language word, the remaining evidence does not suffice". Same 42 records, same key, same three models in fresh sessions, same rules.
+
+**Prediction.** That the six level-II units with a later parallel (A8, A10, A14, A15, A19, A20) and *selki* (A12) return to II in the least favourable classification, and that the author's level-III units (A24–A29, numerals N2–N8) stay III. With that classification, Basque first in the level-I-plus-II group with a separation equal to or larger than in entry 7.
+
+**What would count against.** The panel keeping in III, under this question, more than two of the six units with a later parallel: it would mean their documentary evidence does not suffice even leaving the parallel aside. Basque not first in the level-I-plus-II group.
+
+**What will be done with the result.** Published in full beside entry 7, with `t24` extended to both classifications; the article gives both rows.
+
+**Resultado (21-11-2026, 17:07–17:12; añadido después de recibir las tres respuestas; `2_criterios/jurado/respuestas_suficiencia/`, `resultados/t24_jurado_procedencia_suficiencia.json`).**
+
+*Controles.* Cinco de seis exactos en los tres jueces; U24 otra vez en I para dos de ellos (Mistral la deja en II). Ningún juez excluido.
+
+*Concordancia entre jueces* (36 unidades): Mistral–DeepSeek 25 (κ 0,51), Mistral–Grok 27 (0,59), DeepSeek–Grok 30 (0,73); los tres, 23; κ de Fleiss 0,60 (menor que con la primera pregunta: la pregunta de suficiencia exige más juicio). *Con el autor:* Mistral 20 de 36 (κ 0,28), DeepSeek 19 (0,31), Grok 25 (0,52); clasificación menos favorable, 19 (0,29).
+
+*Contraste con la previsión.* De las seis unidades de nivel II con paralelo posterior, vuelven a II en la clasificación menos favorable **tres** (A10 *bekoŕ*, A15 *alate*, A19 *laku*) y se quedan en III tres (A8 *aŕeka*, A14 *aŕta*, A20 *baites*); *selki* (A12) sigue en III por unanimidad. Se había previsto que volvieran las siete, y se había fijado como contrario «más de dos de las seis en III»: son tres, así que **esa previsión no se cumple**, por poco. Las de nivel III del autor siguen todas en III, como se preveía. Con la clasificación menos favorable, el euskera sigue primero en el grupo de niveles I y II (12 unidades, 11 comparables): −8,63 frente a −3,08 del catalán, separación mayor que la de la primera pregunta (−6,57 frente a −2,23), como se preveía. Con la clasificación de cada juez: Mistral −9,32 (16 unidades; gallego −3,72), DeepSeek −9,47 (13; catalán −3,26), Grok −10,26 (19; gallego −3,81). Nivel III menos favorable (17 comparables): −9,24 (tagalo −4,23).
+
+*Lectura.* Con la pregunta de suficiencia los jueces devuelven a II la mitad de las unidades con paralelo posterior, pero bajan a III otras ocho de nivel II cuya prueba documental es corta (A23 *lekaŕ*, A11 *oŕtin*, A18 *iunstir*, A16 *akari*, A22 *uskeike*, A21 *baŕbin*, A6 *bale*, A13 *saltu*, A12 *selki*): la composición del grupo «limpio» cambia, su tamaño apenas (12 unidades en las dos preguntas), y el resultado estadístico es el mismo en dirección y algo mayor en magnitud. Las dos preguntas se publican juntas y el artículo da las dos filas. / **Result.** Controls 5 of 6 (U24 again I for two judges). Agreement between judges lower than with the first question (Fleiss's κ 0.60). Of the six level-II units with a later parallel, three return to II (A10, A15, A19) and three stay III (A8, A14, A20); *selki* stays III: the prediction fails by one (three kept in III against the "more than two" threshold). The author's level-III units all stay III. Least favourable classification: Basque first in the level-I-plus-II group (12 units, 11 comparable), −8.63 against Catalan −3.08, a larger separation than with the first question, as predicted. The sufficiency question returns half of the later-parallel units to II but lowers eight other level-II units with short documentary evidence; the "clean" group changes in composition, hardly in size, and the statistical result is the same in direction and somewhat larger in magnitude. Both questions are published together and the article gives both rows.
+
+**Corrección (21-11-2026, fase 4f; señalada por la auditoría externa).** Dos imprecisiones del resultado anterior, que se corrigen aquí sin retirar el texto original. (1) Controles: no son «cinco de seis exactos en los tres jueces»; el recuento del cruce (`respuestas_suficiencia/cruce_con_la_clave.tsv`) es Mistral **seis de seis**, DeepSeek y Grok **cinco de seis** (ambos sitúan el control U24 en I; Mistral lo deja en II, que es su nivel). (2) «Esa previsión no se cumple, por poco» rebaja el incumplimiento: la previsión pedía que volvieran a II las siete unidades (las seis con paralelo posterior y *selki*) y no volvieron **cuatro** (A8, A14, A20 y A12); lo que queda a un paso del umbral es solo el criterio contrario declarado («más de dos de las seis en III»), que se alcanza con tres. / **Correction (21 November 2026, phase 4f; flagged by the external audit).** Two inaccuracies in the result above, corrected here without withdrawing the original text. (1) Controls: not "five of six exact for all three judges"; the cross-table count is Mistral **six of six**, DeepSeek and Grok **five of six** (both place control U24 in level I; Mistral keeps it in II, its true level). (2) "That expectation is not met, narrowly" understates the failure: the expectation was that all seven units (the six with a later parallel plus *selki*) would return to level II, and **four** did not return (A8, A14, A20 and A12); only the declared counter-criterion ("more than two of the six in III") is near its threshold, met with three.
+
+## 11. Origen etimológico y fonotaxis de las palabras vascas emparejadas (declarada el 21-11-2026, antes de ejecutar)
+
+**Programa:** `4_programas/t27_etimologia_vasca.py`.
+
+**De dónde viene.** Dos líneas de la bibliografía sobre detección de préstamos: (a) la clasificación etimológica de cada palabra de la lengua receptora (base mundial de préstamos de Haspelmath y Tadmor 2009, que el euskera no tiene); (b) la detección de préstamos por su fonotaxis atípica en una lista monolingüe (Miller, Tresoldi, Zariquiey, Beltrán, Morozova y List 2020, *PLOS ONE* 15(12): e0242709), de rendimiento modesto según sus propios autores. Aquí se usan las dos de la forma más barata posible: el Wikcionario inglés da, para 5.513 lemas vascos, una nota etimológica («Borrowed from Spanish / Latin / French / Occitan…», «Inherited from Proto-Basque», «Unknown»), que no se había usado hasta ahora.
+
+**Pregunta.** Si la semejanza ibérico–euskera se debiera a una fuente latina o romance común, las palabras vascas que mejor emparejan con las unidades ibéricas serían, en proporción anómala, préstamos del latín o del romance. Si se debe a herencia o a contacto antiguo, serían palabras heredadas (del protovasco) o de origen desconocido.
+
+**Cómo.** (1) Cada lema vasco del Wikcionario con nota etimológica se clasifica por regla fija: *préstamo* si la nota empieza por «Borrowed from» o por «From» seguido de español, latín (clásico, tardío, vulgar), francés, occitano, gascón, aragonés, romance, árabe o inglés; *heredado* si contiene «Proto-Basque» o empieza por «Inherited from»; *desconocido* si dice «Unknown» o no encaja; sin nota, *sin dato*. Se publica la tabla de reglas y el recuento. (2) Para cada una de las 40 unidades con candidata vasca (Wikcionario), se toma la candidata a menor distancia (como en `t25`) y su clase etimológica. (3) Se compara la proporción de préstamos entre esas candidatas con la de referencia: la proporción de préstamos entre *todas* las candidatas vascas de esos mismos significados (así se descuenta que el campo económico tenga más préstamos) y entre todos los lemas con nota. Probabilidad por hipergeométrica y por 10.000 sorteos de una candidata al azar por unidad (generador `20261120|etimologia|sorteo`). (4) Control positivo: las cuatro unidades propuestas como préstamos latinos (*bale*, *koŕta*, *oŕtin*, *saltu*) deben emparejar con préstamos. (5) Fonotaxis (Miller y otros 2020, variante mínima): modelo de trigramas de clases de sonidos con suavizado de Kneser–Ney sobre los lemas *heredados* y otro sobre los *préstamos*; para cada candidata emparejada, diferencia de entropía por segmento entre los dos modelos; se da la proporción clasificada como préstamo frente a la de los dos grupos de entrenamiento (validación cruzada de 10 pliegues para calibrar).
+
+**Previsión.** Proporción de préstamos entre las candidatas emparejadas igual o menor que la de referencia (no mayor): es decir, la semejanza no se concentra en los préstamos romances del euskera. Las cuatro unidades latinas emparejan con préstamos (control). La fonotaxis clasifica como heredadas a la mayoría de las candidatas, con la reserva de que el método es débil.
+
+**Qué contaría en contra.** Proporción de préstamos entre las candidatas significativamente mayor que la de referencia (p < 0,05 en la hipergeométrica): apuntaría a una fuente latina o romance común, no a una relación ibérico–vasca.
+
+**Límites conocidos de antemano.** Las notas del Wikcionario son de calidad desigual y algunas mencionan el ibérico (p. ej. *lagun*, *erdi*, *bost*, *hogei*): esa mención no se usa para clasificar (son «desconocido» o «heredado» según la nota) y se publica cuántas candidatas la tienen. Un préstamo antiguo ya nativizado no se distingue de una palabra heredada ni por la etimología del Wikcionario ni por la fonotaxis: la prueba descarta la fuente romance común, no el contacto antiguo.
+
+**Qué se hará con el resultado.** Se publica, sea cual sea, y pasa a la tabla de las explicaciones posibles (fila «contacto»).
+
+### 11. Etymological status and phonotactics of the matched Basque words (declared on 21 November 2026, before running)
+
+**Program:** `4_programas/t27_etimologia_vasca.py`. **Source.** Two lines of the borrowing-detection literature: etymological classification of the recipient language's words (WOLD, which lacks Basque) and detection of borrowings by atypical phonotactics in a monolingual list (Miller, Tresoldi, Zariquiey, Beltrán, Morozova & List 2020, *PLOS ONE* 15(12): e0242709, of modest performance by its authors' own account). The English Wiktionary gives etymology notes for 5,513 Basque lemmas, unused so far. **Question.** If the Iberian–Basque similarity were due to a common Latin or Romance source, the Basque words best matching the Iberian units would be, in anomalous proportion, borrowings from Latin or Romance; under inheritance or ancient contact they would be inherited (Proto-Basque) or of unknown origin. **How.** Fixed classification rule of each note (borrowed / inherited / unknown / no note), published; for each of the 40 units, the closest Basque candidate (as in `t25`) and its class; proportion of borrowings among them against two references (all Basque candidates of the same meanings; all lemmas with a note), hypergeometric probability and 10,000 random draws of one candidate per unit; positive control: the four units proposed as Latin loans must match borrowings; phonotactics: Kneser–Ney trigram models on sound classes trained on inherited and on borrowed lemmas, per-segment entropy difference, 10-fold cross-validation. **Prediction.** Proportion of borrowings among matched candidates equal to or lower than the reference; the four Latin units match borrowings; phonotactics classifies most candidates as inherited, with the caveat that the method is weak. **Against.** A significantly higher proportion of borrowings (p < 0.05): would point to a common Latin/Romance source. **Limits.** Wiktionary notes are uneven and some mention Iberian; that mention is not used to classify and the count is published. A nativised ancient loan is indistinguishable from an inherited word by either criterion: the test rules out a common Romance source, not ancient contact. **Published whatever the outcome.**
+
+**Resultado (21-11-2026, 17:35; `resultados/t27_etimologia_vasca.json`, `.log`).** (1) Recuento con la regla declarada, por formas reducidas distintas: 423 préstamo, 540 heredado, 2.399 desconocido, 1.090 sin dato. (2) Unidades con candidata vasca: 38; con nota etimológica en la candidata más próxima: 32. De ellas, **2 préstamos** (*koŕta*–*borda* «Borrowed from Occitan», *kutu*–*kutun* «From Arabic»), 18 heredadas, 12 desconocidas. (3) Proporción 2/32 = 0,062, frente a 0,105 entre todas las candidatas de los mismos significados y 0,126 en el léxico con nota; hipergeométrica p(≥2) = 0,92; sorteo de una candidata por unidad: media 2,23 préstamos, p(≥2) = 0,72. **La previsión principal se cumple**: la semejanza no se concentra en los préstamos romances del euskera. (4) **El control positivo falla en tres de cuatro**: *koŕta*–*borda* es préstamo, pero *bale*–*balio* no tiene nota (sin dato), *oŕtin*–*lorategi* queda en «desconocido» (compuesto cuya nota, «Etymology tree… Latin flōrem… Basque lore», no encaja en la regla) y *saltu*–*mendi* es heredado (el Wikcionario no ofrece entre las candidatas de «monte, dehesa» un descendiente de *saltus*). El control muestra, pues, que la prueba detecta préstamos solo cuando la candidata más próxima es ella misma el préstamo y tiene nota: su potencia es baja y el resultado favorable de (3) debe leerse con esa reserva. (5) Fonotaxis: modelos sobre 540 heredados y 423 préstamos; validación cruzada de 10 pliegues: acierto 0,839 (heredados) y 0,804 (préstamos); de las 38 candidatas emparejadas, 8 se clasifican como préstamo (A6 *balio*, A8 *erreka*, A9 *borda*, A10 *pika*, A17 *kutun*, A20 *abalkide*, N1 *bat*, N5 *bost*) y 30 como heredadas: la previsión se cumple. Candidatas cuya nota menciona el ibérico: 13 de 38 (*erdi*, *lagun*, *egin* y los diez numerales); la mención no interviene en la clasificación.
+
+**Comprobación posterior, no declarada (añadida tras ver el recuento).** La regla declarada deja en «desconocido» 406 notas que dicen «borrowed from» en posición no inicial (p. ej. «Probably borrowed from Occitan», «Etymology tree… Borrowed from Latin»). Con una regla ampliada (`python3 t27_etimologia_vasca.py amplia`; `t27_etimologia_vasca_amplia.json`): 702 préstamos, 526 heredados; entre las emparejadas, 4/32 = 0,125 préstamos (se añaden *aŕeka*–*erreka* y *bekoŕ*–*pika*) frente a 0,209 en las dos referencias; hipergeométrica p(≥4) = 0,96; sorteo media 6,03, p(≥4) = 0,93; fonotaxis 9 de 38 como préstamo (se añade A11 *lorategi*). El control no cambia (1 de 4). La conclusión de (3) se mantiene con las dos reglas.
+
+**Lectura.** A favor de la previsión: las palabras vascas que mejor emparejan con el léxico ibérico son, en proporción menor que la del léxico vasco en general, préstamos del latín o del romance; una fuente romance común no explica la semejanza. En contra: el control positivo falla, luego la prueba no distingue bien un préstamo cuando la pareja no es el préstamo mismo; y ni la etimología del Wikcionario ni la fonotaxis separan la herencia del contacto antiguo. Pasa a la tabla de las explicaciones posibles (fila «contacto») como prueba débil contra la fuente romance común, no contra el contacto.
+
+**Corrección (21-11-2026, 21:00; versión 2 del programa, tras la auditoría de la fase 4e; las salidas de la versión 1 se conservan como `t27_etimologia_vasca_v1*.json/.log`).** La auditoría encontró dos defectos materiales en la versión 1: (a) la etimología se enlazaba por la forma reducida, que puede mezclar lemas distintos (en *bekoŕ*, la candidata elegible *biga* «becerra» no tiene nota, pero compartía forma reducida con *pika* «urraca», de origen latino, y heredaba su clase); (b) la fonotaxis clasificaba candidatas que estaban en su propio entrenamiento. Versión 2: la clase se decide solo con los lemas cuya glosa hace elegible la candidata; el préstamo se desglosa por donante (la pregunta es la fuente romance o latina: *gutun*, arabismo, no cuenta para ella); la hipergeométrica y los sorteos usan las mismas unidades que el observado y se dan las dos colas; la fonotaxis añade la clasificación con las formas candidatas excluidas del entrenamiento. **Resultado corregido (regla declarada):** 31 unidades con nota elegible; 2 préstamos, de los que **solo 1 es romance o latino** (*koŕta*–*borda*; *kutu*–*gutun* es arabismo); 18 heredadas, 11 desconocidas; proporción 0,065 frente a 0,125 (mismas unidades) y 0,126 (léxico); hipergeométrica p(≥2) = 0,96 y p(≤2) = 0,16: **no se detecta exceso ni déficit**; sorteo media 2,24, p(≥2) 0,72. Regla amplia: 3/31 (romance 2), p(≥3) 0,96, p(≤3) 0,14. Fonotaxis fuera de muestra: 27 de 38 heredadas (con las candidatas en el entrenamiento, versión 1: 30). Control: sin cambios (1 de 4), y deja de llamarse «potencia»: las cuatro unidades son préstamos propuestos, no un patrón oro de las candidatas vascas. **Lectura corregida:** t27 no detecta un exceso de préstamos con sus reglas y referencia; el control incompleto y la incertidumbre de las etiquetas impiden excluir o cuantificar una fuente común. No se sostiene «indicio débil contra la fuente romance común». / **Correction (version 2, after the phase-4e audit; v1 outputs kept).** Etymology now joined by the lemma whose gloss makes the candidate eligible (v1 could inherit another lemma's note through the shared reduced form, e.g. *biga*/*pika*); borrowed split by donor (only 1 of 31 is Romance/Latin: *borda*; *gutun* is an Arabism); null over the same units with both tails (p(≥2) = 0.96, p(≤2) = 0.16: no excess and no deficit detected); phonotactics out of sample: 27 of 38 inherited. Control unchanged (1 of 4) and no longer called "power". Corrected reading: t27 detects no excess of borrowings under its rules and reference; the incomplete control and label uncertainty prevent excluding or quantifying a common source. / **Result (21 November 2026, 17:35).** Declared rule: 423 borrowed, 540 inherited, 2,399 unknown, 1,090 no note (distinct reduced forms). 38 units with a Basque candidate, 32 with a note on the closest one: **2 borrowings** (*koŕta*–*borda*, Occitan; *kutu*–*kutun*, Arabic), 18 inherited, 12 unknown. Proportion 2/32 = 0.062 against 0.105 (all candidates of the same meanings) and 0.126 (lexicon with a note); hypergeometric p(≥2) = 0.92; one random candidate per unit: mean 2.23, p(≥2) = 0.72. **Main prediction holds.** **Positive control fails in three of four**: *koŕta*–*borda* borrowed, but *bale*–*balio* has no note, *oŕtin*–*lorategi* stays "unknown" (compound; note does not fit the rule) and *saltu*–*mendi* is inherited (no descendant of *saltus* among Wiktionary's candidates for the meaning): the test detects a borrowing only when the closest candidate is itself the borrowing and carries a note; low power, so the favourable result must be read with that caveat. Phonotactics: 540 inherited and 423 borrowed forms; 10-fold cross-validation accuracy 0.839 / 0.804; 8 of 38 matched candidates classified as borrowed (A6, A8, A9, A10, A17, A20, N1, N5), 30 as inherited: prediction holds. 13 of 38 candidates have a note mentioning Iberian (*erdi*, *lagun*, *egin*, the ten numerals); the mention plays no part in the classification. **Post hoc check, not declared:** a broader rule catching "borrowed from" in any position (406 notes missed by the declared rule; `amplia`): 702 borrowed, 526 inherited; matched 4/32 = 0.125 against 0.209; p(≥4) = 0.96 (hypergeometric), 0.93 (draws); phonotactics 9 of 38; control unchanged. **Reading:** weak evidence against a common Romance source; none against ancient contact. Enters the table of possible explanations ("contact" row).
+
+---
+
+## 12. Sufijos: función fijada a ciegas y forma comparada (declarada el 21-11-2026, antes de ejecutar; segundo artículo)
+
+**Programa:** `4_programas/t29_sufijos.py` (por escribir). **Material.** Todo el corpus de Hesperia (1.599 inscripciones, unas 3.000 palabras). Antropónimo = palabra que empieza por dos formantes del índice de Rodríguez Ramos 2014 (168 formantes, no del autor); lo que sigue es un sufijo. Recuento previo a la declaración, publicado aquí: 115 antropónimos con sufijo, 51 sufijos distintos, recurrentes solo *-e* (8), *-en* (3), *-ar*, *-te*, *-ka*, *-ki* (2 cada uno). Se añaden los sufijos con función propuesta en la bibliografía (no por el autor; Moncunill y Velaza 2017; Orduña 2009; Ferrer i Jané 2009): *-te*, *-en/-ar*, *-ḿi*, *-ka*, *-e*, *-ai/-ei*, *-sken/-ken*, *-ban*, *-erter*. [Ampliación del 21-11-2026, antes de ejecutar: se incorpora *-ai/-ei* (destinatario; Monografía IV y bibliografía citada allí). El paradigma verbal *-(e)ŕok-* (Orduña 2023, *FLV* 136, que lo compara con *eŕaukon* y con el auxiliar tripersonal vasco) y *ekiar* se tratarán en el segundo artículo solo descriptivamente, con la bibliografía: no entran en la prueba de forma, porque su comparación vasca ya está publicada y la prueba dejaría de ser ciega.] **Cómo.** (1) Para cada sufijo, una ficha ciega de distribución (tras qué clase de palabra, en qué soporte, junto a qué), sin el sufijo ni ninguna lengua; un jurado ciego (procedimiento de la entrada 7) asigna una función de lista cerrada (agente, poseedor, destinatario, étnico, primera persona, determinante, fracción, indeterminable). Entran en la prueba solo los sufijos cuya función fija el jurado. (2) Distancia del estudio (clases SCA) entre cada sufijo ibérico y el sufijo vasco de esa función (fuente: gramática histórica de referencia, por verificar: Trask 1997; Hualde y Ortiz de Urbina 2003), frente a (a) permutación de funciones entre los sufijos vascos (10.000; generador `sufijos|permutacion`) y (b) la misma distancia con los sufijos de caso de otras lenguas aglutinantes con inventario publicado (turco, húngaro, estonio, georgiano, quechua), tomados de gramáticas, no de diccionarios. **Previsión.** Con 6–9 sufijos la potencia es mínima: lo más probable es «no concluyente». Contaría a favor: euskera primero entre las lenguas de referencia y distancia media por debajo del percentil 10 de la permutación. Contaría en contra: euskera no primero, o percentil > 50. **Límites de antemano.** Las funciones ibéricas son discutidas; la correspondencia *-ḿi* / *ni* ya se conocía (se da con y sin ella); el inventario vasco de sufijos es de la lengua histórica, no del siglo III a. C. **Qué se hará.** Se publica, sea cual sea; entra en el segundo artículo; en el primero, a lo sumo una frase con la cita.
+
+**Resultado (21-11-2026, 19:55; `2_criterios/jurado/sufijos/respuestas/`, `resultados/t29_sufijos.json`).** (1) Jurado de funciones (tres jueces, fichas v2 sin la interpretación de la bibliografía): por mayoría quedan fijadas seis funciones — *-te* agente (3/3), *-en* poseedor (3/3), *-ar* poseedor (2/3), *-sken/-ken* étnico (3/3), *-ban* determinante (2/3), *-erter* fracción (3/3) — y quedan indeterminables *-ḿi*, *-ka*, *-e* y *-ai/-ei* (con ello la correspondencia *-ḿi*/*ni*, la más citada, queda fuera de la prueba por decisión del propio jurado ciego). (2) Prueba de forma con los exponentes vascos de esas funciones (ergativo *-k*, genitivo *-(r)en*, gentilicio *-(t)ar*, determinante *-a*, «mitad» *erdi*; Trask 1997; Hualde y Ortiz de Urbina 2003): distancias *te*–*k* 1,20; **-en–-(r)en 0,00**; *ar*–*en* 1,00; *sken*–*tar* 1,17; *ban*–*a* 1,33; **erter–erdi 0,43**; media real 0,855 frente a mediana 1,060 de 10.000 permutaciones de los exponentes entre las funciones: **percentil 9**, por debajo del umbral declarado (percentil 10), aunque no significativo al 5 %. La señal procede de dos pares (genitivo y fracción); los otros cuatro no se parecen. **Desviación anotada:** la comparación con las lenguas de referencia (turco, húngaro, estonio, georgiano, quechua) exige inventarios tomados de gramáticas verificadas y queda pendiente para la revisión del artículo II; el plan la declaraba y no se ha ejecutado aún. **Lectura.** Con seis sufijos la potencia es mínima, como se previó; el dato es un indicio débil en la dirección favorable, sostenido por el genitivo (idéntico) y la fracción (próxima), y queda a la espera de la referencia entre lenguas. / **Result.** The blind panel fixed six functions (and left *-ḿi*, *-ka*, *-e*, *-ai* indeterminable, excluding the most-cited *-ḿi*/*ni* pair by its own decision). Form test against the Basque exponents: mean distance 0.855 vs 1.060 permutation median (10,000), **9th percentile** — below the declared bar (10) though not significant at 5 %; the signal comes from the genitive (*-en* ~ *-(r)en*, identical) and the fraction (*erter* ~ *erdi*). Deviation recorded: the reference-language comparison awaits verified grammar inventories and will run in the article-II revision.
+
+### 12. Suffixes: function fixed blind and form compared (declared on 21 November 2026, before running; second article)
+
+Program `4_programas/t29_sufijos.py` (to be written). Whole Hesperia corpus; personal name = word beginning with two formants of Rodríguez Ramos 2014 (168); what follows is a suffix. Pre-declaration count, published here: 115 suffixed names, 51 distinct suffixes, recurrent only *-e* (8), *-en* (3), *-ar*, *-te*, *-ka*, *-ki* (2 each); plus the suffixes with a function proposed in the literature (not by the author). A blind panel (entry 7 procedure) assigns each suffix a function from a closed list from a blind distribution record; only suffixes with a fixed function enter. Study distance between each Iberian suffix and the Basque suffix of that function (historical grammar, to verify), against 10,000 permutations of functions among Basque suffixes (generator `sufijos|permutacion`) and against the case suffixes of Turkish, Hungarian, Estonian, Georgian and Quechua from grammars. **Prediction:** most likely inconclusive (6–9 suffixes). For: Basque first and mean distance below permutation percentile 10. Against: Basque not first or percentile > 50. Limits: Iberian functions are debated; *-ḿi*/*ni* was already known (given with and without it); Basque inventory is historical, not 3rd c. BC. Published whatever the outcome; enters the second article.
+
+---
+
+## 13. Predicción prospectiva del significado desde el euskera, juzgada a ciegas (declarada el 21-11-2026, antes de ejecutar; segundo artículo)
+
+**Programa:** `4_programas/t28_prediccion_prospectiva.py`. **Por qué.** Todas las pruebas anteriores son retrospectivas: parten de significados ya propuestos. Esta invierte el orden: el significado lo predice la lengua, y un jurado ciego juzga si encaja en la casilla documental. No usa ningún significado propuesto por el autor. **Material.** (a) Las 36 unidades con ficha (30 de los plomos, 6 numerales con ficha): se usa la ficha de la entrada 7 **despojada de toda frase que empiece por «El autor propone» o que dé el valor o significado propuesto** (regla mecánica publicada con el programa; las fichas resultantes se publican antes de enviarlas). (b) Las palabras de Hesperia con 3 o más apariciones en 2 o más inscripciones, de 4 o más signos, que no sean antropónimo (dos formantes) ni formante ni una de las 40 unidades: recuento previo, 21 candidatas, de las que se excluyen a mano y antes de calcular las que la bibliografía tiene por antropónimos (*śaleitaŕtin*, *ḿltunśor*, *balkar*, *bilo*, *luki*, *oskar*, *baitolo*, *ildiŕ*, *aiunin*) y la variante de una unidad (*iustir*); quedan 11 (*tike*, *ŕuba*, *banḿi*, *ebanen*, *baka*, *kaka*, *eŕiar*, *baika*, *ḿiata*, *balkei*, *beii*), con ficha de distribución construida mecánicamente (soportes, posición en el texto, vecinos marcados como nombre / numeral / unidad / otro) y publicada. **Cómo.** Para cada palabra, cuatro significados candidatos: el del lema **vasco** más próximo (Wikcionario, todo el diccionario, sin restricción de significado; distancia del estudio; empate → orden alfabético), el del lema **gallego** más próximo, el del lema **latino** más próximo (mismo criterio), y el de un lema vasco **al azar** (generador `prospectiva|azar|<id>`). Los cuatro se presentan en orden al azar (generador `prospectiva|orden|<id>`) con letras A–D; la clave (qué letra es qué lengua) se publica como SHA-256 antes de enviar y en claro después. Tres modelos de tres fabricantes (los de la entrada 7, sesiones nuevas) reciben las fichas y los cuatro candidatos y eligen el que mejor encaja, o «ninguno». **Medida.** Número de unidades en que la elección es el candidato vasco, frente a la binomial con p = 1/4 (si se admite «ninguno», p = 1/5), por juez y por mayoría de los tres; lo mismo para el gallego y el latín. **Previsión.** Si el parecido ibérico–euskera refleja relación, el candidato vasco se elige más que 1/4: previsión, euskera elegido por mayoría en al menos el 40 % de las 36 unidades (p binomial < 0,05) y más que el gallego y el latín. En las 11 palabras de Hesperia la previsión es más débil (fichas mecánicas, palabras cortas): euskera por encima de 1/4, sin exigir significación. **Qué contaría en contra.** Euskera en 1/4 o menos, o no por encima del gallego y el latín. **Límites de antemano.** Las fichas describen la distribución con palabras del autor (aunque sin su propuesta); la segmentación de las unidades es del autor; el vecino más próximo en todo el diccionario es a menudo un homófono casual, por lo que la prueba es conservadora. **Qué se hará.** Se publican respuestas íntegras, clave y cruce, sea cual sea el resultado.
+
+**Nota de diseño (21-11-2026, 19:05; detectada tras enviar las fichas, con las respuestas de dos de los tres jueces ya recibidas y un recuento preliminar hecho; se registra antes de la puntuación final).** En la ficha U10, una de las glosas señuelo menciona el euskera («any language other than basque…», la glosa inglesa de *erdara*): no identifica la candidata vasca de las demás fichas, pero rompe la ceguera de esa ficha y revela que el euskera interviene en el estudio. El resultado se dará con y sin U10. / **Design note (detected after sending; two of the three answers had already arrived and a preliminary count had been made; recorded before the final scoring).** In record U10 a decoy gloss mentions Basque (the English gloss of *erdara*): it breaks that record's blindness and reveals that Basque is involved. Results will be given with and without U10.
+
+**Resultado (21-11-2026, 19:45; `2_criterios/jurado/prospectiva/respuestas/`, `resultados/t28_prediccion_prospectiva.json`).** Tres jueces (Mistral, chat temporal; Grok, modo Fast; DeepSeek, Pensamiento Profundo sin búsqueda), 47 fichas cada uno. **Unidades (36):** el candidato **vasco** es el más elegido por los tres jueces: Mistral 16 (gallego 6, latín 3, azar 5, ninguno 6; p binomial frente a 1/5: 0,0008), Grok 15 (1, 1, 6, 13; p 0,0025), DeepSeek 12 (8, 1, 4, 11; p 0,0424). Por mayoría de los tres: euskera 12, gallego 3, latín 1, azar 4, ninguno 10, sin mayoría 6; p(≥12) = 0,0424. **La previsión declarada se cumple a medias:** el euskera queda por encima del gallego y del latín en los tres jueces y la binomial es significativa (p < 0,05 en todos), pero la mayoría alcanza el 33 % de las unidades, no el 40 % previsto. Sin la ficha U10 (nota de diseño): euskera 12 por mayoría de 35, p 0,0344; ningún juez eligió el candidato vasco de U10, de modo que la fuga no favoreció al euskera. **Palabras nuevas de Hesperia (11):** euskera 4 por mayoría (36 %, frente al 25 % de azar; Grok 6 de 11, p 0,012; Mistral y DeepSeek 3), como la previsión débil pedía (por encima de 1/4, sin exigir significación). **Lectura.** Es la única prueba de los dos trabajos que no usa ningún significado propuesto por el autor: jueces ciegos, eligiendo solo por el encaje del significado en la casilla documental, prefieren el candidato vasco al gallego, al latino y al vasco al azar, en las 36 unidades y (más débilmente) en 11 palabras que el autor nunca analizó. El tamaño del efecto es moderado (un tercio de las unidades) y la previsión del 40 % no se alcanzó: queda escrito. / **Result.** Three blind judges choosing only by fit to the documentary slot prefer the **Basque** candidate in all three cases (16, 15 and 12 of 36; binomial p 0.0008, 0.0025, 0.0424 against 1/5), far above Galician (max 8) and Latin (max 3); by majority, Basque 12 of 36 (33 %), p 0.0424 — the declared 40 % bar was **not** reached, the significance and the superiority over both controls were. Without U10 the result holds (p 0.0344; no judge chose U10's Basque candidate). Hesperia words: Basque 4 of 11 by majority, above chance as the weak prediction asked. This is the only test in either paper that uses no meaning proposed by the author; effect moderate, recorded as is.
+
+### 13. Prospective prediction of meaning from Basque, judged blind (declared on 21 November 2026, before running; second article)
+
+Program `t28_prediccion_prospectiva.py`. Reverses the order of all previous tests: the language predicts the meaning and a blind panel judges whether it fits the documentary slot; **no meaning proposed by the author is used**. Material: the 36 units with a record, using the entry-7 record stripped mechanically of every sentence beginning "El autor propone" or giving the proposed value; and 11 Hesperia words (≥ 3 attestations in ≥ 2 inscriptions, ≥ 4 signs, not a name, formant or unit; 21 pre-count, names and one unit variant excluded by hand before computing) with mechanically built distribution records. For each word, four candidate meanings: closest **Basque** lemma (whole Wiktionary, no meaning restriction, study distance, tie → alphabetical), closest **Galician**, closest **Latin**, and a **random** Basque lemma (generator `prospectiva|azar|<id>`); shuffled A–D (generator `prospectiva|orden|<id>`); key committed as SHA-256 before sending. Three models of three vendors choose the best-fitting candidate or "none". Measure: units where the Basque candidate is chosen, against binomial p = 1/4 (1/5 with "none"), per judge and by majority; same for Galician and Latin. **Prediction:** Basque chosen by majority in ≥ 40 % of the 36 units (binomial p < 0.05) and above Galician and Latin; for the 11 Hesperia words, above 1/4 without requiring significance. **Against:** Basque at 1/4 or below, or not above Galician and Latin. Limits: records are worded by the author (without his proposal); segmentation is the author's; whole-dictionary nearest neighbours are often chance homophones, so the test is conservative. Full answers, key and cross-check published whatever the outcome.
+
+---
+
+**Nota (21-11-2026, fase 4f; tras la revisión del diseño por la auditoría externa).** Además de la fuga de la ficha U10 ya anotada, la auditoría señaló: el nulo de la binomial dependía del resultado observado (1/4 o 1/5 según hubiera «ninguno»); dos fichas ofrecían dos candidatos con glosa idéntica (U29, H04); y tres fichas quedaban sin distribución (U14, U37, U40). El resultado de esta entrada se conserva íntegro y pasa a leerse como **piloto**; la versión corregida, con fichas nuevas y jueces en sesiones nuevas, es la entrada 15. / **Note (21 November 2026, phase 4f; after the external audit's design review).** Besides the U10 leak already noted, the audit flagged: the binomial null depended on the observed outcome (1/4 or 1/5 depending on whether "none" occurred); two records offered two candidates with identical glosses (U29, H04); and three records had no distribution text (U14, U37, U40). The result of this entry is kept in full and is now read as a **pilot**; the corrected version, with new records and judges in fresh sessions, is entry 15.
+
+## 14. Prueba de cloze con modelos primados como hablantes (declarada el 21-11-2026, antes de ejecutar; segundo artículo)
+
+**Programa:** `4_programas/t30_cloze.py` (puntuación). **Qué.** Para cada una de las 36 unidades, la ficha despojada de la entrada 13 con la indicación de que el término está tachado; se pide al modelo que proponga la forma más probable del término *en la lengua antigua*, en tres condiciones, cada una en sesión nueva: (A) primado como hablante nativo de euskera e historiador de la economía antigua, al que se le dice que la lengua antigua podría estar relacionada con la suya; (B) igual, como hablante de gallego; (C) sin primado lingüístico. Un modelo por condición y fabricante (tres fabricantes). **Medida.** Distancia del estudio entre la forma propuesta (reducida a clases) y la forma ibérica real; referencia: distancia a 1.000 palabras al azar del diccionario de la lengua primada de la misma longitud (generador `cloze|azar|<id>`); se da el percentil de la propuesta y la proporción de unidades en que la propuesta queda por debajo de la mediana del azar. **Previsión.** Débil: condición A por debajo de la mediana del azar en más del 50 % de las unidades y por debajo de B y C. **Qué contaría en contra.** A no mejor que C, o A no mejor que B. **Límites de antemano.** Los modelos pueden conocer las comparaciones vasco-ibéricas publicadas (sobre todo numerales): se da el resultado con y sin los numerales y sin las unidades cuya nota del Wikcionario menciona el ibérico (entrada 11); un acierto puede ser memoria y no predicción, por lo que esta prueba vale como control de las anteriores, no como prueba independiente. **Qué se hará.** Se publican las respuestas íntegras y la puntuación, sea cual sea.
+
+### 14. Cloze test with models primed as speakers (declared on 21 November 2026, before running; second article)
+
+Program `t30_cloze.py`. For each of the 36 units, the stripped record of entry 13 with the term struck out; the model proposes the most probable form of the term in the ancient language under three conditions, each a fresh session: (A) primed as a native Basque speaker and ancient-economy historian told the language may be related to theirs; (B) same as a Galician speaker; (C) no linguistic priming; one model per condition and vendor (three vendors). Measure: study distance between the proposed form (reduced) and the real Iberian form; reference: 1,000 random same-length words of the primed language (generator `cloze|azar|<id>`); percentile and share of units below the chance median. **Prediction (weak):** A below the chance median in > 50 % of units and below B and C. **Against:** A not better than C or B. Limits: models may know published Basque–Iberian comparisons (numerals above all): results given with and without numerals and without units whose Wiktionary note mentions Iberian; a hit may be memory, not prediction, so this is a control, not independent evidence. Published whatever the outcome.
+
+
+## 15. Predicción prospectiva, versión 2 (declarada el 21-11-2026, antes de enviar las fichas; segundo artículo)
+
+**Programa:** `4_programas/t28_prediccion_prospectiva.py` (`preparar2` / `puntuar2`). **Fichas y clave:** `2_criterios/jurado/prospectiva_v2/`.
+
+**Por qué.** Corrige los cuatro defectos de diseño de la entrada 13 señalados por la auditoría (véase su nota): nulo dependiente del resultado, glosa que mencionaba una lengua (U10), glosas duplicadas (U29, H04) y fichas sin distribución (U14, U37, U40). Las respuestas de la entrada 13 quedan como piloto.
+
+**Qué cambia.** (a) Nulo prefijado: la binomial usa siempre p0 = 1/5, porque el encargo ofrece «ninguno». (b) Regla mecánica nueva: ningún candidato puede tener una glosa que mencione una lengua (expresión regular publicada en el programa); el vecino pasa al siguiente lema elegible y el señuelo al azar se vuelve a sortear. (c) Las cuatro glosas de cada ficha deben ser distintas (si no, el siguiente lema elegible / nuevo sorteo). (d) Las fichas que el despojo dejaba vacías llevan el recuento mecánico de apariciones en el corpus. Semillas nuevas (`prospectiva2`). Encargo idéntico al de la entrada 13, en sesiones nuevas de los mismos tres fabricantes. SHA-256 de la clave, publicado antes de enviar: `7e790826b033465a4196a9e64236983c2477a26cd1cc70353b58e86e5f9e216c`.
+
+**Previsión.** La de la entrada 13, con el nulo prefijado: candidato vasco el más elegido por cada juez (p binomial < 0,05 frente a 1/5) y por encima del gallego y del latín; por mayoría, euskera en al menos el 40 % de las 36 unidades; en las 11 palabras de Hesperia, euskera por encima de 1/5 sin exigir significación. Las 36 unidades son un grupo retrospectivo (el control de memoria de la entrada 14 muestra que los modelos pueden reconocer el corpus y recordar las ecuaciones publicadas aunque no vean letras); las 11 palabras de Hesperia, ajenas a la bibliografía, son el grupo principal.
+
+**Qué contaría en contra.** Euskera no primero en algún juez; o p ≥ 0,05 en los tres; o euskera por debajo del gallego o del latín.
+
+**Ampliación (21-11-2026, antes de enviar las fichas).** Al revisar las fichas generadas se vio que la regla de elegibilidad dejaba pasar glosas metalingüísticas, que remiten a otra forma u ortografía en lugar de dar un significado («reintegrationist spelling of *xaspe*», «scribal abbreviation of *vidēlicet*», «dative indefinite/singular of *borda*»…). Se añade a la regla, antes de enviar nada: tampoco es elegible una glosa que case con la expresión regular `GLOSA_META` publicada en el programa. Fichas regeneradas; nuevo SHA-256 de la clave: `1134021715116b4a03388dc999aeb4e5c2c647dbb3bd0440f0c19d40e764908a`. / **Amplification (21 November 2026, before sending).** The eligibility rule let through metalinguistic glosses, which point to another form or orthography instead of giving a meaning ("reintegrationist spelling of *xaspe*", "scribal abbreviation of *vidēlicet*", "dative indefinite/singular of *borda*"…). Added to the rule before anything was sent: a gloss matching the published `GLOSA_META` regular expression is not eligible either. Records regenerated; new key SHA-256: `1134021715116b4a03388dc999aeb4e5c2c647dbb3bd0440f0c19d40e764908a`.
+
+**Qué se hará con el resultado.** Se publica íntegro junto al piloto (respuestas, clave en claro y cruce); el artículo II da los dos resultados, marcando el piloto como tal.
+
+### 15. Prospective prediction, version 2 (declared on 21 November 2026, before sending the records; second article)
+
+Program `t28_prediccion_prospectiva.py` (`preparar2` / `puntuar2`); records and key in `2_criterios/jurado/prospectiva_v2/`. Fixes the four design defects of entry 13 flagged by the audit (outcome-dependent null; a gloss mentioning a language, U10; duplicate glosses, U29 and H04; empty records, U14, U37, U40), whose answers remain as a pilot. Changes: fixed null p0 = 1/5 (the brief offers "none"); no candidate may have a gloss mentioning a language (published regular expression; next eligible lemma / redraw); the four glosses of a record must be distinct; empty records carry the mechanical corpus count. New seeds (`prospectiva2`); identical brief, fresh sessions, same three vendors. Key SHA-256, published before sending: `7e790826b033465a4196a9e64236983c2477a26cd1cc70353b58e86e5f9e216c`. Prediction as in entry 13 with the fixed null: Basque candidate first for every judge (binomial p < 0.05 against 1/5) and above Galician and Latin; by majority, Basque in at least 40 % of the 36 units; in the 11 Hesperia words, Basque above 1/5 with no significance required. The 36 units are retrospective (the memory control of entry 14 shows models can recognise the corpus without seeing letters); the 11 Hesperia words, absent from the literature, are the primary group. Against: Basque not first for some judge, or p ≥ 0.05 for all three, or Basque below Galician or Latin. The result is published in full beside the pilot; article II gives both, marking the pilot as such.
+
+## Nota sobre las entradas 12 a 15 (21-11-2026, 20:35): aplazamiento del segundo artículo
+
+Por decisión del autor, el segundo artículo (morfología y predicción) queda aplazado y el trabajo se centra en el primero. Las entradas 12 a 15 **no se retiran**: sus declaraciones, fichas, claves y resultados ya recibidos permanecen publicados tal como están. Estado en el momento del aplazamiento: entrada 12 (sufijos), resultado publicado, comparación con lenguas de referencia pendiente; entrada 13 (predicción prospectiva), piloto; entrada 14 (cloze), 6 de 9 condiciones recogidas y puntuación parcial; entrada 15 (predicción prospectiva v2), 1 de 3 jueces (DeepSeek); los envíos a Mistral y Grok quedaron sin respuesta por los límites de uso de sus planes. Si el trabajo se retoma, se completarán con los mismos materiales y claves; si se retoma con materiales nuevos, se declarará como entrada nueva. El primer artículo no usa ningún resultado de estas entradas. / **Note on entries 12–15 (21 November 2026): the second article is postponed.** Entries 12–15 are not withdrawn; declarations, records, keys and results received so far remain published as they are (12: result published, reference-language comparison pending; 13: pilot; 14: 6 of 9 conditions, partial scoring; 15: 1 of 3 judges). If resumed, they will be completed with the same materials and keys; new materials will be declared as a new entry. The first article uses none of these results.
+
+
+## 16. Reclasificación de tres entradas de la tabla 5 de la Monografía IV (declarada el 21-11-2026, 23:05, antes de ejecutar; artículo I)
+
+**Qué ha cambiado.** Después del dictamen CONFORME del artículo I (v38), el autor ha reclasificado en la edición final de la Monografía IV tres entradas de la tabla 5, que pasan de «sin paralelo vasco» a «posible correspondencia de Nivel C» señalada después de obtenido el significado: A07 *baśir* (vasc. *baserri*), A17 *kutu* / *kutur* (vasc. *gutun*) y A18 *iunstir* (vasc. *jaun*). La clase de obtención no cambia (las tres siguen en la clase (a)). En la numeración del artículo son A7, A17 y A18; A7 y A18 son de nivel II y A17 de nivel I.
+
+**Qué se mide.** Solo el apartado (c) del programa `t15_solidez_unidades.py` para los grupos que dependen de esa clasificación, con la misma tabla de sorteos (500), las mismas lenguas del Wikcionario y la misma definición de valor z: (i) nivel II con correspondencia vasca señalada después: pasa de 6 unidades (A8, A10, A14, A15, A19, A20) a 8 (más A7 y A18); (ii) nivel II sin correspondencia señalada: de 13 a 11; (iii) lo mismo sin los cuatro préstamos latinos: de 9 a 7. Programa nuevo: `4_programas/t31_reclasificacion_m4.py`, que importa las funciones de t15 sin modificarlas y reproduce también los tres grupos originales como comprobación (deben dar −7,3, −4,4 y −3,2 del artículo v38).
+
+**Previsión.** El resultado global no cambia por construcción (mismas unidades y significados). Grupo (i): euskera primero, con z ≤ −5. Grupo (ii): euskera sin separación clara de la lengua siguiente (diferencia menor de 1,5), como en la clasificación original.
+
+**Qué contaría en contra.** Que en el grupo (i) el euskera no quede primero, o que la comprobación no reproduzca los valores de la v38.
+
+**Qué se hará.** El análisis original (clasificación registrada antes de los resultados) sigue siendo el principal en el artículo; el nuevo se añade como variante, con la fecha de la reclasificación, sea cual sea el resultado.
+
+### 16. Reclassification of three entries of Monograph IV table 5 (declared on 21 November 2026, 23:05, before running; article I)
+
+After the CONFORME verdict on article I (v38), the author reclassified three entries in the final edition of Monograph IV, table 5, from "no Basque parallel" to "possible Level C correspondence" noted after the meaning was obtained: A07 *baśir* (Basque *baserri*), A17 *kutu*/*kutur* (*gutun*) and A18 *iunstir* (*jaun*); their class of origin stays (a). Measured: only part (c) of `t15_solidez_unidades.py` for the groups that depend on that classification (same 500 draws, same Wiktionary languages, same z): level II with a later Basque correspondence (6 → 8 units, adding A7 and A18); level II without (13 → 11); the same without the four Latin loans (9 → 7). New program `t31_reclasificacion_m4.py` imports t15 unchanged and also reproduces the three original groups as a check (must give −7.3, −4.4, −3.2 as in v38). **Prediction:** global result unchanged by construction; group (i) Basque first with z ≤ −5; group (ii) Basque not clearly separated from the next language (difference < 1.5). **Against:** Basque not first in group (i), or the check failing to reproduce v38. The original analysis remains primary in the article; the variant is added with the date of the reclassification, whatever the outcome.
+
+**Resultado (21-11-2026, 23:20; `resultados/t31_reclasificacion_m4.json`).** La comprobación reproduce la v38: con la clasificación original, −7,27 (6 unidades; siguiente, el gallego, −2,83), −4,43 (13; tagalo −4,25) y −3,15 (9; albanés −2,41). Con la reclasificación: **nivel II con correspondencia (8 unidades): euskera primero, −8,17; siguiente, el gallego, −3,08. Nivel II sin correspondencia (11; 10 comparables): el euskera queda segundo, −3,44, tras el tagalo, −4,56. Sin los préstamos latinos (7; 6 comparables): euskera −1,85, segundo tras el hawaiano, −1,95.** Las dos previsiones se cumplen (grupo i primero con z ≤ −5; grupo ii sin separación clara). **Lectura.** La reclasificación no cambia el resultado global y refuerza la concentración ya descrita en la v38: el valor del nivel II procede de las unidades en que el autor señala una correspondencia vasca; en las que quedan sin ella, el euskera no se distingue de otras lenguas. Como esa división depende en parte del propio parecido con el euskera, describe dónde está el parecido, no si la clasificación es independiente. / **Result.** The check reproduces v38 (−7.27, −4.43, −3.15). With the reclassification: level II with correspondence (8 units) Basque first, −8.17 (next Galician −3.08); without (11; 10 comparable) Basque second, −3.44, behind Tagalog −4.56; without the Latin loans (7; 6 comparable) Basque −1.85, second behind Hawaiian −1.95. Both predictions met. The global result is unchanged and the concentration already described in v38 is sharper: the level II value comes from the units with a noted Basque correspondence; in those left without one, Basque does not stand out. Since the split partly depends on resemblance to Basque itself, it describes where the resemblance lies, not whether the classification is independent.
+
+## Nota sobre las horas de la entrada 16 (22-11-2026)
+
+Las horas escritas a mano en los encabezamientos de la entrada 16 (23:05) y en su nota de resultado (23:20) no coinciden con las de los commits, que son las verificables: declaración, commit `2694d28`, 21-11-2026 22:56:34 (hora de Madrid, UTC+01:00); programa y resultado, commit `da4b512`, 21-11-2026 22:58:41. El orden (declaración antes de la ejecución) no cambia y fue comprobado en el grafo de Git por la revisión externa 4H (`docs/auditoria_externa/cierre_4h_v41_conforme.zip`). Las anotaciones originales se dejan como están; para la cronología valen las horas de Git. / **Note on the times of entry 16 (22 November 2026).** The hand-written times in entry 16 (23:05) and its result note (23:20) do not match the commits, which are the verifiable ones: declaration `2694d28`, 21 Nov 2026 22:56:34 (Madrid, UTC+01:00); program and result `da4b512`, 22:58:41. The order (declaration before running) is unchanged and was checked on the Git graph by external review 4H. The original annotations are left as they are; Git times govern the chronology.
+
+
+## 17. Mapa de distancias entre lenguas para el léxico de los plomos (declarada el 22-11-2026, antes de ejecutar; artículo I)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Propósito.** Representación descriptiva, sin contraste ni conclusión: dónde quedan el ibérico de los plomos y el euskera entre sí y respecto de otras lenguas cuando se mide, todas contra todas, la distancia en el mismo léxico. Es el equivalente lingüístico de los mapas de distancia genética (todas las poblaciones contra todas, proyectadas en dos ejes).
+
+**Programa.** `4_programas/t32_mapa_distancias.py` (nuevo). Salidas: `resultados/t32_mapa_distancias.json`, `resultados/figuras/t32_mapa_lexico.png` y `resultados/figuras/t32_mapa_perfil.png`.
+
+**Lenguas.** Todas las del Wikcionario que usa la prueba con significados (los dos archivos de `fuentes.wikcionario()`), más el ibérico. Se excluye la lengua que tenga candidatas en menos de 12 de los significados. La familia de cada lengua es la de la tabla `FAM_WIK` de `t08_perfil.py`, completada con la clasificación de Glottolog para las que no figuran en ella.
+
+**Significados.** Los 30 de las unidades de los plomos (`unidades_plomos.json`) y los del léxico metrológico (`unidades_numerales.json`), con los términos ingleses (`terminos_en`) de la prueba con significados.
+
+**Mapa A (léxico de los plomos).** Para cada pareja de lenguas X e Y y cada significado con candidatas en las dos: la menor distancia (función `dist`, clases de sonidos `reducida`; para el ibérico, sus formas) entre las candidatas de X y las de Y. Las candidatas de cada lengua y significado se limitan a 15, elegidas al azar una sola vez con semilla fija (`generador('mapa', lengua, id)`). Valor bruto de la pareja: media sobre los significados compartidos. Valor normalizado (como la LDND de Wichmann y otros 2010): el bruto dividido por la media de la misma distancia entre significados distintos, sobre 200 pares de significados distintos elegidos con semilla fija. Un valor de 1 corresponde a lo que da el azar; menos de 1, más proximidad que el azar.
+
+**Mapa B (perfil de combinaciones de sonidos).** Divergencia de Jensen-Shannon entre perfiles (función `divergencia` de `pruebas.py`), con el léxico elegible completo de cada lengua del Wikcionario y el corpus ibérico completo, como en el apartado 7.4.
+
+**Proyección y árbol.** Escalamiento multidimensional clásico (Torgerson) en dos ejes, con la proporción de variación que recogen; árbol UPGMA (promedio) de la misma matriz. Incertidumbre del mapa A: 200 remuestreos de los significados con reemplazamiento; cada réplica se proyecta y se alinea con la principal (Procrustes), y se dibuja la nube de cada lengua.
+
+**Previsión.** (1) Las familias con varios miembros (romance, urálica, céltica, austronesia, bantú) forman grupos reconocibles en los dos mapas; es la comprobación de que el mapa refleja relaciones conocidas. (2) En el mapa A, la lengua más próxima al ibérico es el euskera, coherente con la prueba con significados.
+
+**Qué contaría en contra.** Que las familias no se agrupen (el mapa no sería informativo y se diría así), o que la lengua más próxima al ibérico no sea el euskera. Se publica el resultado sea cual sea.
+
+**Qué se hará.** El mapa se presenta en el artículo como descripción, sin conclusión añadida. Los valores de la matriz se publican completos.
+
+## 18. Frecuencia del préstamo conjunto de los significados de los plomos en la base mundial de préstamos (declarada el 22-11-2026, antes de ejecutar; artículo I)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Pregunta.** En las 41 lenguas de la base mundial de préstamos (WOLD; Haspelmath y Tadmor 2009), ¿con qué frecuencia se toman prestados a la vez los numerales y el resto de los significados de los plomos? Se usan las 41 lenguas, no un caso concreto.
+
+**Datos.** Edición CLDF `lexibank/wold`, commit `1df62b9bdc7292b35982aea49b4d5bd1951f6f3e`, archivo `cldf/forms.csv` (columna `Borrowed`). Significados: los 35 de `1_fuentes_lexicas/wold_prestabilidad_35_unidades.csv` (10 numerales, N1 a N20, y 25 más).
+
+**Programa.** `4_programas/t33_prestamo_conjunto_wold.py` (nuevo). Salida: `resultados/t33_prestamo_conjunto_wold.json`.
+
+**Regla.** En cada lengua, un significado cuenta como prestado si alguna de sus palabras está clasificada «1. clearly borrowed» o «2. probably borrowed» (regla amplia); variante estricta: si todas lo están. Un significado sin palabras en esa lengua no se cuenta (el denominador es el de los significados presentes).
+
+**Qué se da.** Para cada lengua, la proporción de numerales prestados y la de los demás significados prestados. Número de lenguas (de 41) con: todos los numerales prestados; al menos la mitad, tres cuartos y todos los demás significados prestados; y las dos cosas a la vez. Frecuencia observada k/41 y, como estimación con muestra pequeña, (k + 1)/(41 + 2), con intervalo binomial exacto del 95 %. Para comparar, la frecuencia que daría el producto de las frecuencias de cada significado si se prestaran independientemente (lo que muestra cuánto pesa la correlación entre préstamos de una misma lengua).
+
+**Previsión.** Pocas lenguas tienen prestado todo el sistema numeral, y menos aún combinan eso con la mayoría de los demás significados. No se fija una cifra.
+
+**Límites declarados.** Es una frecuencia en una muestra de 41 lenguas elegidas por su diversidad, no la probabilidad de un préstamo entre el ibérico y el euskera; no tiene en cuenta la dirección del préstamo ni la antigüedad, y la clasificación de préstamo es la de los autores de cada capítulo de la base.
+
+**Qué se hará.** El resultado se presenta como dato descriptivo junto a la tabla de pruebas, sin conclusión añadida.
+
+### 17–18. English summary (declared 22 November 2026, before running; article I)
+
+17: descriptive all-against-all distance maps (lead lexicon, LDND-style normalised; sound-sequence profile, Jensen-Shannon) for the Wiktionary languages of the meaning test plus Iberian; classical MDS, UPGMA, 200 bootstrap replicates aligned by Procrustes. Predictions: known families cluster; Iberian's nearest language in the lexical map is Basque. 18: frequency in the 41 WOLD languages (CLDF commit 1df62b9) of borrowing the whole numeral set together with the other lead meanings; broad and strict rules; observed k/41, (k+1)/43 and exact 95 % interval; independence product shown for comparison. Both are reported as descriptive data, whatever the result.
+
+
+## 19. Razón de verosimilitud de los resultados de la segunda parte frente a parejas emparentadas y de contacto (declarada el 22-11-2026, antes de calcular; artículo I)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Pregunta.** ¿Cuántas veces es más frecuente cada resultado observado entre el ibérico y el euskera en las parejas de lenguas emparentadas que en las parejas de solo contacto del propio estudio? Es una medida de respaldo que no exige probabilidad previa y que permite ordenar las pruebas de la segunda parte.
+
+**Programa.** `4_programas/t34_razon_verosimilitud.py` (nuevo). Lee solo resultados ya publicados: `t11_t13_estables.json`, `t08_perfil.json` y `t18_perfil_contacto.json`. Salida: `resultados/t34_razon_verosimilitud.json`.
+
+**Rasgos** (resultado del ibérico con el euskera, y su frecuencia en cada grupo de control):
+- R1 (11.1): ventaja en los significados estables mayor que en los poco estables.
+- R2 (11.1): ventaja en los estables igual o mayor que la del ibérico con el euskera (0,533).
+- R3 (11.1): ventaja en los estables sin los numerales del dos al cinco igual o mayor que la del ibérico con el euskera en ese mismo conjunto.
+- R4 (11.3): la lengua emparejada es la más próxima por perfil. Emparentadas: validación del apartado 7.4 (NorthEuraLex, clases completas; la más próxima es de su familia), 77 de 98. Contacto: las 17 parejas de préstamo masivo de la tabla 15, donante primera.
+
+**Grupos.** R1–R3: emparentadas = «emparentadas cercanas» + «emparentadas lejanas»; contacto = «solo contacto» (tabla 11). Se excluyen «parentesco lejano y préstamos» y «sin relación».
+
+**Estimación.** Proporción de Jeffreys, (k + 0,5)/(n + 1), en cada grupo; razón = emparentadas / contacto. Intervalo del 95 %: 100.000 extracciones de Beta(k + 0,5, n − k + 0,5) en cada grupo, semilla fija; percentiles 2,5 y 97,5 de la razón. Para cada rasgo por separado, probabilidad posterior de la herencia frente al contacto con probabilidades previas de 0,10, 0,25, 0,50, 0,75 y 0,90 (posterior = R·π / (R·π + 1 − π)). Las razones de rasgos distintos no se multiplican, porque no son independientes.
+
+**Orden.** Las pruebas se ordenan por el límite inferior del intervalo de su razón (de mayor a menor); las que no tienen controles de los dos tipos (11.2, 11.4, 11.5, 11.6) van al final, con su lectura cualitativa.
+
+**Previsión.** R4: razón mayor que 10. R1: entre 1,5 y 4. R2 y R3: mayores que 1, sin cifra.
+
+**Qué contaría en contra.** Una razón menor que 1 en cualquier rasgo. Se publica el resultado sea cual sea.
+
+**Límites declarados.** Las parejas de control son pocas y no son independientes; los grupos de R4 proceden de la misma base (NorthEuraLex) pero de dos selecciones distintas; las razones describen estas muestras de control, no la población de todas las parejas de lenguas.
+
+### 19. English summary
+
+Likelihood ratios (Jeffreys proportions; 95 % interval by Beta sampling) of four features of the Iberian–Basque result, computed in related vs contact-only control pairs from published outputs (t11_t13, t08, t18); posterior probabilities for priors 0.10–0.90, per feature, not combined. Tests ordered by the lower bound of their ratio; tests without both control groups go last. Predictions: R4 > 10; R1 between 1.5 and 4; R2, R3 > 1.
+
+
+## 20. Primer puesto por perfil con suceso equivalente en los dos grupos (declarada el 22-11-2026, antes de calcular; artículo I)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Motivo.** La auditoría 4J señala que R4 (declaración 19) compara sucesos distintos: en las emparentadas cuenta que quede primero *cualquier* pariente (77/98); en las de préstamo, que quede primera *una* donante concreta; y 7 de las 17 parejas de préstamo pertenecen a la misma familia. La declaración 19 y su resultado no se retiran; esta entrada define un suceso equivalente.
+
+**Suceso.** Que una lengua concreta designada de antemano sea la más próxima por perfil (NorthEuraLex, clases completas, misma medida que 7.4 y 11.3). El euskera no tiene parientes en la base, de modo que en el caso ibérico solo hay un candidato.
+
+**Grupos.**
+- R4b emparentadas: toda lengua de NorthEuraLex cuya familia (columna `Family` de `languages.csv`) tiene exactamente dos miembros en la base; la lengua designada es el otro miembro (Yukaghir, Chukotko-Kamchatkan, Abkhaz-Adyge, Afro-Asiatic: 8 parejas orientadas). Así, como en el caso ibérico, hay un solo candidato emparentado.
+- R4b contacto: las parejas de la tabla 15 cuya lengua que toma y donante son de familias distintas según la misma columna; la designada es la donante.
+- R4c (secundario) emparentadas: lenguas de familias con dos o tres miembros; suceso: que la más próxima sea de su familia. Contacto: el mismo de R4b.
+
+**Programa.** `4_programas/t35_perfil_suceso_equivalente.py` (nuevo). Salida: `resultados/t35_perfil_suceso_equivalente.json`. Estimador e intervalo como en la declaración 19 (Jeffreys; 100.000 extracciones Beta; semilla fija). Se da también la lista de parejas y sus puestos.
+
+**Previsión.** R4b y R4c mayores que 1; no se fija cifra. **En contra:** razón menor que 1. Se publica el resultado sea cual sea, y el texto usará R4b en lugar de R4 si la auditoría lo acepta.
+
+
+## 21. Descomposición por unidades del grupo de nivel II sin correspondencia (declarada el 22-11-2026, antes de calcular; artículo I)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Motivo.** En el grupo de 13 unidades de nivel II sin correspondencia vasca señalada (t15, apartado 8.4), el euskera (−4,4) y el tagalo (−4,3) quedan igualados. El autor pide explicar la causa. Es una descripción de un resultado ya publicado, no una prueba nueva: no tiene previsión direccional ni cambia ninguna cifra.
+
+**Procedimiento.** Con las mismas tablas de t15 (Wikcionario, 500 sorteos, semilla de t15), para cada una de las 13 unidades (A4, A5, A6, A7, A9, A11, A12, A13, A16, A18, A21, A22, A23) y para el euskera, el tagalo, el gallego y el albanés: la distancia real, la candidata más próxima y la contribución de la unidad al valor del grupo (distancia real menos la media de sus sorteos). Se repite el valor del grupo sin las unidades cuya candidata tagala más próxima sea un préstamo del castellano según la nota etimológica del Wikcionario inglés (regla de la declaración 11), y se da la lista.
+
+**Programa.** `4_programas/t36_descomposicion_nivel2.py` (nuevo). Salida: `resultados/t36_descomposicion_nivel2.json`.
+
+**Previsión.** Ninguna direccional. Se publica el resultado sea cual sea; si el valor del tagalo no depende de sus hispanismos, el texto lo dirá.
+
+### 21. English summary
+
+Per-unit decomposition of the 13-unit level-II group without a flagged Basque parallel, where Basque and Tagalog tie (t15): real distance, nearest candidate and per-unit contribution for Basque, Tagalog, Galician and Albanian; group value recomputed without units whose nearest Tagalog candidate is a Spanish loan per the English Wiktionary etymology (rule of declaration 11). Descriptive; no directional prediction.

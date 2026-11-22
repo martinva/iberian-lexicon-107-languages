@@ -1,0 +1,36 @@
+id,wold_id,wold_meaning,borrowed_score
+A1,9-65,the silver,0.509
+A2,13-24,the half,0.158
+A5,13-14,all,0.187
+A6,11-87,the price,0.431
+A8,8-17,the ditch,0.483
+A9,3-19,the stable or stall,0.253
+A10,3-24,the calf,0.210
+A11,8-13,the garden,0.462
+A12,3-16,the pasture,0.358
+A13,1-41,the woods or forest,0.165
+A14,8-61,the oak,0.290
+A15,12-36,the side,0.140
+A16,11-69,the tax,0.590
+A17,18-51,to write,0.289
+A18,19-41,the master,0.383
+A19,19-51,the friend,0.413
+A20,21-23,the witness,0.576
+A21,11-21,to give,0.087
+A22,11-34,to let go,0.119
+A24,1-21,the land,0.268
+A25,1-24,the valley,0.184
+A26,1-37,the spring or well,0.205
+A27,8-51,the grass,0.174
+A28,10-71,the road,0.312
+A30,9-111,to make,0.080
+N1,13-01,one,0.130
+N2,13-02,two,0.231
+N3,13-03,three,0.219
+N4,13-04,four,0.212
+N5,13-05,five,0.228
+N6,13-06,six,0.256
+N7,13-07,seven,0.290
+N8,13-08,eight,0.256
+N10,13-1,ten,0.276
+N20,13-104,twenty,0.226

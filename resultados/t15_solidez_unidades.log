@@ -1,0 +1,40 @@
+Lenguas del Wikcionario con candidatas suficientes: 32
+Completo: euskera -12.53, puesto 1; siguiente Galician -4.07
+(a) quitando una unidad: {'z_mas_debil': -11.75, 'z_mas_fuerte': -12.97, 'primero_en': 30, 'casos': 30, 'indefinidos': 0, 'menor_separacion': 7.48}
+(b) 20 unidades al azar: {'primero': 2000, 'de': 2000, 'indefinidos': 0, 'z_mediano': -10.14, 'z_peor': -6.59, 'z_percentil_95': -8.5}
+(b) 15 unidades al azar: {'primero': 1999, 'de': 2000, 'indefinidos': 0, 'z_mediano': -8.76, 'z_peor': -4.26, 'z_percentil_95': -6.8}
+(b) 10 unidades al azar: {'primero': 1975, 'de': 2000, 'indefinidos': 0, 'z_mediano': -7.16, 'z_peor': -2.55, 'z_percentil_95': -4.8}
+(c) dato externo: {'unidades_del_grupo': 5, 'comparables_con_el_euskera': 4, 'z_euskera': -5.75, 'puesto': 1, 'siguiente': 'Catalan', 'z_siguiente': -3.15, 'lenguas_comparadas': 26}
+(c) apoyo de la toponimia: {'unidades_del_grupo': 6, 'comparables_con_el_euskera': 6, 'z_euskera': -8.29, 'puesto': 1, 'siguiente': 'Welsh', 'z_siguiente': -2.35, 'lenguas_comparadas': 31}
+(c) casilla documental: {'unidades_del_grupo': 19, 'comparables_con_el_euskera': 18, 'z_euskera': -8.06, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.8, 'lenguas_comparadas': 32}
+(c) niveles I y II: clase (a) de la Monografía IV: {'unidades_del_grupo': 24, 'comparables_con_el_euskera': 22, 'z_euskera': -9.28, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.97, 'lenguas_comparadas': 32}
+(c) nivel II con correspondencia vasca señalada después: {'unidades_del_grupo': 6, 'comparables_con_el_euskera': 6, 'z_euskera': -7.27, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -2.83, 'lenguas_comparadas': 25}
+(c) nivel II sin correspondencia señalada: {'unidades_del_grupo': 13, 'comparables_con_el_euskera': 12, 'z_euskera': -4.43, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.25, 'lenguas_comparadas': 32}
+(c) nivel II sin correspondencia señalada y sin los préstamos latinos: {'unidades_del_grupo': 9, 'comparables_con_el_euskera': 8, 'z_euskera': -3.15, 'puesto': 1, 'siguiente': 'Albanian', 'z_siguiente': -2.41, 'lenguas_comparadas': 31}
+(d) retirada adversa: unidades que hay que quitar para perder el primer puesto: 13 | para que el valor suba de −3: 15
+     {'quitadas': 1, 'ultima': 'A27', 'quedan': 27, 'z_euskera': -11.9, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -4.09}
+     {'quitadas': 2, 'ultima': 'A28', 'quedan': 26, 'z_euskera': -11.25, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -4.11}
+     {'quitadas': 3, 'ultima': 'A25', 'quedan': 25, 'z_euskera': -10.46, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -4.04}
+     {'quitadas': 4, 'ultima': 'A19', 'quedan': 24, 'z_euskera': -9.76, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.94}
+     {'quitadas': 5, 'ultima': 'A7', 'quedan': 23, 'z_euskera': -9.16, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.94}
+     {'quitadas': 6, 'ultima': 'A8', 'quedan': 22, 'z_euskera': -8.74, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.23}
+     {'quitadas': 7, 'ultima': 'A15', 'quedan': 21, 'z_euskera': -8.03, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.58}
+     {'quitadas': 8, 'ultima': 'A26', 'quedan': 20, 'z_euskera': -7.25, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.68}
+     {'quitadas': 9, 'ultima': 'A14', 'quedan': 19, 'z_euskera': -6.63, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.68}
+     {'quitadas': 10, 'ultima': 'A24', 'quedan': 18, 'z_euskera': -5.76, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.14}
+     {'quitadas': 11, 'ultima': 'A1', 'quedan': 17, 'z_euskera': -4.88, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.26}
+     {'quitadas': 12, 'ultima': 'A17', 'quedan': 16, 'z_euskera': -4.49, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.09}
+     {'quitadas': 13, 'ultima': 'A9', 'quedan': 15, 'z_euskera': -3.91, 'puesto': 2, 'siguiente': 'Tagalog', 'z_siguiente': -4.32}
+     {'quitadas': 14, 'ultima': 'A16', 'quedan': 14, 'z_euskera': -3.41, 'puesto': 2, 'siguiente': 'Tagalog', 'z_siguiente': -4.35}
+     {'quitadas': 15, 'ultima': 'A6', 'quedan': 13, 'z_euskera': -2.83, 'puesto': 2, 'siguiente': 'Tagalog', 'z_siguiente': -3.29}
+     {'quitadas': 16, 'ultima': 'A2', 'quedan': 12, 'z_euskera': -2.15, 'puesto': 3, 'siguiente': 'Tagalog', 'z_siguiente': -3.01}
+     {'quitadas': 17, 'ultima': 'A30', 'quedan': 11, 'z_euskera': -1.43, 'puesto': 8, 'siguiente': 'Tagalog', 'z_siguiente': -2.88}
+     {'quitadas': 18, 'ultima': 'A10', 'quedan': 10, 'z_euskera': -1.04, 'puesto': 10, 'siguiente': 'Tagalog', 'z_siguiente': -2.44}
+     {'quitadas': 19, 'ultima': 'A22', 'quedan': 9, 'z_euskera': -0.63, 'puesto': 16, 'siguiente': 'Tagalog', 'z_siguiente': -2.79}
+     {'quitadas': 20, 'ultima': 'A20', 'quedan': 8, 'z_euskera': -0.21, 'puesto': 19, 'siguiente': 'Tagalog', 'z_siguiente': -3.06}
+     {'quitadas': 21, 'ultima': 'A11', 'quedan': 7, 'z_euskera': 0.06, 'puesto': 17, 'siguiente': 'Albanian', 'z_siguiente': -1.64}
+     {'quitadas': 22, 'ultima': 'A5', 'quedan': 6, 'z_euskera': 0.28, 'puesto': 22, 'siguiente': 'Asturian', 'z_siguiente': -1.76}
+     {'quitadas': 23, 'ultima': 'A13', 'quedan': 5, 'z_euskera': 0.27, 'puesto': 21, 'siguiente': 'Hausa', 'z_siguiente': -1.77}
+(e) significados cambiados, Open Data Euskadi: {0: -10.99, 5: {'mediana': -9.39, 'percentil_5': -10.77, 'percentil_95': -7.75, 'mas_marcado': -11.94, 'menos_marcado': -6.77, 'indefinidos': 0}, 10: {'mediana': -7.46, 'percentil_5': -9.49, 'percentil_95': -5.46, 'mas_marcado': -10.85, 'menos_marcado': -4.75, 'indefinidos': 0}, 15: {'mediana': -5.66, 'percentil_5': -7.87, 'percentil_95': -3.58, 'mas_marcado': -10.25, 'menos_marcado': -1.8, 'indefinidos': 0}, 20: {'mediana': -4.02, 'percentil_5': -6.15, 'percentil_95': -1.95, 'mas_marcado': -7.36, 'menos_marcado': -0.9, 'indefinidos': 0}, 30: {'mediana': -0.29, 'percentil_5': -2.04, 'percentil_95': 1.45, 'mas_marcado': -3.41, 'menos_marcado': 2.38, 'indefinidos': 0}}
+(e) significados cambiados, Wikcionario: {0: -12.58, 5: {'mediana': -10.66, 'percentil_5': -11.95, 'percentil_95': -9.24, 'mas_marcado': -13.01, 'menos_marcado': -8.66, 'indefinidos': 0}, 10: {'mediana': -8.75, 'percentil_5': -10.44, 'percentil_95': -6.89, 'mas_marcado': -12.24, 'menos_marcado': -5.32, 'indefinidos': 0}, 15: {'mediana': -6.62, 'percentil_5': -8.64, 'percentil_95': -4.57, 'mas_marcado': -9.16, 'menos_marcado': -3.2, 'indefinidos': 0}, 20: {'mediana': -4.63, 'percentil_5': -6.77, 'percentil_95': -2.65, 'mas_marcado': -8.4, 'menos_marcado': -1.07, 'indefinidos': 0}, 30: {'mediana': -0.62, 'percentil_5': -2.33, 'percentil_95': 1.08, 'mas_marcado': -4.2, 'menos_marcado': 2.12, 'indefinidos': 0}}
+(e) significados cambiados, WordNet: {0: -11.64, 5: {'mediana': -9.78, 'percentil_5': -11.17, 'percentil_95': -8.49, 'mas_marcado': -12.11, 'menos_marcado': -7.57, 'indefinidos': 0}, 10: {'mediana': -8.02, 'percentil_5': -9.56, 'percentil_95': -6.33, 'mas_marcado': -10.98, 'menos_marcado': -4.35, 'indefinidos': 0}, 15: {'mediana': -6.26, 'percentil_5': -8.07, 'percentil_95': -4.26, 'mas_marcado': -9.91, 'menos_marcado': -2.58, 'indefinidos': 0}, 20: {'mediana': -4.47, 'percentil_5': -6.89, 'percentil_95': -2.08, 'mas_marcado': -9.19, 'menos_marcado': -0.62, 'indefinidos': 0}, 30: {'mediana': -0.63, 'percentil_5': -2.61, 'percentil_95': 0.9, 'mas_marcado': -3.51, 'menos_marcado': 2.73, 'indefinidos': 0}}

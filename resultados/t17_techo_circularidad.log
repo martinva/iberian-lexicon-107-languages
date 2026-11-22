@@ -1,0 +1,37 @@
+Albanian           propuestos   -2.70 | trampa en el campo   -7.93 | trampa libre  -10.72
+Asturian           propuestos   -3.27 | trampa en el campo   -8.92 | trampa libre  -12.49
+Basque             propuestos  -13.68 | trampa en el campo  -15.40 | trampa libre  -14.98
+Catalan            propuestos   -3.24 | trampa en el campo  -11.60 | trampa libre  -13.65
+Classical Nahuatl  propuestos    1.16 | trampa en el campo   -5.54 | trampa libre   -7.52
+Estonian           propuestos    1.33 | trampa en el campo   -9.89 | trampa libre  -13.18
+Fijian             propuestos    0.43 | trampa en el campo   -4.23 | trampa libre   -7.92
+Finnish            propuestos    1.04 | trampa en el campo   -9.10 | trampa libre  -11.94
+Galician           propuestos   -3.72 | trampa en el campo  -10.60 | trampa libre  -13.05
+Hausa              propuestos    1.14 | trampa en el campo   -3.88 | trampa libre   -7.00
+Hawaiian           propuestos   -1.18 | trampa en el campo   -6.68 | trampa libre  -11.42
+Hungarian          propuestos    0.20 | trampa en el campo  -10.59 | trampa libre  -13.50
+Icelandic          propuestos   -2.35 | trampa en el campo  -10.22 | trampa libre  -13.11
+Indonesian         propuestos   -0.18 | trampa en el campo  -10.82 | trampa libre  -13.17
+Irish              propuestos   -1.31 | trampa en el campo   -9.22 | trampa libre  -12.18
+Latin              propuestos   -0.53 | trampa en el campo  -10.39 | trampa libre  -12.51
+Lithuanian         propuestos   -0.02 | trampa en el campo   -7.61 | trampa libre   -9.22
+Malagasy           propuestos   -1.08 | trampa en el campo   -5.41 | trampa libre   -8.66
+Malay              propuestos   -1.51 | trampa en el campo  -12.11 | trampa libre  -15.89
+Maltese            propuestos   -1.51 | trampa en el campo   -8.29 | trampa libre  -11.19
+Occitan            propuestos   -1.08 | trampa en el campo   -9.24 | trampa libre  -12.75
+Quechua            propuestos    1.04 | trampa en el campo   -4.31 | trampa libre   -7.92
+Romanian           propuestos   -1.51 | trampa en el campo   -7.90 | trampa libre  -13.07
+Sardinian          propuestos    0.01 | trampa en el campo   -5.97 | trampa libre   -7.85
+Sicilian           propuestos   -2.21 | trampa en el campo   -7.85 | trampa libre  -11.34
+Somali             propuestos    0.48 | trampa en el campo   -5.02 | trampa libre   -7.29
+Swahili            propuestos    0.64 | trampa en el campo   -7.65 | trampa libre  -10.78
+Tagalog            propuestos   -3.46 | trampa en el campo  -10.90 | trampa libre  -14.43
+Turkish            propuestos   -2.13 | trampa en el campo   -8.22 | trampa libre  -11.94
+Welsh              propuestos   -1.52 | trampa en el campo   -9.75 | trampa libre   -9.98
+Yoruba             propuestos   -0.44 | trampa en el campo   -8.61 | trampa libre   -9.82
+Zulu               propuestos   -0.95 | trampa en el campo   -7.13 | trampa libre   -8.93
+
+Euskera con los significados propuestos: -13.678649663960748
+Techo de las demás lenguas, trampa dentro del campo: Malay -12.11
+Techo de las demás lenguas, trampa libre: Malay -15.89
+Euskera haciendo trampa: en el campo {'z': -15.402588561604638, 'real': 0.338, 'coinciden_con_los_propuestos': 18}, libre {'z': -14.984339769303256, 'real': 0.295, 'coinciden_con_los_propuestos': 15}

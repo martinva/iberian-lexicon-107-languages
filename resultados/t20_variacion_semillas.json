@@ -1,0 +1,184 @@
+{
+ "repeticiones": 40,
+ "euskera_primero": 40,
+ "euskera": {
+  "menos_marcado": -11.585,
+  "mas_marcado": -13.33,
+  "mediana": -12.379999999999999,
+  "desviacion": 0.407,
+  "amplitud": 1.745
+ },
+ "mejor_de_las_demas": {
+  "menos_marcado": -3.931,
+  "mas_marcado": -4.437,
+  "mediana": -4.163,
+  "desviacion": 0.119
+ },
+ "separacion": {
+  "menor": 7.311,
+  "mediana": 8.275,
+  "mayor": 9.061
+ },
+ "por_lengua": {
+  "Basque": {
+   "mediana": -12.38,
+   "amplitud": 1.745,
+   "desviacion": 0.407
+  },
+  "Galician": {
+   "mediana": -4.163,
+   "amplitud": 0.525,
+   "desviacion": 0.12
+  },
+  "Tagalog": {
+   "mediana": -3.902,
+   "amplitud": 0.51,
+   "desviacion": 0.129
+  },
+  "Asturian": {
+   "mediana": -3.343,
+   "amplitud": 0.574,
+   "desviacion": 0.124
+  },
+  "Catalan": {
+   "mediana": -3.098,
+   "amplitud": 0.484,
+   "desviacion": 0.113
+  },
+  "Albanian": {
+   "mediana": -2.748,
+   "amplitud": 0.474,
+   "desviacion": 0.096
+  },
+  "Sicilian": {
+   "mediana": -2.351,
+   "amplitud": 0.311,
+   "desviacion": 0.075
+  },
+  "Icelandic": {
+   "mediana": -2.25,
+   "amplitud": 0.398,
+   "desviacion": 0.096
+  },
+  "Turkish": {
+   "mediana": -2.189,
+   "amplitud": 0.318,
+   "desviacion": 0.088
+  },
+  "Welsh": {
+   "mediana": -1.534,
+   "amplitud": 0.269,
+   "desviacion": 0.058
+  },
+  "Malay": {
+   "mediana": -1.473,
+   "amplitud": 0.259,
+   "desviacion": 0.05
+  },
+  "Maltese": {
+   "mediana": -1.465,
+   "amplitud": 0.309,
+   "desviacion": 0.07
+  },
+  "Romanian": {
+   "mediana": -1.325,
+   "amplitud": 0.291,
+   "desviacion": 0.063
+  },
+  "Irish": {
+   "mediana": -1.279,
+   "amplitud": 0.285,
+   "desviacion": 0.065
+  },
+  "Hawaiian": {
+   "mediana": -1.155,
+   "amplitud": 0.341,
+   "desviacion": 0.069
+  },
+  "Malagasy": {
+   "mediana": -1.075,
+   "amplitud": 0.342,
+   "desviacion": 0.061
+  },
+  "Zulu": {
+   "mediana": -0.925,
+   "amplitud": 0.235,
+   "desviacion": 0.055
+  },
+  "Occitan": {
+   "mediana": -0.914,
+   "amplitud": 0.282,
+   "desviacion": 0.053
+  },
+  "Latin": {
+   "mediana": -0.533,
+   "amplitud": 0.275,
+   "desviacion": 0.056
+  },
+  "Yoruba": {
+   "mediana": -0.468,
+   "amplitud": 0.169,
+   "desviacion": 0.039
+  },
+  "Lithuanian": {
+   "mediana": -0.164,
+   "amplitud": 0.232,
+   "desviacion": 0.051
+  },
+  "Indonesian": {
+   "mediana": -0.084,
+   "amplitud": 0.217,
+   "desviacion": 0.043
+  },
+  "Sardinian": {
+   "mediana": -0.038,
+   "amplitud": 0.203,
+   "desviacion": 0.037
+  },
+  "Hungarian": {
+   "mediana": 0.108,
+   "amplitud": 0.168,
+   "desviacion": 0.043
+  },
+  "Fijian": {
+   "mediana": 0.413,
+   "amplitud": 0.181,
+   "desviacion": 0.047
+  },
+  "Somali": {
+   "mediana": 0.445,
+   "amplitud": 0.229,
+   "desviacion": 0.051
+  },
+  "Swahili": {
+   "mediana": 0.63,
+   "amplitud": 0.231,
+   "desviacion": 0.054
+  },
+  "Finnish": {
+   "mediana": 1.06,
+   "amplitud": 0.213,
+   "desviacion": 0.049
+  },
+  "Quechua": {
+   "mediana": 1.078,
+   "amplitud": 0.255,
+   "desviacion": 0.057
+  },
+  "Classical Nahuatl": {
+   "mediana": 1.16,
+   "amplitud": 0.269,
+   "desviacion": 0.056
+  },
+  "Hausa": {
+   "mediana": 1.313,
+   "amplitud": 0.236,
+   "desviacion": 0.058
+  },
+  "Estonian": {
+   "mediana": 1.362,
+   "amplitud": 0.207,
+   "desviacion": 0.053
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "es|eu-es": "apertium-eu-es.eu-es.dix",
+ "es|es-pt": "apertium-es-pt.es-pt.dix",
+ "es|es-gl": "apertium-es-gl.es-gl.dix",
+ "es|spa-arg": "apertium-spa-arg.spa-arg.dix",
+ "es|spa-ast": "apertium-spa-ast.spa-ast.dix",
+ "es|oc-es": "apertium-oc-es.oc-es.dix",
+ "es|fr-es": "apertium-fra-spa.fra-spa.dix",
+ "es|spa-ita": "apertium-spa-ita.spa-ita.dix",
+ "es|es-ro": "apertium-es-ro.es-ro.dix",
+ "es|spa-cat": null,
+ "en|eu-en": "apertium-eu-en.eu-en.dix",
+ "en|en-es": "apertium-eng-spa.eng-spa.dix",
+ "en|eng-cat": "apertium-eng-cat.eng-cat.dix",
+ "en|eng-deu": "apertium-eng-deu.eng-deu.dix",
+ "en|cy-en": "apertium-cym-eng.cym-eng.dix",
+ "en|fin-eng": "apertium-fin-eng.fin-eng.dix",
+ "en|hbs-eng": "apertium-hbs-eng.hbs-eng.dix",
+ "en|isl-eng": "apertium-isl-eng.isl-eng.dix",
+ "en|swe-eng": "apertium-swe-eng.swe-eng.dix",
+ "en|tr-en": "apertium-tr-en.tr-en.dix"
+}

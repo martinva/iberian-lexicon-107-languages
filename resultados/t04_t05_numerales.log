@@ -1,0 +1,12 @@
+lenguas: 3811 | familias: 239 | sin parientes en la base: 110
+IBÉRICO, serie completa: [(0.317, 'Basque, Spain, France', 'Basque'), (0.756, 'Wapa (Wãpha), Nigeria', 'Atlantic-Congo'), (0.773, 'Gwandara, Nigeria', 'Afro-Asiatic'), (0.778, 'Galambu, Nigeria', 'Afro-Asiatic'), (0.805, 'Bawm Chin, Bangladesh', 'Sino-Tibetan')]
+(b) lenguas sin parientes: 110; con vecino a distancia ≤ 0.317: 0; la más próxima, a 0.407
+    vecino entre 0.2 y 0.3: de su misma familia en 53 de 54
+    vecino entre 0.3 y 0.4: de su misma familia en 63 de 63
+    vecino entre 0.4 y 0.5: de su misma familia en 46 de 48
+    vecino entre 0.2 y 0.5: de su misma familia en 162 de 165
+(c) valores fijados (1, 10, 20): 4586 variedades | euskera: [(1, 0.435), (2, 0.435)] | primera no vasca: (0.584, 'Falam Chin, Myanmar')
+(d) ('Basque, Spain, France', 0.318, 0.949, np.float64(0.0005))
+(d) ('Basque, Spain, France', 0.318, 0.952, np.float64(0.0005))
+(d) ('Garifuna, Belize, Honduras', 0.786, 0.958, np.float64(0.007))
+(d) ('Wapa (Wãpha), Nigeria', 0.8, 0.97, np.float64(0.002))

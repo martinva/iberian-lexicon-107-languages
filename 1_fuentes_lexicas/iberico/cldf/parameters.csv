@@ -1,0 +1,41 @@
+ID,Name,Terminos_es,Terminos_en,Campo,Valor_numerico
+N1,uno,uno; un,one,léxico con soporte metrológico,1
+N2,dos,dos,two,léxico con soporte metrológico,2
+N3,tres,tres,three,léxico con soporte metrológico,3
+N4,cuatro,cuatro,four,léxico con soporte metrológico,4
+N5,cinco,cinco,five,léxico con soporte metrológico,5
+N6,seis,seis,six,léxico con soporte metrológico,6
+N7,siete,siete,seven,léxico con soporte metrológico,7
+N8,ocho,ocho,eight,léxico con soporte metrológico,8
+N10,diez,diez,ten,léxico con soporte metrológico,10
+N20,veinte,veinte,twenty,léxico con soporte metrológico,20
+A1,plata / valor monetario,plata,silver,contable y monetario,
+A2,mitad,mitad; medio,half; middle,contable y monetario,
+A3,unidad de cuenta,unidad,unit,contable y monetario,
+A4,"partida, asiento",partida; asiento,entry; item,contable y monetario,
+A5,"total, suma",todo; total; suma; entero,all; whole; total; sum,contable y monetario,
+A6,"valor, tasación",valor; precio,value; price; worth,contable; préstamo latino propuesto,
+A7,"finca, fundo",finca; heredad; hacienda; casería,farm; estate; property; homestead,predial y geográfico,
+A8,"acequia, reguero",acequia; zanja; canal; arroyo; regato,ditch; channel; stream; brook,predial y geográfico,
+A9,corral,corral; redil; establo,fold; pen; enclosure; stable,predial; préstamo latino propuesto,
+A10,"becerro, res joven",becerro; ternero; novillo; novilla; ternera,calf; heifer,predial y geográfico,
+A11,huerto,huerto; huerta,garden; orchard,predial; préstamo latino propuesto,
+A12,"pasto acotado, majada",pasto; dehesa; majada,pasture; sheepfold,predial y geográfico,
+A13,"monte, dehesa",bosque; selva; monte,forest; wood; woods; woodland; mountain,predial; préstamo latino propuesto,
+A14,"encina, encinar",encina; roble,holm; oak,predial y geográfico,
+A15,"lado, costado",lado; costado,side; flank,predial y geográfico,
+A16,"tributo, canon",tributo; renta; censo; impuesto,tax; tribute; rent,contable y monetario,
+A17,"escrito, documento",escrito; escritura; carta; documento; escribir,writing; letter; document; write,personas y actos,
+A18,"titular, señor",señor; dueño; amo; jefe,lord; master; owner; chief,personas y actos,
+A19,"socio, compañero",compañero; socio; amigo,companion; fellow; comrade; partner; friend,personas y actos,
+A20,testigo-depositario,testigo; garante; depositario,witness; guarantor; depositary,personas y actos,
+A21,"otorgar, dar",dar; otorgar,give; grant,personas y actos,
+A22,"liberar, soltar",dejar; soltar; librar,leave; release; free,personas y actos,
+A23,"prenda, fianza",prenda; fianza,pledge; pawn; surety; bail,personas y actos,
+A24,tierra,tierra,earth; land; soil; ground,predial y geográfico,
+A25,vega,vega; valle; llanura,valley; plain; lowland,predial y geográfico,
+A26,"fuente, manantial",fuente; manantial,spring; fountain; source,predial y geográfico,
+A27,"hierba, prado",hierba; yerba; heno; prado,grass; hay; meadow,predial y geográfico,
+A28,camino,camino; senda,road; path; way,predial y geográfico,
+A29,"carrascal, monte bajo",matorral; maleza; jaral; carrascal,thicket; scrub; bush; brushwood,predial y geográfico,
+A30,hacer,hacer; realizar; elaborar,make; do,personas y actos,

@@ -1,0 +1,1015 @@
+{
+ "euskera": {
+  "parejas": [
+   {
+    "id": "A1",
+    "iberico": "SaLiR",
+    "euskera": "SiLaR",
+    "alineacion": "S:S a:i L:L i:a R:R"
+   },
+   {
+    "id": "A2",
+    "iberico": "eRTeR",
+    "euskera": "eRTi",
+    "alineacion": "e:e R:R T:T e:− R:i"
+   },
+   {
+    "id": "A4",
+    "iberico": "eKa",
+    "euskera": "SaReRa",
+    "alineacion": "−:S −:a −:R e:e K:R a:a"
+   },
+   {
+    "id": "A5",
+    "iberico": "PoPaiTa",
+    "euskera": "KeHiTu",
+    "alineacion": "P:K o:e P:H a:− i:i T:T a:u"
+   },
+   {
+    "id": "A6",
+    "iberico": "PaLe",
+    "euskera": "PaLio",
+    "alineacion": "P:P a:a L:L −:i e:o"
+   },
+   {
+    "id": "A7",
+    "iberico": "PaSiR",
+    "euskera": "PaSeRi",
+    "alineacion": "P:P a:a S:S i:e R:R −:i"
+   },
+   {
+    "id": "A8",
+    "iberico": "aReKa",
+    "euskera": "eReKa",
+    "alineacion": "a:e R:R e:e K:K a:a"
+   },
+   {
+    "id": "A9",
+    "iberico": "KoRTa",
+    "euskera": "PoRTa",
+    "alineacion": "K:P o:o R:R T:T a:a"
+   },
+   {
+    "id": "A10",
+    "iberico": "PeKoR",
+    "euskera": "PiKa",
+    "alineacion": "P:P e:i K:K o:− R:a"
+   },
+   {
+    "id": "A11",
+    "iberico": "oRTiN",
+    "euskera": "LoRaTeKi",
+    "alineacion": "−:L o:o R:R −:a T:T i:e N:K −:i"
+   },
+   {
+    "id": "A13",
+    "iberico": "SaLTu",
+    "euskera": "MeNTi",
+    "alineacion": "S:M a:e L:N T:T u:i"
+   },
+   {
+    "id": "A14",
+    "iberico": "aRTa",
+    "euskera": "aRTe",
+    "alineacion": "a:a R:R T:T a:e"
+   },
+   {
+    "id": "A15",
+    "iberico": "aLaTe",
+    "euskera": "aLTe",
+    "alineacion": "a:a L:L a:− T:T e:e"
+   },
+   {
+    "id": "A16",
+    "iberico": "aKaRi",
+    "euskera": "aKuRa",
+    "alineacion": "a:a K:K a:u R:R i:a"
+   },
+   {
+    "id": "A17",
+    "iberico": "KuTu",
+    "euskera": "KuTuN",
+    "alineacion": "K:K u:u T:T u:u −:N"
+   },
+   {
+    "id": "A18",
+    "iberico": "JuNSTiR",
+    "euskera": "JauN",
+    "alineacion": "J:J −:a u:u N:N S:− T:− i:− R:−"
+   },
+   {
+    "id": "A19",
+    "iberico": "LaKu",
+    "euskera": "LaKuN",
+    "alineacion": "L:L a:a K:K u:u −:N"
+   },
+   {
+    "id": "A20",
+    "iberico": "PaiTeS",
+    "euskera": "aPaLKiTe",
+    "alineacion": "−:a P:P a:a −:L −:K i:i T:T e:e S:−"
+   },
+   {
+    "id": "A21",
+    "iberico": "PaRPiN",
+    "euskera": "eMaN",
+    "alineacion": "P:− a:− R:e P:M i:a N:N"
+   },
+   {
+    "id": "A22",
+    "iberico": "uSKeiKe",
+    "euskera": "aSKe",
+    "alineacion": "u:a S:S K:− e:− i:− K:K e:e"
+   },
+   {
+    "id": "A23",
+    "iberico": "LeKaR",
+    "euskera": "PeRMe",
+    "alineacion": "L:P e:e K:R a:M R:e"
+   },
+   {
+    "id": "A24",
+    "iberico": "LuRa",
+    "euskera": "LuR",
+    "alineacion": "L:L u:u R:R a:−"
+   },
+   {
+    "id": "A25",
+    "iberico": "iPaR",
+    "euskera": "iPaR",
+    "alineacion": "i:i P:P a:a R:R"
+   },
+   {
+    "id": "A26",
+    "iberico": "iTuR",
+    "euskera": "iTuRi",
+    "alineacion": "i:i T:T u:u R:R −:i"
+   },
+   {
+    "id": "A27",
+    "iberico": "PeLaR",
+    "euskera": "PeLaR",
+    "alineacion": "P:P e:e L:L a:a R:R"
+   },
+   {
+    "id": "A28",
+    "iberico": "PiTe",
+    "euskera": "PiTe",
+    "alineacion": "P:P i:i T:T e:e"
+   },
+   {
+    "id": "A29",
+    "iberico": "TaRaTi",
+    "euskera": "SaSi",
+    "alineacion": "T:− a:− R:S a:a T:S i:i"
+   },
+   {
+    "id": "A30",
+    "iberico": "eKiaR",
+    "euskera": "eKiN",
+    "alineacion": "e:e K:K i:i a:− R:N"
+   },
+   {
+    "id": "N1",
+    "iberico": "PaN",
+    "euskera": "PaT",
+    "alineacion": "P:P a:a N:T"
+   },
+   {
+    "id": "N2",
+    "iberico": "Pi",
+    "euskera": "Pi",
+    "alineacion": "P:P i:i"
+   },
+   {
+    "id": "N3",
+    "iberico": "iRuR",
+    "euskera": "iRu",
+    "alineacion": "i:i R:R u:u R:−"
+   },
+   {
+    "id": "N4",
+    "iberico": "LauR",
+    "euskera": "Lau",
+    "alineacion": "L:L a:a u:u R:−"
+   },
+   {
+    "id": "N5",
+    "iberico": "PoRSTe",
+    "euskera": "PoST",
+    "alineacion": "P:P o:o R:− S:S T:T e:−"
+   },
+   {
+    "id": "N6",
+    "iberico": "Sei",
+    "euskera": "Sei",
+    "alineacion": "S:S e:e i:i"
+   },
+   {
+    "id": "N7",
+    "iberico": "SiSPi",
+    "euskera": "SaSPi",
+    "alineacion": "S:S i:a S:S P:P i:i"
+   },
+   {
+    "id": "N8",
+    "iberico": "SoRSe",
+    "euskera": "SoRCi",
+    "alineacion": "S:S o:o R:R S:C e:i"
+   },
+   {
+    "id": "N10",
+    "iberico": "aPaR",
+    "euskera": "aMaR",
+    "alineacion": "a:a P:M a:a R:R"
+   },
+   {
+    "id": "N20",
+    "iberico": "oRKei",
+    "euskera": "oKei",
+    "alineacion": "o:o R:− K:K e:e i:i"
+   }
+  ],
+  "regularidad": {
+   "R": {
+    "por_clase_iberica": 0.6256410256410256,
+    "por_clase_vasca": 0.6564102564102564,
+    "media": 0.641025641025641,
+    "columnas": 195
+   },
+   "R_prima": {
+    "por_clase_iberica": 0.44155844155844154,
+    "por_clase_vasca": 0.44155844155844154,
+    "media": 0.44155844155844154,
+    "columnas": 77
+   }
+  },
+  "correspondencias": [
+   {
+    "iberico": "a",
+    "euskera": "a",
+    "n": 17
+   },
+   {
+    "iberico": "R",
+    "euskera": "R",
+    "n": 15
+   },
+   {
+    "iberico": "T",
+    "euskera": "T",
+    "n": 12
+   },
+   {
+    "iberico": "e",
+    "euskera": "e",
+    "n": 12
+   },
+   {
+    "iberico": "i",
+    "euskera": "i",
+    "n": 12
+   },
+   {
+    "iberico": "P",
+    "euskera": "P",
+    "n": 11
+   },
+   {
+    "iberico": "K",
+    "euskera": "K",
+    "n": 8
+   },
+   {
+    "iberico": "S",
+    "euskera": "S",
+    "n": 8
+   },
+   {
+    "iberico": "u",
+    "euskera": "u",
+    "n": 8
+   },
+   {
+    "iberico": "L",
+    "euskera": "L",
+    "n": 7
+   },
+   {
+    "iberico": "a",
+    "euskera": "−",
+    "n": 6
+   },
+   {
+    "iberico": "R",
+    "euskera": "−",
+    "n": 5
+   },
+   {
+    "iberico": "o",
+    "euskera": "o",
+    "n": 5
+   },
+   {
+    "iberico": "i",
+    "euskera": "a",
+    "n": 4
+   },
+   {
+    "iberico": "−",
+    "euskera": "a",
+    "n": 4
+   },
+   {
+    "iberico": "−",
+    "euskera": "i",
+    "n": 4
+   },
+   {
+    "iberico": "a",
+    "euskera": "e",
+    "n": 3
+   },
+   {
+    "iberico": "e",
+    "euskera": "−",
+    "n": 3
+   },
+   {
+    "iberico": "K",
+    "euskera": "R",
+    "n": 2
+   },
+   {
+    "iberico": "N",
+    "euskera": "N",
+    "n": 2
+   },
+   {
+    "iberico": "P",
+    "euskera": "M",
+    "n": 2
+   },
+   {
+    "iberico": "R",
+    "euskera": "e",
+    "n": 2
+   },
+   {
+    "iberico": "S",
+    "euskera": "−",
+    "n": 2
+   },
+   {
+    "iberico": "T",
+    "euskera": "−",
+    "n": 2
+   },
+   {
+    "iberico": "a",
+    "euskera": "u",
+    "n": 2
+   },
+   {
+    "iberico": "e",
+    "euskera": "i",
+    "n": 2
+   },
+   {
+    "iberico": "i",
+    "euskera": "e",
+    "n": 2
+   },
+   {
+    "iberico": "i",
+    "euskera": "−",
+    "n": 2
+   },
+   {
+    "iberico": "−",
+    "euskera": "L",
+    "n": 2
+   },
+   {
+    "iberico": "−",
+    "euskera": "N",
+    "n": 2
+   },
+   {
+    "iberico": "J",
+    "euskera": "J",
+    "n": 1
+   },
+   {
+    "iberico": "K",
+    "euskera": "P",
+    "n": 1
+   },
+   {
+    "iberico": "K",
+    "euskera": "−",
+    "n": 1
+   },
+   {
+    "iberico": "L",
+    "euskera": "N",
+    "n": 1
+   },
+   {
+    "iberico": "L",
+    "euskera": "P",
+    "n": 1
+   },
+   {
+    "iberico": "N",
+    "euskera": "K",
+    "n": 1
+   },
+   {
+    "iberico": "N",
+    "euskera": "T",
+    "n": 1
+   },
+   {
+    "iberico": "P",
+    "euskera": "H",
+    "n": 1
+   },
+   {
+    "iberico": "P",
+    "euskera": "K",
+    "n": 1
+   },
+   {
+    "iberico": "P",
+    "euskera": "−",
+    "n": 1
+   },
+   {
+    "iberico": "R",
+    "euskera": "N",
+    "n": 1
+   },
+   {
+    "iberico": "R",
+    "euskera": "S",
+    "n": 1
+   },
+   {
+    "iberico": "R",
+    "euskera": "a",
+    "n": 1
+   },
+   {
+    "iberico": "R",
+    "euskera": "i",
+    "n": 1
+   },
+   {
+    "iberico": "S",
+    "euskera": "C",
+    "n": 1
+   },
+   {
+    "iberico": "S",
+    "euskera": "M",
+    "n": 1
+   },
+   {
+    "iberico": "T",
+    "euskera": "S",
+    "n": 1
+   },
+   {
+    "iberico": "a",
+    "euskera": "M",
+    "n": 1
+   },
+   {
+    "iberico": "a",
+    "euskera": "i",
+    "n": 1
+   },
+   {
+    "iberico": "e",
+    "euskera": "o",
+    "n": 1
+   },
+   {
+    "iberico": "o",
+    "euskera": "e",
+    "n": 1
+   },
+   {
+    "iberico": "o",
+    "euskera": "−",
+    "n": 1
+   },
+   {
+    "iberico": "u",
+    "euskera": "a",
+    "n": 1
+   },
+   {
+    "iberico": "u",
+    "euskera": "i",
+    "n": 1
+   },
+   {
+    "iberico": "−",
+    "euskera": "K",
+    "n": 1
+   },
+   {
+    "iberico": "−",
+    "euskera": "R",
+    "n": 1
+   },
+   {
+    "iberico": "−",
+    "euskera": "S",
+    "n": 1
+   }
+  ]
+ },
+ "permutacion": {
+  "permutaciones": 1000,
+  "R_prima_observada": 0.44155844155844154,
+  "percentil": 100.0,
+  "mayores_o_iguales": 0,
+  "R_prima_percentil_10": 0.29464285714285715,
+  "R_prima_mediana": 0.31528662420382164,
+  "R_prima_percentil_90": 0.3373493975903614,
+  "R_observada": 0.641025641025641,
+  "R_mediana": 0.3170731707317073,
+  "R_percentil_90": 0.34158415841584155
+ },
+ "lenguas": {
+  "orden_por_R_prima": [
+   [
+    "Basque",
+    {
+     "parejas": 38,
+     "columnas": 195,
+     "no_identicas": 77,
+     "R": 0.641025641025641,
+     "R_prima": 0.44155844155844154
+    }
+   ],
+   [
+    "Lithuanian",
+    {
+     "parejas": 40,
+     "columnas": 271,
+     "no_identicas": 191,
+     "R": 0.3856088560885609,
+     "R_prima": 0.38481675392670156
+    }
+   ],
+   [
+    "Yoruba",
+    {
+     "parejas": 35,
+     "columnas": 184,
+     "no_identicas": 142,
+     "R": 0.3559782608695652,
+     "R_prima": 0.3661971830985915
+    }
+   ],
+   [
+    "Hausa",
+    {
+     "parejas": 30,
+     "columnas": 165,
+     "no_identicas": 130,
+     "R": 0.36363636363636365,
+     "R_prima": 0.3653846153846154
+    }
+   ],
+   [
+    "Zulu",
+    {
+     "parejas": 33,
+     "columnas": 205,
+     "no_identicas": 156,
+     "R": 0.3780487804878049,
+     "R_prima": 0.3653846153846154
+    }
+   ],
+   [
+    "Fijian",
+    {
+     "parejas": 23,
+     "columnas": 123,
+     "no_identicas": 103,
+     "R": 0.3699186991869919,
+     "R_prima": 0.3592233009708738
+    }
+   ],
+   [
+    "Latin",
+    {
+     "parejas": 40,
+     "columnas": 232,
+     "no_identicas": 152,
+     "R": 0.4181034482758621,
+     "R_prima": 0.35855263157894735
+    }
+   ],
+   [
+    "Welsh",
+    {
+     "parejas": 40,
+     "columnas": 221,
+     "no_identicas": 152,
+     "R": 0.4095022624434389,
+     "R_prima": 0.35855263157894735
+    }
+   ],
+   [
+    "Romanian",
+    {
+     "parejas": 39,
+     "columnas": 232,
+     "no_identicas": 144,
+     "R": 0.4375,
+     "R_prima": 0.3576388888888889
+    }
+   ],
+   [
+    "Albanian",
+    {
+     "parejas": 40,
+     "columnas": 219,
+     "no_identicas": 141,
+     "R": 0.4520547945205479,
+     "R_prima": 0.35460992907801414
+    }
+   ],
+   [
+    "Malay",
+    {
+     "parejas": 37,
+     "columnas": 207,
+     "no_identicas": 134,
+     "R": 0.41304347826086957,
+     "R_prima": 0.3544776119402985
+    }
+   ],
+   [
+    "Catalan",
+    {
+     "parejas": 40,
+     "columnas": 228,
+     "no_identicas": 143,
+     "R": 0.45175438596491224,
+     "R_prima": 0.3531468531468531
+    }
+   ],
+   [
+    "Irish",
+    {
+     "parejas": 40,
+     "columnas": 233,
+     "no_identicas": 156,
+     "R": 0.39699570815450647,
+     "R_prima": 0.35256410256410253
+    }
+   ],
+   [
+    "Classical Nahuatl",
+    {
+     "parejas": 29,
+     "columnas": 185,
+     "no_identicas": 149,
+     "R": 0.3432432432432433,
+     "R_prima": 0.348993288590604
+    }
+   ],
+   [
+    "Occitan",
+    {
+     "parejas": 35,
+     "columnas": 192,
+     "no_identicas": 139,
+     "R": 0.375,
+     "R_prima": 0.3489208633093525
+    }
+   ],
+   [
+    "Sardinian",
+    {
+     "parejas": 26,
+     "columnas": 141,
+     "no_identicas": 112,
+     "R": 0.32978723404255317,
+     "R_prima": 0.3482142857142857
+    }
+   ],
+   [
+    "Finnish",
+    {
+     "parejas": 40,
+     "columnas": 242,
+     "no_identicas": 163,
+     "R": 0.4049586776859504,
+     "R_prima": 0.34662576687116564
+    }
+   ],
+   [
+    "Indonesian",
+    {
+     "parejas": 39,
+     "columnas": 216,
+     "no_identicas": 145,
+     "R": 0.4027777777777778,
+     "R_prima": 0.3448275862068966
+    }
+   ],
+   [
+    "Somali",
+    {
+     "parejas": 25,
+     "columnas": 125,
+     "no_identicas": 103,
+     "R": 0.33999999999999997,
+     "R_prima": 0.3446601941747573
+    }
+   ],
+   [
+    "Malagasy",
+    {
+     "parejas": 32,
+     "columnas": 195,
+     "no_identicas": 156,
+     "R": 0.31794871794871793,
+     "R_prima": 0.33974358974358976
+    }
+   ],
+   [
+    "Hungarian",
+    {
+     "parejas": 40,
+     "columnas": 217,
+     "no_identicas": 152,
+     "R": 0.37788018433179726,
+     "R_prima": 0.3388157894736842
+    }
+   ],
+   [
+    "Sicilian",
+    {
+     "parejas": 34,
+     "columnas": 187,
+     "no_identicas": 133,
+     "R": 0.3716577540106952,
+     "R_prima": 0.33458646616541354
+    }
+   ],
+   [
+    "Galician",
+    {
+     "parejas": 40,
+     "columnas": 225,
+     "no_identicas": 138,
+     "R": 0.45555555555555555,
+     "R_prima": 0.33333333333333337
+    }
+   ],
+   [
+    "Hawaiian",
+    {
+     "parejas": 36,
+     "columnas": 194,
+     "no_identicas": 150,
+     "R": 0.3530927835051546,
+     "R_prima": 0.33333333333333337
+    }
+   ],
+   [
+    "Icelandic",
+    {
+     "parejas": 40,
+     "columnas": 211,
+     "no_identicas": 144,
+     "R": 0.4028436018957346,
+     "R_prima": 0.3333333333333333
+    }
+   ],
+   [
+    "Tagalog",
+    {
+     "parejas": 39,
+     "columnas": 216,
+     "no_identicas": 140,
+     "R": 0.41666666666666663,
+     "R_prima": 0.3321428571428572
+    }
+   ],
+   [
+    "Maltese",
+    {
+     "parejas": 39,
+     "columnas": 225,
+     "no_identicas": 166,
+     "R": 0.3666666666666667,
+     "R_prima": 0.3313253012048193
+    }
+   ],
+   [
+    "Turkish",
+    {
+     "parejas": 40,
+     "columnas": 211,
+     "no_identicas": 137,
+     "R": 0.4312796208530806,
+     "R_prima": 0.3284671532846715
+    }
+   ],
+   [
+    "Swahili",
+    {
+     "parejas": 38,
+     "columnas": 219,
+     "no_identicas": 153,
+     "R": 0.3881278538812785,
+     "R_prima": 0.32679738562091504
+    }
+   ],
+   [
+    "Estonian",
+    {
+     "parejas": 38,
+     "columnas": 209,
+     "no_identicas": 163,
+     "R": 0.3157894736842105,
+     "R_prima": 0.31901840490797545
+    }
+   ],
+   [
+    "Quechua",
+    {
+     "parejas": 31,
+     "columnas": 170,
+     "no_identicas": 133,
+     "R": 0.3411764705882353,
+     "R_prima": 0.3157894736842105
+    }
+   ],
+   [
+    "Asturian",
+    {
+     "parejas": 39,
+     "columnas": 216,
+     "no_identicas": 145,
+     "R": 0.37962962962962965,
+     "R_prima": 0.3
+    }
+   ]
+  ],
+  "puesto_euskera": 1,
+  "lenguas": 32
+ },
+ "tamano_igualado": {
+  "columnas_no_identicas": 77,
+  "permutacion": {
+   "percentil": 100.0,
+   "mayores_o_iguales": 0,
+   "mediana": 0.3779220779220779,
+   "percentil_90": 0.3964285714285714
+  },
+  "lenguas": {
+   "puesto_euskera": 1,
+   "orden": [
+    [
+     "Basque",
+     0.442
+    ],
+    [
+     "Lithuanian",
+     0.438
+    ],
+    [
+     "Hausa",
+     0.418
+    ],
+    [
+     "Yoruba",
+     0.416
+    ],
+    [
+     "Latin",
+     0.414
+    ],
+    [
+     "Welsh",
+     0.413
+    ],
+    [
+     "Romanian",
+     0.412
+    ],
+    [
+     "Zulu",
+     0.411
+    ],
+    [
+     "Irish",
+     0.41
+    ],
+    [
+     "Finnish",
+     0.405
+    ],
+    [
+     "Classical Nahuatl",
+     0.405
+    ],
+    [
+     "Malay",
+     0.403
+    ],
+    [
+     "Catalan",
+     0.402
+    ],
+    [
+     "Malagasy",
+     0.401
+    ],
+    [
+     "Indonesian",
+     0.4
+    ],
+    [
+     "Occitan",
+     0.398
+    ],
+    [
+     "Albanian",
+     0.396
+    ],
+    [
+     "Hawaiian",
+     0.395
+    ],
+    [
+     "Maltese",
+     0.394
+    ],
+    [
+     "Hungarian",
+     0.393
+    ],
+    [
+     "Icelandic",
+     0.392
+    ],
+    [
+     "Tagalog",
+     0.391
+    ],
+    [
+     "Turkish",
+     0.388
+    ],
+    [
+     "Swahili",
+     0.387
+    ],
+    [
+     "Estonian",
+     0.385
+    ],
+    [
+     "Fijian",
+     0.385
+    ],
+    [
+     "Sardinian",
+     0.383
+    ],
+    [
+     "Galician",
+     0.382
+    ],
+    [
+     "Somali",
+     0.379
+    ],
+    [
+     "Sicilian",
+     0.375
+    ],
+    [
+     "Asturian",
+     0.362
+    ],
+    [
+     "Quechua",
+     0.361
+    ]
+   ]
+  }
+ }
+}

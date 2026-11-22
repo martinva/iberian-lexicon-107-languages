@@ -1,0 +1,9 @@
+TABLA 1
+  Plomo     inscripciones   143 | palabras  1171 (41 %) | distintas  1020 (45 %) | no onomástico distinto  388 (56 %)
+  Cerámica  inscripciones  1217 | palabras  1237 (44 %) | distintas   848 (38 %) | no onomástico distinto  164 (24 %)
+  Piedra    inscripciones   214 | palabras   379 (13 %) | distintas   339 (15 %) | no onomástico distinto  122 (18 %)
+  Otros     inscripciones    25 | palabras    41 (1 %) | distintas    40 (2 %) | no onomástico distinto   13 (2 %)
+  Total     {'inscripciones': 1599, 'palabras': 2828, 'suma_de_distintas_por_soporte': 2247, 'distintas_en_todo_el_corpus': 2095, 'suma_no_onomastico_por_soporte': 687, 'no_onomastico_distinto_en_todo_el_corpus': 679}
+TABLA 2
+  Plomo: {'palabras_por_inscripcion': 8.2, 'una_palabra_o_menos': 33, 'cinco_o_mas': 71, 'diez_o_mas': 39, 'completas': 729, 'longitud_media': 7.7, 'de_dos_o_tres_letras': 81, 'de_seis_o_mas': 512, 'pct_nombres': 33, 'pct_en_formas_repetidas': 15, 'pct_repiten_forma_ya_presente': 9.3, 'no_onomasticas_con_sufijo': 177}
+  Cerámica: {'palabras_por_inscripcion': 1.0, 'una_palabra_o_menos': 1103, 'cinco_o_mas': 9, 'diez_o_mas': 2, 'completas': 639, 'longitud_media': 5.3, 'de_dos_o_tres_letras': 258, 'de_seis_o_mas': 236, 'pct_nombres': 60, 'pct_en_formas_repetidas': 32, 'pct_repiten_forma_ya_presente': 20.3, 'no_onomasticas_con_sufijo': 77}

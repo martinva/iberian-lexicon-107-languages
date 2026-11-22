@@ -1,0 +1,31 @@
+(b) permutación de los significados, 32 lenguas del Wikcionario:
+   1. Basque: z -10.09, p 0.000010 (corregida por 32 lenguas: 0.0003); 0 de 100000 permutaciones igualan o mejoran la asignación real
+   2. Galician: z -3.97, p 0.000080 (corregida por 32 lenguas: 0.0026); 7 de 100000 permutaciones igualan o mejoran la asignación real
+   3. Albanian: z -3.12, p 0.001190 (corregida por 32 lenguas: 0.0381); 118 de 100000 permutaciones igualan o mejoran la asignación real
+   4. Tagalog: z -3.11, p 0.001690 (corregida por 32 lenguas: 0.0541); 168 de 100000 permutaciones igualan o mejoran la asignación real
+   5. Catalan: z -2.69, p 0.004740 (corregida por 32 lenguas: 0.1517); 473 de 100000 permutaciones igualan o mejoran la asignación real
+   6. Asturian: z -2.66, p 0.005830 (corregida por 32 lenguas: 0.1866); 582 de 100000 permutaciones igualan o mejoran la asignación real
+   mejor de las demás lenguas: Galician -3.97
+(d) permutación condicionada por la longitud (los significados solo se intercambian entre unidades de igual longitud):
+   Basque: z -8.34, 0 de 100000, p 0.000010 (corregida por 32 lenguas: 0.0003); permutaciones distintas posibles 9.04e+15; unidades que pueden cambiar 27
+   Galician: z -4.17, 5 de 100000, p 0.000060 (corregida por 32 lenguas: 0.0019); permutaciones distintas posibles 1.9e+18; unidades que pueden cambiar 29
+   Tagalog: z -3.58, 33 de 100000, p 0.000340 (corregida por 32 lenguas: 0.0109); permutaciones distintas posibles 2.37e+17; unidades que pueden cambiar 28
+   Catalan: z -2.82, 299 de 100000, p 0.003000 (corregida por 32 lenguas: 0.0960); permutaciones distintas posibles 1.9e+18; unidades que pueden cambiar 29
+   Asturian: z -2.39, 1076 de 100000, p 0.010770 (corregida por 32 lenguas: 0.3446); permutaciones distintas posibles 6.33e+17; unidades que pueden cambiar 28
+   Albanian: z -2.12, 2047 de 100000, p 0.020480 (corregida por 32 lenguas: 0.6554); permutaciones distintas posibles 1.9e+18; unidades que pueden cambiar 29
+   Euskera, Open Data Euskadi: z -9.1, p 0.000010; 0 de 100000
+   Euskera, Azkue (1905-1906): z -8.74, p 0.000010; 0 de 100000
+   Euskera, WordNet: z -9.32, p 0.000010; 0 de 100000
+   Castellano, WordNet: z -1.59, p 0.058059; 5805 de 100000
+(c) permutación de los significados sin los cuatro préstamos latinos, 31 lenguas:
+   1. Basque: z -9.77, p 0.000010 (corregida por 31 lenguas: 0.0003); 0 de 100000
+   2. Galician: z -2.64, p 0.006040 (corregida por 31 lenguas: 0.1872); 603 de 100000
+   3. Albanian: z -2.38, p 0.010200 (corregida por 31 lenguas: 0.3162); 1019 de 100000
+   4. Tagalog: z -1.62, p 0.055769 (corregida por 31 lenguas: 1.0000); 5576 de 100000
+   5. Hawaiian: z -1.6, p 0.058649 (corregida por 31 lenguas: 1.0000); 5864 de 100000
+(d) condicionada por la longitud, sin los cuatro préstamos latinos:
+   Basque: z -7.63, 0 de 100000, p 0.000010 (corregida por 31 lenguas: 0.0003)
+   Galician: z -2.99, 240 de 100000, p 0.002410 (corregida por 31 lenguas: 0.0747)
+   Tagalog: z -2.08, 2294 de 100000, p 0.022950 (corregida por 31 lenguas: 0.7114)
+   Catalan: z -1.8, 3895 de 100000, p 0.038960 (corregida por 31 lenguas: 1.0000)
+(a) sustitución, 20000 sorteos, euskera (Wikcionario): z -12.317608168696038, p 0.000050, corregida por 32 lenguas: 0.00160

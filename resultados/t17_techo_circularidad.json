@@ -1,0 +1,546 @@
+{
+ "Albanian": {
+  "propuestos": {
+   "z": -2.695752724217924,
+   "real": 0.643,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -7.933739877941579,
+   "real": 0.447,
+   "coinciden_con_los_propuestos": 8
+  },
+  "trampa_libre": {
+   "z": -10.716668150179922,
+   "real": 0.355,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Asturian": {
+  "propuestos": {
+   "z": -3.272635030563808,
+   "real": 0.717,
+   "unidades": 29
+  },
+  "trampa_en_el_campo": {
+   "z": -8.916903528415897,
+   "real": 0.481,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -12.486011343217928,
+   "real": 0.381,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Basque": {
+  "propuestos": {
+   "z": -13.678649663960748,
+   "real": 0.432,
+   "unidades": 28
+  },
+  "trampa_en_el_campo": {
+   "z": -15.402588561604638,
+   "real": 0.338,
+   "coinciden_con_los_propuestos": 18
+  },
+  "trampa_libre": {
+   "z": -14.984339769303256,
+   "real": 0.295,
+   "coinciden_con_los_propuestos": 15
+  }
+ },
+ "Catalan": {
+  "propuestos": {
+   "z": -3.238745548209028,
+   "real": 0.626,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -11.598836335218408,
+   "real": 0.407,
+   "coinciden_con_los_propuestos": 7
+  },
+  "trampa_libre": {
+   "z": -13.654307684267994,
+   "real": 0.307,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Classical Nahuatl": {
+  "propuestos": {
+   "z": 1.158878669658789,
+   "real": 0.977,
+   "unidades": 20
+  },
+  "trampa_en_el_campo": {
+   "z": -5.540660277778235,
+   "real": 0.738,
+   "coinciden_con_los_propuestos": 0
+  },
+  "trampa_libre": {
+   "z": -7.518343107243585,
+   "real": 0.6,
+   "coinciden_con_los_propuestos": 0
+  }
+ },
+ "Estonian": {
+  "propuestos": {
+   "z": 1.3290902117477503,
+   "real": 0.85,
+   "unidades": 28
+  },
+  "trampa_en_el_campo": {
+   "z": -9.891246441236182,
+   "real": 0.488,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -13.176569443170592,
+   "real": 0.398,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Fijian": {
+  "propuestos": {
+   "z": 0.43161718153007356,
+   "real": 0.978,
+   "unidades": 13
+  },
+  "trampa_en_el_campo": {
+   "z": -4.2329845234212495,
+   "real": 0.763,
+   "coinciden_con_los_propuestos": 4
+  },
+  "trampa_libre": {
+   "z": -7.921850625609871,
+   "real": 0.573,
+   "coinciden_con_los_propuestos": 0
+  }
+ },
+ "Finnish": {
+  "propuestos": {
+   "z": 1.0422108352601687,
+   "real": 0.696,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -9.098161504867697,
+   "real": 0.443,
+   "coinciden_con_los_propuestos": 1
+  },
+  "trampa_libre": {
+   "z": -11.93779633558598,
+   "real": 0.36,
+   "coinciden_con_los_propuestos": 0
+  }
+ },
+ "Galician": {
+  "propuestos": {
+   "z": -3.7177856601062196,
+   "real": 0.612,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -10.596687539618168,
+   "real": 0.404,
+   "coinciden_con_los_propuestos": 7
+  },
+  "trampa_libre": {
+   "z": -13.046133367871642,
+   "real": 0.336,
+   "coinciden_con_los_propuestos": 4
+  }
+ },
+ "Hausa": {
+  "propuestos": {
+   "z": 1.1365300487069088,
+   "real": 0.928,
+   "unidades": 20
+  },
+  "trampa_en_el_campo": {
+   "z": -3.88476026073839,
+   "real": 0.685,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -7.002665554478975,
+   "real": 0.546,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Hawaiian": {
+  "propuestos": {
+   "z": -1.183519966460864,
+   "real": 0.898,
+   "unidades": 26
+  },
+  "trampa_en_el_campo": {
+   "z": -6.682123472281961,
+   "real": 0.668,
+   "coinciden_con_los_propuestos": 2
+  },
+  "trampa_libre": {
+   "z": -11.415508256273968,
+   "real": 0.58,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Hungarian": {
+  "propuestos": {
+   "z": 0.20186362442855024,
+   "real": 0.715,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -10.587384551720676,
+   "real": 0.423,
+   "coinciden_con_los_propuestos": 4
+  },
+  "trampa_libre": {
+   "z": -13.503136597052142,
+   "real": 0.346,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Icelandic": {
+  "propuestos": {
+   "z": -2.3505133728095955,
+   "real": 0.676,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -10.22457664216786,
+   "real": 0.432,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -13.10752748356019,
+   "real": 0.361,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Indonesian": {
+  "propuestos": {
+   "z": -0.17799369467679219,
+   "real": 0.706,
+   "unidades": 29
+  },
+  "trampa_en_el_campo": {
+   "z": -10.820309022354406,
+   "real": 0.383,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -13.166380572335806,
+   "real": 0.31,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Irish": {
+  "propuestos": {
+   "z": -1.3148719840639498,
+   "real": 0.714,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -9.21670941967871,
+   "real": 0.477,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -12.178027825314057,
+   "real": 0.407,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Latin": {
+  "propuestos": {
+   "z": -0.5295535772976361,
+   "real": 0.672,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -10.38755278381307,
+   "real": 0.396,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -12.507914725285458,
+   "real": 0.326,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Lithuanian": {
+  "propuestos": {
+   "z": -0.01752764381240681,
+   "real": 0.821,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -7.6088307464219636,
+   "real": 0.56,
+   "coinciden_con_los_propuestos": 4
+  },
+  "trampa_libre": {
+   "z": -9.222040265251922,
+   "real": 0.486,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Malagasy": {
+  "propuestos": {
+   "z": -1.0825104606655593,
+   "real": 0.875,
+   "unidades": 22
+  },
+  "trampa_en_el_campo": {
+   "z": -5.409717520032112,
+   "real": 0.685,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -8.656252285782202,
+   "real": 0.561,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Malay": {
+  "propuestos": {
+   "z": -1.5126166481386185,
+   "real": 0.704,
+   "unidades": 28
+  },
+  "trampa_en_el_campo": {
+   "z": -12.109019850213125,
+   "real": 0.423,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -15.893304606246605,
+   "real": 0.326,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Maltese": {
+  "propuestos": {
+   "z": -1.5058877918223603,
+   "real": 0.78,
+   "unidades": 29
+  },
+  "trampa_en_el_campo": {
+   "z": -8.291775917254535,
+   "real": 0.541,
+   "coinciden_con_los_propuestos": 6
+  },
+  "trampa_libre": {
+   "z": -11.193767778215165,
+   "real": 0.465,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Occitan": {
+  "propuestos": {
+   "z": -1.0827027739753508,
+   "real": 0.79,
+   "unidades": 25
+  },
+  "trampa_en_el_campo": {
+   "z": -9.242101456284436,
+   "real": 0.53,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -12.74688429234332,
+   "real": 0.399,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Quechua": {
+  "propuestos": {
+   "z": 1.044109992328304,
+   "real": 0.915,
+   "unidades": 22
+  },
+  "trampa_en_el_campo": {
+   "z": -4.3105824452146475,
+   "real": 0.666,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -7.919377254567473,
+   "real": 0.567,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Romanian": {
+  "propuestos": {
+   "z": -1.5081657411299398,
+   "real": 0.642,
+   "unidades": 29
+  },
+  "trampa_en_el_campo": {
+   "z": -7.895950155115614,
+   "real": 0.455,
+   "coinciden_con_los_propuestos": 4
+  },
+  "trampa_libre": {
+   "z": -13.070224660243523,
+   "real": 0.363,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Sardinian": {
+  "propuestos": {
+   "z": 0.014690093813287902,
+   "real": 0.938,
+   "unidades": 16
+  },
+  "trampa_en_el_campo": {
+   "z": -5.973325744231204,
+   "real": 0.688,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -7.853070250075072,
+   "real": 0.577,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Sicilian": {
+  "propuestos": {
+   "z": -2.212054909762695,
+   "real": 0.806,
+   "unidades": 24
+  },
+  "trampa_en_el_campo": {
+   "z": -7.853481651019813,
+   "real": 0.593,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -11.341938119309859,
+   "real": 0.478,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Somali": {
+  "propuestos": {
+   "z": 0.4845268031849677,
+   "real": 0.98,
+   "unidades": 15
+  },
+  "trampa_en_el_campo": {
+   "z": -5.024646342898613,
+   "real": 0.676,
+   "coinciden_con_los_propuestos": 4
+  },
+  "trampa_libre": {
+   "z": -7.289055259273424,
+   "real": 0.548,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Swahili": {
+  "propuestos": {
+   "z": 0.6384474438062543,
+   "real": 0.837,
+   "unidades": 28
+  },
+  "trampa_en_el_campo": {
+   "z": -7.648727885574611,
+   "real": 0.558,
+   "coinciden_con_los_propuestos": 1
+  },
+  "trampa_libre": {
+   "z": -10.776815722045784,
+   "real": 0.483,
+   "coinciden_con_los_propuestos": 1
+  }
+ },
+ "Tagalog": {
+  "propuestos": {
+   "z": -3.4608107221491187,
+   "real": 0.635,
+   "unidades": 29
+  },
+  "trampa_en_el_campo": {
+   "z": -10.89618686052251,
+   "real": 0.435,
+   "coinciden_con_los_propuestos": 6
+  },
+  "trampa_libre": {
+   "z": -14.429944149741287,
+   "real": 0.342,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Turkish": {
+  "propuestos": {
+   "z": -2.1266785261688934,
+   "real": 0.674,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -8.216969386280056,
+   "real": 0.465,
+   "coinciden_con_los_propuestos": 2
+  },
+  "trampa_libre": {
+   "z": -11.935704494011564,
+   "real": 0.377,
+   "coinciden_con_los_propuestos": 0
+  }
+ },
+ "Welsh": {
+  "propuestos": {
+   "z": -1.5240930480382184,
+   "real": 0.71,
+   "unidades": 30
+  },
+  "trampa_en_el_campo": {
+   "z": -9.750401573964425,
+   "real": 0.457,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -9.975996482968801,
+   "real": 0.376,
+   "coinciden_con_los_propuestos": 3
+  }
+ },
+ "Yoruba": {
+  "propuestos": {
+   "z": -0.4360546361820384,
+   "real": 0.899,
+   "unidades": 25
+  },
+  "trampa_en_el_campo": {
+   "z": -8.606826567435986,
+   "real": 0.569,
+   "coinciden_con_los_propuestos": 3
+  },
+  "trampa_libre": {
+   "z": -9.819189610427362,
+   "real": 0.456,
+   "coinciden_con_los_propuestos": 2
+  }
+ },
+ "Zulu": {
+  "propuestos": {
+   "z": -0.9538439544779981,
+   "real": 0.895,
+   "unidades": 25
+  },
+  "trampa_en_el_campo": {
+   "z": -7.134517418506227,
+   "real": 0.656,
+   "coinciden_con_los_propuestos": 5
+  },
+  "trampa_libre": {
+   "z": -8.934029321201779,
+   "real": 0.57,
+   "coinciden_con_los_propuestos": 2
+  }
+ }
+}

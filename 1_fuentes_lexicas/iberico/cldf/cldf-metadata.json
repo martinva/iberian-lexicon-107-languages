@@ -1,0 +1,150 @@
+{
+ "@context": [
+  "http://www.w3.org/ns/csvw",
+  {
+   "@language": "es"
+  }
+ ],
+ "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+ "dc:title": "Léxico ibérico con significado propuesto: soporte metrológico y plomos de contenido económico",
+ "dc:creator": "David Martín Valladolid",
+ "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+ "dc:source": "sources.bib",
+ "dc:description": "Formas ibéricas con significado propuesto empleadas en la comparación matemática con el léxico de otras lenguas. Cada forma lleva su grupo, su grado de certeza (A, B, C) y su fuente. Los significados son propuestas, no lecturas establecidas.",
+ "tables": [
+  {
+   "url": "languages.csv",
+   "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+   "tableSchema": {
+    "primaryKey": [
+     "ID"
+    ],
+    "columns": [
+     {
+      "name": "ID",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id"
+     },
+     {
+      "name": "Name",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name"
+     },
+     {
+      "name": "Glottocode",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode"
+     },
+     {
+      "name": "Comment",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment"
+     }
+    ]
+   }
+  },
+  {
+   "url": "parameters.csv",
+   "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+   "tableSchema": {
+    "primaryKey": [
+     "ID"
+    ],
+    "columns": [
+     {
+      "name": "ID",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id"
+     },
+     {
+      "name": "Name",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name"
+     },
+     {
+      "name": "Terminos_es"
+     },
+     {
+      "name": "Terminos_en"
+     },
+     {
+      "name": "Campo"
+     },
+     {
+      "name": "Valor_numerico"
+     }
+    ]
+   }
+  },
+  {
+   "url": "forms.csv",
+   "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+   "tableSchema": {
+    "primaryKey": [
+     "ID"
+    ],
+    "foreignKeys": [
+     {
+      "columnReference": [
+       "Language_ID"
+      ],
+      "reference": {
+       "resource": "languages.csv",
+       "columnReference": [
+        "ID"
+       ]
+      }
+     },
+     {
+      "columnReference": [
+       "Parameter_ID"
+      ],
+      "reference": {
+       "resource": "parameters.csv",
+       "columnReference": [
+        "ID"
+       ]
+      }
+     }
+    ],
+    "columns": [
+     {
+      "name": "ID",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id"
+     },
+     {
+      "name": "Language_ID",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference"
+     },
+     {
+      "name": "Parameter_ID",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference"
+     },
+     {
+      "name": "Form",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#form"
+     },
+     {
+      "name": "Segments",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#segments",
+      "separator": " "
+     },
+     {
+      "name": "Clases_SCA"
+     },
+     {
+      "name": "Grupo"
+     },
+     {
+      "name": "Grado"
+     },
+     {
+      "name": "Source",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+      "separator": ";"
+     },
+     {
+      "name": "Inscripciones"
+     },
+     {
+      "name": "Apoyo"
+     }
+    ]
+   }
+  }
+ ]
+}

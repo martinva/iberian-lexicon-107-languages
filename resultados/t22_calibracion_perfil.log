@@ -1,0 +1,6 @@
+== clases completas: ibérico–euskera 0.1533 | misma familia: percentil 6.5 de 1053 parejas | familias distintas: percentil 0.11 de 4618 (5 a esa distancia o menos; mínimo 0.1345)
+   lenguas sin parientes en la base: 9; con vecino a ≤ 0.153: [('Burushaski', 0.1532, 'Bengali')]
+   parejas de familias distintas más próximas: [(0.1345, 'Swedish', 'Veps'), (0.1449, 'Komi-Permyak', 'Russian'), (0.1483, 'Finnish', 'Kannada'), (0.1517, 'Chechen', 'Western Farsi'), (0.1532, 'Bengali', 'Burushaski')]
+== reducidas: ibérico–euskera 0.0696 | misma familia: percentil 2.4 de 1053 parejas | familias distintas: percentil 0.02 de 4618 (1 a esa distancia o menos; mínimo 0.0681)
+   lenguas sin parientes en la base: 9; con vecino a ≤ 0.070: []
+   parejas de familias distintas más próximas: [(0.0681, 'Estonian', 'Hindi'), (0.0839, 'Livonian', 'Romanian'), (0.0871, 'Ket', 'Sakha'), (0.0949, 'Buryat', 'Sakha'), (0.0973, 'Tsez', 'Sakha')]

@@ -1,0 +1,677 @@
+{
+ "regla": "declarada",
+ "recuento_formas": {
+  "sin dato": 1090,
+  "desconocido": 2399,
+  "heredado": 540,
+  "préstamo": 423
+ },
+ "emparejadas": [
+  {
+   "id": "A1",
+   "iberico": "śalir",
+   "candidata": "SiLaR",
+   "lemas": [
+    "zilar"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.25,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A2",
+   "iberico": "erter",
+   "candidata": "eRTi",
+   "lemas": [
+    "erdi"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.429,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A4",
+   "iberico": "eka",
+   "candidata": "SaReRa",
+   "lemas": [
+    "sarrera"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 1.077,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A5",
+   "iberico": "bobaida",
+   "candidata": "KeHiTu",
+   "lemas": [
+    "gehitu"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.737,
+   "candidatas": 4,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 3
+  },
+  {
+   "id": "A6",
+   "iberico": "bale",
+   "candidata": "PaLio",
+   "lemas": [
+    "balio"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.308,
+   "candidatas": 4,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 3
+  },
+  {
+   "id": "A7",
+   "iberico": "baśir",
+   "candidata": "PaSeRi",
+   "lemas": [
+    "baserri"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.235,
+   "candidatas": 3,
+   "prestamos_entre_candidatas": 1,
+   "candidatas_con_dato": 3
+  },
+  {
+   "id": "A8",
+   "iberico": "aŕeka",
+   "candidata": "eReKa",
+   "lemas": [
+    "erreka"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.143,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A9",
+   "iberico": "koŕta",
+   "candidata": "PoRTa",
+   "lemas": [
+    "borda"
+   ],
+   "clase": "préstamo",
+   "donante": "romance/latín",
+   "menciona_iberico": false,
+   "distancia": 0.25,
+   "candidatas": 5,
+   "prestamos_entre_candidatas": 2,
+   "candidatas_con_dato": 5
+  },
+  {
+   "id": "A10",
+   "iberico": "bekoŕ",
+   "candidata": "PiKa",
+   "lemas": [
+    "biga"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.571,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A11",
+   "iberico": "oŕtin",
+   "candidata": "LoRaTeKi",
+   "lemas": [
+    "lorategi"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.7,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A13",
+   "iberico": "saltu",
+   "candidata": "MeNTi",
+   "lemas": [
+    "mendi"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.75,
+   "candidatas": 5,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 3
+  },
+  {
+   "id": "A14",
+   "iberico": "aŕta",
+   "candidata": "aRTe",
+   "lemas": [
+    "arte"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.167,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A15",
+   "iberico": "alate",
+   "candidata": "aLTe",
+   "lemas": [
+    "alde"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.154,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A16",
+   "iberico": "akari",
+   "candidata": "aKuRa",
+   "lemas": [
+    "akura"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.286,
+   "candidatas": 4,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A17",
+   "iberico": "kutu",
+   "candidata": "KuTuN",
+   "lemas": [
+    "gutun"
+   ],
+   "clase": "préstamo",
+   "donante": "otro",
+   "menciona_iberico": false,
+   "distancia": 0.286,
+   "candidatas": 8,
+   "prestamos_entre_candidatas": 2,
+   "candidatas_con_dato": 8
+  },
+  {
+   "id": "A18",
+   "iberico": "iunstir",
+   "candidata": "JauN",
+   "lemas": [
+    "jaun"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.889,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A19",
+   "iberico": "laku",
+   "candidata": "LaKuN",
+   "lemas": [
+    "lagun"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.286,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A20",
+   "iberico": "baites",
+   "candidata": "aPaLKiTe",
+   "lemas": [
+    "abalkide"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.667,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "A21",
+   "iberico": "baŕbin",
+   "candidata": "eMaN",
+   "lemas": [
+    "eman"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 1.0,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 0
+  },
+  {
+   "id": "A22",
+   "iberico": "uskeike",
+   "candidata": "aSKe",
+   "lemas": [
+    "aske"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.625,
+   "candidatas": 7,
+   "prestamos_entre_candidatas": 1,
+   "candidatas_con_dato": 4
+  },
+  {
+   "id": "A23",
+   "iberico": "lekaŕ",
+   "candidata": "PeRMe",
+   "lemas": [
+    "berme"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 1.0,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 0
+  },
+  {
+   "id": "A24",
+   "iberico": "luŕa",
+   "candidata": "LuR",
+   "lemas": [
+    "lur"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.182,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A25",
+   "iberico": "ibaŕ",
+   "candidata": "iPaR",
+   "lemas": [
+    "ibar"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.0,
+   "candidatas": 8,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 7
+  },
+  {
+   "id": "A26",
+   "iberico": "itur",
+   "candidata": "iTuRi",
+   "lemas": [
+    "iturri"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.154,
+   "candidatas": 3,
+   "prestamos_entre_candidatas": 1,
+   "candidatas_con_dato": 3
+  },
+  {
+   "id": "A27",
+   "iberico": "belar",
+   "candidata": "PeLaR",
+   "lemas": [
+    "belar"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.0,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "A28",
+   "iberico": "bide",
+   "candidata": "PiTe",
+   "lemas": [
+    "bide"
+   ],
+   "clase": "sin dato",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.0,
+   "candidatas": 6,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 5
+  },
+  {
+   "id": "A29",
+   "iberico": "daŕadi",
+   "candidata": "SaSi",
+   "lemas": [
+    "sasi"
+   ],
+   "clase": "desconocido",
+   "donante": "",
+   "menciona_iberico": false,
+   "distancia": 0.933,
+   "candidatas": 6,
+   "prestamos_entre_candidatas": 1,
+   "candidatas_con_dato": 6
+  },
+  {
+   "id": "A30",
+   "iberico": "ekiar",
+   "candidata": "eKiN",
+   "lemas": [
+    "egin"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.462,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 1,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "N1",
+   "iberico": "ban",
+   "candidata": "PaT",
+   "lemas": [
+    "bat"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.4,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 2
+  },
+  {
+   "id": "N2",
+   "iberico": "bi",
+   "candidata": "Pi",
+   "lemas": [
+    "bi"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.0,
+   "candidatas": 2,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N3",
+   "iberico": "iŕur",
+   "candidata": "iRu",
+   "lemas": [
+    "hiru"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.4,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N4",
+   "iberico": "lauŕ",
+   "candidata": "Lau",
+   "lemas": [
+    "lau"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.4,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N5",
+   "iberico": "borste",
+   "candidata": "PoST",
+   "lemas": [
+    "bost"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.353,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N6",
+   "iberico": "śei",
+   "candidata": "Sei",
+   "lemas": [
+    "sei"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.0,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N7",
+   "iberico": "sisbi",
+   "candidata": "SaSPi",
+   "lemas": [
+    "zazpi"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.125,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N8",
+   "iberico": "sorse",
+   "candidata": "SoRCi",
+   "lemas": [
+    "zortzi"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.375,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N10",
+   "iberico": "abaŕ",
+   "candidata": "aMaR",
+   "lemas": [
+    "hamar"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.333,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  },
+  {
+   "id": "N20",
+   "iberico": "oŕkei",
+   "candidata": "oKei",
+   "lemas": [
+    "hogei"
+   ],
+   "clase": "heredado",
+   "donante": "",
+   "menciona_iberico": true,
+   "distancia": 0.333,
+   "candidatas": 1,
+   "prestamos_entre_candidatas": 0,
+   "candidatas_con_dato": 1
+  }
+ ],
+ "referencia": {
+  "prestamos_emparejadas": 2,
+  "prestamos_romance_latin": 1,
+  "emparejadas_con_dato": 31,
+  "proporcion": 0.06451612903225806,
+  "proporcion_candidatas_mismos_significados": 0.125,
+  "proporcion_lexico_con_nota": 0.12581796549672813,
+  "p_hipergeometrica_mayor_o_igual": 0.9610830430046505,
+  "p_hipergeometrica_menor_o_igual": 0.16174309954854524,
+  "sorteos": 10000,
+  "p_sorteo_mayor_o_igual": 0.7193,
+  "media_sorteo": 2.2363
+ },
+ "control_latinos": {
+  "bale": {
+   "candidata": "PaLio",
+   "lemas": [
+    "balio"
+   ],
+   "clase": "sin dato",
+   "donante": ""
+  },
+  "koŕta": {
+   "candidata": "PoRTa",
+   "lemas": [
+    "borda"
+   ],
+   "clase": "préstamo",
+   "donante": "romance/latín"
+  },
+  "oŕtin": {
+   "candidata": "LoRaTeKi",
+   "lemas": [
+    "lorategi"
+   ],
+   "clase": "desconocido",
+   "donante": ""
+  },
+  "saltu": {
+   "candidata": "MeNTi",
+   "lemas": [
+    "mendi"
+   ],
+   "clase": "heredado",
+   "donante": ""
+  }
+ },
+ "fonotaxis": {
+  "heredados": 540,
+  "prestamos": 423,
+  "acierto_heredados_cv": 0.8388888888888889,
+  "acierto_prestamos_cv": 0.8037825059101655,
+  "clasificacion_emparejadas_fuera_de_muestra": {
+   "A1": "préstamo",
+   "A2": "heredado",
+   "A4": "heredado",
+   "A5": "heredado",
+   "A6": "préstamo",
+   "A7": "heredado",
+   "A8": "préstamo",
+   "A9": "préstamo",
+   "A10": "préstamo",
+   "A11": "heredado",
+   "A13": "préstamo",
+   "A14": "heredado",
+   "A15": "heredado",
+   "A16": "heredado",
+   "A17": "heredado",
+   "A18": "heredado",
+   "A19": "heredado",
+   "A20": "préstamo",
+   "A21": "heredado",
+   "A22": "heredado",
+   "A23": "heredado",
+   "A24": "heredado",
+   "A25": "heredado",
+   "A26": "heredado",
+   "A27": "heredado",
+   "A28": "heredado",
+   "A29": "préstamo",
+   "A30": "heredado",
+   "N1": "préstamo",
+   "N2": "heredado",
+   "N3": "heredado",
+   "N4": "heredado",
+   "N5": "préstamo",
+   "N6": "heredado",
+   "N7": "heredado",
+   "N8": "heredado",
+   "N10": "préstamo",
+   "N20": "heredado"
+  },
+  "emparejadas_como_prestamo_fuera_de_muestra": 11,
+  "emparejadas_como_prestamo_con_todo": 8,
+  "emparejadas": 38
+ }
+}

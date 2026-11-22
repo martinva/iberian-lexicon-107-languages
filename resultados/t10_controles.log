@@ -1,0 +1,36 @@
+umbro (238 palabras elegibles), muestra 1: [('Latin', -6.635), ('Lithuanian', -4.172), ('Icelandic', -3.772), ('Romanian', -3.352)]
+umbro (238 palabras elegibles), muestra 2: [('Romanian', -5.193), ('Latin', -4.473), ('Sicilian', -3.672), ('Welsh', -3.668)]
+umbro (238 palabras elegibles), muestra 3: [('Latin', -8.083), ('Catalan', -5.245), ('Galician', -3.658), ('Lithuanian', -3.62)]
+umbro (238 palabras elegibles), muestra 4: [('Latin', -5.211), ('Sicilian', -4.449), ('Romanian', -4.202), ('Irish', -3.491)]
+umbro (238 palabras elegibles), muestra 5: [('Latin', -4.619), ('Romanian', -3.835), ('Occitan', -3.333), ('Sicilian', -2.67)]
+  → primera lengua pariente en 5 de 5; valor de la primera lengua, de -4.619 a -8.083
+gótico (2737 palabras elegibles), muestra 1: [('Icelandic', -3.252), ('Latin', -2.491), ('Yoruba', -2.436), ('Galician', -2.332)]
+gótico (2737 palabras elegibles), muestra 2: [('Icelandic', -5.315), ('Latin', -2.056), ('Catalan', -1.647), ('Galician', -1.437)]
+gótico (2737 palabras elegibles), muestra 3: [('Fijian', -3.355), ('Yoruba', -2.533), ('Icelandic', -1.624), ('Hausa', -1.518)]
+gótico (2737 palabras elegibles), muestra 4: [('Icelandic', -6.806), ('Albanian', -2.566), ('Romanian', -2.073), ('Malay', -1.965)]
+gótico (2737 palabras elegibles), muestra 5: [('Icelandic', -3.015), ('Tagalog', -2.743), ('Estonian', -2.341), ('Yoruba', -2.268)]
+  → primera lengua pariente en 4 de 5; valor de la primera lengua, de -3.015 a -6.806
+córnico (4553 palabras elegibles), muestra 1: [('Welsh', -13.582), ('Catalan', -8.204), ('Romanian', -7.585), ('Maltese', -6.931)]
+córnico (4553 palabras elegibles), muestra 2: [('Welsh', -8.786), ('Latin', -4.661), ('Irish', -4.453), ('Finnish', -4.292)]
+córnico (4553 palabras elegibles), muestra 3: [('Welsh', -6.668), ('Catalan', -4.036), ('Yoruba', -4.031), ('Irish', -3.851)]
+córnico (4553 palabras elegibles), muestra 4: [('Welsh', -9.766), ('Latin', -7.07), ('Romanian', -6.054), ('Maltese', -5.643)]
+córnico (4553 palabras elegibles), muestra 5: [('Romanian', -9.677), ('Welsh', -9.416), ('Tagalog', -6.806), ('Catalan', -6.671)]
+  → primera lengua pariente en 4 de 5; valor de la primera lengua, de -6.668 a -13.582
+dálmata (962 palabras elegibles), muestra 1: [('Catalan', -12.071), ('Romanian', -10.193), ('Occitan', -9.763), ('Galician', -9.641)]
+dálmata (962 palabras elegibles), muestra 2: [('Romanian', -13.173), ('Catalan', -12.915), ('Galician', -12.771), ('Asturian', -12.733)]
+dálmata (962 palabras elegibles), muestra 3: [('Catalan', -15.479), ('Romanian', -14.333), ('Occitan', -13.023), ('Galician', -12.039)]
+dálmata (962 palabras elegibles), muestra 4: [('Romanian', -13.181), ('Catalan', -12.19), ('Occitan', -11.224), ('Galician', -11.146)]
+dálmata (962 palabras elegibles), muestra 5: [('Sicilian', -12.078), ('Romanian', -11.563), ('Occitan', -11.396), ('Catalan', -10.841)]
+  → primera lengua pariente en 5 de 5; valor de la primera lengua, de -12.071 a -15.479
+etrusco (108 palabras elegibles), muestra 1: [('Romanian', -4.545), ('Asturian', -4.12), ('Irish', -3.29), ('Latin', -3.263)]
+etrusco (108 palabras elegibles), muestra 2: [('Romanian', -3.404), ('Finnish', -2.492), ('Latin', -2.457), ('Irish', -2.282)]
+etrusco (108 palabras elegibles), muestra 3: [('Asturian', -4.764), ('Tagalog', -4.068), ('Romanian', -3.794), ('Latin', -3.369)]
+etrusco (108 palabras elegibles), muestra 4: [('Asturian', -4.576), ('Tagalog', -4.054), ('Latin', -3.696), ('Galician', -3.465)]
+etrusco (108 palabras elegibles), muestra 5: [('Latin', -2.393), ('Tagalog', -1.662), ('Romanian', -1.46), ('Indonesian', -1.314)]
+  → primera lengua pariente en 0 de 5; valor de la primera lengua, de -2.393 a -4.764
+sumerio (530 palabras elegibles), muestra 1: [('Classical Nahuatl', -2.004), ('Tagalog', -1.823), ('Hungarian', -1.807), ('Welsh', -1.651)]
+sumerio (530 palabras elegibles), muestra 2: [('Welsh', -1.614), ('Albanian', -1.399), ('Sicilian', -0.838), ('Latin', -0.737)]
+sumerio (530 palabras elegibles), muestra 3: [('Hawaiian', -1.978), ('Somali', -1.403), ('Albanian', -1.299), ('Latin', -0.967)]
+sumerio (530 palabras elegibles), muestra 4: [('Hungarian', -2.465), ('Turkish', -1.667), ('Fijian', -1.664), ('Albanian', -1.181)]
+sumerio (530 palabras elegibles), muestra 5: [('Swahili', -2.762), ('Turkish', -2.099), ('Hawaiian', -1.521), ('Somali', -1.353)]
+  → primera lengua pariente en 0 de 5; valor de la primera lengua, de -1.614 a -2.762

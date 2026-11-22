@@ -1,0 +1,13 @@
+sorteo 1 0.788 0.745
+sorteo 2 0.823 0.786
+sorteo 3 0.807 0.764
+sorteo 4 0.827 0.791
+sorteo 5 0.81 0.768
+sorteo 6 0.813 0.773
+sorteo 7 0.832 0.794
+sorteo 8 0.853 0.824
+sorteo 9 0.806 0.764
+sorteo 10 0.824 0.786
+sorteo 11 0.776 0.728
+sorteo 12 0.839 0.804
+{'lenguas': 106, 'parejas': 5565, 'misma_familia': 1053, 'parentesco_antiguo': 843, 'auc': 0.816, 'auc_parentesco_antiguo': 0.777, 'minimo': 0.776, 'maximo': 0.853}

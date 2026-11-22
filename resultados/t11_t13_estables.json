@@ -1,0 +1,2695 @@
+{
+ "iberico": {
+  "Albanian": {
+   "estables": {
+    "n": 11,
+    "real": 0.73,
+    "azar": 0.821,
+    "z": -1.8024956974312556,
+    "ventaja": 0.091235
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.709,
+    "azar": 0.765,
+    "z": -1.979719029723814,
+    "ventaja": 0.056031
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.685,
+    "azar": 0.745,
+    "z": -1.0815859420339065,
+    "ventaja": 0.060335
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.737,
+    "azar": 0.828,
+    "z": -1.6788076583712355,
+    "ventaja": 0.091203
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.715,
+    "azar": 0.781,
+    "z": -2.616855653707492,
+    "ventaja": 0.065712
+   }
+  },
+  "Asturian": {
+   "estables": {
+    "n": 11,
+    "real": 0.746,
+    "azar": 0.825,
+    "z": -1.5212823044495538,
+    "ventaja": 0.079808
+   },
+   "poco estables": {
+    "n": 28,
+    "real": 0.763,
+    "azar": 0.855,
+    "z": -2.978094492240047,
+    "ventaja": 0.09208
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.652,
+    "azar": 0.775,
+    "z": -1.881646968689401,
+    "ventaja": 0.122818
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.763,
+    "azar": 0.834,
+    "z": -1.2933118444722373,
+    "ventaja": 0.071482
+   },
+   "todos": {
+    "n": 39,
+    "real": 0.758,
+    "azar": 0.847,
+    "z": -3.30849349841887,
+    "ventaja": 0.088619
+   }
+  },
+  "Basque": {
+   "estables": {
+    "n": 11,
+    "real": 0.359,
+    "azar": 0.892,
+    "z": -8.383758654082898,
+    "ventaja": 0.533382
+   },
+   "poco estables": {
+    "n": 27,
+    "real": 0.39,
+    "azar": 0.835,
+    "z": -12.921239352178667,
+    "ventaja": 0.445055
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.399,
+    "azar": 0.847,
+    "z": -6.242690798016153,
+    "ventaja": 0.447495
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.32,
+    "azar": 0.908,
+    "z": -8.722167224303938,
+    "ventaja": 0.588356
+   },
+   "todos": {
+    "n": 38,
+    "real": 0.381,
+    "azar": 0.852,
+    "z": -15.447521274119453,
+    "ventaja": 0.470623
+   }
+  },
+  "Catalan": {
+   "estables": {
+    "n": 11,
+    "real": 0.661,
+    "azar": 0.786,
+    "z": -2.5273406311153943,
+    "ventaja": 0.125781
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.72,
+    "azar": 0.763,
+    "z": -1.5434336029503473,
+    "ventaja": 0.042614
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.54,
+    "azar": 0.694,
+    "z": -2.821279008823656,
+    "ventaja": 0.153506
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.66,
+    "azar": 0.799,
+    "z": -2.625909515118609,
+    "ventaja": 0.138683
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.704,
+    "azar": 0.769,
+    "z": -2.618288729648882,
+    "ventaja": 0.065485
+   }
+  },
+  "Classical Nahuatl": {
+   "estables": {
+    "n": 10,
+    "real": 0.99,
+    "azar": 0.936,
+    "z": 1.1677009510283598,
+    "ventaja": -0.054008
+   },
+   "poco estables": {
+    "n": 19,
+    "real": 1.022,
+    "azar": 0.996,
+    "z": 0.8821827134030634,
+    "ventaja": -0.025604
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 6,
+    "real": 0.917,
+    "azar": 0.877,
+    "z": 0.6657060792480202,
+    "ventaja": -0.039523
+   },
+   "estables sin saltu": {
+    "n": 9,
+    "real": 1.03,
+    "azar": 0.964,
+    "z": 1.3493555100565,
+    "ventaja": -0.066752
+   },
+   "todos": {
+    "n": 29,
+    "real": 1.011,
+    "azar": 0.975,
+    "z": 1.4465574484152042,
+    "ventaja": -0.035399
+   }
+  },
+  "Estonian": {
+   "estables": {
+    "n": 11,
+    "real": 0.894,
+    "azar": 0.871,
+    "z": 0.4377286457524311,
+    "ventaja": -0.023714
+   },
+   "poco estables": {
+    "n": 27,
+    "real": 0.902,
+    "azar": 0.859,
+    "z": 1.4920401138147183,
+    "ventaja": -0.042275
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.825,
+    "azar": 0.808,
+    "z": 0.25893237251764156,
+    "ventaja": -0.01667
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.898,
+    "azar": 0.876,
+    "z": 0.37848640492563684,
+    "ventaja": -0.021774
+   },
+   "todos": {
+    "n": 38,
+    "real": 0.9,
+    "azar": 0.863,
+    "z": 1.443510213881718,
+    "ventaja": -0.036902
+   }
+  },
+  "Fijian": {
+   "estables": {
+    "n": 9,
+    "real": 1.03,
+    "azar": 0.984,
+    "z": 0.706300684376664,
+    "ventaja": -0.045784
+   },
+   "poco estables": {
+    "n": 14,
+    "real": 1.051,
+    "azar": 0.991,
+    "z": 1.308962515054861,
+    "ventaja": -0.060431
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 5,
+    "real": 0.961,
+    "azar": 0.942,
+    "z": 0.21719175237519256,
+    "ventaja": -0.018969
+   },
+   "estables sin saltu": {
+    "n": 8,
+    "real": 1.034,
+    "azar": 0.964,
+    "z": 1.0234442176281071,
+    "ventaja": -0.069739
+   },
+   "todos": {
+    "n": 23,
+    "real": 1.043,
+    "azar": 0.988,
+    "z": 1.448554501248488,
+    "ventaja": -0.054699
+   }
+  },
+  "Finnish": {
+   "estables": {
+    "n": 11,
+    "real": 0.754,
+    "azar": 0.726,
+    "z": 0.6628677337520308,
+    "ventaja": -0.02841
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.743,
+    "azar": 0.735,
+    "z": 0.3448025245457893,
+    "ventaja": -0.008194
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.656,
+    "azar": 0.63,
+    "z": 0.5302420341625713,
+    "ventaja": -0.025531
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.767,
+    "azar": 0.736,
+    "z": 0.6574852650240076,
+    "ventaja": -0.030272
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.746,
+    "azar": 0.732,
+    "z": 0.6468576755066192,
+    "ventaja": -0.013753
+   }
+  },
+  "Galician": {
+   "estables": {
+    "n": 11,
+    "real": 0.711,
+    "azar": 0.769,
+    "z": -1.1480294666920032,
+    "ventaja": 0.057163
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.667,
+    "azar": 0.777,
+    "z": -3.820500745147056,
+    "ventaja": 0.109973
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.598,
+    "azar": 0.679,
+    "z": -1.416444643071813,
+    "ventaja": 0.081207
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.733,
+    "azar": 0.78,
+    "z": -0.8897890319866776,
+    "ventaja": 0.047283
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.679,
+    "azar": 0.774,
+    "z": -3.7763277561998363,
+    "ventaja": 0.09545
+   }
+  },
+  "Hausa": {
+   "estables": {
+    "n": 9,
+    "real": 0.914,
+    "azar": 0.908,
+    "z": 0.1179048730793418,
+    "ventaja": -0.00619
+   },
+   "poco estables": {
+    "n": 21,
+    "real": 0.929,
+    "azar": 0.922,
+    "z": 0.2074143120464087,
+    "ventaja": -0.00719
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 5,
+    "real": 0.937,
+    "azar": 0.823,
+    "z": 1.5493061146389662,
+    "ventaja": -0.113586
+   },
+   "estables sin saltu": {
+    "n": 8,
+    "real": 0.904,
+    "azar": 0.93,
+    "z": -0.4594230502168051,
+    "ventaja": 0.02599
+   },
+   "todos": {
+    "n": 30,
+    "real": 0.925,
+    "azar": 0.918,
+    "z": 0.24217274679764436,
+    "ventaja": -0.00689
+   }
+  },
+  "Hawaiian": {
+   "estables": {
+    "n": 11,
+    "real": 0.976,
+    "azar": 0.878,
+    "z": 1.8703330671993865,
+    "ventaja": -0.097433
+   },
+   "poco estables": {
+    "n": 25,
+    "real": 0.946,
+    "azar": 0.959,
+    "z": -0.4853191983627802,
+    "ventaja": 0.013056
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.895,
+    "azar": 0.854,
+    "z": 0.6663291458634747,
+    "ventaja": -0.041607
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.981,
+    "azar": 0.883,
+    "z": 1.7795992088249084,
+    "ventaja": -0.097897
+   },
+   "todos": {
+    "n": 36,
+    "real": 0.955,
+    "azar": 0.935,
+    "z": 0.8327993041048114,
+    "ventaja": -0.020704
+   }
+  },
+  "Hungarian": {
+   "estables": {
+    "n": 11,
+    "real": 0.826,
+    "azar": 0.831,
+    "z": -0.09426368845305526,
+    "ventaja": 0.004507
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.787,
+    "azar": 0.766,
+    "z": 0.757941304881466,
+    "ventaja": -0.021133
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.761,
+    "azar": 0.735,
+    "z": 0.48900689809093423,
+    "ventaja": -0.026256
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.837,
+    "azar": 0.841,
+    "z": -0.06595569566184863,
+    "ventaja": 0.003342
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.798,
+    "azar": 0.783,
+    "z": 0.5836342970185304,
+    "ventaja": -0.014082
+   }
+  },
+  "Icelandic": {
+   "estables": {
+    "n": 11,
+    "real": 0.766,
+    "azar": 0.788,
+    "z": -0.45749463047058764,
+    "ventaja": 0.021498
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.714,
+    "azar": 0.784,
+    "z": -2.344566957749852,
+    "ventaja": 0.070239
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.732,
+    "azar": 0.717,
+    "z": 0.27233760805086243,
+    "ventaja": -0.01481
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.781,
+    "azar": 0.8,
+    "z": -0.3562081368499833,
+    "ventaja": 0.018227
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.728,
+    "azar": 0.785,
+    "z": -2.319407755601004,
+    "ventaja": 0.056835
+   }
+  },
+  "Indonesian": {
+   "estables": {
+    "n": 11,
+    "real": 0.706,
+    "azar": 0.744,
+    "z": -0.8337862348678216,
+    "ventaja": 0.038073
+   },
+   "poco estables": {
+    "n": 28,
+    "real": 0.764,
+    "azar": 0.76,
+    "z": 0.18065103343726588,
+    "ventaja": -0.004848
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.712,
+    "azar": 0.686,
+    "z": 0.4947732659738671,
+    "ventaja": -0.025477
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.705,
+    "azar": 0.75,
+    "z": -0.9151403678980262,
+    "ventaja": 0.044928
+   },
+   "todos": {
+    "n": 39,
+    "real": 0.748,
+    "azar": 0.755,
+    "z": -0.3100249762822254,
+    "ventaja": 0.007258
+   }
+  },
+  "Irish": {
+   "estables": {
+    "n": 11,
+    "real": 0.676,
+    "azar": 0.76,
+    "z": -1.8079897215027982,
+    "ventaja": 0.084018
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.754,
+    "azar": 0.805,
+    "z": -1.8007819841803812,
+    "ventaja": 0.051077
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.543,
+    "azar": 0.679,
+    "z": -2.56924425577942,
+    "ventaja": 0.136265
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.669,
+    "azar": 0.761,
+    "z": -1.8185381860276182,
+    "ventaja": 0.091757
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.732,
+    "azar": 0.792,
+    "z": -2.363878571691445,
+    "ventaja": 0.060135
+   }
+  },
+  "Latin": {
+   "estables": {
+    "n": 11,
+    "real": 0.695,
+    "azar": 0.737,
+    "z": -0.9440660355428484,
+    "ventaja": 0.042744
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.744,
+    "azar": 0.744,
+    "z": -0.006568708676195362,
+    "ventaja": 0.000154
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.601,
+    "azar": 0.633,
+    "z": -0.6285007294806867,
+    "ventaja": 0.032436
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.72,
+    "azar": 0.744,
+    "z": -0.5167976371143002,
+    "ventaja": 0.024735
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.73,
+    "azar": 0.742,
+    "z": -0.5689109151471895,
+    "ventaja": 0.011866
+   }
+  },
+  "Lithuanian": {
+   "estables": {
+    "n": 11,
+    "real": 0.763,
+    "azar": 0.83,
+    "z": -1.4265624360829652,
+    "ventaja": 0.066396
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.86,
+    "azar": 0.872,
+    "z": -0.45383200974413784,
+    "ventaja": 0.011662
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.721,
+    "azar": 0.773,
+    "z": -1.0350707920083526,
+    "ventaja": 0.052239
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.762,
+    "azar": 0.84,
+    "z": -1.6071662540737186,
+    "ventaja": 0.077809
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.833,
+    "azar": 0.86,
+    "z": -1.1677449509516011,
+    "ventaja": 0.026714
+   }
+  },
+  "Malagasy": {
+   "estables": {
+    "n": 10,
+    "real": 1.017,
+    "azar": 0.953,
+    "z": 1.315949491884782,
+    "ventaja": -0.063499
+   },
+   "poco estables": {
+    "n": 22,
+    "real": 0.912,
+    "azar": 0.932,
+    "z": -0.6381242678625324,
+    "ventaja": 0.019855
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 6,
+    "real": 0.956,
+    "azar": 0.913,
+    "z": 0.6943230965623718,
+    "ventaja": -0.042292
+   },
+   "estables sin saltu": {
+    "n": 9,
+    "real": 1.037,
+    "azar": 0.934,
+    "z": 1.961678858738441,
+    "ventaja": -0.103264
+   },
+   "todos": {
+    "n": 32,
+    "real": 0.945,
+    "azar": 0.939,
+    "z": 0.237578300082518,
+    "ventaja": -0.006193
+   }
+  },
+  "Malay": {
+   "estables": {
+    "n": 11,
+    "real": 0.712,
+    "azar": 0.752,
+    "z": -0.8558528339880707,
+    "ventaja": 0.040183
+   },
+   "poco estables": {
+    "n": 26,
+    "real": 0.731,
+    "azar": 0.771,
+    "z": -1.4866944673765545,
+    "ventaja": 0.040385
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.721,
+    "azar": 0.693,
+    "z": 0.5577596817197846,
+    "ventaja": -0.028903
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.697,
+    "azar": 0.753,
+    "z": -1.0975175801433728,
+    "ventaja": 0.055179
+   },
+   "todos": {
+    "n": 37,
+    "real": 0.725,
+    "azar": 0.766,
+    "z": -1.717888569706163,
+    "ventaja": 0.040325
+   }
+  },
+  "Maltese": {
+   "estables": {
+    "n": 11,
+    "real": 0.945,
+    "azar": 0.889,
+    "z": 1.1742129490089412,
+    "ventaja": -0.055182
+   },
+   "poco estables": {
+    "n": 28,
+    "real": 0.772,
+    "azar": 0.861,
+    "z": -3.2082549783006176,
+    "ventaja": 0.088619
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.871,
+    "azar": 0.813,
+    "z": 0.9938760379714306,
+    "ventaja": -0.058194
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.944,
+    "azar": 0.904,
+    "z": 0.8142698658779239,
+    "ventaja": -0.040315
+   },
+   "todos": {
+    "n": 39,
+    "real": 0.821,
+    "azar": 0.869,
+    "z": -2.0470606884003124,
+    "ventaja": 0.04806
+   }
+  },
+  "Occitan": {
+   "estables": {
+    "n": 11,
+    "real": 0.764,
+    "azar": 0.856,
+    "z": -1.5848666905090936,
+    "ventaja": 0.091974
+   },
+   "poco estables": {
+    "n": 24,
+    "real": 0.853,
+    "azar": 0.862,
+    "z": -0.2651194099171009,
+    "ventaja": 0.009179
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.703,
+    "azar": 0.809,
+    "z": -1.564095520939283,
+    "ventaja": 0.106351
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.765,
+    "azar": 0.862,
+    "z": -1.543276442422037,
+    "ventaja": 0.096506
+   },
+   "todos": {
+    "n": 35,
+    "real": 0.825,
+    "azar": 0.86,
+    "z": -1.156536230645036,
+    "ventaja": 0.0352
+   }
+  },
+  "Quechua": {
+   "estables": {
+    "n": 11,
+    "real": 0.922,
+    "azar": 0.905,
+    "z": 0.3678781315015168,
+    "ventaja": -0.016679
+   },
+   "poco estables": {
+    "n": 20,
+    "real": 0.963,
+    "azar": 0.924,
+    "z": 1.151560648512344,
+    "ventaja": -0.039628
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.872,
+    "azar": 0.851,
+    "z": 0.36387503749148054,
+    "ventaja": -0.020642
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.927,
+    "azar": 0.917,
+    "z": 0.20810625155402587,
+    "ventaja": -0.010071
+   },
+   "todos": {
+    "n": 31,
+    "real": 0.949,
+    "azar": 0.917,
+    "z": 1.1350379660417151,
+    "ventaja": -0.031485
+   }
+  },
+  "Romanian": {
+   "estables": {
+    "n": 11,
+    "real": 0.695,
+    "azar": 0.763,
+    "z": -1.3875397652167563,
+    "ventaja": 0.067535
+   },
+   "poco estables": {
+    "n": 28,
+    "real": 0.706,
+    "azar": 0.732,
+    "z": -1.0194215145382783,
+    "ventaja": 0.025769
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.635,
+    "azar": 0.673,
+    "z": -0.7071152226584,
+    "ventaja": 0.038009
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.715,
+    "azar": 0.769,
+    "z": -1.0577128320433338,
+    "ventaja": 0.054552
+   },
+   "todos": {
+    "n": 39,
+    "real": 0.703,
+    "azar": 0.74,
+    "z": -1.6458832031945343,
+    "ventaja": 0.037549
+   }
+  },
+  "Samoan": {
+   "estables": {
+    "n": 7,
+    "real": 1.032,
+    "azar": 0.988,
+    "z": 0.7194932869086018,
+    "ventaja": -0.043623
+   },
+   "poco estables": {
+    "n": 8,
+    "real": 1.097,
+    "azar": 1.05,
+    "z": 0.9253523718566119,
+    "ventaja": -0.04757
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 3,
+    "real": 0.918,
+    "azar": 0.879,
+    "z": 0.44119191174177524,
+    "ventaja": -0.039792
+   },
+   "estables sin saltu": {
+    "n": 6,
+    "real": 1.05,
+    "azar": 1.021,
+    "z": 0.425496595245133,
+    "ventaja": -0.028833
+   },
+   "todos": {
+    "n": 15,
+    "real": 1.067,
+    "azar": 1.021,
+    "z": 1.153198437371252,
+    "ventaja": -0.045728
+   }
+  },
+  "Sardinian": {
+   "estables": {
+    "n": 9,
+    "real": 0.94,
+    "azar": 0.95,
+    "z": -0.15115587548215254,
+    "ventaja": 0.00933
+   },
+   "poco estables": {
+    "n": 17,
+    "real": 0.92,
+    "azar": 0.954,
+    "z": -0.8056150859156718,
+    "ventaja": 0.034066
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 5,
+    "real": 0.978,
+    "azar": 0.95,
+    "z": 0.3241054935301779,
+    "ventaja": -0.027549
+   },
+   "estables sin saltu": {
+    "n": 8,
+    "real": 0.933,
+    "azar": 0.949,
+    "z": -0.2510127753882802,
+    "ventaja": 0.015822
+   },
+   "todos": {
+    "n": 26,
+    "real": 0.927,
+    "azar": 0.952,
+    "z": -0.7316750572170794,
+    "ventaja": 0.025504
+   }
+  },
+  "Shona": {
+   "estables": {
+    "n": 8,
+    "real": 0.966,
+    "azar": 1.003,
+    "z": -0.6683772144412679,
+    "ventaja": 0.037176
+   },
+   "poco estables": {
+    "n": 6,
+    "real": 0.861,
+    "azar": 1.012,
+    "z": -2.380497314333444,
+    "ventaja": 0.150819
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 4,
+    "real": 0.957,
+    "azar": 0.987,
+    "z": -0.3417284736440908,
+    "ventaja": 0.02998
+   },
+   "estables sin saltu": {
+    "n": 7,
+    "real": 0.997,
+    "azar": 1.02,
+    "z": -0.3834319680019435,
+    "ventaja": 0.023193
+   },
+   "todos": {
+    "n": 14,
+    "real": 0.921,
+    "azar": 1.007,
+    "z": -2.097678452504072,
+    "ventaja": 0.08588
+   }
+  },
+  "Sicilian": {
+   "estables": {
+    "n": 11,
+    "real": 0.811,
+    "azar": 0.915,
+    "z": -1.9209171705038146,
+    "ventaja": 0.103711
+   },
+   "poco estables": {
+    "n": 23,
+    "real": 0.821,
+    "azar": 0.908,
+    "z": -2.403932026562148,
+    "ventaja": 0.087041
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.767,
+    "azar": 0.899,
+    "z": -2.0529866685992277,
+    "ventaja": 0.131253
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.817,
+    "azar": 0.939,
+    "z": -2.1233313479237172,
+    "ventaja": 0.122082
+   },
+   "todos": {
+    "n": 34,
+    "real": 0.818,
+    "azar": 0.91,
+    "z": -2.971913618190543,
+    "ventaja": 0.092435
+   }
+  },
+  "Somali": {
+   "estables": {
+    "n": 11,
+    "real": 0.968,
+    "azar": 0.96,
+    "z": 0.15484400297784573,
+    "ventaja": -0.007879
+   },
+   "poco estables": {
+    "n": 14,
+    "real": 0.976,
+    "azar": 0.976,
+    "z": 0.017286750180879436,
+    "ventaja": -0.000755
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.969,
+    "azar": 0.938,
+    "z": 0.5049829385331561,
+    "ventaja": -0.030688
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.974,
+    "azar": 0.958,
+    "z": 0.29351354825001175,
+    "ventaja": -0.015758
+   },
+   "todos": {
+    "n": 25,
+    "real": 0.973,
+    "azar": 0.969,
+    "z": 0.12154452721068616,
+    "ventaja": -0.00389
+   }
+  },
+  "Swahili": {
+   "estables": {
+    "n": 11,
+    "real": 0.925,
+    "azar": 0.893,
+    "z": 0.6697764282145565,
+    "ventaja": -0.032415
+   },
+   "poco estables": {
+    "n": 27,
+    "real": 0.813,
+    "azar": 0.848,
+    "z": -1.335355772776325,
+    "ventaja": 0.034961
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.874,
+    "azar": 0.82,
+    "z": 0.9129311370806259,
+    "ventaja": -0.05386
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.955,
+    "azar": 0.902,
+    "z": 1.062622498072695,
+    "ventaja": -0.053629
+   },
+   "todos": {
+    "n": 38,
+    "real": 0.846,
+    "azar": 0.861,
+    "z": -0.6816439537444762,
+    "ventaja": 0.015458
+   }
+  },
+  "Tagalog": {
+   "estables": {
+    "n": 11,
+    "real": 0.712,
+    "azar": 0.766,
+    "z": -1.216810307840148,
+    "ventaja": 0.054869
+   },
+   "poco estables": {
+    "n": 28,
+    "real": 0.666,
+    "azar": 0.762,
+    "z": -4.1001574235321545,
+    "ventaja": 0.095536
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.579,
+    "azar": 0.716,
+    "z": -2.54315751961361,
+    "ventaja": 0.137556
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.727,
+    "azar": 0.773,
+    "z": -0.9639153505936168,
+    "ventaja": 0.04632
+   },
+   "todos": {
+    "n": 39,
+    "real": 0.679,
+    "azar": 0.763,
+    "z": -3.9131960369585284,
+    "ventaja": 0.084066
+   }
+  },
+  "Tongan": {
+   "estables": {
+    "n": 7,
+    "real": 0.996,
+    "azar": 1.001,
+    "z": -0.0964833340548518,
+    "ventaja": 0.005322
+   },
+   "poco estables": {
+    "n": 6,
+    "real": 1.229,
+    "azar": 1.129,
+    "z": 1.5246943632211505,
+    "ventaja": -0.100242
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 3,
+    "real": 0.806,
+    "azar": 0.874,
+    "z": -0.72656294080262,
+    "ventaja": 0.067572
+   },
+   "estables sin saltu": {
+    "n": 6,
+    "real": 1.051,
+    "azar": 1.035,
+    "z": 0.2776393846855052,
+    "ventaja": -0.016279
+   },
+   "todos": {
+    "n": 13,
+    "real": 1.104,
+    "azar": 1.06,
+    "z": 1.0442689298278531,
+    "ventaja": -0.0434
+   }
+  },
+  "Turkish": {
+   "estables": {
+    "n": 11,
+    "real": 0.706,
+    "azar": 0.838,
+    "z": -2.7020452004986013,
+    "ventaja": 0.131993
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.703,
+    "azar": 0.775,
+    "z": -2.6810077870154636,
+    "ventaja": 0.07273
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.652,
+    "azar": 0.735,
+    "z": -1.506998620961545,
+    "ventaja": 0.083068
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.714,
+    "azar": 0.848,
+    "z": -2.56239640235732,
+    "ventaja": 0.133589
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.704,
+    "azar": 0.793,
+    "z": -3.77538375019645,
+    "ventaja": 0.089028
+   }
+  },
+  "Welsh": {
+   "estables": {
+    "n": 11,
+    "real": 0.701,
+    "azar": 0.846,
+    "z": -3.0353126915199415,
+    "ventaja": 0.145101
+   },
+   "poco estables": {
+    "n": 29,
+    "real": 0.791,
+    "azar": 0.805,
+    "z": -0.5573799759192882,
+    "ventaja": 0.014302
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.568,
+    "azar": 0.776,
+    "z": -3.8571529079830493,
+    "ventaja": 0.208166
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.725,
+    "azar": 0.863,
+    "z": -2.7319894359682833,
+    "ventaja": 0.138092
+   },
+   "todos": {
+    "n": 40,
+    "real": 0.766,
+    "azar": 0.816,
+    "z": -2.1900681348965616,
+    "ventaja": 0.050272
+   }
+  },
+  "Yoruba": {
+   "estables": {
+    "n": 11,
+    "real": 0.937,
+    "azar": 0.881,
+    "z": 1.0533097028247431,
+    "ventaja": -0.056125
+   },
+   "poco estables": {
+    "n": 24,
+    "real": 0.873,
+    "azar": 0.905,
+    "z": -1.051486393420977,
+    "ventaja": 0.032613
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.909,
+    "azar": 0.894,
+    "z": 0.23095607227892373,
+    "ventaja": -0.015135
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.937,
+    "azar": 0.881,
+    "z": 0.9875309984475474,
+    "ventaja": -0.056325
+   },
+   "todos": {
+    "n": 35,
+    "real": 0.893,
+    "azar": 0.898,
+    "z": -0.17606219006217164,
+    "ventaja": 0.004724
+   }
+  },
+  "Zulu": {
+   "estables": {
+    "n": 11,
+    "real": 0.939,
+    "azar": 0.955,
+    "z": -0.36543517276753124,
+    "ventaja": 0.016352
+   },
+   "poco estables": {
+    "n": 22,
+    "real": 0.908,
+    "azar": 0.946,
+    "z": -1.3241684165361873,
+    "ventaja": 0.038248
+   },
+   "estables sin los numerales del dos al cinco": {
+    "n": 7,
+    "real": 0.886,
+    "azar": 0.896,
+    "z": -0.18495851449318543,
+    "ventaja": 0.009741
+   },
+   "estables sin saltu": {
+    "n": 10,
+    "real": 0.966,
+    "azar": 0.965,
+    "z": 0.01993543263659939,
+    "ventaja": -0.000937
+   },
+   "todos": {
+    "n": 33,
+    "real": 0.918,
+    "azar": 0.949,
+    "z": -1.2202425143677487,
+    "ventaja": 0.030949
+   }
+  }
+ },
+ "iberico por origen": {
+  "dato externo (grado A): uno, diez, veinte, plata, mitad, hacer, escrito": {
+   "n": 7,
+   "real": 0.303,
+   "azar": 0.864,
+   "z": -7.497455289786915,
+   "ventaja": 0.560208
+  },
+  "numerales del dos al ocho (valor por posición)": {
+   "n": 7,
+   "real": 0.236,
+   "azar": 0.976,
+   "z": -8.910499913663097,
+   "ventaja": 0.739985
+  },
+  "por la casilla que ocupa en los documentos": {
+   "n": 18,
+   "real": 0.524,
+   "azar": 0.832,
+   "z": -8.649152714234976,
+   "ventaja": 0.307272
+  },
+  "con apoyo de la toponimia": {
+   "n": 6,
+   "real": 0.211,
+   "azar": 0.76,
+   "z": -8.021142029958787,
+   "ventaja": 0.548013
+  },
+  "los cuatro préstamos latinos propuestos": {
+   "n": 4,
+   "real": 0.502,
+   "azar": 0.74,
+   "z": -2.8908016665018144,
+   "ventaja": 0.2379
+  }
+ },
+ "parejas": [
+  [
+   "emparentadas cercanas",
+   "Catalan",
+   "Occitan",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.506,
+     "z": -8.33
+    },
+    "poco estables": {
+     "n": 24.0,
+     "ventaja": 0.299,
+     "z": -8.49
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.262,
+     "z": -3.53
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.522,
+     "z": -7.9
+    },
+    "todos": {
+     "n": 35.0,
+     "ventaja": 0.364,
+     "z": -11.75
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Galician",
+   "Asturian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.475,
+     "z": -8.52
+    },
+    "poco estables": {
+     "n": 28.0,
+     "ventaja": 0.381,
+     "z": -13.12
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.253,
+     "z": -3.85
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.496,
+     "z": -8.34
+    },
+    "todos": {
+     "n": 39.0,
+     "ventaja": 0.408,
+     "z": -15.73
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Malay",
+   "Indonesian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.548,
+     "z": -11.24
+    },
+    "poco estables": {
+     "n": 26.0,
+     "ventaja": 0.433,
+     "z": -15.69
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.368,
+     "z": -6.92
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.548,
+     "z": -10.64
+    },
+    "todos": {
+     "n": 37.0,
+     "ventaja": 0.467,
+     "z": -19.42
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Estonian",
+   "Finnish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.414,
+     "z": -9.36
+    },
+    "poco estables": {
+     "n": 27.0,
+     "ventaja": 0.324,
+     "z": -12.84
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.294,
+     "z": -5.76
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.419,
+     "z": -9.17
+    },
+    "todos": {
+     "n": 38.0,
+     "ventaja": 0.35,
+     "z": -15.79
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Romanian",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.208,
+     "z": -5.09
+    },
+    "poco estables": {
+     "n": 28.0,
+     "ventaja": 0.128,
+     "z": -6.02
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.088,
+     "z": -1.91
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.22,
+     "z": -5.0
+    },
+    "todos": {
+     "n": 39.0,
+     "ventaja": 0.15,
+     "z": -8.07
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Catalan",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.262,
+     "z": -6.03
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.164,
+     "z": -7.04
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.114,
+     "z": -2.37
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.27,
+     "z": -5.79
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.191,
+     "z": -9.15
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Sardinian",
+   "Latin",
+   {
+    "estables": {
+     "n": 9.0,
+     "ventaja": 0.423,
+     "z": -8.6
+    },
+    "poco estables": {
+     "n": 17.0,
+     "ventaja": 0.226,
+     "z": -6.77
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 5.0,
+     "ventaja": 0.316,
+     "z": -4.96
+    },
+    "estables sin saltu": {
+     "n": 8.0,
+     "ventaja": 0.442,
+     "z": -8.45
+    },
+    "todos": {
+     "n": 26.0,
+     "ventaja": 0.294,
+     "z": -10.63
+    }
+   }
+  ],
+  [
+   "emparentadas cercanas",
+   "Zulu",
+   "Shona",
+   "cobertura insuficiente (estables 8, poco estables 5)"
+  ],
+  [
+   "emparentadas lejanas",
+   "Irish",
+   "Welsh",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.166,
+     "z": -3.37
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.134,
+     "z": -4.89
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.04,
+     "z": -0.74
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.169,
+     "z": -3.19
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.143,
+     "z": -5.88
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Hungarian",
+   "Finnish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.027,
+     "z": -0.57
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": -0.003,
+     "z": 0.09
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.02,
+     "z": -0.42
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.03,
+     "z": -0.6
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.005,
+     "z": -0.24
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Irish",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.121,
+     "z": -2.9
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.108,
+     "z": -4.67
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.001,
+     "z": 0.0
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.132,
+     "z": -2.92
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.111,
+     "z": -5.52
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Icelandic",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.061,
+     "z": -1.58
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.054,
+     "z": -2.28
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.035,
+     "z": -0.73
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.068,
+     "z": -1.64
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.056,
+     "z": -2.74
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Lithuanian",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.191,
+     "z": -4.99
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.075,
+     "z": -3.63
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.049,
+     "z": -1.12
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.198,
+     "z": -4.91
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.107,
+     "z": -5.87
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Icelandic",
+   "Lithuanian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.082,
+     "z": -2.11
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.057,
+     "z": -2.37
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.008,
+     "z": -0.18
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.1,
+     "z": -2.44
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.064,
+     "z": -3.13
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Tagalog",
+   "Malay",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.154,
+     "z": -3.24
+    },
+    "poco estables": {
+     "n": 26.0,
+     "ventaja": 0.094,
+     "z": -3.5
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.095,
+     "z": -1.79
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.165,
+     "z": -3.29
+    },
+    "todos": {
+     "n": 37.0,
+     "ventaja": 0.112,
+     "z": -4.73
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Malagasy",
+   "Malay",
+   {
+    "estables": {
+     "n": 10.0,
+     "ventaja": 0.168,
+     "z": -3.46
+    },
+    "poco estables": {
+     "n": 19.0,
+     "ventaja": 0.08,
+     "z": -2.54
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 6.0,
+     "ventaja": 0.127,
+     "z": -2.09
+    },
+    "estables sin saltu": {
+     "n": 9.0,
+     "ventaja": 0.187,
+     "z": -3.6
+    },
+    "todos": {
+     "n": 29.0,
+     "ventaja": 0.11,
+     "z": -4.16
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Hawaiian",
+   "Malay",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.099,
+     "z": -2.28
+    },
+    "poco estables": {
+     "n": 22.0,
+     "ventaja": -0.006,
+     "z": 0.21
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.016,
+     "z": -0.28
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.108,
+     "z": -2.32
+    },
+    "todos": {
+     "n": 33.0,
+     "ventaja": 0.029,
+     "z": -1.15
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Fijian",
+   "Malay",
+   {
+    "estables": {
+     "n": 9.0,
+     "ventaja": 0.269,
+     "z": -4.81
+    },
+    "poco estables": {
+     "n": 13.0,
+     "ventaja": 0.03,
+     "z": -0.73
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 5.0,
+     "ventaja": 0.135,
+     "z": -1.87
+    },
+    "estables sin saltu": {
+     "n": 8.0,
+     "ventaja": 0.255,
+     "z": -4.32
+    },
+    "todos": {
+     "n": 22.0,
+     "ventaja": 0.128,
+     "z": -3.79
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Swahili",
+   "Zulu",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.277,
+     "z": -5.51
+    },
+    "poco estables": {
+     "n": 22.0,
+     "ventaja": 0.059,
+     "z": -1.84
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.054,
+     "z": -0.92
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.285,
+     "z": -5.41
+    },
+    "todos": {
+     "n": 33.0,
+     "ventaja": 0.131,
+     "z": -4.94
+    }
+   }
+  ],
+  [
+   "emparentadas lejanas",
+   "Hausa",
+   "Somali",
+   {
+    "estables": {
+     "n": 9.0,
+     "ventaja": -0.024,
+     "z": 0.44
+    },
+    "poco estables": {
+     "n": 11.0,
+     "ventaja": 0.04,
+     "z": -0.84
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 5.0,
+     "ventaja": 0.014,
+     "z": -0.21
+    },
+    "estables sin saltu": {
+     "n": 8.0,
+     "ventaja": -0.041,
+     "z": 0.71
+    },
+    "todos": {
+     "n": 20.0,
+     "ventaja": 0.011,
+     "z": -0.34
+    }
+   }
+  ],
+  [
+   "parentesco lejano y préstamos",
+   "Albanian",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.156,
+     "z": -3.28
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.057,
+     "z": -2.39
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.007,
+     "z": 0.13
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.171,
+     "z": -3.41
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.084,
+     "z": -3.95
+    }
+   }
+  ],
+  [
+   "parentesco lejano y préstamos",
+   "Welsh",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.141,
+     "z": -3.3
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.053,
+     "z": -2.16
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.075,
+     "z": -1.59
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.158,
+     "z": -3.48
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.077,
+     "z": -3.6
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Tagalog",
+   "Galician",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.132,
+     "z": -2.87
+    },
+    "poco estables": {
+     "n": 28.0,
+     "ventaja": 0.114,
+     "z": -4.45
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.055,
+     "z": -1.06
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.153,
+     "z": -3.11
+    },
+    "todos": {
+     "n": 39.0,
+     "ventaja": 0.119,
+     "z": -5.26
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Tagalog",
+   "Catalan",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.149,
+     "z": -3.11
+    },
+    "poco estables": {
+     "n": 28.0,
+     "ventaja": 0.132,
+     "z": -5.05
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.003,
+     "z": 0.1
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.168,
+     "z": -3.29
+    },
+    "todos": {
+     "n": 39.0,
+     "ventaja": 0.137,
+     "z": -6.02
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Quechua",
+   "Galician",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.045,
+     "z": -0.98
+    },
+    "poco estables": {
+     "n": 20.0,
+     "ventaja": -0.036,
+     "z": 1.24
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.032,
+     "z": -0.54
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.055,
+     "z": -1.12
+    },
+    "todos": {
+     "n": 31.0,
+     "ventaja": -0.007,
+     "z": 0.31
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Basque",
+   "Latin",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.006,
+     "z": 0.14
+    },
+    "poco estables": {
+     "n": 27.0,
+     "ventaja": 0.018,
+     "z": -0.78
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.019,
+     "z": 0.37
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.007,
+     "z": 0.14
+    },
+    "todos": {
+     "n": 38.0,
+     "ventaja": 0.011,
+     "z": -0.54
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Basque",
+   "Galician",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.023,
+     "z": 0.44
+    },
+    "poco estables": {
+     "n": 27.0,
+     "ventaja": 0.065,
+     "z": -2.4
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.007,
+     "z": -0.16
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.035,
+     "z": 0.66
+    },
+    "todos": {
+     "n": 38.0,
+     "ventaja": 0.04,
+     "z": -1.66
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Basque",
+   "Catalan",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.042,
+     "z": -0.85
+    },
+    "poco estables": {
+     "n": 27.0,
+     "ventaja": 0.039,
+     "z": -1.46
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.071,
+     "z": -1.31
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.028,
+     "z": -0.52
+    },
+    "todos": {
+     "n": 38.0,
+     "ventaja": 0.04,
+     "z": -1.69
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Maltese",
+   "Sicilian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.017,
+     "z": -0.36
+    },
+    "poco estables": {
+     "n": 23.0,
+     "ventaja": 0.059,
+     "z": -1.9
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.015,
+     "z": -0.27
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.006,
+     "z": 0.12
+    },
+    "todos": {
+     "n": 34.0,
+     "ventaja": 0.046,
+     "z": -1.75
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Hungarian",
+   "Turkish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.001,
+     "z": 0.03
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.037,
+     "z": -1.44
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.022,
+     "z": -0.39
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.012,
+     "z": 0.24
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.026,
+     "z": -1.09
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Finnish",
+   "Icelandic",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.009,
+     "z": 0.2
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.011,
+     "z": -0.43
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.046,
+     "z": -0.92
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.012,
+     "z": 0.25
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.005,
+     "z": -0.23
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Romanian",
+   "Hungarian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.032,
+     "z": -0.66
+    },
+    "poco estables": {
+     "n": 28.0,
+     "ventaja": 0.075,
+     "z": -3.11
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.029,
+     "z": -0.48
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.041,
+     "z": -0.82
+    },
+    "todos": {
+     "n": 39.0,
+     "ventaja": 0.063,
+     "z": -2.88
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Romanian",
+   "Turkish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.005,
+     "z": 0.09
+    },
+    "poco estables": {
+     "n": 28.0,
+     "ventaja": 0.065,
+     "z": -2.62
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.041,
+     "z": 0.76
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.002,
+     "z": 0.02
+    },
+    "todos": {
+     "n": 39.0,
+     "ventaja": 0.045,
+     "z": -2.06
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Albanian",
+   "Turkish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.058,
+     "z": -1.09
+    },
+    "poco estables": {
+     "n": 29.0,
+     "ventaja": 0.037,
+     "z": -1.38
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.028,
+     "z": 0.48
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.064,
+     "z": -1.14
+    },
+    "todos": {
+     "n": 40.0,
+     "ventaja": 0.043,
+     "z": -1.76
+    }
+   }
+  ],
+  [
+   "solo contacto",
+   "Malagasy",
+   "Swahili",
+   {
+    "estables": {
+     "n": 10.0,
+     "ventaja": 0.034,
+     "z": -0.74
+    },
+    "poco estables": {
+     "n": 20.0,
+     "ventaja": 0.05,
+     "z": -1.61
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 6.0,
+     "ventaja": 0.018,
+     "z": -0.32
+    },
+    "estables sin saltu": {
+     "n": 9.0,
+     "ventaja": 0.027,
+     "z": -0.56
+    },
+    "todos": {
+     "n": 30.0,
+     "ventaja": 0.045,
+     "z": -1.76
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Basque",
+   "Finnish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.017,
+     "z": -0.39
+    },
+    "poco estables": {
+     "n": 27.0,
+     "ventaja": -0.003,
+     "z": 0.11
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.02,
+     "z": 0.43
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.015,
+     "z": -0.33
+    },
+    "todos": {
+     "n": 38.0,
+     "ventaja": 0.003,
+     "z": -0.13
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Quechua",
+   "Hungarian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.01,
+     "z": 0.21
+    },
+    "poco estables": {
+     "n": 20.0,
+     "ventaja": -0.007,
+     "z": 0.22
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.028,
+     "z": -0.47
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.009,
+     "z": 0.17
+    },
+    "todos": {
+     "n": 31.0,
+     "ventaja": -0.008,
+     "z": 0.32
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Hawaiian",
+   "Irish",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": 0.015,
+     "z": -0.34
+    },
+    "poco estables": {
+     "n": 25.0,
+     "ventaja": -0.033,
+     "z": 1.16
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.012,
+     "z": -0.21
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": 0.021,
+     "z": -0.43
+    },
+    "todos": {
+     "n": 36.0,
+     "ventaja": -0.018,
+     "z": 0.76
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Zulu",
+   "Icelandic",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.009,
+     "z": 0.22
+    },
+    "poco estables": {
+     "n": 22.0,
+     "ventaja": -0.02,
+     "z": 0.71
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": 0.01,
+     "z": -0.17
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.001,
+     "z": 0.04
+    },
+    "todos": {
+     "n": 33.0,
+     "ventaja": -0.016,
+     "z": 0.71
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Yoruba",
+   "Lithuanian",
+   {
+    "estables": {
+     "n": 11.0,
+     "ventaja": -0.028,
+     "z": 0.66
+    },
+    "poco estables": {
+     "n": 24.0,
+     "ventaja": 0.002,
+     "z": -0.08
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 7.0,
+     "ventaja": -0.041,
+     "z": 0.79
+    },
+    "estables sin saltu": {
+     "n": 10.0,
+     "ventaja": -0.016,
+     "z": 0.37
+    },
+    "todos": {
+     "n": 35.0,
+     "ventaja": -0.007,
+     "z": 0.34
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Classical Nahuatl",
+   "Welsh",
+   {
+    "estables": {
+     "n": 10.0,
+     "ventaja": -0.026,
+     "z": 0.58
+    },
+    "poco estables": {
+     "n": 19.0,
+     "ventaja": -0.012,
+     "z": 0.43
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 6.0,
+     "ventaja": -0.053,
+     "z": 0.94
+    },
+    "estables sin saltu": {
+     "n": 9.0,
+     "ventaja": -0.031,
+     "z": 0.61
+    },
+    "todos": {
+     "n": 29.0,
+     "ventaja": -0.017,
+     "z": 0.69
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Hausa",
+   "Estonian",
+   {
+    "estables": {
+     "n": 9.0,
+     "ventaja": -0.041,
+     "z": 0.76
+    },
+    "poco estables": {
+     "n": 20.0,
+     "ventaja": 0.021,
+     "z": -0.66
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 5.0,
+     "ventaja": -0.095,
+     "z": 1.4
+    },
+    "estables sin saltu": {
+     "n": 8.0,
+     "ventaja": -0.048,
+     "z": 0.84
+    },
+    "todos": {
+     "n": 29.0,
+     "ventaja": 0.002,
+     "z": -0.07
+    }
+   }
+  ],
+  [
+   "sin relación",
+   "Fijian",
+   "Latin",
+   {
+    "estables": {
+     "n": 9.0,
+     "ventaja": -0.031,
+     "z": 0.62
+    },
+    "poco estables": {
+     "n": 14.0,
+     "ventaja": -0.0,
+     "z": 0.02
+    },
+    "estables sin los numerales del dos al cinco": {
+     "n": 5.0,
+     "ventaja": -0.093,
+     "z": 1.46
+    },
+    "estables sin saltu": {
+     "n": 8.0,
+     "ventaja": -0.016,
+     "z": 0.3
+    },
+    "todos": {
+     "n": 23.0,
+     "ventaja": -0.012,
+     "z": 0.43
+    }
+   }
+  ]
+ ],
+ "prestamos frente al gallego": {
+  "n": 4,
+  "real": 0.333,
+  "azar": 0.675,
+  "z": -4.341561878059975,
+  "ventaja": 0.341313
+ }
+}

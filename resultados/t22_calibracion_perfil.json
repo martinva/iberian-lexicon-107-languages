@@ -1,0 +1,234 @@
+{
+ "clases completas": {
+  "iberico_euskera": 0.1533,
+  "parejas_misma_familia": 1053,
+  "parejas_familias_distintas": 4618,
+  "percentil_misma_familia": 6.5,
+  "percentil_familias_distintas": 0.11,
+  "familias_distintas_a_esa_distancia_o_menos": 5,
+  "minimo_familias_distintas": 0.1345,
+  "mediana_familias_distintas": 0.3032,
+  "minimo_misma_familia": 0.0204,
+  "mediana_misma_familia": 0.2497,
+  "lenguas_sin_parientes": 9,
+  "sin_parientes_con_vecino_a_esa_distancia_o_menos": [
+   [
+    "Burushaski",
+    0.1532,
+    "Bengali"
+   ]
+  ],
+  "vecinos_de_las_sin_parientes": [
+   [
+    "Basque",
+    0.1537,
+    "Tsez"
+   ],
+   [
+    "Burushaski",
+    0.1532,
+    "Bengali"
+   ],
+   [
+    "Georgian",
+    0.2107,
+    "Belarusian"
+   ],
+   [
+    "Hokkaido Ainu",
+    0.1752,
+    "Forest Enets"
+   ],
+   [
+    "Japanese",
+    0.2177,
+    "Hokkaido Ainu"
+   ],
+   [
+    "Ket",
+    0.1545,
+    "Sakha"
+   ],
+   [
+    "Korean",
+    0.1948,
+    "Tsez"
+   ],
+   [
+    "Mandarin Chinese",
+    0.2837,
+    "Manchu"
+   ],
+   [
+    "Nivkh",
+    0.2336,
+    "Irish"
+   ]
+  ],
+  "parejas_familias_distintas_mas_proximas": [
+   [
+    0.1345,
+    "Swedish",
+    "Veps"
+   ],
+   [
+    0.1449,
+    "Komi-Permyak",
+    "Russian"
+   ],
+   [
+    0.1483,
+    "Finnish",
+    "Kannada"
+   ],
+   [
+    0.1517,
+    "Chechen",
+    "Western Farsi"
+   ],
+   [
+    0.1532,
+    "Bengali",
+    "Burushaski"
+   ],
+   [
+    0.1537,
+    "Tsez",
+    "Basque"
+   ],
+   [
+    0.1545,
+    "Ket",
+    "Sakha"
+   ],
+   [
+    0.1559,
+    "Komi-Zyrian",
+    "Russian"
+   ],
+   [
+    0.156,
+    "Burushaski",
+    "Tsez"
+   ],
+   [
+    0.1568,
+    "Romanian",
+    "Kildin Sami"
+   ]
+  ]
+ },
+ "reducidas a lo que el ibérico escribe": {
+  "iberico_euskera": 0.0696,
+  "parejas_misma_familia": 1053,
+  "parejas_familias_distintas": 4618,
+  "percentil_misma_familia": 2.4,
+  "percentil_familias_distintas": 0.02,
+  "familias_distintas_a_esa_distancia_o_menos": 1,
+  "minimo_familias_distintas": 0.0681,
+  "mediana_familias_distintas": 0.2116,
+  "minimo_misma_familia": 0.0098,
+  "mediana_misma_familia": 0.1709,
+  "lenguas_sin_parientes": 9,
+  "sin_parientes_con_vecino_a_esa_distancia_o_menos": [],
+  "vecinos_de_las_sin_parientes": [
+   [
+    "Basque",
+    0.0984,
+    "Sakha"
+   ],
+   [
+    "Burushaski",
+    0.0993,
+    "Tsez"
+   ],
+   [
+    "Georgian",
+    0.1225,
+    "Belarusian"
+   ],
+   [
+    "Hokkaido Ainu",
+    0.1258,
+    "Tsez"
+   ],
+   [
+    "Japanese",
+    0.1718,
+    "Nanai"
+   ],
+   [
+    "Ket",
+    0.0871,
+    "Sakha"
+   ],
+   [
+    "Korean",
+    0.1187,
+    "Nanai"
+   ],
+   [
+    "Mandarin Chinese",
+    0.1999,
+    "Manchu"
+   ],
+   [
+    "Nivkh",
+    0.1633,
+    "Inari Sami"
+   ]
+  ],
+  "parejas_familias_distintas_mas_proximas": [
+   [
+    0.0681,
+    "Estonian",
+    "Hindi"
+   ],
+   [
+    0.0839,
+    "Livonian",
+    "Romanian"
+   ],
+   [
+    0.0871,
+    "Ket",
+    "Sakha"
+   ],
+   [
+    0.0949,
+    "Buryat",
+    "Sakha"
+   ],
+   [
+    0.0973,
+    "Tsez",
+    "Sakha"
+   ],
+   [
+    0.0977,
+    "Sakha",
+    "Veps"
+   ],
+   [
+    0.0984,
+    "Basque",
+    "Sakha"
+   ],
+   [
+    0.0991,
+    "Chuvash",
+    "Hindi"
+   ],
+   [
+    0.0993,
+    "Burushaski",
+    "Tsez"
+   ],
+   [
+    0.0994,
+    "Tsez",
+    "Northern Sami"
+   ]
+  ]
+ }
+}

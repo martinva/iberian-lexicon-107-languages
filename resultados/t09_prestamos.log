@@ -1,0 +1,70 @@
+
+== Wikcionario y diccionarios históricos | 26 unidades sin préstamos latinos (34 diccionarios)
+   1. Basque                                       unidades 24 | real 0.42 azar 0.829 | z -12.06 p 0.001996007984031936
+   2. Euskera, Azkue (1905-1906)                   unidades 26 | real 0.502 azar 0.792 | z  -9.63 p 0.001996007984031936
+   3. Euskera reconstruido (Trask 2008)            unidades 14 | real 0.543 azar 0.941 | z  -7.28 p 0.001996007984031936
+   4. Galician                                     unidades 26 | real 0.655 azar 0.726 | z  -2.57 p 0.013972055888223553
+   5. Tagalog                                      unidades 25 | real 0.685 azar 0.74 | z  -2.17 p 0.017964071856287425
+   6. Catalan                                      unidades 26 | real 0.664 azar 0.712 | z  -1.99 p 0.017964071856287425
+   7. Asturian                                     unidades 25 | real 0.776 azar 0.83 | z  -1.87 p 0.033932135728542916
+  25. Latin                                        unidades 26 | real 0.704 azar 0.695 | z   0.37 p 0.6427145708582834
+
+== Wikcionario y diccionarios históricos | 4 préstamos latinos propuestos (32 diccionarios)
+   1. Tagalog                                      unidades  4 | real 0.326 azar 0.662 | z  -4.62 p 0.001996007984031936
+   2. Galician                                     unidades  4 | real 0.333 azar 0.678 | z  -4.62 p 0.001996007984031936
+   3. Asturian                                     unidades  4 | real 0.351 azar 0.713 | z  -4.59 p 0.001996007984031936
+   4. Catalan                                      unidades  4 | real 0.384 azar 0.64 | z  -3.66 p 0.001996007984031936
+   5. Malagasy                                     unidades  3 | real 0.618 azar 0.933 | z  -3.28 p 0.003992015968063872
+   6. Basque                                       unidades  4 | real 0.502 azar 0.738 | z  -2.94 p 0.001996007984031936
+   7. Welsh                                        unidades  4 | real 0.462 azar 0.669 | z  -2.84 p 0.001996007984031936
+  11. Euskera, Azkue (1905-1906)                   unidades  4 | real 0.509 azar 0.721 | z  -2.62 p 0.005988023952095809
+  14. Latin                                        unidades  4 | real 0.465 azar 0.605 | z  -2.25 p 0.021956087824351298
+
+== Diccionarios bilingües, puente castellano | 26 unidades sin préstamos latinos (10 diccionarios)
+   1. Euskera, Apertium (castellano)               unidades 24 | real 0.496 azar 0.863 | z -10.33 p 0.001996007984031936
+   2. Euskera, Open Data Euskadi                   unidades 26 | real 0.451 azar 0.741 | z -10.20 p 0.001996007984031936
+   3. Gallego, Apertium (castellano)               unidades 26 | real 0.742 azar 0.845 | z  -3.49 p 0.001996007984031936
+   4. Italiano, Apertium (castellano)              unidades 24 | real 0.828 azar 0.891 | z  -2.05 p 0.021956087824351298
+   5. Aragonés, Apertium (castellano)              unidades 22 | real 0.837 azar 0.88 | z  -1.28 p 0.11377245508982035
+   6. Asturiano, Apertium (castellano)             unidades 26 | real 0.807 azar 0.833 | z  -0.86 p 0.19161676646706588
+   7. Rumano, Apertium (castellano)                unidades 25 | real 0.844 azar 0.866 | z  -0.73 p 0.2375249500998004
+
+== Diccionarios bilingües, puente castellano | 4 préstamos latinos propuestos (9 diccionarios)
+   1. Gallego, Apertium (castellano)               unidades  4 | real 0.395 azar 0.775 | z  -4.50 p 0.001996007984031936
+   2. Aragonés, Apertium (castellano)              unidades  4 | real 0.438 azar 0.783 | z  -4.06 p 0.001996007984031936
+   3. Occitano, Apertium (castellano)              unidades  4 | real 0.463 azar 0.805 | z  -3.95 p 0.003992015968063872
+   4. Asturiano, Apertium (castellano)             unidades  4 | real 0.436 azar 0.745 | z  -3.89 p 0.001996007984031936
+   5. Euskera, Open Data Euskadi                   unidades  4 | real 0.458 azar 0.725 | z  -3.38 p 0.001996007984031936
+   6. Italiano, Apertium (castellano)              unidades  4 | real 0.627 azar 0.859 | z  -2.63 p 0.005988023952095809
+   7. Rumano, Apertium (castellano)                unidades  4 | real 0.618 azar 0.797 | z  -2.16 p 0.029940119760479042
+   8. Euskera, Apertium (castellano)               unidades  4 | real 0.709 azar 0.885 | z  -1.95 p 0.043912175648702596
+
+== Diccionarios bilingües, puente inglés | 26 unidades sin préstamos latinos (9 diccionarios)
+   1. Euskera, Apertium (inglés)                   unidades 24 | real 0.476 azar 0.789 | z -10.58 p 0.001996007984031936
+   2. Islandés, Apertium (inglés)                  unidades 25 | real 0.697 azar 0.783 | z  -3.13 p 0.001996007984031936
+   3. Catalán, Apertium (inglés)                   unidades 26 | real 0.69 azar 0.774 | z  -2.89 p 0.005988023952095809
+   4. Castellano, Apertium (inglés)                unidades 26 | real 0.716 azar 0.784 | z  -2.27 p 0.017964071856287425
+   5. Galés, Apertium (inglés)                     unidades 25 | real 0.807 azar 0.84 | z  -1.16 p 0.1277445109780439
+   6. Alemán, Apertium (inglés)                    unidades 26 | real 0.747 azar 0.774 | z  -1.03 p 0.15169660678642716
+   7. Sueco, Apertium (inglés)                     unidades 26 | real 0.819 azar 0.822 | z  -0.11 p 0.4431137724550898
+
+== Diccionarios bilingües, puente inglés | 4 préstamos latinos propuestos (10 diccionarios)
+   1. Alemán, Apertium (inglés)                    unidades  4 | real 0.524 azar 0.724 | z  -2.84 p 0.007984031936127744
+   2. Castellano, Apertium (inglés)                unidades  4 | real 0.512 azar 0.711 | z  -2.74 p 0.00998003992015968
+   3. Sueco, Apertium (inglés)                     unidades  4 | real 0.653 azar 0.808 | z  -2.12 p 0.017964071856287425
+   4. Catalán, Apertium (inglés)                   unidades  4 | real 0.545 azar 0.679 | z  -1.89 p 0.031936127744510975
+   5. Galés, Apertium (inglés)                     unidades  4 | real 0.631 azar 0.749 | z  -1.64 p 0.05389221556886228
+   6. Euskera, Apertium (inglés)                   unidades  4 | real 0.65 azar 0.765 | z  -1.45 p 0.08782435129740519
+   7. Islandés, Apertium (inglés)                  unidades  4 | real 0.633 azar 0.726 | z  -1.28 p 0.10179640718562874
+
+== Concepto a concepto (WordNet) | 26 unidades sin préstamos latinos (4 diccionarios)
+   1. Euskera, WordNet                             unidades 26 | real 0.372 azar 0.662 | z -10.83 p 0.001996007984031936
+   2. Gallego, WordNet                             unidades 26 | real 0.655 azar 0.692 | z  -1.43 p 0.08982035928143713
+   3. Catalán, WordNet                             unidades 26 | real 0.598 azar 0.626 | z  -1.25 p 0.10379241516966067
+   4. Castellano, WordNet                          unidades 26 | real 0.58 azar 0.604 | z  -1.02 p 0.16766467065868262
+
+== Concepto a concepto (WordNet) | 4 préstamos latinos propuestos (4 diccionarios)
+   1. Gallego, WordNet                             unidades  4 | real 0.34 azar 0.693 | z  -4.96 p 0.001996007984031936
+   2. Catalán, WordNet                             unidades  4 | real 0.431 azar 0.635 | z  -3.16 p 0.001996007984031936
+   3. Euskera, WordNet                             unidades  4 | real 0.43 azar 0.649 | z  -3.05 p 0.005988023952095809
+   4. Castellano, WordNet                          unidades  4 | real 0.47 azar 0.588 | z  -1.93 p 0.03792415169660679

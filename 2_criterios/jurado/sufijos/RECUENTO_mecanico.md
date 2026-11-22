@@ -1,0 +1,15 @@
+# Recuento mecánico de los sufijos (declaración 12)
+
+Apoya las fichas de FICHAS_sufijos.md. El recuento es mecánico sobre todo el corpus: una palabra se analiza como tema + sufijo solo si el tema es un nombre de persona (dos formantes del índice onomástico de referencia), un término del léxico económico ya identificado, u otra palabra atestiguada suelta al menos dos veces. Hay 9 fichas.
+
+| Código | Distribución |
+|---|---|
+| S01 | 14 palabras del corpus se analizan como tema + este elemento. Tema: otra palabra atestiguada suelta (10), término del léxico económico ya identificado (2), nombre de persona (2). Soportes: lamina/plancha (7), recipiente (4), parietal/rupestre (2), pavimento (1). Palabra siguiente: otra (10), límite (3), unidad (1). Posición: interior (8), final del texto (3), inicio (3). |
+| S02 | 3 palabras del corpus se analizan como tema + este elemento. Tema: nombre de persona (3). Soportes: recipiente (3). Palabra siguiente: límite (3). Posición: final del texto (3). |
+| S03 | 8 palabras del corpus se analizan como tema + este elemento. Tema: término del léxico económico ya identificado (3), otra palabra atestiguada suelta (3), nombre de persona (2). Soportes: lamina/plancha (5), recipiente (3). Palabra siguiente: otra (4), límite (2), unidad (2). Posición: interior (6), final del texto (2). |
+| S04 | 10 palabras del corpus se analizan como tema + este elemento. Tema: término del léxico económico ya identificado (6), otra palabra atestiguada suelta (3), nombre de persona (1). Soportes: recipiente (8), instrumento (1), placa (1). Palabra siguiente: otra (5), límite (5). Posición: final del texto (5), interior (4), inicio (1). |
+| S05 | 7 palabras del corpus se analizan como tema + este elemento. Tema: otra palabra atestiguada suelta (5), nombre de persona (2). Soportes: lamina/plancha (4), recipiente (2), lapida (1). Palabra siguiente: otra (5), cifra (1), límite (1). Posición: interior (6), final del texto (1). |
+| S06 | 27 palabras del corpus se analizan como tema + este elemento. Tema: otra palabra atestiguada suelta (14), nombre de persona (8), término del léxico económico ya identificado (5). Soportes: recipiente (14), lamina/plancha (9), colgante (1), tesera (1). Palabra siguiente: límite (12), otra (12), unidad (2), cifra (1). Posición: final del texto (12), interior (11), inicio (4). |
+| S07 | 4 palabras del corpus se analizan como tema + este elemento. Tema: otra palabra atestiguada suelta (4). Soportes: lamina/plancha (3), recipiente (1). Palabra siguiente: otra (2), unidad (1), límite (1). Posición: interior (3), final del texto (1). |
+| S08 | 1 palabras del corpus se analizan como tema + este elemento. Tema: otra palabra atestiguada suelta (1). Soportes: lapida (1). Palabra siguiente: límite (1). Posición: final del texto (1). |
+| S09 | 6 palabras del corpus se analizan como tema + este elemento. Tema: otra palabra atestiguada suelta (4), término del léxico económico ya identificado (2). Soportes: recipiente (5), lamina/plancha (1). Palabra siguiente: otra (4), límite (2). Posición: final del texto (2), interior (2), inicio (2). |

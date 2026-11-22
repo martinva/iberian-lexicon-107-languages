@@ -1,0 +1,65 @@
+{
+ "fijadas": {
+  "te": "agente",
+  "en": "poseedor",
+  "ar": "poseedor",
+  "sken": "étnico",
+  "ban": "determinante",
+  "erter": "fracción"
+ },
+ "pares": [
+  {
+   "codigo": "S01",
+   "sufijo": "te",
+   "funcion": "agente",
+   "iberico": "Te",
+   "vasco": "K",
+   "distancia": 1.2
+  },
+  {
+   "codigo": "S02",
+   "sufijo": "en",
+   "funcion": "poseedor",
+   "iberico": "eN",
+   "vasco": "eN",
+   "distancia": 0.0
+  },
+  {
+   "codigo": "S03",
+   "sufijo": "ar",
+   "funcion": "poseedor",
+   "iberico": "aR",
+   "vasco": "eN",
+   "distancia": 1.0
+  },
+  {
+   "codigo": "S08",
+   "sufijo": "sken",
+   "funcion": "étnico",
+   "iberico": "SKeN",
+   "vasco": "TaR",
+   "distancia": 1.167
+  },
+  {
+   "codigo": "S09",
+   "sufijo": "ban",
+   "funcion": "determinante",
+   "iberico": "PaN",
+   "vasco": "a",
+   "distancia": 1.333
+  },
+  {
+   "codigo": "S10",
+   "sufijo": "erter",
+   "funcion": "fracción",
+   "iberico": "eRTeR",
+   "vasco": "eRTi",
+   "distancia": 0.429
+  }
+ ],
+ "media_real": 0.8548,
+ "mediana_permutaciones": 1.0604,
+ "percentil": 9.0,
+ "permutaciones": 10000,
+ "nota": "Comparación con lenguas de referencia pendiente de inventarios verificados (desviación anotada en la declaración 12)"
+}

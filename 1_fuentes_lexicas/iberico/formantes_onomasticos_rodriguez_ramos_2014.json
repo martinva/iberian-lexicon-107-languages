@@ -1,0 +1,842 @@
+[
+ {
+  "n": 1,
+  "formante": "abaŕ",
+  "compuestos": 12
+ },
+ {
+  "n": 2,
+  "formante": "aibe",
+  "compuestos": 6
+ },
+ {
+  "n": 3,
+  "formante": "ailur",
+  "compuestos": 2
+ },
+ {
+  "n": 4,
+  "formante": "aitu",
+  "compuestos": 6
+ },
+ {
+  "n": 5,
+  "formante": "aiun",
+  "compuestos": 11
+ },
+ {
+  "n": 6,
+  "formante": "akir",
+  "compuestos": 12
+ },
+ {
+  "n": 7,
+  "formante": "aloŕ",
+  "compuestos": 10
+ },
+ {
+  "n": 8,
+  "formante": "an",
+  "compuestos": 6
+ },
+ {
+  "n": 9,
+  "formante": "anaŕ",
+  "compuestos": 5
+ },
+ {
+  "n": 10,
+  "formante": "aŕan",
+  "compuestos": 0
+ },
+ {
+  "n": 11,
+  "formante": "aŕbi",
+  "compuestos": 4
+ },
+ {
+  "n": 12,
+  "formante": "aŕki",
+  "compuestos": 21
+ },
+ {
+  "n": 13,
+  "formante": "aŕs",
+  "compuestos": 12
+ },
+ {
+  "n": 14,
+  "formante": "ASAI",
+  "compuestos": 2
+ },
+ {
+  "n": 15,
+  "formante": "ASTER",
+  "compuestos": 2
+ },
+ {
+  "n": 16,
+  "formante": "atan",
+  "compuestos": 11
+ },
+ {
+  "n": 17,
+  "formante": "atin",
+  "compuestos": 40
+ },
+ {
+  "n": 18,
+  "formante": "atun",
+  "compuestos": 8
+ },
+ {
+  "n": 20,
+  "formante": "auŕ",
+  "compuestos": 5
+ },
+ {
+  "n": 21,
+  "formante": "AVSTIN",
+  "compuestos": 1
+ },
+ {
+  "n": 22,
+  "formante": "baiser",
+  "compuestos": 16
+ },
+ {
+  "n": 23,
+  "formante": "balar",
+  "compuestos": 8
+ },
+ {
+  "n": 24,
+  "formante": "balke",
+  "compuestos": 29
+ },
+ {
+  "n": 25,
+  "formante": "ban",
+  "compuestos": 3
+ },
+ {
+  "n": 26,
+  "formante": "bantoŕ",
+  "compuestos": 2
+ },
+ {
+  "n": 27,
+  "formante": "baŕstin",
+  "compuestos": 3
+ },
+ {
+  "n": 28,
+  "formante": "bartaś",
+  "compuestos": 4
+ },
+ {
+  "n": 29,
+  "formante": "basto",
+  "compuestos": 5
+ },
+ {
+  "n": 30,
+  "formante": "baś",
+  "compuestos": 22
+ },
+ {
+  "n": 31,
+  "formante": "beike",
+  "compuestos": 4
+ },
+ {
+  "n": 32,
+  "formante": "bekon",
+  "compuestos": 9
+ },
+ {
+  "n": 33,
+  "formante": "belauŕ",
+  "compuestos": 6
+ },
+ {
+  "n": 34,
+  "formante": "beleś (¿= bels?)",
+  "compuestos": 37
+ },
+ {
+  "n": 35,
+  "formante": "beloŕ",
+  "compuestos": 4
+ },
+ {
+  "n": 36,
+  "formante": "bels",
+  "compuestos": 15
+ },
+ {
+  "n": 37,
+  "formante": "bene",
+  "compuestos": 3
+ },
+ {
+  "n": 38,
+  "formante": "berton",
+  "compuestos": 1
+ },
+ {
+  "n": 39,
+  "formante": "beŕ",
+  "compuestos": 16
+ },
+ {
+  "n": 40,
+  "formante": "beŕon",
+  "compuestos": 6
+ },
+ {
+  "n": 41,
+  "formante": "beŕsir",
+  "compuestos": 5
+ },
+ {
+  "n": 42,
+  "formante": "betan",
+  "compuestos": 7
+ },
+ {
+  "n": 43,
+  "formante": "betin",
+  "compuestos": 10
+ },
+ {
+  "n": 44,
+  "formante": "bikir",
+  "compuestos": 8
+ },
+ {
+  "n": 45,
+  "formante": "bilos",
+  "compuestos": 37
+ },
+ {
+  "n": 46,
+  "formante": "biltis",
+  "compuestos": 1
+ },
+ {
+  "n": 47,
+  "formante": "bin",
+  "compuestos": 16
+ },
+ {
+  "n": 48,
+  "formante": "bios",
+  "compuestos": 3
+ },
+ {
+  "n": 49,
+  "formante": "bitu",
+  "compuestos": 4
+ },
+ {
+  "n": 50,
+  "formante": "biuŕ",
+  "compuestos": 29
+ },
+ {
+  "n": 51,
+  "formante": "-bolai",
+  "compuestos": 3
+ },
+ {
+  "n": 52,
+  "formante": "boŕ (¿= boś?)",
+  "compuestos": 10
+ },
+ {
+  "n": 53,
+  "formante": "boś (¿=boŕ?)",
+  "compuestos": 3
+ },
+ {
+  "n": 54,
+  "formante": "boto",
+  "compuestos": 6
+ },
+ {
+  "n": 55,
+  "formante": "ekaŕ / ekers",
+  "compuestos": 7
+ },
+ {
+  "n": 56,
+  "formante": "eleŕ",
+  "compuestos": 2
+ },
+ {
+  "n": 57,
+  "formante": "ene",
+  "compuestos": 5
+ },
+ {
+  "n": 58,
+  "formante": "eŕter",
+  "compuestos": 3
+ },
+ {
+  "n": 59,
+  "formante": "eter",
+  "compuestos": 11
+ },
+ {
+  "n": 60,
+  "formante": "ETON",
+  "compuestos": 2
+ },
+ {
+  "n": 61,
+  "formante": "ian",
+  "compuestos": 7
+ },
+ {
+  "n": 62,
+  "formante": "ibeś",
+  "compuestos": 10
+ },
+ {
+  "n": 63,
+  "formante": "ike",
+  "compuestos": 10
+ },
+ {
+  "n": 64,
+  "formante": "ikoŕ",
+  "compuestos": 14
+ },
+ {
+  "n": 65,
+  "formante": "iltiŕ",
+  "compuestos": 28
+ },
+ {
+  "n": 66,
+  "formante": "iltur",
+  "compuestos": 30
+ },
+ {
+  "n": 67,
+  "formante": "inti",
+  "compuestos": 4
+ },
+ {
+  "n": 68,
+  "formante": "-io",
+  "compuestos": 5
+ },
+ {
+  "n": 69,
+  "formante": "iskeŕ",
+  "compuestos": 34
+ },
+ {
+  "n": 70,
+  "formante": "itor",
+  "compuestos": 2
+ },
+ {
+  "n": 71,
+  "formante": "iunstir",
+  "compuestos": 4
+ },
+ {
+  "n": 72,
+  "formante": "iuŕ",
+  "compuestos": 5
+ },
+ {
+  "n": 73,
+  "formante": "kaisur",
+  "compuestos": 4
+ },
+ {
+  "n": 74,
+  "formante": "kakeŕ / CACU",
+  "compuestos": 5
+ },
+ {
+  "n": 75,
+  "formante": "kaltuŕ",
+  "compuestos": 5
+ },
+ {
+  "n": 76,
+  "formante": "kan(i)",
+  "compuestos": 7
+ },
+ {
+  "n": 77,
+  "formante": "karkan",
+  "compuestos": 3
+ },
+ {
+  "n": 78,
+  "formante": "kaŕes",
+  "compuestos": 8
+ },
+ {
+  "n": 79,
+  "formante": "kaŕko",
+  "compuestos": 3
+ },
+ {
+  "n": 80,
+  "formante": "katu",
+  "compuestos": 10
+ },
+ {
+  "n": 81,
+  "formante": "kelti / kertaŕ",
+  "compuestos": 7
+ },
+ {
+  "n": 82,
+  "formante": "keŕe",
+  "compuestos": 13
+ },
+ {
+  "n": 83,
+  "formante": "ketin",
+  "compuestos": 3
+ },
+ {
+  "n": 84,
+  "formante": "kibaś",
+  "compuestos": 6
+ },
+ {
+  "n": 85,
+  "formante": "kine",
+  "compuestos": 5
+ },
+ {
+  "n": 86,
+  "formante": "kiskeŕ",
+  "compuestos": 4
+ },
+ {
+  "n": 87,
+  "formante": "kitar",
+  "compuestos": 6
+ },
+ {
+  "n": 88,
+  "formante": "kon",
+  "compuestos": 23
+ },
+ {
+  "n": 89,
+  "formante": "koŕo",
+  "compuestos": 8
+ },
+ {
+  "n": 90,
+  "formante": "koŕś / koŕ",
+  "compuestos": 6
+ },
+ {
+  "n": 91,
+  "formante": "kotaŕ (o kutar)",
+  "compuestos": 2
+ },
+ {
+  "n": 92,
+  "formante": "kuleś",
+  "compuestos": 14
+ },
+ {
+  "n": 93,
+  "formante": "lakeŕ",
+  "compuestos": 9
+ },
+ {
+  "n": 94,
+  "formante": "laku",
+  "compuestos": 22
+ },
+ {
+  "n": 96,
+  "formante": "lauŕ",
+  "compuestos": 9
+ },
+ {
+  "n": 97,
+  "formante": "leis",
+  "compuestos": 9
+ },
+ {
+  "n": 98,
+  "formante": "LUSPAN",
+  "compuestos": 3
+ },
+ {
+  "n": 99,
+  "formante": "nabaŕ",
+  "compuestos": 4
+ },
+ {
+  "n": 100,
+  "formante": "nalbe",
+  "compuestos": 6
+ },
+ {
+  "n": 101,
+  "formante": "neitin",
+  "compuestos": 6
+ },
+ {
+  "n": 102,
+  "formante": "neŕse",
+  "compuestos": 5
+ },
+ {
+  "n": 103,
+  "formante": "NES",
+  "compuestos": 7
+ },
+ {
+  "n": 104,
+  "formante": "nios",
+  "compuestos": 9
+ },
+ {
+  "n": 105,
+  "formante": "niś",
+  "compuestos": 3
+ },
+ {
+  "n": 106,
+  "formante": "NO",
+  "compuestos": 2
+ },
+ {
+  "n": 107,
+  "formante": "nḿkei-",
+  "compuestos": 2
+ },
+ {
+  "n": 108,
+  "formante": "olor / oloś",
+  "compuestos": 4
+ },
+ {
+  "n": 109,
+  "formante": "oŕtin",
+  "compuestos": 14
+ },
+ {
+  "n": 110,
+  "formante": "oto",
+  "compuestos": 3
+ },
+ {
+  "n": 111,
+  "formante": "sabaŕ",
+  "compuestos": 2
+ },
+ {
+  "n": 112,
+  "formante": "saiŕ",
+  "compuestos": 6
+ },
+ {
+  "n": 113,
+  "formante": "sakaŕ",
+  "compuestos": 15
+ },
+ {
+  "n": 114,
+  "formante": "SAGIN (¿sakin o śakin?)",
+  "compuestos": 5
+ },
+ {
+  "n": 115,
+  "formante": "saltu",
+  "compuestos": 3
+ },
+ {
+  "n": 116,
+  "formante": "sekel",
+  "compuestos": 5
+ },
+ {
+  "n": 117,
+  "formante": "selki",
+  "compuestos": 11
+ },
+ {
+  "n": 118,
+  "formante": "seŕtun",
+  "compuestos": 3
+ },
+ {
+  "n": 119,
+  "formante": "SEDE / seti?",
+  "compuestos": 4
+ },
+ {
+  "n": 120,
+  "formante": "sike",
+  "compuestos": 10
+ },
+ {
+  "n": 121,
+  "formante": "silir",
+  "compuestos": 4
+ },
+ {
+  "n": 122,
+  "formante": "sine-",
+  "compuestos": 3
+ },
+ {
+  "n": 123,
+  "formante": "sir",
+  "compuestos": 9
+ },
+ {
+  "n": 124,
+  "formante": "SOCEDE",
+  "compuestos": 3
+ },
+ {
+  "n": 125,
+  "formante": "sor",
+  "compuestos": 17
+ },
+ {
+  "n": 126,
+  "formante": "sorse",
+  "compuestos": 2
+ },
+ {
+  "n": 127,
+  "formante": "sosin",
+  "compuestos": 21
+ },
+ {
+  "n": 128,
+  "formante": "suise",
+  "compuestos": 2
+ },
+ {
+  "n": 129,
+  "formante": "śalai",
+  "compuestos": 5
+ },
+ {
+  "n": 130,
+  "formante": "śan",
+  "compuestos": 6
+ },
+ {
+  "n": 131,
+  "formante": "śar",
+  "compuestos": 12
+ },
+ {
+  "n": 132,
+  "formante": "śitu",
+  "compuestos": 1
+ },
+ {
+  "n": 133,
+  "formante": "takeŕ",
+  "compuestos": 6
+ },
+ {
+  "n": 134,
+  "formante": "talsku",
+  "compuestos": 7
+ },
+ {
+  "n": 135,
+  "formante": "tan",
+  "compuestos": 5
+ },
+ {
+  "n": 136,
+  "formante": "tane(k)",
+  "compuestos": 7
+ },
+ {
+  "n": 137,
+  "formante": "taneś",
+  "compuestos": 10
+ },
+ {
+  "n": 138,
+  "formante": "taŕ",
+  "compuestos": 21
+ },
+ {
+  "n": 139,
+  "formante": "taŕban",
+  "compuestos": 6
+ },
+ {
+  "n": 140,
+  "formante": "taŕkun / tarkun",
+  "compuestos": 1
+ },
+ {
+  "n": 141,
+  "formante": "taŕtin",
+  "compuestos": 9
+ },
+ {
+  "n": 142,
+  "formante": "tasbeŕ / tasbar",
+  "compuestos": 2
+ },
+ {
+  "n": 143,
+  "formante": "taś",
+  "compuestos": 9
+ },
+ {
+  "n": 144,
+  "formante": "taśka",
+  "compuestos": 2
+ },
+ {
+  "n": 145,
+  "formante": "tatie",
+  "compuestos": 2
+ },
+ {
+  "n": 146,
+  "formante": "tautin",
+  "compuestos": 11
+ },
+ {
+  "n": 147,
+  "formante": "teita",
+  "compuestos": 2
+ },
+ {
+  "n": 148,
+  "formante": "tekeŕ",
+  "compuestos": 14
+ },
+ {
+  "n": 149,
+  "formante": "tetel",
+  "compuestos": 5
+ },
+ {
+  "n": 150,
+  "formante": "teḿbaŕ",
+  "compuestos": 6
+ },
+ {
+  "n": 151,
+  "formante": "tibaś",
+  "compuestos": 19
+ },
+ {
+  "n": 152,
+  "formante": "tikan / tiken",
+  "compuestos": 10
+ },
+ {
+  "n": 153,
+  "formante": "tikeŕ",
+  "compuestos": 16
+ },
+ {
+  "n": 154,
+  "formante": "tikirs",
+  "compuestos": 28
+ },
+ {
+  "n": 155,
+  "formante": "tilauŕ",
+  "compuestos": 1
+ },
+ {
+  "n": 156,
+  "formante": "tileis",
+  "compuestos": 2
+ },
+ {
+  "n": 157,
+  "formante": "to",
+  "compuestos": 4
+ },
+ {
+  "n": 158,
+  "formante": "tolor",
+  "compuestos": 8
+ },
+ {
+  "n": 159,
+  "formante": "torsin",
+  "compuestos": 2
+ },
+ {
+  "n": 160,
+  "formante": "torton",
+  "compuestos": 4
+ },
+ {
+  "n": 161,
+  "formante": "tuitu",
+  "compuestos": 6
+ },
+ {
+  "n": 162,
+  "formante": "tuŕkes",
+  "compuestos": 7
+ },
+ {
+  "n": 163,
+  "formante": "tuŕś",
+  "compuestos": 6
+ },
+ {
+  "n": 164,
+  "formante": "VISER",
+  "compuestos": 2
+ },
+ {
+  "n": 165,
+  "formante": "ukeŕ / uka",
+  "compuestos": 4
+ },
+ {
+  "n": 166,
+  "formante": "ulti",
+  "compuestos": 9
+ },
+ {
+  "n": 167,
+  "formante": "unin",
+  "compuestos": 20
+ },
+ {
+  "n": 168,
+  "formante": "uŕke",
+  "compuestos": 14
+ },
+ {
+  "n": 169,
+  "formante": "ustar",
+  "compuestos": 6
+ },
+ {
+  "n": 170,
+  "formante": "ḿbaŕ",
+  "compuestos": 11
+ }
+]

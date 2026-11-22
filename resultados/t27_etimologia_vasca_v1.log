@@ -1,0 +1,47 @@
+Regla de clasificación: declarada
+Formas vascas con nota, por clase: {'sin dato': 1090, 'desconocido': 2399, 'heredado': 540, 'préstamo': 423}
+
+Unidades con candidata: 38; con nota etimológica: 32; emparejadas con préstamo: 2; heredado: 18; desconocido: 12; mixto: 0; con mención del ibérico en la nota: 13
+   A1   śalir      → SiLaR      zilar                          heredado     d=0.25 candidatas 1 (préstamos 0/1)
+   A2   erter      → eRTi       erdi,erdi,erdi,erdi,erdi,erdi  desconocido  d=0.429 candidatas 2 (préstamos 0/2)
+   A4   eka        → SaReRa     sarrera,sarrera,sarrera        desconocido  d=1.077 candidatas 1 (préstamos 0/1)
+   A5   bobaida    → KeHiTu     gehitu                         desconocido  d=0.737 candidatas 4 (préstamos 0/3)
+   A6   bale       → PaLio      balio                          sin dato     d=0.308 candidatas 4 (préstamos 0/3)
+   A7   baśir      → PaSeRi     baserri,baserri,baserri        desconocido  d=0.235 candidatas 3 (préstamos 1/3)
+   A8   aŕeka      → eReKa      erreka,erreka,erreka,erreka    desconocido  d=0.143 candidatas 2 (préstamos 0/1)
+   A9   koŕta      → PoRTa      borda,borda,borda              préstamo     d=0.25 candidatas 5 (préstamos 2/5)
+   A10  bekoŕ      → PiKa       pika,biga,biga                 desconocido  d=0.571 candidatas 2 (préstamos 0/2)
+   A11  oŕtin      → LoRaTeKi   lorategi,lorategi              desconocido  d=0.7 candidatas 2 (préstamos 0/1)
+   A13  saltu      → MeNTi      mendi                          heredado     d=0.75 candidatas 5 (préstamos 0/3)
+   A14  aŕta       → aRTe       arte,arte,arte,arte,arte,arte, heredado     d=0.167 candidatas 2 (préstamos 0/2)
+   A15  alate      → aLTe       alde,alde,alde,alde,alde,alde  heredado     d=0.154 candidatas 2 (préstamos 0/2)
+   A16  akari      → aKuRa      akura                          sin dato     d=0.286 candidatas 4 (préstamos 0/2)
+   A17  kutu       → KuTuN      kutun,kutun,kutun,kutun,kutun, préstamo     d=0.286 candidatas 8 (préstamos 2/8)
+   A18  iunstir    → JauN       jaun                           sin dato     d=0.889 candidatas 2 (préstamos 0/1)
+   A19  laku       → LaKuN      lagun,lagun,lagün              desconocido  d=0.286 candidatas 2 (préstamos 0/2)
+   A20  baites     → aPaLKiTe   abalkide                       desconocido  d=0.667 candidatas 2 (préstamos 0/1)
+   A21  baŕbin     → eMaN       eman                           sin dato     d=1.0 candidatas 1 (préstamos 0/0)
+   A22  uskeike    → aSKe       aske,aske,aske                 desconocido  d=0.625 candidatas 7 (préstamos 1/4)
+   A23  lekaŕ      → PeRMe      berme,berme                    sin dato     d=1.0 candidatas 1 (préstamos 0/0)
+   A24  luŕa       → LuR        lur,lur,lur                    heredado     d=0.182 candidatas 2 (préstamos 0/2)
+   A25  ibaŕ       → iPaR       ipar,ipar,ibar                 heredado     d=0.0 candidatas 8 (préstamos 0/7)
+   A26  itur       → iTuRi      iturri,iturri                  desconocido  d=0.154 candidatas 3 (préstamos 1/3)
+   A27  belar      → PeLaR      belar,belar                    heredado     d=0.0 candidatas 2 (préstamos 0/2)
+   A28  bide       → PiTe       bide,bide,bide,bide,bide       sin dato     d=0.0 candidatas 6 (préstamos 0/5)
+   A29  daŕadi     → SaSi       sasi,sasi                      desconocido  d=0.933 candidatas 6 (préstamos 1/6)
+   A30  ekiar      → eKiN       egin,egin,egin,egin,egin,egin, heredado     d=0.462 candidatas 2 (préstamos 1/2)
+   N1   ban        → PaT        bat,bat,bat,bat,bat            heredado     d=0.4 candidatas 2 (préstamos 0/2)
+   N2   bi         → Pi         bi                             heredado     d=0.0 candidatas 2 (préstamos 0/2)
+   N3   iŕur       → iRu        hiru                           heredado     d=0.4 candidatas 1 (préstamos 0/1)
+   N4   lauŕ       → Lau        lau,lau,lau,lau,lau            heredado     d=0.4 candidatas 1 (préstamos 0/1)
+   N5   borste     → PoST       bost                           heredado     d=0.353 candidatas 1 (préstamos 0/1)
+   N6   śei        → Sei        sei                            heredado     d=0.0 candidatas 1 (préstamos 0/1)
+   N7   sisbi      → SaSPi      zazpi                          heredado     d=0.125 candidatas 1 (préstamos 0/1)
+   N8   sorse      → SoRCi      zortzi                         heredado     d=0.375 candidatas 1 (préstamos 0/1)
+   N10  abaŕ       → aMaR       hamar                          heredado     d=0.333 candidatas 1 (préstamos 0/1)
+   N20  oŕkei      → oKei       hogei                          heredado     d=0.333 candidatas 1 (préstamos 0/1)
+
+Proporción de préstamos: emparejadas 2/32 = 0.062; candidatas de los mismos significados 0.105; léxico con nota 0.126; p(≥k) hipergeométrica 0.9160328354350218; sorteo de una candidata por unidad: media 2.23, p(≥k) 0.7217
+Control, unidades propuestas como préstamos latinos: {'bale': {'candidata': 'PaLio', 'lemas': ['balio'], 'clase': 'sin dato'}, 'koŕta': {'candidata': 'PoRTa', 'lemas': ['borda', 'borda', 'borda'], 'clase': 'préstamo'}, 'oŕtin': {'candidata': 'LoRaTeKi', 'lemas': ['lorategi', 'lorategi'], 'clase': 'desconocido'}, 'saltu': {'candidata': 'MeNTi', 'lemas': ['mendi'], 'clase': 'heredado'}}
+
+Fonotaxis: modelos sobre 540 heredados y 423 préstamos; validación cruzada: acierto heredados 0.839, préstamos 0.804; candidatas emparejadas clasificadas como préstamo: 8 de 38

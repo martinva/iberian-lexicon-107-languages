@@ -1,0 +1,110 @@
+{
+ "Umbrian": {
+  "nombre": "umbro",
+  "muestras": 100,
+  "con_parientes": true,
+  "primera_es_pariente": 95,
+  "alcanza_z": 1,
+  "alcanza_separacion": 1,
+  "alcanza_ambos": 0,
+  "z_primera": {
+   "mediana": -6.173,
+   "mejor": -9.407,
+   "peor": -3.492
+  },
+  "separacion": {
+   "mediana": 1.135,
+   "mayor": 5.771
+  }
+ },
+ "Gothic": {
+  "nombre": "gótico",
+  "muestras": 100,
+  "con_parientes": true,
+  "primera_es_pariente": 79,
+  "alcanza_z": 1,
+  "alcanza_separacion": 2,
+  "alcanza_ambos": 1,
+  "z_primera": {
+   "mediana": -4.559,
+   "mejor": -9.826,
+   "peor": -1.898
+  },
+  "separacion": {
+   "mediana": 1.553,
+   "mayor": 6.363
+  }
+ },
+ "Cornish": {
+  "nombre": "córnico",
+  "muestras": 100,
+  "con_parientes": true,
+  "primera_es_pariente": 90,
+  "alcanza_z": 64,
+  "alcanza_separacion": 14,
+  "alcanza_ambos": 14,
+  "z_primera": {
+   "mediana": -9.79,
+   "mejor": -15.122,
+   "peor": -4.824
+  },
+  "separacion": {
+   "mediana": 2.96,
+   "mayor": 8.11
+  }
+ },
+ "Dalmatian": {
+  "nombre": "dálmata",
+  "muestras": 100,
+  "con_parientes": true,
+  "primera_es_pariente": 100,
+  "alcanza_z": 100,
+  "alcanza_separacion": 0,
+  "alcanza_ambos": 0,
+  "z_primera": {
+   "mediana": -13.959,
+   "mejor": -18.008,
+   "peor": -10.206
+  },
+  "separacion": {
+   "mediana": 1.208,
+   "mayor": 4.735
+  }
+ },
+ "Etruscan": {
+  "nombre": "etrusco",
+  "muestras": 100,
+  "con_parientes": false,
+  "primera_es_pariente": 0,
+  "alcanza_z": 0,
+  "alcanza_separacion": 0,
+  "alcanza_ambos": 0,
+  "z_primera": {
+   "mediana": -3.444,
+   "mejor": -6.847,
+   "peor": -1.221
+  },
+  "separacion": {
+   "mediana": 0.431,
+   "mayor": 2.64
+  }
+ },
+ "Sumerian": {
+  "nombre": "sumerio",
+  "muestras": 100,
+  "con_parientes": false,
+  "primera_es_pariente": 0,
+  "alcanza_z": 0,
+  "alcanza_separacion": 0,
+  "alcanza_ambos": 0,
+  "z_primera": {
+   "mediana": -2.167,
+   "mejor": -3.749,
+   "peor": -1.146
+  },
+  "separacion": {
+   "mediana": 0.288,
+   "mayor": 1.686
+  }
+ }
+}

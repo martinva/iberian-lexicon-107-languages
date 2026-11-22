@@ -1,0 +1,28 @@
+
+===== NorthEuraLex, clases completas: 107 lenguas | la más próxima es de la misma familia en 77 de 98 (79 %; por azar 20 %)
+  control umbro (334 formas): [(0.1663, 'Latin'), (0.1991, 'Olonets Karelian'), (0.2017, 'French'), (0.2036, 'Breton')]
+  control gótico (3095 formas): [(0.2506, 'Lak'), (0.2541, 'Icelandic'), (0.2707, 'Standard Arabic'), (0.2881, 'Dargwa')]
+  control córnico (4737 formas): [(0.1244, 'Welsh'), (0.1409, 'Breton'), (0.1734, 'Catalan'), (0.186, 'Irish')]
+  control dálmata (987 formas): [(0.151, 'Swedish'), (0.1675, 'Romanian'), (0.1693, 'Breton'), (0.1763, 'Icelandic')]
+  control etrusco (119 formas): [(0.2396, 'Malayalam'), (0.2522, 'Lezgian'), (0.2592, 'Veps'), (0.2606, 'Estonian')]
+  control sumerio (579 formas): [(0.2138, 'Lezgian'), (0.2273, 'Estonian'), (0.2325, 'Sakha'), (0.2461, 'Malayalam')]
+  IBÉRICO todo el corpus (2229 formas): euskera en el puesto 1 de 107 | [('Basque', 0.153), ('Latin', 0.174), ('Finnish', 0.205), ('Bashkir', 0.208), ('Burushaski', 0.211)] | primero en 500/500 remuestreos y 500/500 mitades
+  IBÉRICO plomos (1072 formas): euskera en el puesto 1 de 107 | [('Basque', 0.158), ('Latin', 0.179), ('Finnish', 0.212), ('Bashkir', 0.215), ('Breton', 0.223)] | primero en 500/500 remuestreos y 500/500 mitades
+
+===== NorthEuraLex, reducidas a lo que el ibérico escribe: 107 lenguas | la más próxima es de la misma familia en 69 de 98 (70 %; por azar 20 %)
+  control umbro (333 formas): [(0.1202, 'Portuguese'), (0.1239, 'Basque'), (0.1332, 'Latin'), (0.1333, 'Romanian')]
+  control gótico (3038 formas): [(0.1391, 'Lak'), (0.1483, 'Burushaski'), (0.1566, 'Malayalam'), (0.1581, 'Northern Khanty')]
+  control córnico (4552 formas): [(0.0606, 'Breton'), (0.0697, 'Welsh'), (0.0981, 'Swedish'), (0.1013, 'Irish')]
+  control dálmata (963 formas): [(0.0827, 'Icelandic'), (0.1082, 'Swedish'), (0.1119, 'Breton'), (0.1164, 'Spanish')]
+  control etrusco (118 formas): [(0.1412, 'Lezgian'), (0.1525, 'Estonian'), (0.158, 'Modern Hebrew'), (0.1628, 'Dargwa')]
+  control sumerio (541 formas): [(0.1256, 'Lezgian'), (0.1405, 'Lak'), (0.1446, 'Sakha'), (0.1598, 'Estonian')]
+  IBÉRICO todo el corpus (2214 formas): euskera en el puesto 1 de 107 | [('Basque', 0.07), ('Sakha', 0.094), ('Bashkir', 0.104), ('Livonian', 0.105), ('Veps', 0.117)] | primero en 500/500 remuestreos y 500/500 mitades
+  IBÉRICO plomos (1069 formas): euskera en el puesto 1 de 107 | [('Basque', 0.071), ('Sakha', 0.097), ('Bashkir', 0.106), ('Livonian', 0.107), ('Hill Mari', 0.118)] | primero en 500/500 remuestreos y 500/500 mitades
+
+===== Wikcionario (otras zonas), clases completas: 35 lenguas | la más próxima es de la misma familia en 17 de 24 (71 %; por azar 15 %)
+  IBÉRICO todo el corpus (2229 formas): euskera en el puesto 1 de 35 | [('Basque', 0.106), ('Finnish', 0.131), ('Occitan', 0.134), ('Catalan', 0.138), ('Sardinian', 0.139)] | primero en 300/300 remuestreos y 300/300 mitades
+  IBÉRICO plomos (1072 formas): euskera en el puesto 1 de 35 | [('Basque', 0.111), ('Sardinian', 0.141), ('Occitan', 0.141), ('Finnish', 0.141), ('Romanian', 0.145)] | primero en 300/300 remuestreos y 300/300 mitades
+
+===== Wikcionario (otras zonas), reducidas: 35 lenguas | la más próxima es de la misma familia en 15 de 24 (62 %; por azar 15 %)
+  IBÉRICO todo el corpus (2214 formas): euskera en el puesto 1 de 35 | [('Basque', 0.058), ('Finnish', 0.09), ('Estonian', 0.094), ('Indonesian', 0.097), ('Albanian', 0.099)] | primero en 300/300 remuestreos y 300/300 mitades
+  IBÉRICO plomos (1069 formas): euskera en el puesto 1 de 35 | [('Basque', 0.061), ('Finnish', 0.096), ('Albanian', 0.099), ('Estonian', 0.1), ('Indonesian', 0.101)] | primero en 300/300 remuestreos y 300/300 mitades

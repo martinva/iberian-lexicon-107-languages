@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Claves con SHA-256 publicado: conservar los bytes exactos (CRLF) para que el hash se verifique desde un clon
+2_criterios/jurado/*/CLAVE_*.tsv -text
+2_criterios/jurado/*/clave_sha256.txt -text

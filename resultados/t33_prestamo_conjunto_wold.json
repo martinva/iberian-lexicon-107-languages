@@ -1,0 +1,1156 @@
+{
+ "lenguas": 41,
+ "commit_wold": "1df62b9bdc7292b35982aea49b4d5bd1951f6f3e",
+ "amplia": {
+  "por_lengua": [
+   {
+    "lengua": "Archi",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     10,
+     24
+    ]
+   },
+   {
+    "lengua": "Bezhta",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     11,
+     24
+    ]
+   },
+   {
+    "lengua": "CeqWong",
+    "numerales": [
+     8,
+     10
+    ],
+    "otros": [
+     6,
+     12
+    ]
+   },
+   {
+    "lengua": "Dutch",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     7,
+     25
+    ]
+   },
+   {
+    "lengua": "English",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     10,
+     25
+    ]
+   },
+   {
+    "lengua": "Gawwada",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     5,
+     22
+    ]
+   },
+   {
+    "lengua": "Gurindji",
+    "numerales": [
+     3,
+     5
+    ],
+    "otros": [
+     9,
+     18
+    ]
+   },
+   {
+    "lengua": "Hausa",
+    "numerales": [
+     3,
+     10
+    ],
+    "otros": [
+     6,
+     24
+    ]
+   },
+   {
+    "lengua": "Hawaiian",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     25
+    ]
+   },
+   {
+    "lengua": "Hup",
+    "numerales": [
+     5,
+     10
+    ],
+    "otros": [
+     0,
+     17
+    ]
+   },
+   {
+    "lengua": "ImbaburaQuechua",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     8,
+     24
+    ]
+   },
+   {
+    "lengua": "Indonesian",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     11,
+     22
+    ]
+   },
+   {
+    "lengua": "Iraqw",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     22
+    ]
+   },
+   {
+    "lengua": "Japanese",
+    "numerales": [
+     10,
+     10
+    ],
+    "otros": [
+     12,
+     25
+    ]
+   },
+   {
+    "lengua": "Kalina",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     0,
+     18
+    ]
+   },
+   {
+    "lengua": "Kanuri",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     6,
+     24
+    ]
+   },
+   {
+    "lengua": "Ket",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     2,
+     20
+    ]
+   },
+   {
+    "lengua": "KildinSaami",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     11,
+     25
+    ]
+   },
+   {
+    "lengua": "LowerSorbian",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     25
+    ]
+   },
+   {
+    "lengua": "Malagasy",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     23
+    ]
+   },
+   {
+    "lengua": "Manange",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     1,
+     21
+    ]
+   },
+   {
+    "lengua": "MandarinChinese",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     0,
+     25
+    ]
+   },
+   {
+    "lengua": "Mapudungun",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     7,
+     22
+    ]
+   },
+   {
+    "lengua": "OldHighGerman",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     1,
+     24
+    ]
+   },
+   {
+    "lengua": "Oroqen",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     20
+    ]
+   },
+   {
+    "lengua": "Otomi",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     5,
+     25
+    ]
+   },
+   {
+    "lengua": "Qeqchi",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     4,
+     24
+    ]
+   },
+   {
+    "lengua": "Romanian",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     12,
+     25
+    ]
+   },
+   {
+    "lengua": "Sakha",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     13,
+     25
+    ]
+   },
+   {
+    "lengua": "Saramaccan",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     11,
+     23
+    ]
+   },
+   {
+    "lengua": "SeliceRomani",
+    "numerales": [
+     2,
+     10
+    ],
+    "otros": [
+     16,
+     24
+    ]
+   },
+   {
+    "lengua": "SeychellesCreole",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     24
+    ]
+   },
+   {
+    "lengua": "Swahili",
+    "numerales": [
+     3,
+     10
+    ],
+    "otros": [
+     10,
+     25
+    ]
+   },
+   {
+    "lengua": "Takia",
+    "numerales": [
+     6,
+     10
+    ],
+    "otros": [
+     5,
+     23
+    ]
+   },
+   {
+    "lengua": "TarifiytBerber",
+    "numerales": [
+     9,
+     10
+    ],
+    "otros": [
+     13,
+     23
+    ]
+   },
+   {
+    "lengua": "Thai",
+    "numerales": [
+     9,
+     10
+    ],
+    "otros": [
+     9,
+     24
+    ]
+   },
+   {
+    "lengua": "Vietnamese",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     14,
+     25
+    ]
+   },
+   {
+    "lengua": "WhiteHmong",
+    "numerales": [
+     6,
+     10
+    ],
+    "otros": [
+     10,
+     24
+    ]
+   },
+   {
+    "lengua": "Wichi",
+    "numerales": [
+     10,
+     10
+    ],
+    "otros": [
+     5,
+     23
+    ]
+   },
+   {
+    "lengua": "Yaqui",
+    "numerales": [
+     10,
+     10
+    ],
+    "otros": [
+     9,
+     24
+    ]
+   },
+   {
+    "lengua": "ZinacantanTzotzil",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     4,
+     20
+    ]
+   }
+  ],
+  "todos_los_numerales": {
+   "k": 3,
+   "lenguas": [
+    "Japanese",
+    "Wichi",
+    "Yaqui"
+   ],
+   "frecuencia": 0.0732,
+   "estimacion": 0.093,
+   "ic95": [
+    0.0154,
+    0.1992
+   ]
+  },
+  "otros_mitad": {
+   "k": 7,
+   "lenguas": [
+    "CeqWong",
+    "Gurindji",
+    "Indonesian",
+    "Sakha",
+    "SeliceRomani",
+    "TarifiytBerber",
+    "Vietnamese"
+   ],
+   "frecuencia": 0.1707,
+   "estimacion": 0.186,
+   "ic95": [
+    0.0715,
+    0.3206
+   ]
+  },
+  "numerales_y_otros_mitad": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "otros_tres_cuartos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "numerales_y_otros_tres_cuartos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "otros_todos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "numerales_y_otros_todos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "frecuencia_por_significado": {
+   "A1": 0.5556,
+   "A10": 0.2632,
+   "A11": 0.4688,
+   "A12": 0.3824,
+   "A13": 0.1707,
+   "A14": 0.3182,
+   "A15": 0.1951,
+   "A16": 0.6286,
+   "A17": 0.2683,
+   "A18": 0.4545,
+   "A19": 0.4634,
+   "A2": 0.1538,
+   "A20": 0.5882,
+   "A21": 0.0732,
+   "A22": 0.1282,
+   "A24": 0.1463,
+   "A25": 0.2162,
+   "A26": 0.2564,
+   "A27": 0.2,
+   "A28": 0.25,
+   "A30": 0.0976,
+   "A5": 0.2195,
+   "A6": 0.4474,
+   "A8": 0.5,
+   "A9": 0.2703,
+   "N1": 0.122,
+   "N10": 0.275,
+   "N2": 0.1707,
+   "N20": 0.225,
+   "N3": 0.1951,
+   "N4": 0.1951,
+   "N5": 0.1951,
+   "N6": 0.25,
+   "N7": 0.3,
+   "N8": 0.25
+  },
+  "independencia": {
+   "todos_los_numerales": 1.7944658827540879e-07,
+   "todos_los_otros": 4.3991196961455645e-15,
+   "todo_el_conjunto": 7.894070208884742e-22
+  }
+ },
+ "estricta": {
+  "por_lengua": [
+   {
+    "lengua": "Archi",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     10,
+     24
+    ]
+   },
+   {
+    "lengua": "Bezhta",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     9,
+     24
+    ]
+   },
+   {
+    "lengua": "CeqWong",
+    "numerales": [
+     8,
+     10
+    ],
+    "otros": [
+     6,
+     12
+    ]
+   },
+   {
+    "lengua": "Dutch",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     5,
+     25
+    ]
+   },
+   {
+    "lengua": "English",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     8,
+     25
+    ]
+   },
+   {
+    "lengua": "Gawwada",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     5,
+     22
+    ]
+   },
+   {
+    "lengua": "Gurindji",
+    "numerales": [
+     3,
+     5
+    ],
+    "otros": [
+     9,
+     18
+    ]
+   },
+   {
+    "lengua": "Hausa",
+    "numerales": [
+     3,
+     10
+    ],
+    "otros": [
+     5,
+     24
+    ]
+   },
+   {
+    "lengua": "Hawaiian",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     2,
+     25
+    ]
+   },
+   {
+    "lengua": "Hup",
+    "numerales": [
+     4,
+     10
+    ],
+    "otros": [
+     0,
+     17
+    ]
+   },
+   {
+    "lengua": "ImbaburaQuechua",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     8,
+     24
+    ]
+   },
+   {
+    "lengua": "Indonesian",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     4,
+     22
+    ]
+   },
+   {
+    "lengua": "Iraqw",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     22
+    ]
+   },
+   {
+    "lengua": "Japanese",
+    "numerales": [
+     1,
+     10
+    ],
+    "otros": [
+     5,
+     25
+    ]
+   },
+   {
+    "lengua": "Kalina",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     0,
+     18
+    ]
+   },
+   {
+    "lengua": "Kanuri",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     4,
+     24
+    ]
+   },
+   {
+    "lengua": "Ket",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     1,
+     20
+    ]
+   },
+   {
+    "lengua": "KildinSaami",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     11,
+     25
+    ]
+   },
+   {
+    "lengua": "LowerSorbian",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     2,
+     25
+    ]
+   },
+   {
+    "lengua": "Malagasy",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     2,
+     23
+    ]
+   },
+   {
+    "lengua": "Manange",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     1,
+     21
+    ]
+   },
+   {
+    "lengua": "MandarinChinese",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     0,
+     25
+    ]
+   },
+   {
+    "lengua": "Mapudungun",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     5,
+     22
+    ]
+   },
+   {
+    "lengua": "OldHighGerman",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     1,
+     24
+    ]
+   },
+   {
+    "lengua": "Oroqen",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     3,
+     20
+    ]
+   },
+   {
+    "lengua": "Otomi",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     2,
+     25
+    ]
+   },
+   {
+    "lengua": "Qeqchi",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     1,
+     24
+    ]
+   },
+   {
+    "lengua": "Romanian",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     7,
+     25
+    ]
+   },
+   {
+    "lengua": "Sakha",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     10,
+     25
+    ]
+   },
+   {
+    "lengua": "Saramaccan",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     10,
+     23
+    ]
+   },
+   {
+    "lengua": "SeliceRomani",
+    "numerales": [
+     2,
+     10
+    ],
+    "otros": [
+     14,
+     24
+    ]
+   },
+   {
+    "lengua": "SeychellesCreole",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     0,
+     24
+    ]
+   },
+   {
+    "lengua": "Swahili",
+    "numerales": [
+     3,
+     10
+    ],
+    "otros": [
+     9,
+     25
+    ]
+   },
+   {
+    "lengua": "Takia",
+    "numerales": [
+     5,
+     10
+    ],
+    "otros": [
+     4,
+     23
+    ]
+   },
+   {
+    "lengua": "TarifiytBerber",
+    "numerales": [
+     9,
+     10
+    ],
+    "otros": [
+     11,
+     23
+    ]
+   },
+   {
+    "lengua": "Thai",
+    "numerales": [
+     8,
+     10
+    ],
+    "otros": [
+     3,
+     24
+    ]
+   },
+   {
+    "lengua": "Vietnamese",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     11,
+     25
+    ]
+   },
+   {
+    "lengua": "WhiteHmong",
+    "numerales": [
+     6,
+     10
+    ],
+    "otros": [
+     8,
+     24
+    ]
+   },
+   {
+    "lengua": "Wichi",
+    "numerales": [
+     10,
+     10
+    ],
+    "otros": [
+     3,
+     23
+    ]
+   },
+   {
+    "lengua": "Yaqui",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     9,
+     24
+    ]
+   },
+   {
+    "lengua": "ZinacantanTzotzil",
+    "numerales": [
+     0,
+     10
+    ],
+    "otros": [
+     2,
+     20
+    ]
+   }
+  ],
+  "todos_los_numerales": {
+   "k": 1,
+   "lenguas": [
+    "Wichi"
+   ],
+   "frecuencia": 0.0244,
+   "estimacion": 0.0465,
+   "ic95": [
+    0.0006,
+    0.1286
+   ]
+  },
+  "otros_mitad": {
+   "k": 3,
+   "lenguas": [
+    "CeqWong",
+    "Gurindji",
+    "SeliceRomani"
+   ],
+   "frecuencia": 0.0732,
+   "estimacion": 0.093,
+   "ic95": [
+    0.0154,
+    0.1992
+   ]
+  },
+  "numerales_y_otros_mitad": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "otros_tres_cuartos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "numerales_y_otros_tres_cuartos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "otros_todos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "numerales_y_otros_todos": {
+   "k": 0,
+   "lenguas": [],
+   "frecuencia": 0.0,
+   "estimacion": 0.0233,
+   "ic95": [
+    0.0,
+    0.086
+   ]
+  },
+  "frecuencia_por_significado": {
+   "A1": 0.5,
+   "A10": 0.1842,
+   "A11": 0.4062,
+   "A12": 0.2941,
+   "A13": 0.0732,
+   "A14": 0.2727,
+   "A15": 0.122,
+   "A16": 0.5714,
+   "A17": 0.2683,
+   "A18": 0.3636,
+   "A19": 0.2927,
+   "A2": 0.0513,
+   "A20": 0.5882,
+   "A21": 0.0732,
+   "A22": 0.0769,
+   "A24": 0.0976,
+   "A25": 0.1351,
+   "A26": 0.1538,
+   "A27": 0.15,
+   "A28": 0.125,
+   "A30": 0.0732,
+   "A5": 0.122,
+   "A6": 0.3947,
+   "A8": 0.3056,
+   "A9": 0.2162,
+   "N1": 0.0488,
+   "N10": 0.2,
+   "N2": 0.122,
+   "N20": 0.2,
+   "N3": 0.1463,
+   "N4": 0.1463,
+   "N5": 0.122,
+   "N6": 0.2,
+   "N7": 0.225,
+   "N8": 0.2
+  },
+  "independencia": {
+   "todos_los_numerales": 5.593140413778975e-09,
+   "todos_los_otros": 6.566576282393311e-19,
+   "todo_el_conjunto": 3.6727783185216526e-27
+  }
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "unidades": {
+  "DeepSeek": {
+   "n": 36,
+   "azar": 4,
+   "gallego": 8,
+   "ninguno": 11,
+   "euskera": 12,
+   "latín": 1,
+   "p_binomial": {
+    "euskera": 0.0424,
+    "gallego": 0.434,
+    "latín": 0.9997,
+    "azar": 0.9478
+   }
+  },
+  "Grok": {
+   "n": 36,
+   "azar": 6,
+   "ninguno": 13,
+   "euskera": 15,
+   "latín": 1,
+   "gallego": 1,
+   "p_binomial": {
+    "euskera": 0.0025,
+    "gallego": 0.9997,
+    "latín": 0.9997,
+    "azar": 0.7536
+   }
+  },
+  "Mistral": {
+   "n": 36,
+   "gallego": 6,
+   "euskera": 16,
+   "azar": 5,
+   "latín": 3,
+   "ninguno": 6,
+   "p_binomial": {
+    "euskera": 0.0008,
+    "gallego": 0.7536,
+    "latín": 0.984,
+    "azar": 0.8731
+   }
+  },
+  "mayoría": {
+   "n": 36,
+   "azar": 4,
+   "sin mayoría": 6,
+   "ninguno": 10,
+   "euskera": 12,
+   "latín": 1,
+   "gallego": 3,
+   "p_binomial": {
+    "euskera": 0.0424,
+    "gallego": 0.984,
+    "latín": 0.9997,
+    "azar": 0.9478
+   }
+  }
+ },
+ "unidades sin U10": {
+  "DeepSeek": {
+   "n": 35,
+   "azar": 3,
+   "gallego": 8,
+   "ninguno": 11,
+   "euskera": 12,
+   "latín": 1,
+   "p_binomial": {
+    "euskera": 0.0344,
+    "gallego": 0.4007,
+    "latín": 0.9996,
+    "azar": 0.981
+   }
+  },
+  "Grok": {
+   "n": 35,
+   "azar": 6,
+   "ninguno": 12,
+   "euskera": 15,
+   "latín": 1,
+   "gallego": 1,
+   "p_binomial": {
+    "euskera": 0.0018,
+    "gallego": 0.9996,
+    "latín": 0.9996,
+    "azar": 0.7279
+   }
+  },
+  "Mistral": {
+   "n": 35,
+   "gallego": 6,
+   "euskera": 16,
+   "azar": 5,
+   "latín": 3,
+   "ninguno": 5,
+   "p_binomial": {
+    "euskera": 0.0005,
+    "gallego": 0.7279,
+    "latín": 0.981,
+    "azar": 0.8565
+   }
+  },
+  "mayoría": {
+   "n": 35,
+   "azar": 4,
+   "sin mayoría": 6,
+   "ninguno": 9,
+   "euskera": 12,
+   "latín": 1,
+   "gallego": 3,
+   "p_binomial": {
+    "euskera": 0.0344,
+    "gallego": 0.981,
+    "latín": 0.9996,
+    "azar": 0.9395
+   }
+  }
+ },
+ "hesperia": {
+  "DeepSeek": {
+   "n": 11,
+   "gallego": 2,
+   "latín": 3,
+   "azar": 2,
+   "euskera": 3,
+   "ninguno": 1,
+   "p_binomial": {
+    "euskera": 0.3826,
+    "gallego": 0.6779,
+    "latín": 0.3826,
+    "azar": 0.6779
+   }
+  },
+  "Grok": {
+   "n": 11,
+   "gallego": 2,
+   "ninguno": 1,
+   "euskera": 6,
+   "latín": 1,
+   "azar": 1,
+   "p_binomial": {
+    "euskera": 0.0117,
+    "gallego": 0.6779,
+    "latín": 0.9141,
+    "azar": 0.9141
+   }
+  },
+  "Mistral": {
+   "n": 11,
+   "ninguno": 3,
+   "latín": 1,
+   "gallego": 3,
+   "euskera": 3,
+   "azar": 1,
+   "p_binomial": {
+    "euskera": 0.3826,
+    "gallego": 0.3826,
+    "latín": 0.9141,
+    "azar": 0.9141
+   }
+  },
+  "mayoría": {
+   "n": 11,
+   "gallego": 2,
+   "latín": 1,
+   "sin mayoría": 4,
+   "euskera": 4,
+   "p_binomial": {
+    "euskera": 0.1611,
+    "gallego": 0.6779,
+    "latín": 0.9141,
+    "azar": 1.0
+   }
+  }
+ }
+}

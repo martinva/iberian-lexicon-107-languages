@@ -1,0 +1,11 @@
+codigo	funcion	motivo
+S01	agente	El nombre con sufijo ocupa la casilla de «X hizo» en la fórmula de fabricación.
+S02	poseedor	Nombre con sufijo como texto único o de cierre en objetos muebles personales se ajusta a marca de dueño.
+S03	indeterminable	Comparte casilla con S02 pero también afecta a términos comunes; no permite decidir poseedor, determinante u otra función.
+S04	indeterminable	Textos brevísimos de objeto o dueño más sufijo no bastan para fijar poseedor, destinatario u otra función.
+S05	indeterminable	Nombre con sufijo seguido de cantidad en cuentas admite destinatario o poseedor sin contexto verbal que lo fije.
+S06	indeterminable	Solo nombres de persona en textos breves sobre objetos duraderos; distribución no diagnóstica.
+S07	indeterminable	Nombres y algunos términos en el cuerpo de láminas de plomo: distribución demasiado general.
+S08	étnico	Sufijo regular sobre el nombre de la ciudad emisora en leyendas monetarias de muchas cecas.
+S09	indeterminable	La identidad formal con «uno» no prueba por sí sola que funcione como determinante.
+S10	fracción	Valor de «mitad» fijado de forma independiente por la metrología.

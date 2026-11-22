@@ -1,0 +1,16 @@
+{
+ "remuestreos": 200,
+ "vecino_del_iberico": {
+  "Basque": 200
+ },
+ "reciprocos": 200,
+ "distancia_iberico_euskera": {
+  "mediana": 0.4486,
+  "p2_5": 0.3332,
+  "p97_5": 0.5838
+ },
+ "segunda_lengua_mas_proxima": {
+  "mediana": 0.8297,
+  "minimo": 0.7024
+ }
+}

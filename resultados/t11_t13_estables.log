@@ -1,0 +1,63 @@
+== Tabla 12. Ibérico frente a cada lengua (ordenado por la ventaja en estables):
+  Basque           estables 0.533 (n 11) | poco estables 0.445 (n 27) | sin 2–5 0.447 | sin saltu 0.588
+  Welsh            estables 0.145 (n 11) | poco estables 0.014 (n 29) | sin 2–5 0.208 | sin saltu 0.138
+  Turkish          estables 0.132 (n 11) | poco estables 0.073 (n 29) | sin 2–5 0.083 | sin saltu 0.134
+  Catalan          estables 0.126 (n 11) | poco estables 0.043 (n 29) | sin 2–5 0.154 | sin saltu 0.139
+  Sicilian         estables 0.104 (n 11) | poco estables 0.087 (n 23) | sin 2–5 0.131 | sin saltu 0.122
+  Occitan          estables 0.092 (n 11) | poco estables 0.009 (n 24) | sin 2–5 0.106 | sin saltu 0.097
+== Tabla 13. Ibérico frente al euskera, por origen del significado:
+  dato externo (grado A): uno, diez, veinte, plata, mitad, hacer, escrito: n 7 ventaja 0.560
+  numerales del dos al ocho (valor por posición): n 7 ventaja 0.740
+  por la casilla que ocupa en los documentos: n 18 ventaja 0.307
+  con apoyo de la toponimia: n 6 ventaja 0.548
+  los cuatro préstamos latinos propuestos: n 4 ventaja 0.238
+  los cuatro préstamos latinos, frente al gallego: ventaja 0.341
+  [emparentadas cercanas] Catalan–Occitan: estables 0.506 | poco estables 0.299
+  [emparentadas cercanas] Galician–Asturian: estables 0.475 | poco estables 0.381
+  [emparentadas cercanas] Malay–Indonesian: estables 0.548 | poco estables 0.433
+  [emparentadas cercanas] Estonian–Finnish: estables 0.414 | poco estables 0.324
+  [emparentadas cercanas] Romanian–Latin: estables 0.208 | poco estables 0.128
+  [emparentadas cercanas] Catalan–Latin: estables 0.262 | poco estables 0.164
+  [emparentadas cercanas] Sardinian–Latin: estables 0.423 | poco estables 0.226
+  [emparentadas cercanas] Zulu–Shona: cobertura insuficiente (estables 8, poco estables 5)
+  [emparentadas lejanas] Irish–Welsh: estables 0.166 | poco estables 0.134
+  [emparentadas lejanas] Hungarian–Finnish: estables 0.027 | poco estables -0.003
+  [emparentadas lejanas] Irish–Latin: estables 0.121 | poco estables 0.108
+  [emparentadas lejanas] Icelandic–Latin: estables 0.061 | poco estables 0.054
+  [emparentadas lejanas] Lithuanian–Latin: estables 0.191 | poco estables 0.075
+  [emparentadas lejanas] Icelandic–Lithuanian: estables 0.082 | poco estables 0.057
+  [emparentadas lejanas] Tagalog–Malay: estables 0.154 | poco estables 0.094
+  [emparentadas lejanas] Malagasy–Malay: estables 0.168 | poco estables 0.080
+  [emparentadas lejanas] Hawaiian–Malay: estables 0.099 | poco estables -0.006
+  [emparentadas lejanas] Fijian–Malay: estables 0.269 | poco estables 0.030
+  [emparentadas lejanas] Swahili–Zulu: estables 0.277 | poco estables 0.059
+  [emparentadas lejanas] Hausa–Somali: estables -0.024 | poco estables 0.040
+  [parentesco lejano y préstamos] Albanian–Latin: estables 0.156 | poco estables 0.057
+  [parentesco lejano y préstamos] Welsh–Latin: estables 0.141 | poco estables 0.053
+  [solo contacto] Tagalog–Galician: estables 0.132 | poco estables 0.114
+  [solo contacto] Tagalog–Catalan: estables 0.149 | poco estables 0.132
+  [solo contacto] Quechua–Galician: estables 0.045 | poco estables -0.036
+  [solo contacto] Basque–Latin: estables -0.006 | poco estables 0.018
+  [solo contacto] Basque–Galician: estables -0.023 | poco estables 0.065
+  [solo contacto] Basque–Catalan: estables 0.042 | poco estables 0.039
+  [solo contacto] Maltese–Sicilian: estables 0.017 | poco estables 0.059
+  [solo contacto] Hungarian–Turkish: estables -0.001 | poco estables 0.037
+  [solo contacto] Finnish–Icelandic: estables -0.009 | poco estables 0.011
+  [solo contacto] Romanian–Hungarian: estables 0.032 | poco estables 0.075
+  [solo contacto] Romanian–Turkish: estables -0.005 | poco estables 0.065
+  [solo contacto] Albanian–Turkish: estables 0.058 | poco estables 0.037
+  [solo contacto] Malagasy–Swahili: estables 0.034 | poco estables 0.050
+  [sin relación] Basque–Finnish: estables 0.017 | poco estables -0.003
+  [sin relación] Quechua–Hungarian: estables -0.010 | poco estables -0.007
+  [sin relación] Hawaiian–Irish: estables 0.015 | poco estables -0.033
+  [sin relación] Zulu–Icelandic: estables -0.009 | poco estables -0.020
+  [sin relación] Yoruba–Lithuanian: estables -0.028 | poco estables 0.002
+  [sin relación] Classical Nahuatl–Welsh: estables -0.026 | poco estables -0.012
+  [sin relación] Hausa–Estonian: estables -0.041 | poco estables 0.021
+  [sin relación] Fijian–Latin: estables -0.031 | poco estables -0.000
+== Tabla 11. Resumen por tipo de relación
+  emparentadas cercanas            parejas  7 | estables 0.405 | poco estables 0.279 | estables > poco en 7
+  emparentadas lejanas             parejas 12 | estables 0.133 | poco estables 0.060 | estables > poco en 11
+  parentesco lejano y préstamos    parejas  2 | estables 0.148 | poco estables 0.055 | estables > poco en 2
+  solo contacto                    parejas 13 | estables 0.036 | poco estables 0.051 | estables > poco en 5
+  sin relación                     parejas  8 | estables -0.014 | poco estables -0.006 | estables > poco en 3

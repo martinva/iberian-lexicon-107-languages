@@ -1,0 +1,208 @@
+{
+ "autor": {
+  "nivel I": {
+   "unidades_del_grupo": 5,
+   "comparables_con_el_euskera": 4,
+   "resultado": {
+    "z_euskera": -5.75,
+    "puesto": 1,
+    "siguiente": "Catalan",
+    "z_siguiente": -3.15,
+    "lenguas_comparadas": 26
+   }
+  },
+  "niveles I y II": {
+   "unidades_del_grupo": 24,
+   "comparables_con_el_euskera": 22,
+   "resultado": {
+    "z_euskera": -9.28,
+    "puesto": 1,
+    "siguiente": "Galician",
+    "z_siguiente": -3.97,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel II": {
+   "unidades_del_grupo": 19,
+   "comparables_con_el_euskera": 18,
+   "resultado": {
+    "z_euskera": -8.06,
+    "puesto": 1,
+    "siguiente": "Galician",
+    "z_siguiente": -3.8,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel III": {
+   "unidades_del_grupo": 6,
+   "comparables_con_el_euskera": 6,
+   "resultado": {
+    "z_euskera": -8.29,
+    "puesto": 1,
+    "siguiente": "Welsh",
+    "z_siguiente": -2.35,
+    "lenguas_comparadas": 31
+   }
+  }
+ },
+ "Mistral": {
+  "nivel I": {
+   "unidades_del_grupo": 2,
+   "comparables_con_el_euskera": 2,
+   "resultado": null
+  },
+  "niveles I y II": {
+   "unidades_del_grupo": 17,
+   "comparables_con_el_euskera": 16,
+   "resultado": {
+    "z_euskera": -6.6,
+    "puesto": 1,
+    "siguiente": "Tagalog",
+    "z_siguiente": -4.13,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel II": {
+   "unidades_del_grupo": 15,
+   "comparables_con_el_euskera": 14,
+   "resultado": {
+    "z_euskera": -6.24,
+    "puesto": 1,
+    "siguiente": "Tagalog",
+    "z_siguiente": -4.05,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel III": {
+   "unidades_del_grupo": 13,
+   "comparables_con_el_euskera": 12,
+   "resultado": {
+    "z_euskera": -11.1,
+    "puesto": 1,
+    "siguiente": "Galician",
+    "z_siguiente": -2.34,
+    "lenguas_comparadas": 32
+   }
+  }
+ },
+ "DeepSeek": {
+  "nivel I": {
+   "unidades_del_grupo": 4,
+   "comparables_con_el_euskera": 3,
+   "resultado": null
+  },
+  "niveles I y II": {
+   "unidades_del_grupo": 17,
+   "comparables_con_el_euskera": 16,
+   "resultado": {
+    "z_euskera": -6.6,
+    "puesto": 1,
+    "siguiente": "Tagalog",
+    "z_siguiente": -4.13,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel II": {
+   "unidades_del_grupo": 13,
+   "comparables_con_el_euskera": 13,
+   "resultado": {
+    "z_euskera": -5.26,
+    "puesto": 1,
+    "siguiente": "Tagalog",
+    "z_siguiente": -4.89,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel III": {
+   "unidades_del_grupo": 13,
+   "comparables_con_el_euskera": 12,
+   "resultado": {
+    "z_euskera": -11.1,
+    "puesto": 1,
+    "siguiente": "Galician",
+    "z_siguiente": -2.34,
+    "lenguas_comparadas": 32
+   }
+  }
+ },
+ "Grok": {
+  "nivel I": {
+   "unidades_del_grupo": 1,
+   "comparables_con_el_euskera": 1,
+   "resultado": null
+  },
+  "niveles I y II": {
+   "unidades_del_grupo": 12,
+   "comparables_con_el_euskera": 11,
+   "resultado": {
+    "z_euskera": -6.57,
+    "puesto": 1,
+    "siguiente": "Albanian",
+    "z_siguiente": -2.23,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel II": {
+   "unidades_del_grupo": 11,
+   "comparables_con_el_euskera": 10,
+   "resultado": {
+    "z_euskera": -6.19,
+    "puesto": 1,
+    "siguiente": "Albanian",
+    "z_siguiente": -2.31,
+    "lenguas_comparadas": 31
+   }
+  },
+  "nivel III": {
+   "unidades_del_grupo": 18,
+   "comparables_con_el_euskera": 17,
+   "resultado": {
+    "z_euskera": -10.81,
+    "puesto": 1,
+    "siguiente": "Galician",
+    "z_siguiente": -4.24,
+    "lenguas_comparadas": 32
+   }
+  }
+ },
+ "menos_favorable": {
+  "nivel I": {
+   "unidades_del_grupo": 1,
+   "comparables_con_el_euskera": 1,
+   "resultado": null
+  },
+  "niveles I y II": {
+   "unidades_del_grupo": 12,
+   "comparables_con_el_euskera": 11,
+   "resultado": {
+    "z_euskera": -6.57,
+    "puesto": 1,
+    "siguiente": "Albanian",
+    "z_siguiente": -2.23,
+    "lenguas_comparadas": 32
+   }
+  },
+  "nivel II": {
+   "unidades_del_grupo": 11,
+   "comparables_con_el_euskera": 10,
+   "resultado": {
+    "z_euskera": -6.19,
+    "puesto": 1,
+    "siguiente": "Albanian",
+    "z_siguiente": -2.31,
+    "lenguas_comparadas": 31
+   }
+  },
+  "nivel III": {
+   "unidades_del_grupo": 18,
+   "comparables_con_el_euskera": 17,
+   "resultado": {
+    "z_euskera": -10.81,
+    "puesto": 1,
+    "siguiente": "Galician",
+    "z_siguiente": -4.24,
+    "lenguas_comparadas": 32
+   }
+  }
+ }
+}

@@ -1,0 +1,11 @@
+codigo	funcion	motivo
+S01	agente	La colocación en la casilla de la fórmula de fabricación ("X hizo"), con nombre + sufijo ante un término fijo, ancla el papel del nombre como agente.
+S02	poseedor	Nombre solo que cierra el texto de un objeto mueble personal: patrón clásico de marca de propiedad (el objeto "de" alguien), aunque el verbo ausente deja margen a una simple firma.
+S03	poseedor	Ocupa la misma casilla que S02, lo que apunta a la misma función; la extensión a términos comunes resta pureza pero no aporta una función distinta.
+S04	indeterminable	Se adjunta tanto al nombre del supuesto dueño como a sustantivos de objeto en textos de una sola palabra; encaja igualmente con genitivo posesor, determinante u otra derivación.
+S05	indeterminable	El formato "nombre : cantidad" es compatible con poseedor (saldo de X), destinatario (entrega a X) o incluso agente (entregó X); la distribución no decide entre ellos.
+S06	indeterminable	Patrón demasiado indeterminado: nombres sobre piezas duraderas, sin rasgo estructural que separe propietario de agente o dedicante.
+S07	indeterminable	Menciones en el cuerpo del texto sin correlato estructural (sin cantidades asociadas, sin fórmula identificable), sin base para diagnosticar un caso concreto.
+S08	étnico	Sufijo regular añadido al nombre de la ciudad emisora en decenas de cecas: paralelo exacto de los adjetivos étnicos de las acuñaciones contemporáneas.
+S09	determinante	Elemento idéntico a la palabra "uno" que se pospone a nombres comunes del léxico económico: evolución típica del numeral "uno" a determinante indefinido.
+S10	fracción	El valor de "mitad" está fijado por la metrología (monedas de media unidad, mitades de pesos), independiente de la lengua: prueba interna sólida.

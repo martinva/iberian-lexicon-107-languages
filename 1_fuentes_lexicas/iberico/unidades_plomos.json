@@ -1,0 +1,1020 @@
+{
+ "_nota": "30 unidades de los plomos de contenido económico (Monografías I–IV). formas: en la transcripción de Hesperia. terminos_en y terminos_es: términos del significado en inglés y en castellano, fijados antes de consultar los diccionarios. tipo a: significado deducido de la casilla que la palabra ocupa en los documentos; tipo c: significado con apoyo de la toponimia. terminos_en_v2 y terminos_es_v2: lista ampliada con sinónimos próximos, fijada después de conocer los resultados de la primera lista; solo se usa en el apartado 8.2.",
+ "unidades": [
+  {
+   "id": "A1",
+   "formas": [
+    "śalir"
+   ],
+   "glosa": "plata / valor monetario",
+   "tipo": "a",
+   "monografia": "M1",
+   "terminos_en": [
+    "silver"
+   ],
+   "terminos_es": [
+    "plata"
+   ],
+   "terminos_es_v2": [
+    "plata",
+    "dinero",
+    "moneda"
+   ],
+   "terminos_en_v2": [
+    "silver",
+    "money",
+    "coin"
+   ]
+  },
+  {
+   "id": "A2",
+   "formas": [
+    "erter",
+    "erder"
+   ],
+   "glosa": "mitad",
+   "tipo": "a",
+   "monografia": "M1",
+   "terminos_en": [
+    "half",
+    "middle"
+   ],
+   "terminos_es": [
+    "mitad",
+    "medio"
+   ],
+   "terminos_es_v2": [
+    "mitad",
+    "medio"
+   ],
+   "terminos_en_v2": [
+    "half",
+    "middle"
+   ]
+  },
+  {
+   "id": "A3",
+   "formas": [
+    "kitar",
+    "kidar"
+   ],
+   "glosa": "unidad de cuenta",
+   "tipo": "a",
+   "monografia": "M1",
+   "terminos_en": [
+    "unit"
+   ],
+   "terminos_es": [
+    "unidad"
+   ],
+   "terminos_es_v2": [
+    "unidad",
+    "medida",
+    "peso"
+   ],
+   "terminos_en_v2": [
+    "unit",
+    "measure",
+    "weight"
+   ]
+  },
+  {
+   "id": "A4",
+   "formas": [
+    "eka"
+   ],
+   "glosa": "partida, asiento",
+   "tipo": "a",
+   "monografia": "M1",
+   "terminos_en": [
+    "entry",
+    "item"
+   ],
+   "terminos_es": [
+    "partida",
+    "asiento"
+   ],
+   "terminos_es_v2": [
+    "partida",
+    "asiento",
+    "cuenta",
+    "apunte",
+    "registro"
+   ],
+   "terminos_en_v2": [
+    "entry",
+    "item",
+    "account",
+    "record",
+    "register"
+   ]
+  },
+  {
+   "id": "A5",
+   "formas": [
+    "bobaida",
+    "bobaidinba"
+   ],
+   "glosa": "total, suma",
+   "tipo": "a",
+   "monografia": "M1",
+   "terminos_en": [
+    "all",
+    "whole",
+    "total",
+    "sum"
+   ],
+   "terminos_es": [
+    "todo",
+    "total",
+    "suma",
+    "entero"
+   ],
+   "terminos_es_v2": [
+    "todo",
+    "total",
+    "suma",
+    "entero",
+    "conjunto",
+    "cantidad"
+   ],
+   "terminos_en_v2": [
+    "all",
+    "whole",
+    "total",
+    "sum",
+    "amount",
+    "quantity"
+   ]
+  },
+  {
+   "id": "A6",
+   "formas": [
+    "bale",
+    "baleś"
+   ],
+   "glosa": "valor, tasación",
+   "tipo": "a",
+   "monografia": "M1",
+   "terminos_en": [
+    "value",
+    "price",
+    "worth"
+   ],
+   "terminos_es": [
+    "valor",
+    "precio"
+   ],
+   "terminos_es_v2": [
+    "valor",
+    "precio",
+    "coste",
+    "importe",
+    "valer"
+   ],
+   "terminos_en_v2": [
+    "value",
+    "price",
+    "worth",
+    "cost",
+    "amount",
+    "be worth"
+   ]
+  },
+  {
+   "id": "A7",
+   "formas": [
+    "baśir",
+    "baseŕ",
+    "basetiŕ"
+   ],
+   "glosa": "finca, fundo",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "farm",
+    "estate",
+    "property",
+    "homestead"
+   ],
+   "terminos_es": [
+    "finca",
+    "heredad",
+    "hacienda",
+    "casería"
+   ],
+   "terminos_es_v2": [
+    "finca",
+    "heredad",
+    "hacienda",
+    "casería",
+    "caserío",
+    "casa de campo",
+    "granja",
+    "propiedad",
+    "terreno"
+   ],
+   "terminos_en_v2": [
+    "farm",
+    "estate",
+    "property",
+    "homestead",
+    "farmhouse",
+    "farmstead",
+    "country house",
+    "land"
+   ]
+  },
+  {
+   "id": "A8",
+   "formas": [
+    "aŕeka",
+    "eŕeko"
+   ],
+   "glosa": "acequia, reguero",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "ditch",
+    "channel",
+    "stream",
+    "brook"
+   ],
+   "terminos_es": [
+    "acequia",
+    "zanja",
+    "canal",
+    "arroyo",
+    "regato"
+   ],
+   "terminos_es_v2": [
+    "acequia",
+    "zanja",
+    "canal",
+    "arroyo",
+    "regato",
+    "reguero",
+    "riachuelo",
+    "cauce"
+   ],
+   "terminos_en_v2": [
+    "ditch",
+    "channel",
+    "stream",
+    "brook",
+    "creek",
+    "rivulet",
+    "watercourse"
+   ]
+  },
+  {
+   "id": "A9",
+   "formas": [
+    "koŕta"
+   ],
+   "glosa": "corral",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "fold",
+    "pen",
+    "enclosure",
+    "stable"
+   ],
+   "terminos_es": [
+    "corral",
+    "redil",
+    "establo"
+   ],
+   "terminos_es_v2": [
+    "corral",
+    "redil",
+    "establo",
+    "cuadra",
+    "cercado",
+    "aprisco"
+   ],
+   "terminos_en_v2": [
+    "fold",
+    "pen",
+    "enclosure",
+    "stable"
+   ]
+  },
+  {
+   "id": "A10",
+   "formas": [
+    "bekoŕ",
+    "bekon"
+   ],
+   "glosa": "becerro, res joven",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "calf",
+    "heifer"
+   ],
+   "terminos_es": [
+    "becerro",
+    "ternero",
+    "novillo",
+    "novilla",
+    "ternera"
+   ],
+   "terminos_es_v2": [
+    "becerro",
+    "ternero",
+    "novillo",
+    "novilla",
+    "ternera",
+    "res",
+    "vaca",
+    "buey"
+   ],
+   "terminos_en_v2": [
+    "calf",
+    "heifer",
+    "cow",
+    "ox",
+    "cattle"
+   ]
+  },
+  {
+   "id": "A11",
+   "formas": [
+    "oŕtin",
+    "oŕtor"
+   ],
+   "glosa": "huerto",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "garden",
+    "orchard"
+   ],
+   "terminos_es": [
+    "huerto",
+    "huerta"
+   ],
+   "terminos_es_v2": [
+    "huerto",
+    "huerta",
+    "jardín",
+    "vergel"
+   ],
+   "terminos_en_v2": [
+    "garden",
+    "orchard"
+   ]
+  },
+  {
+   "id": "A12",
+   "formas": [
+    "selki",
+    "selgi"
+   ],
+   "glosa": "pasto acotado, majada",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "pasture",
+    "sheepfold"
+   ],
+   "terminos_es": [
+    "pasto",
+    "dehesa",
+    "majada"
+   ],
+   "terminos_es_v2": [
+    "pasto",
+    "dehesa",
+    "majada",
+    "pastizal",
+    "prado",
+    "sel"
+   ],
+   "terminos_en_v2": [
+    "pasture",
+    "sheepfold",
+    "meadow",
+    "grazing"
+   ]
+  },
+  {
+   "id": "A13",
+   "formas": [
+    "saltu",
+    "saldu"
+   ],
+   "glosa": "monte, dehesa",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "forest",
+    "wood",
+    "woods",
+    "woodland",
+    "mountain"
+   ],
+   "terminos_es": [
+    "bosque",
+    "selva",
+    "monte"
+   ],
+   "terminos_es_v2": [
+    "bosque",
+    "selva",
+    "monte",
+    "soto",
+    "arboleda"
+   ],
+   "terminos_en_v2": [
+    "forest",
+    "wood",
+    "woods",
+    "woodland",
+    "mountain",
+    "grove",
+    "thicket"
+   ]
+  },
+  {
+   "id": "A14",
+   "formas": [
+    "aŕta"
+   ],
+   "glosa": "encina, encinar",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "holm",
+    "oak"
+   ],
+   "terminos_es": [
+    "encina",
+    "roble"
+   ],
+   "terminos_es_v2": [
+    "encina",
+    "roble",
+    "encinar",
+    "carrasca"
+   ],
+   "terminos_en_v2": [
+    "holm",
+    "oak",
+    "holm oak",
+    "evergreen oak"
+   ]
+  },
+  {
+   "id": "A15",
+   "formas": [
+    "alate"
+   ],
+   "glosa": "lado, costado",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "side",
+    "flank"
+   ],
+   "terminos_es": [
+    "lado",
+    "costado"
+   ],
+   "terminos_es_v2": [
+    "lado",
+    "costado",
+    "borde",
+    "flanco",
+    "parte"
+   ],
+   "terminos_en_v2": [
+    "side",
+    "flank",
+    "edge",
+    "part"
+   ]
+  },
+  {
+   "id": "A16",
+   "formas": [
+    "akari"
+   ],
+   "glosa": "tributo, canon",
+   "tipo": "a",
+   "monografia": "M2",
+   "terminos_en": [
+    "tax",
+    "tribute",
+    "rent"
+   ],
+   "terminos_es": [
+    "tributo",
+    "renta",
+    "censo",
+    "impuesto"
+   ],
+   "terminos_es_v2": [
+    "tributo",
+    "renta",
+    "censo",
+    "impuesto",
+    "pago",
+    "tasa",
+    "carga"
+   ],
+   "terminos_en_v2": [
+    "tax",
+    "tribute",
+    "rent",
+    "payment",
+    "fee",
+    "duty"
+   ]
+  },
+  {
+   "id": "A17",
+   "formas": [
+    "kutu",
+    "kutur",
+    "kudur"
+   ],
+   "glosa": "escrito, documento",
+   "tipo": "a",
+   "monografia": "M2–M3",
+   "terminos_en": [
+    "writing",
+    "letter",
+    "document",
+    "write"
+   ],
+   "terminos_es": [
+    "escrito",
+    "escritura",
+    "carta",
+    "documento",
+    "escribir"
+   ],
+   "terminos_es_v2": [
+    "escrito",
+    "escritura",
+    "carta",
+    "documento",
+    "escribir",
+    "texto",
+    "letra",
+    "nota"
+   ],
+   "terminos_en_v2": [
+    "writing",
+    "letter",
+    "document",
+    "write",
+    "text",
+    "note"
+   ]
+  },
+  {
+   "id": "A18",
+   "formas": [
+    "iunstir"
+   ],
+   "glosa": "titular, señor",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "lord",
+    "master",
+    "owner",
+    "chief"
+   ],
+   "terminos_es": [
+    "señor",
+    "dueño",
+    "amo",
+    "jefe"
+   ],
+   "terminos_es_v2": [
+    "señor",
+    "dueño",
+    "amo",
+    "jefe",
+    "propietario",
+    "patrón"
+   ],
+   "terminos_en_v2": [
+    "lord",
+    "master",
+    "owner",
+    "chief",
+    "proprietor",
+    "boss"
+   ]
+  },
+  {
+   "id": "A19",
+   "formas": [
+    "laku",
+    "lakun",
+    "lako"
+   ],
+   "glosa": "socio, compañero",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "companion",
+    "fellow",
+    "comrade",
+    "partner",
+    "friend"
+   ],
+   "terminos_es": [
+    "compañero",
+    "socio",
+    "amigo"
+   ],
+   "terminos_es_v2": [
+    "compañero",
+    "socio",
+    "amigo",
+    "colega",
+    "camarada"
+   ],
+   "terminos_en_v2": [
+    "companion",
+    "fellow",
+    "comrade",
+    "partner",
+    "friend",
+    "colleague",
+    "mate"
+   ]
+  },
+  {
+   "id": "A20",
+   "formas": [
+    "baites",
+    "baides"
+   ],
+   "glosa": "testigo-depositario",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "witness",
+    "guarantor",
+    "depositary"
+   ],
+   "terminos_es": [
+    "testigo",
+    "garante",
+    "depositario"
+   ],
+   "terminos_es_v2": [
+    "testigo",
+    "garante",
+    "depositario",
+    "fiador",
+    "avalista"
+   ],
+   "terminos_en_v2": [
+    "witness",
+    "guarantor",
+    "depositary",
+    "warrantor",
+    "bondsman"
+   ]
+  },
+  {
+   "id": "A21",
+   "formas": [
+    "baŕbin"
+   ],
+   "glosa": "otorgar, dar",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "give",
+    "grant"
+   ],
+   "terminos_es": [
+    "dar",
+    "otorgar"
+   ],
+   "terminos_es_v2": [
+    "dar",
+    "otorgar",
+    "conceder",
+    "entregar",
+    "ceder"
+   ],
+   "terminos_en_v2": [
+    "give",
+    "grant",
+    "concede",
+    "deliver",
+    "hand over"
+   ]
+  },
+  {
+   "id": "A22",
+   "formas": [
+    "uskeike"
+   ],
+   "glosa": "liberar, soltar",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "leave",
+    "release",
+    "free"
+   ],
+   "terminos_es": [
+    "dejar",
+    "soltar",
+    "librar"
+   ],
+   "terminos_es_v2": [
+    "dejar",
+    "soltar",
+    "librar",
+    "desatar",
+    "liberar"
+   ],
+   "terminos_en_v2": [
+    "leave",
+    "release",
+    "free",
+    "untie",
+    "liberate",
+    "loosen"
+   ]
+  },
+  {
+   "id": "A23",
+   "formas": [
+    "lekaŕ",
+    "lokaŕ"
+   ],
+   "glosa": "prenda, fianza",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "pledge",
+    "pawn",
+    "surety",
+    "bail"
+   ],
+   "terminos_es": [
+    "prenda",
+    "fianza"
+   ],
+   "terminos_es_v2": [
+    "prenda",
+    "fianza",
+    "garantía",
+    "aval",
+    "empeño"
+   ],
+   "terminos_en_v2": [
+    "pledge",
+    "pawn",
+    "surety",
+    "bail",
+    "guarantee",
+    "security",
+    "warranty"
+   ]
+  },
+  {
+   "id": "A24",
+   "formas": [
+    "luŕa"
+   ],
+   "glosa": "tierra",
+   "tipo": "c",
+   "monografia": "M2",
+   "terminos_en": [
+    "earth",
+    "land",
+    "soil",
+    "ground"
+   ],
+   "terminos_es": [
+    "tierra"
+   ],
+   "terminos_es_v2": [
+    "tierra",
+    "suelo",
+    "terreno"
+   ],
+   "terminos_en_v2": [
+    "earth",
+    "land",
+    "soil",
+    "ground"
+   ]
+  },
+  {
+   "id": "A25",
+   "formas": [
+    "ibaŕ"
+   ],
+   "glosa": "vega",
+   "tipo": "c",
+   "monografia": "M2",
+   "terminos_en": [
+    "valley",
+    "plain",
+    "lowland"
+   ],
+   "terminos_es": [
+    "vega",
+    "valle",
+    "llanura"
+   ],
+   "terminos_es_v2": [
+    "vega",
+    "valle",
+    "llanura",
+    "ribera",
+    "llano"
+   ],
+   "terminos_en_v2": [
+    "valley",
+    "plain",
+    "lowland",
+    "riverbank"
+   ]
+  },
+  {
+   "id": "A26",
+   "formas": [
+    "itur",
+    "iduŕudan"
+   ],
+   "glosa": "fuente, manantial",
+   "tipo": "c",
+   "monografia": "M2",
+   "terminos_en": [
+    "spring",
+    "fountain",
+    "source"
+   ],
+   "terminos_es": [
+    "fuente",
+    "manantial"
+   ],
+   "terminos_es_v2": [
+    "fuente",
+    "manantial"
+   ],
+   "terminos_en_v2": [
+    "spring",
+    "fountain",
+    "source"
+   ]
+  },
+  {
+   "id": "A27",
+   "formas": [
+    "belar",
+    "belaike"
+   ],
+   "glosa": "hierba, prado",
+   "tipo": "c",
+   "monografia": "M2",
+   "terminos_en": [
+    "grass",
+    "hay",
+    "meadow"
+   ],
+   "terminos_es": [
+    "hierba",
+    "yerba",
+    "heno",
+    "prado"
+   ],
+   "terminos_es_v2": [
+    "hierba",
+    "yerba",
+    "heno",
+    "prado",
+    "pasto",
+    "césped"
+   ],
+   "terminos_en_v2": [
+    "grass",
+    "hay",
+    "meadow",
+    "pasture",
+    "lawn",
+    "turf"
+   ]
+  },
+  {
+   "id": "A28",
+   "formas": [
+    "bide"
+   ],
+   "glosa": "camino",
+   "tipo": "c",
+   "monografia": "M2",
+   "terminos_en": [
+    "road",
+    "path",
+    "way"
+   ],
+   "terminos_es": [
+    "camino",
+    "senda"
+   ],
+   "terminos_es_v2": [
+    "camino",
+    "senda",
+    "vía",
+    "ruta",
+    "sendero"
+   ],
+   "terminos_en_v2": [
+    "road",
+    "path",
+    "way",
+    "route",
+    "track"
+   ]
+  },
+  {
+   "id": "A29",
+   "formas": [
+    "daŕadi"
+   ],
+   "glosa": "carrascal, monte bajo",
+   "tipo": "c",
+   "monografia": "M2",
+   "terminos_en": [
+    "thicket",
+    "scrub",
+    "bush",
+    "brushwood"
+   ],
+   "terminos_es": [
+    "matorral",
+    "maleza",
+    "jaral",
+    "carrascal"
+   ],
+   "terminos_es_v2": [
+    "matorral",
+    "maleza",
+    "jaral",
+    "carrascal",
+    "monte bajo",
+    "encinar",
+    "zarzal"
+   ],
+   "terminos_en_v2": [
+    "thicket",
+    "scrub",
+    "bush",
+    "brushwood",
+    "brush",
+    "undergrowth"
+   ]
+  },
+  {
+   "id": "A30",
+   "formas": [
+    "ekiar",
+    "egiar"
+   ],
+   "glosa": "hacer",
+   "tipo": "a",
+   "monografia": "M3",
+   "terminos_en": [
+    "make",
+    "do"
+   ],
+   "terminos_es": [
+    "hacer",
+    "realizar",
+    "elaborar"
+   ],
+   "terminos_es_v2": [
+    "hacer",
+    "realizar",
+    "elaborar",
+    "ejecutar",
+    "fabricar"
+   ],
+   "terminos_en_v2": [
+    "make",
+    "do",
+    "perform",
+    "execute",
+    "produce"
+   ]
+  }
+ ]
+}

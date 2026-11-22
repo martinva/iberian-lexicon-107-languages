@@ -1,0 +1,780 @@
+{
+ "unidades": [
+  "A4",
+  "A5",
+  "A6",
+  "A7",
+  "A9",
+  "A11",
+  "A12",
+  "A13",
+  "A16",
+  "A18",
+  "A21",
+  "A22",
+  "A23"
+ ],
+ "lenguas": {
+  "Basque": {
+   "z_grupo": -4.43,
+   "comparables": 12,
+   "filas": [
+    {
+     "unidad": "A4",
+     "formas": [
+      "eka"
+     ],
+     "significado": "partida, asiento",
+     "candidata_reducida": "SaReRa",
+     "lemas": [
+      "sarrera"
+     ],
+     "distancia": 1.077,
+     "contribucion": 0.091
+    },
+    {
+     "unidad": "A5",
+     "formas": [
+      "bobaida",
+      "bobaidinba"
+     ],
+     "significado": "total, suma",
+     "candidata_reducida": "KeHiTu",
+     "lemas": [
+      "gehitu"
+     ],
+     "distancia": 0.737,
+     "contribucion": 0.082
+    },
+    {
+     "unidad": "A6",
+     "formas": [
+      "bale",
+      "baleś"
+     ],
+     "significado": "valor, tasación",
+     "candidata_reducida": "PaLio",
+     "lemas": [
+      "balio"
+     ],
+     "distancia": 0.308,
+     "contribucion": 0.408
+    },
+    {
+     "unidad": "A7",
+     "formas": [
+      "baśir",
+      "baseŕ",
+      "basetiŕ"
+     ],
+     "significado": "finca, fundo",
+     "candidata_reducida": "PaSeRi",
+     "lemas": [
+      "baserri"
+     ],
+     "distancia": 0.118,
+     "contribucion": 0.576
+    },
+    {
+     "unidad": "A9",
+     "formas": [
+      "koŕta"
+     ],
+     "significado": "corral",
+     "candidata_reducida": "PoRTa",
+     "lemas": [
+      "borda"
+     ],
+     "distancia": 0.25,
+     "contribucion": 0.44
+    },
+    {
+     "unidad": "A11",
+     "formas": [
+      "oŕtin",
+      "oŕtor"
+     ],
+     "significado": "huerto",
+     "candidata_reducida": "LoRaTeKi",
+     "lemas": [
+      "lorategi"
+     ],
+     "distancia": 0.7,
+     "contribucion": 0.112
+    },
+    {
+     "unidad": "A13",
+     "formas": [
+      "saltu",
+      "saldu"
+     ],
+     "significado": "monte, dehesa",
+     "candidata_reducida": "MeNTi",
+     "lemas": [
+      "mendi"
+     ],
+     "distancia": 0.75,
+     "contribucion": -0.014
+    },
+    {
+     "unidad": "A16",
+     "formas": [
+      "akari"
+     ],
+     "significado": "tributo, canon",
+     "candidata_reducida": "aKuRa",
+     "lemas": [
+      "akura"
+     ],
+     "distancia": 0.286,
+     "contribucion": 0.386
+    },
+    {
+     "unidad": "A18",
+     "formas": [
+      "iunstir"
+     ],
+     "significado": "titular, señor",
+     "candidata_reducida": "JauN",
+     "lemas": [
+      "jaun"
+     ],
+     "distancia": 0.889,
+     "contribucion": 0.068
+    },
+    {
+     "unidad": "A21",
+     "formas": [
+      "baŕbin"
+     ],
+     "significado": "otorgar, dar",
+     "candidata_reducida": "eMaN",
+     "lemas": [
+      "eman"
+     ],
+     "distancia": 1.0,
+     "contribucion": 0.033
+    },
+    {
+     "unidad": "A22",
+     "formas": [
+      "uskeike"
+     ],
+     "significado": "liberar, soltar",
+     "candidata_reducida": "aSKe",
+     "lemas": [
+      "aske"
+     ],
+     "distancia": 0.625,
+     "contribucion": 0.185
+    },
+    {
+     "unidad": "A23",
+     "formas": [
+      "lekaŕ",
+      "lokaŕ"
+     ],
+     "significado": "prenda, fianza",
+     "candidata_reducida": "PeRMe",
+     "lemas": [
+      "berme"
+     ],
+     "distancia": 1.0,
+     "contribucion": -0.085
+    }
+   ]
+  },
+  "Tagalog": {
+   "z_grupo": -4.25,
+   "comparables": 13,
+   "filas": [
+    {
+     "unidad": "A4",
+     "formas": [
+      "eka"
+     ],
+     "significado": "partida, asiento",
+     "candidata_reducida": "PaKaJ",
+     "lemas": [
+      "bagay",
+      "bakay",
+      "pakay"
+     ],
+     "distancia": 0.833,
+     "contribucion": 0.017
+    },
+    {
+     "unidad": "A5",
+     "formas": [
+      "bobaida",
+      "bobaidinba"
+     ],
+     "significado": "total, suma",
+     "candidata_reducida": "PaPa",
+     "lemas": [
+      "baba",
+      "bapa",
+      "bawa",
+      "papa",
+      "pawa",
+      "wawa"
+     ],
+     "distancia": 0.625,
+     "contribucion": -0.006
+    },
+    {
+     "unidad": "A6",
+     "formas": [
+      "bale",
+      "baleś"
+     ],
+     "significado": "valor, tasación",
+     "candidata_reducida": "PaLe",
+     "lemas": [
+      "bale"
+     ],
+     "distancia": 0.0,
+     "contribucion": 0.583
+    },
+    {
+     "unidad": "A7",
+     "formas": [
+      "baśir",
+      "baseŕ",
+      "basetiŕ"
+     ],
+     "significado": "finca, fundo",
+     "candidata_reducida": "PuKiT",
+     "lemas": [
+      "bukid"
+     ],
+     "distancia": 0.625,
+     "contribucion": -0.005
+    },
+    {
+     "unidad": "A9",
+     "formas": [
+      "koŕta"
+     ],
+     "significado": "corral",
+     "candidata_reducida": "KuNoT",
+     "lemas": [
+      "gunot",
+      "kunot"
+     ],
+     "distancia": 0.625,
+     "contribucion": -0.043
+    },
+    {
+     "unidad": "A11",
+     "formas": [
+      "oŕtin",
+      "oŕtor"
+     ],
+     "significado": "huerto",
+     "candidata_reducida": "aRTiN",
+     "lemas": [
+      "hardin"
+     ],
+     "distancia": 0.125,
+     "contribucion": 0.677
+    },
+    {
+     "unidad": "A12",
+     "formas": [
+      "selki",
+      "selgi"
+     ],
+     "significado": "pasto acotado, majada",
+     "candidata_reducida": "PaSTuLaN",
+     "lemas": [
+      "pastulan"
+     ],
+     "distancia": 0.952,
+     "contribucion": 0.009
+    },
+    {
+     "unidad": "A13",
+     "formas": [
+      "saltu",
+      "saldu"
+     ],
+     "significado": "monte, dehesa",
+     "candidata_reducida": "PaLToK",
+     "lemas": [
+      "paltok"
+     ],
+     "distancia": 0.556,
+     "contribucion": 0.142
+    },
+    {
+     "unidad": "A16",
+     "formas": [
+      "akari"
+     ],
+     "significado": "tributo, canon",
+     "candidata_reducida": "KiSi",
+     "lemas": [
+      "gisi"
+     ],
+     "distancia": 0.615,
+     "contribucion": 0.087
+    },
+    {
+     "unidad": "A18",
+     "formas": [
+      "iunstir"
+     ],
+     "significado": "titular, señor",
+     "candidata_reducida": "SeNJoR",
+     "lemas": [
+      "senyor"
+     ],
+     "distancia": 0.727,
+     "contribucion": 0.038
+    },
+    {
+     "unidad": "A21",
+     "formas": [
+      "baŕbin"
+     ],
+     "significado": "otorgar, dar",
+     "candidata_reducida": "PiKJaN",
+     "lemas": [
+      "bigyan"
+     ],
+     "distancia": 0.6,
+     "contribucion": 0.126
+    },
+    {
+     "unidad": "A22",
+     "formas": [
+      "uskeike"
+     ],
+     "significado": "liberar, soltar",
+     "candidata_reducida": "KaLaK",
+     "lemas": [
+      "galak",
+      "kalag"
+     ],
+     "distancia": 0.889,
+     "contribucion": -0.111
+    },
+    {
+     "unidad": "A23",
+     "formas": [
+      "lekaŕ",
+      "lokaŕ"
+     ],
+     "significado": "prenda, fianza",
+     "candidata_reducida": "LaKaK",
+     "lemas": [
+      "lagak"
+     ],
+     "distancia": 0.375,
+     "contribucion": 0.385
+    }
+   ]
+  },
+  "Galician": {
+   "z_grupo": -2.78,
+   "comparables": 13,
+   "filas": [
+    {
+     "unidad": "A4",
+     "formas": [
+      "eka"
+     ],
+     "significado": "partida, asiento",
+     "candidata_reducida": "eNTRaTa",
+     "lemas": [
+      "entrada"
+     ],
+     "distancia": 1.2,
+     "contribucion": -0.084
+    },
+    {
+     "unidad": "A5",
+     "formas": [
+      "bobaida",
+      "bobaidinba"
+     ],
+     "significado": "total, suma",
+     "candidata_reducida": "KoNTia",
+     "lemas": [
+      "contía"
+     ],
+     "distancia": 0.737,
+     "contribucion": -0.088
+    },
+    {
+     "unidad": "A6",
+     "formas": [
+      "bale",
+      "baleś"
+     ],
+     "significado": "valor, tasación",
+     "candidata_reducida": "PaLoR",
+     "lemas": [
+      "balor",
+      "valor"
+     ],
+     "distancia": 0.375,
+     "contribucion": 0.364
+    },
+    {
+     "unidad": "A7",
+     "formas": [
+      "baśir",
+      "baseŕ",
+      "basetiŕ"
+     ],
+     "significado": "finca, fundo",
+     "candidata_reducida": "PeSiNo",
+     "lemas": [
+      "veciño"
+     ],
+     "distancia": 0.471,
+     "contribucion": 0.045
+    },
+    {
+     "unidad": "A9",
+     "formas": [
+      "koŕta"
+     ],
+     "significado": "corral",
+     "candidata_reducida": "KoRTe",
+     "lemas": [
+      "corte"
+     ],
+     "distancia": 0.125,
+     "contribucion": 0.397
+    },
+    {
+     "unidad": "A11",
+     "formas": [
+      "oŕtin",
+      "oŕtor"
+     ],
+     "significado": "huerto",
+     "candidata_reducida": "SaRTiN",
+     "lemas": [
+      "xardín"
+     ],
+     "distancia": 0.333,
+     "contribucion": 0.449
+    },
+    {
+     "unidad": "A12",
+     "formas": [
+      "selki",
+      "selgi"
+     ],
+     "significado": "pasto acotado, majada",
+     "candidata_reducida": "KaMPo",
+     "lemas": [
+      "cambo",
+      "campo"
+     ],
+     "distancia": 1.0,
+     "contribucion": -0.2
+    },
+    {
+     "unidad": "A13",
+     "formas": [
+      "saltu",
+      "saldu"
+     ],
+     "significado": "monte, dehesa",
+     "candidata_reducida": "SiLPa",
+     "lemas": [
+      "silva"
+     ],
+     "distancia": 0.5,
+     "contribucion": 0.144
+    },
+    {
+     "unidad": "A16",
+     "formas": [
+      "akari"
+     ],
+     "significado": "tributo, canon",
+     "candidata_reducida": "aLuKaR",
+     "lemas": [
+      "alugar"
+     ],
+     "distancia": 0.5,
+     "contribucion": 0.154
+    },
+    {
+     "unidad": "A18",
+     "formas": [
+      "iunstir"
+     ],
+     "significado": "titular, señor",
+     "candidata_reducida": "MeSTRe",
+     "lemas": [
+      "mestre"
+     ],
+     "distancia": 0.636,
+     "contribucion": 0.198
+    },
+    {
+     "unidad": "A21",
+     "formas": [
+      "baŕbin"
+     ],
+     "significado": "otorgar, dar",
+     "candidata_reducida": "ouToRKaR",
+     "lemas": [
+      "outorgar"
+     ],
+     "distancia": 0.909,
+     "contribucion": -0.104
+    },
+    {
+     "unidad": "A22",
+     "formas": [
+      "uskeike"
+     ],
+     "significado": "liberar, soltar",
+     "candidata_reducida": "SeiPe",
+     "lemas": [
+      "ceibe"
+     ],
+     "distancia": 0.588,
+     "contribucion": 0.127
+    },
+    {
+     "unidad": "A23",
+     "formas": [
+      "lekaŕ",
+      "lokaŕ"
+     ],
+     "significado": "prenda, fianza",
+     "candidata_reducida": "PeNoRaR",
+     "lemas": [
+      "peñorar"
+     ],
+     "distancia": 0.737,
+     "contribucion": 0.039
+    }
+   ]
+  },
+  "Albanian": {
+   "z_grupo": -3.62,
+   "comparables": 13,
+   "filas": [
+    {
+     "unidad": "A4",
+     "formas": [
+      "eka"
+     ],
+     "significado": "partida, asiento",
+     "candidata_reducida": "Ke",
+     "lemas": [
+      "gjë",
+      "kë",
+      "qe",
+      "që"
+     ],
+     "distancia": 0.571,
+     "contribucion": 0.282
+    },
+    {
+     "unidad": "A5",
+     "formas": [
+      "bobaida",
+      "bobaidinba"
+     ],
+     "significado": "total, suma",
+     "candidata_reducida": "PLoTe",
+     "lemas": [
+      "plotë"
+     ],
+     "distancia": 0.667,
+     "contribucion": 0.08
+    },
+    {
+     "unidad": "A6",
+     "formas": [
+      "bale",
+      "baleś"
+     ],
+     "significado": "valor, tasación",
+     "candidata_reducida": "PLeRe",
+     "lemas": [
+      "blerë",
+      "vlerë"
+     ],
+     "distancia": 0.5,
+     "contribucion": 0.088
+    },
+    {
+     "unidad": "A7",
+     "formas": [
+      "baśir",
+      "baseŕ",
+      "basetiŕ"
+     ],
+     "significado": "finca, fundo",
+     "candidata_reducida": "PaSe",
+     "lemas": [
+      "bazë",
+      "pashë",
+      "pasë",
+      "vashë"
+     ],
+     "distancia": 0.286,
+     "contribucion": 0.304
+    },
+    {
+     "unidad": "A9",
+     "formas": [
+      "koŕta"
+     ],
+     "significado": "corral",
+     "candidata_reducida": "KaRT",
+     "lemas": [
+      "gardh",
+      "garth"
+     ],
+     "distancia": 0.267,
+     "contribucion": 0.31
+    },
+    {
+     "unidad": "A11",
+     "formas": [
+      "oŕtin",
+      "oŕtor"
+     ],
+     "significado": "huerto",
+     "candidata_reducida": "KRaTiNe",
+     "lemas": [
+      "gradinë"
+     ],
+     "distancia": 0.421,
+     "contribucion": 0.301
+    },
+    {
+     "unidad": "A12",
+     "formas": [
+      "selki",
+      "selgi"
+     ],
+     "significado": "pasto acotado, majada",
+     "candidata_reducida": "STRuNe",
+     "lemas": [
+      "shtrungë"
+     ],
+     "distancia": 0.889,
+     "contribucion": -0.121
+    },
+    {
+     "unidad": "A13",
+     "formas": [
+      "saltu",
+      "saldu"
+     ],
+     "significado": "monte, dehesa",
+     "candidata_reducida": "SPaT",
+     "lemas": [
+      "shpat",
+      "zbath"
+     ],
+     "distancia": 0.667,
+     "contribucion": 0.093
+    },
+    {
+     "unidad": "A16",
+     "formas": [
+      "akari"
+     ],
+     "significado": "tributo, canon",
+     "candidata_reducida": "KiRa",
+     "lemas": [
+      "qira"
+     ],
+     "distancia": 0.462,
+     "contribucion": 0.305
+    },
+    {
+     "unidad": "A18",
+     "formas": [
+      "iunstir"
+     ],
+     "significado": "titular, señor",
+     "candidata_reducida": "MJeSTeR",
+     "lemas": [
+      "mjeshtër"
+     ],
+     "distancia": 0.5,
+     "contribucion": 0.247
+    },
+    {
+     "unidad": "A21",
+     "formas": [
+      "baŕbin"
+     ],
+     "significado": "otorgar, dar",
+     "candidata_reducida": "SPReH",
+     "lemas": [
+      "shpreh"
+     ],
+     "distancia": 0.842,
+     "contribucion": 0.019
+    },
+    {
+     "unidad": "A22",
+     "formas": [
+      "uskeike"
+     ],
+     "significado": "liberar, soltar",
+     "candidata_reducida": "SKaPeRTeJ",
+     "lemas": [
+      "shkapërthej"
+     ],
+     "distancia": 0.8,
+     "contribucion": -0.093
+    },
+    {
+     "unidad": "A23",
+     "formas": [
+      "lekaŕ",
+      "lokaŕ"
+     ],
+     "significado": "prenda, fianza",
+     "candidata_reducida": "uSTaR",
+     "lemas": [
+      "ushtar"
+     ],
+     "distancia": 0.75,
+     "contribucion": -0.022
+    }
+   ]
+  }
+ },
+ "unidades_con_hispanismo_tagalo": [
+  "A6",
+  "A11",
+  "A18"
+ ],
+ "sin_hispanismos": {
+  "Basque": {
+   "z": -3.71,
+   "comparables": 9
+  },
+  "Tagalog": {
+   "z": -1.52,
+   "comparables": 10
+  },
+  "Galician": {
+   "z": -0.99,
+   "comparables": 10
+  },
+  "Albanian": {
+   "z": -2.62,
+   "comparables": 10
+  }
+ }
+}

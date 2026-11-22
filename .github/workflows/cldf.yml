@@ -1,0 +1,14 @@
+# Valida el conjunto CLDF con la herramienta oficial (pycldf) en cada cambio.
+# Validates the CLDF dataset with the official tool (pycldf) on every change.
+name: cldf
+on: [push, pull_request]
+jobs:
+  validacion-cldf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pycldf
+      - run: cldf validate 1_fuentes_lexicas/iberico/cldf/cldf-metadata.json

@@ -1,0 +1,11 @@
+codigo	funcion	motivo
+S01	agente	Ocupa la casilla de la fórmula de fabricación («X hizo») en objetos manufacturados.
+S02	poseedor	Cierra textos muy breves sobre objetos muebles formados solo por el nombre personal.
+S03	poseedor	Comparte la misma casilla que S02 sobre objetos muebles y se aplica también a términos comunes.
+S04	poseedor	Cierra textos mínimos sobre objetos de uso personal, típicamente el dueño o el objeto mismo.
+S05	poseedor	Encabeza partidas de cuentas: cada nombre va seguido de su propia cantidad.
+S06	indeterminable	Distribución demasiado genérica sobre objetos duraderos, sin contexto funcional distintivo.
+S07	indeterminable	Solo se indica aparición en el cuerpo de láminas de cuentas, sin patrón claro.
+S08	étnico	Se añade de forma regular al topónimo de la ceca emisora en leyendas monetales.
+S09	determinante	Coincide formalmente con el numeral «uno» y se aplica a sustantivos del léxico económico.
+S10	fracción	Valor de «mitad» fijado por la metrología independiente de la lengua.

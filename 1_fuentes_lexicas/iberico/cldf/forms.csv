@@ -1,0 +1,65 @@
+ID,Language_ID,Parameter_ID,Form,Segments,Clases_SCA,Grupo,Grado,Source,Inscripciones,Apoyo
+ib-N1-1,iberico,N1,ban,b a n,PAN,metrológico,A,Ferrer2022;Orduna2005,,Marca de valor en monedas de untikesken (etaban); Ferrer i Jané 2022: 16-17
+ib-N2-1,iberico,N2,bi,b i,PI,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N2-2,iberico,N2,bin,b i n,PIN,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N3-1,iberico,N3,iŕur,i r u ɾ,IRYR,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N4-1,iberico,N4,lauŕ,l a u r,LAYR,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N5-1,iberico,N5,borste,b o ɾ s t e,PURSTE,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N5-2,iberico,N5,bors,b o ɾ s,PURS,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N6-1,iberico,N6,śei,s̺ e i,SEI,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N7-1,iberico,N7,sisbi,s i s b i,SISPI,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N8-1,iberico,N8,sorse,s o ɾ s e,SURSE,metrológico,B,Ferrer2022;Orduna2005,,Posición en el sistema
+ib-N10-1,iberico,N10,abaŕ,a b a r,APAR,metrológico,A,Ferrer2022;Orduna2005,B.40.04,Peso de piedra de Puig Castellar (420 g; ustainabaŕarban) = diez unidades; Ferrer i Jané 2022: 17
+ib-N10-2,iberico,N10,baŕ,b a r,PAR,metrológico,A,Ferrer2022;Orduna2005,B.40.04,Peso de piedra de Puig Castellar (420 g; ustainabaŕarban) = diez unidades; Ferrer i Jané 2022: 17
+ib-N20-1,iberico,N20,oŕkei,o r k e i,URKEI,metrológico,B,Ferrer2022;Orduna2005,,Forma de las expresiones numerales compuestas
+ib-N20-2,iberico,N20,ogei,o g e i,UKEI,metrológico,B,Ferrer2022,PYO.01.23,Marca de capacidad en un dolium de Ruscino (plausible); Ferrer i Jané 2022: 19
+ib-A1-1,iberico,A1,śalir,s̺ a l i ɾ,SALIR,léxico de los plomos,A,MartinValladolid2026a,17 plomos,Unidad de plata o moneda
+ib-A2-1,iberico,A2,erter,e ɾ t e ɾ,ERTER,léxico de los plomos,A,MartinValladolid2026a,6 inscripciones y leyendas monetales,Fraccionario
+ib-A2-2,iberico,A2,erder,e ɾ d e ɾ,ERTER,léxico de los plomos,A,MartinValladolid2026a,6 inscripciones y leyendas monetales,Fraccionario
+ib-A3-1,iberico,A3,kitar,k i t a ɾ,KITAR,léxico de los plomos,B,Ferrer2014;MartinValladolid2026a,"A.04.06a–b, V.17.02",Unidad o casilla contable
+ib-A3-2,iberico,A3,kidar,k i d a ɾ,KITAR,léxico de los plomos,B,Ferrer2014;MartinValladolid2026a,"A.04.06a–b, V.17.02",Unidad o casilla contable
+ib-A4-1,iberico,A4,eka,e k a,EKA,léxico de los plomos,C,MartinValladolid2026a,V.07.01,"Partida, frente al cierre"
+ib-A5-1,iberico,A5,bobaida,b o b a i d a,PUPAITA,léxico de los plomos,C,MartinValladolid2026a,V.07.01,Posible cierre de cuenta
+ib-A5-2,iberico,A5,bobaidinba,b o b a i d i n b a,PUPAITINPA,léxico de los plomos,C,MartinValladolid2026a,V.07.01,Posible cierre de cuenta
+ib-A6-1,iberico,A6,bale,b a l e,PALE,léxico de los plomos,C,MartinValladolid2026a,"V.13.01–03, SP.01.07",Tasación ante cifra
+ib-A6-2,iberico,A6,baleś,b a l e s̺,PALES,léxico de los plomos,C,MartinValladolid2026a,"V.13.01–03, SP.01.07",Tasación ante cifra
+ib-A7-1,iberico,A7,baśir,b a s̺ i ɾ,PASIR,léxico de los plomos,B/C,MartinValladolid2026b,16 inscripciones (12 plomos),Unidad divisible por mitades
+ib-A7-2,iberico,A7,baseŕ,b a s e r,PASER,léxico de los plomos,B/C,MartinValladolid2026b,16 inscripciones (12 plomos),Unidad divisible por mitades
+ib-A7-3,iberico,A7,basetiŕ,b a s e t i r,PASETIR,léxico de los plomos,B/C,MartinValladolid2026b,16 inscripciones (12 plomos),Unidad divisible por mitades
+ib-A8-1,iberico,A8,aŕeka,a r e k a,AREKA,léxico de los plomos,B/C,MartinValladolid2026b,"V.13.01, V.13.03, V.06.006",Canalización de riego
+ib-A8-2,iberico,A8,eŕeko,e r e k o,EREKU,léxico de los plomos,B/C,MartinValladolid2026b,"V.13.01, V.13.03, V.06.006",Canalización de riego
+ib-A9-1,iberico,A9,koŕta,k o r t a,KURTA,léxico de los plomos,B/C,MartinValladolid2026b,V.13.03,Recinto pecuario acotado
+ib-A10-1,iberico,A10,bekoŕ,b e k o r,PEKUR,léxico de los plomos,C,MartinValladolid2026b,12 inscripciones,Ganado contado (bekoŕ-ban)
+ib-A10-2,iberico,A10,bekon,b e k o n,PEKUN,léxico de los plomos,C,MartinValladolid2026b,12 inscripciones,Ganado contado (bekoŕ-ban)
+ib-A11-1,iberico,A11,oŕtin,o r t i n,URTIN,léxico de los plomos,B/C,MartinValladolid2026b,13 inscripciones,Parcela tasada en plata
+ib-A11-2,iberico,A11,oŕtor,o r t o ɾ,URTUR,léxico de los plomos,B/C,MartinValladolid2026b,13 inscripciones,Parcela tasada en plata
+ib-A12-1,iberico,A12,selki,s e l k i,SELKI,léxico de los plomos,C,MartinValladolid2026b,B.00.01,Pasto acotado
+ib-A12-2,iberico,A12,selgi,s e l g i,SELKI,léxico de los plomos,C,MartinValladolid2026b,B.00.01,Pasto acotado
+ib-A13-1,iberico,A13,saltu,s a l t u,SALTY,léxico de los plomos,C,MartinValladolid2026b,V.17.02,Monte en régimen de sociedad
+ib-A13-2,iberico,A13,saldu,s a l d u,SALTY,léxico de los plomos,C,MartinValladolid2026b,V.17.02,Monte en régimen de sociedad
+ib-A14-1,iberico,A14,aŕta,a r t a,ARTA,léxico de los plomos,C,MartinValladolid2026b,"V.17.02, V.13.02",Monte de tala
+ib-A15-1,iberico,A15,alate,a l a t e,ALATE,léxico de los plomos,C,MartinValladolid2026b,V.13.03 (cinco veces),Deslinde
+ib-A16-1,iberico,A16,akari,a k a ɾ i,AKARI,léxico de los plomos,C,MartinValladolid2026b,"B.11.01, V.13.02",Tributo agropecuario
+ib-A17-1,iberico,A17,kutu,k u t u,KYTY,léxico de los plomos,A/C,MartinValladolid2026b;MartinValladolid2026c,18 inscripciones (9 plomos),Instrumento escrito
+ib-A17-2,iberico,A17,kutur,k u t u ɾ,KYTYR,léxico de los plomos,A/C,MartinValladolid2026b;MartinValladolid2026c,18 inscripciones (9 plomos),Instrumento escrito
+ib-A17-3,iberico,A17,kudur,k u d u ɾ,KYTYR,léxico de los plomos,A/C,MartinValladolid2026b;MartinValladolid2026c,18 inscripciones (9 plomos),Instrumento escrito
+ib-A18-1,iberico,A18,iunstir,i u n s t i ɾ,IYNSTIR,léxico de los plomos,B/C,MartinValladolid2026c,25 inscripciones,"Autoridad, frente a iŕi-ka"
+ib-A19-1,iberico,A19,laku,l a k u,LAKY,léxico de los plomos,B/C,MartinValladolid2026c,17 inscripciones (8 plomos),Asociación o cotitularidad
+ib-A19-2,iberico,A19,lakun,l a k u n,LAKYN,léxico de los plomos,B/C,MartinValladolid2026c,17 inscripciones (8 plomos),Asociación o cotitularidad
+ib-A19-3,iberico,A19,lako,l a k o,LAKU,léxico de los plomos,B/C,MartinValladolid2026c,17 inscripciones (8 plomos),Asociación o cotitularidad
+ib-A20-1,iberico,A20,baites,b a i t e s,PAITES,léxico de los plomos,B/C,MartinValladolid2026c,14 plomos,"Garantía del acto, junto a series de nombres de persona"
+ib-A20-2,iberico,A20,baides,b a i d e s,PAITES,léxico de los plomos,B/C,MartinValladolid2026c,14 plomos,"Garantía del acto, junto a series de nombres de persona"
+ib-A21-1,iberico,A21,baŕbin,b a r b i n,PARPIN,léxico de los plomos,B/C,MartinValladolid2026c,"7 inscripciones (5 plomos), con A23",Cláusula de otorgamiento
+ib-A22-1,iberico,A22,uskeike,u s k e i k e,YSKEIKE,léxico de los plomos,B/C,MartinValladolid2026c,Las mismas que A22,Cláusula de finiquito
+ib-A23-1,iberico,A23,lekaŕ,l e k a r,LEKAR,léxico de los plomos,C,MartinValladolid2026c,6 inscripciones (5 plomos),Instrumento junto a śoŕ
+ib-A23-2,iberico,A23,lokaŕ,l o k a r,LUKAR,léxico de los plomos,C,MartinValladolid2026c,6 inscripciones (5 plomos),Instrumento junto a śoŕ
+ib-A24-1,iberico,A24,luŕa,l u r a,LYRA,léxico de los plomos,C,MartinValladolid2026b,5 inscripciones,Suelo arable
+ib-A25-1,iberico,A25,ibaŕ,i b a r,IPAR,léxico de los plomos,C,MartinValladolid2026b,"3 inscripciones, con A27",Vega
+ib-A26-1,iberico,A26,itur,i t u ɾ,ITYR,léxico de los plomos,C,MartinValladolid2026b,GI.10.11,Manantial
+ib-A26-2,iberico,A26,iduŕudan,i d u r u d a n,ITYRYTAN,léxico de los plomos,C,MartinValladolid2026b,GI.10.11,Manantial
+ib-A27-1,iberico,A27,belar,b e l a ɾ,PELAR,léxico de los plomos,C,MartinValladolid2026b,4 inscripciones,Prado de siega
+ib-A27-2,iberico,A27,belaike,b e l a i k e,PELAIKE,léxico de los plomos,C,MartinValladolid2026b,4 inscripciones,Prado de siega
+ib-A28-1,iberico,A28,bide,b i d e,PITE,léxico de los plomos,B/C,MartinValladolid2026b,10 inscripciones (7 plomos),Servidumbre de paso
+ib-A29-1,iberico,A29,daŕadi,d a r a d i,TARATI,léxico de los plomos,C,MartinValladolid2026b,V.07.02,Monte
+ib-A30-1,iberico,A30,ekiar,e k i a ɾ,EKIAR,léxico de los plomos,A,MartinValladolid2026c,"V.06.010, A.04.06b, T.07.03, B.11.01, AUD.05.32","Fórmula de autoría, paralela a fecit"
+ib-A30-2,iberico,A30,egiar,e g i a ɾ,EKIAR,léxico de los plomos,A,MartinValladolid2026c,"V.06.010, A.04.06b, T.07.03, B.11.01, AUD.05.32","Fórmula de autoría, paralela a fecit"

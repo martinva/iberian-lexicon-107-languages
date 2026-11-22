@@ -1,0 +1,13 @@
+Euskera: 38 parejas, 195 columnas, 77 no idénticas; R 0.641, R′ 0.442 (por clase ibérica 0.442, por clase vasca 0.442)
+Permutación: R′ observada 0.442, percentil 100.0 de 1000 (mediana 0.315, p90 0.337); R observada 0.641, mediana 0.317
+Lenguas comparadas: 32; puesto del euskera por R′: 1
+   Basque         parejas 38 no idénticas  77 R 0.641 R′ 0.442
+   Lithuanian     parejas 40 no idénticas 191 R 0.386 R′ 0.385
+   Yoruba         parejas 35 no idénticas 142 R 0.356 R′ 0.366
+   Hausa          parejas 30 no idénticas 130 R 0.364 R′ 0.365
+   Zulu           parejas 33 no idénticas 156 R 0.378 R′ 0.365
+   Fijian         parejas 23 no idénticas 103 R 0.370 R′ 0.359
+   Latin          parejas 40 no idénticas 152 R 0.418 R′ 0.359
+   Welsh          parejas 40 no idénticas 152 R 0.410 R′ 0.359
+Correspondencias más frecuentes (ibérico:euskera n): a:a 17 R:R 15 e:e 12 T:T 12 i:i 12 P:P 11 S:S 8 K:K 8 u:u 8 L:L 7 a:− 6 o:o 5 R:− 5 i:a 4 −:a 4 −:i 4 e:− 3 a:e 3 K:R 2 a:u 2
+Tamaño igualado a 77 columnas no idénticas: permutación, percentil 100.0 (mediana 0.378, p90 0.396); puesto del euskera entre lenguas 1; primeras: [('Basque', 0.442), ('Lithuanian', 0.438), ('Hausa', 0.418), ('Yoruba', 0.416), ('Latin', 0.414)]

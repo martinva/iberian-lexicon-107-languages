@@ -1,0 +1,20 @@
+autor            nivel I         n= 5 comparables= 4 {'z_euskera': -5.75, 'puesto': 1, 'siguiente': 'Catalan', 'z_siguiente': -3.15, 'lenguas_comparadas': 26}
+autor            niveles I y II  n=24 comparables=22 {'z_euskera': -9.28, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.97, 'lenguas_comparadas': 32}
+autor            nivel II        n=19 comparables=18 {'z_euskera': -8.06, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.8, 'lenguas_comparadas': 32}
+autor            nivel III       n= 6 comparables= 6 {'z_euskera': -8.29, 'puesto': 1, 'siguiente': 'Welsh', 'z_siguiente': -2.35, 'lenguas_comparadas': 31}
+Mistral          nivel I         n= 1 comparables= 1 menos de cuatro unidades comparables: no se calcula
+Mistral          niveles I y II  n=16 comparables=15 {'z_euskera': -9.32, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.72, 'lenguas_comparadas': 32}
+Mistral          nivel II        n=15 comparables=14 {'z_euskera': -8.99, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.95, 'lenguas_comparadas': 32}
+Mistral          nivel III       n=14 comparables=13 {'z_euskera': -8.06, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -3.94, 'lenguas_comparadas': 32}
+DeepSeek         nivel I         n= 4 comparables= 3 menos de cuatro unidades comparables: no se calcula
+DeepSeek         niveles I y II  n=13 comparables=12 {'z_euskera': -9.47, 'puesto': 1, 'siguiente': 'Catalan', 'z_siguiente': -3.26, 'lenguas_comparadas': 32}
+DeepSeek         nivel II        n= 9 comparables= 9 {'z_euskera': -8.44, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.79, 'lenguas_comparadas': 32}
+DeepSeek         nivel III       n=17 comparables=16 {'z_euskera': -8.4, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -3.61, 'lenguas_comparadas': 32}
+Grok             nivel I         n= 4 comparables= 3 menos de cuatro unidades comparables: no se calcula
+Grok             niveles I y II  n=19 comparables=18 {'z_euskera': -10.26, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -3.81, 'lenguas_comparadas': 32}
+Grok             nivel II        n=15 comparables=15 {'z_euskera': -9.31, 'puesto': 1, 'siguiente': 'Galician', 'z_siguiente': -4.8, 'lenguas_comparadas': 32}
+Grok             nivel III       n=11 comparables=10 {'z_euskera': -6.36, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -3.48, 'lenguas_comparadas': 32}
+menos_favorable  nivel I         n= 1 comparables= 1 menos de cuatro unidades comparables: no se calcula
+menos_favorable  niveles I y II  n=12 comparables=11 {'z_euskera': -8.63, 'puesto': 1, 'siguiente': 'Catalan', 'z_siguiente': -3.08, 'lenguas_comparadas': 32}
+menos_favorable  nivel II        n=11 comparables=10 {'z_euskera': -8.24, 'puesto': 1, 'siguiente': 'Catalan', 'z_siguiente': -3.19, 'lenguas_comparadas': 31}
+menos_favorable  nivel III       n=18 comparables=17 {'z_euskera': -9.24, 'puesto': 1, 'siguiente': 'Tagalog', 'z_siguiente': -4.23, 'lenguas_comparadas': 32}

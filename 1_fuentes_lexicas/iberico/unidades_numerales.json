@@ -1,0 +1,160 @@
+{
+ "_nota": "Serie numeral ibérica (Orduña 2005; Ferrer i Jané 2009, 2022). El campo «origen» indica en qué se apoya cada valor. Tres valores tienen apoyo externo a la comparación con el euskera: 1 (monedas), 10 (ponderal) y 20 (dolium).",
+ "unidades": [
+  {
+   "id": "N1",
+   "grupo": "numerales",
+   "origen": "dato externo: marca de valor de la unidad en monedas de untikesken (Ferrer i Jané 2022: 16-17)",
+   "formas": [
+    "ban"
+   ],
+   "glosa": "uno",
+   "terminos_en": [
+    "one"
+   ],
+   "terminos_es": [
+    "uno",
+    "un"
+   ]
+  },
+  {
+   "id": "N2",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "bi",
+    "bin"
+   ],
+   "glosa": "dos",
+   "terminos_en": [
+    "two"
+   ],
+   "terminos_es": [
+    "dos"
+   ]
+  },
+  {
+   "id": "N3",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "iŕur"
+   ],
+   "glosa": "tres",
+   "terminos_en": [
+    "three"
+   ],
+   "terminos_es": [
+    "tres"
+   ]
+  },
+  {
+   "id": "N4",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "lauŕ"
+   ],
+   "glosa": "cuatro",
+   "terminos_en": [
+    "four"
+   ],
+   "terminos_es": [
+    "cuatro"
+   ]
+  },
+  {
+   "id": "N5",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "borste",
+    "bors"
+   ],
+   "glosa": "cinco",
+   "terminos_en": [
+    "five"
+   ],
+   "terminos_es": [
+    "cinco"
+   ]
+  },
+  {
+   "id": "N6",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "śei"
+   ],
+   "glosa": "seis",
+   "terminos_en": [
+    "six"
+   ],
+   "terminos_es": [
+    "seis"
+   ]
+  },
+  {
+   "id": "N7",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "sisbi"
+   ],
+   "glosa": "siete",
+   "terminos_en": [
+    "seven"
+   ],
+   "terminos_es": [
+    "siete"
+   ]
+  },
+  {
+   "id": "N8",
+   "grupo": "numerales",
+   "origen": "posición en la serie numeral y composición de los numerales (Orduña 2005; Ferrer i Jané 2009, 2022)",
+   "formas": [
+    "sorse"
+   ],
+   "glosa": "ocho",
+   "terminos_en": [
+    "eight"
+   ],
+   "terminos_es": [
+    "ocho"
+   ]
+  },
+  {
+   "id": "N10",
+   "grupo": "numerales",
+   "origen": "dato externo: ponderal de piedra de Puig Castellar, 420 g, con el texto ustainabaŕarban (Hesperia B.40.04; Ferrer i Jané 2022: 17)",
+   "formas": [
+    "abaŕ",
+    "baŕ"
+   ],
+   "glosa": "diez",
+   "terminos_en": [
+    "ten"
+   ],
+   "terminos_es": [
+    "diez"
+   ]
+  },
+  {
+   "id": "N20",
+   "grupo": "numerales",
+   "origen": "dato externo: marca sobre un dolium de Ruscino, ogei (Hesperia PYO.01.23; Ferrer i Jané 2022: 19), lectura que su editor considera plausible, no segura; la forma oŕkei / oŕgei, por su posición en numerales compuestos",
+   "formas": [
+    "oŕkei",
+    "ogei"
+   ],
+   "glosa": "veinte",
+   "terminos_en": [
+    "twenty"
+   ],
+   "terminos_es": [
+    "veinte"
+   ]
+  }
+ ]
+}

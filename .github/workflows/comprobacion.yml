@@ -1,0 +1,14 @@
+# Comprobación automática en cada cambio: ejecuta la comprobación rápida
+# (resultados que no dependen de sorteos). / Runs the quick deterministic check.
+name: comprobacion
+on: [push, pull_request]
+jobs:
+  comprobacion-rapida:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python3 4_programas/comprobacion_rapida.py
