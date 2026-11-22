@@ -700,3 +700,18 @@ La hora verificable de esta declaración es la de su commit.
 ### 21. English summary
 
 Per-unit decomposition of the 13-unit level-II group without a flagged Basque parallel, where Basque and Tagalog tie (t15): real distance, nearest candidate and per-unit contribution for Basque, Tagalog, Galician and Albanian; group value recomputed without units whose nearest Tagalog candidate is a Spanish loan per the English Wiktionary etymology (rule of declaration 11). Descriptive; no directional prediction.
+
+
+## 22. Exclusión a voluntad en la prueba con significados (declarada el 22-11-2026, antes de modificar el programa; artículo I)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Motivo.** Para que cualquier lector pueda comprobar por sí mismo cuánto depende el resultado de unidades concretas (CHALLENGE.md), el cuaderno de Colab ofrecerá una celda `EXCLUIR = [...]`.
+
+**Cambio.** `4_programas/t06_t07_significados.py` acepta la variable de entorno `EXCLUIR` (identificadores de unidad o formas, separados por comas). Si está vacía o no existe, el programa hace exactamente lo mismo que antes y escribe la misma salida de referencia (`resultados/t06_t07_significados.json`), que debe quedar idéntica byte a byte; esa comprobación se hace antes de publicar el cambio. Si contiene unidades, se quitan de la lista de los plomos antes de calcular y la salida va a un archivo aparte (`resultados/t06_t07_significados_excluir.json`), que no forma parte de los resultados del artículo.
+
+**Previsión.** Ninguna: no es una prueba nueva ni cambia ninguna cifra publicada. Los resultados que obtengan terceros con exclusiones propias se pueden comunicar en un *issue* (CHALLENGE.md).
+
+### 22. English summary
+
+Optional exclusion in the meaning-based test: `t06_t07_significados.py` accepts an `EXCLUIR` environment variable (unit ids or forms, comma-separated) for the Colab cell `EXCLUIR = [...]`. Without it, the program and its reference output are unchanged (checked byte for byte before publishing); with it, results go to a separate file that is not part of the article's results. No new test, no change to any published figure.
