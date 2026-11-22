@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iberian and Basque tested</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#fbfaf7;--panel:#f3f1eb;--fg:#17171a;--mut:#5d5c58;--line:#dcd9d0;--eus:#1f6fd0;--rom:#d9622b;--otr:#a9a79f;--band:#ebe8df;--chip:#ffffff;--chipoff:#e9e6dd;--focus:#1f6fd0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--panel:#1d1f25;--fg:#ecebe7;--mut:#a4a39d;--line:#33353d;--eus:#5aa2f5;--rom:#f08a55;--otr:#6d6e75;--band:#23252c;--chip:#262830;--chipoff:#1a1b20;--focus:#5aa2f5;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15161a;--panel:#1d1f25;--fg:#ecebe7;--mut:#a4a39d;--line:#33353d;--eus:#5aa2f5;--rom:#f08a55;--otr:#6d6e75;--band:#23252c;--chip:#262830;--chipoff:#1a1b20;--focus:#5aa2f5;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.55}
+.wrap{max-width:940px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(1.55rem,4vw,2.1rem);line-height:1.2;margin:0 0 .4rem;text-wrap:balance}
+h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:1.25rem;margin:2.4rem 0 .5rem;text-wrap:balance}
+p{margin:.5rem 0;max-width:68ch}.mut{color:var(--mut)}.small{font-size:.86rem}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+button{font:inherit;color:inherit;cursor:pointer}
+.lang{background:none;border:1px solid var(--line);border-radius:6px;padding:4px 10px;font-size:.85rem}
+.stat{display:flex;gap:28px;flex-wrap:wrap;margin:1.2rem 0 .6rem;padding:14px 16px;background:var(--panel);border-radius:10px}
+.stat div{min-width:0}.stat b{display:block;font-family:"Source Serif 4",Georgia,serif;font-size:1.7rem;font-weight:600;line-height:1.15}
+.stat span{font-size:.82rem;color:var(--mut)}
+.pre{display:flex;gap:8px;flex-wrap:wrap;margin:.8rem 0}
+.pre button{background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:.88rem}
+.pre button[aria-pressed="true"]{border-color:var(--fg);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:.6rem 0 0}
+.chips button{background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:3px 8px;font-size:.8rem;text-align:left}
+.chips button i{font-family:"Source Serif 4",Georgia,serif;font-size:.92rem}
+.chips button[aria-pressed="false"]{background:var(--chipoff);color:var(--mut);text-decoration:line-through;border-style:dashed}
+button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.84rem;color:var(--mut);margin:1rem 0 .2rem}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.chart{overflow-x:auto}svg{display:block;max-width:100%;min-width:600px;height:auto}
+svg text{font-family:Inter,system-ui,sans-serif;fill:var(--fg)}svg .ax{fill:var(--mut);font-size:11px}
+#tip{position:fixed;pointer-events:none;background:var(--fg);color:var(--bg);padding:7px 10px;border-radius:7px;font-size:.82rem;line-height:1.35;max-width:260px;z-index:20}
+details{margin:.8rem 0}summary{cursor:pointer;color:var(--mut);font-size:.9rem}
+.tw{overflow-x:auto}table{border-collapse:collapse;font-size:.86rem;margin-top:.5rem;min-width:420px}
+th,td{padding:4px 12px 4px 0;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}th:nth-child(2),td:nth-child(2){text-align:left}th{font-weight:500;color:var(--mut)}
+.slider{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:.8rem 0}.slider input{flex:1 1 220px;min-width:0;accent-color:var(--eus)}
+.note{border-top:1px solid var(--line);margin-top:2.6rem;padding-top:1rem}
+</style>
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><h1 data-t="h1"></h1><p class="mut" data-t="sub"></p></div>
+    <button class="lang" id="lang" type="button">English</button>
+  </div>
+  <p data-t="intro"></p>
+
+  <h2 data-t="h2a"></h2>
+  <p class="mut small" data-t="how"></p>
+  <div class="pre" id="pre"></div>
+  <div class="chips" id="chips"></div>
+  <div class="stat" aria-live="polite">
+    <div><b id="s1">–</b><span data-t="s1"></span></div>
+    <div><b id="s2">–</b><span data-t="s2"></span></div>
+    <div><b id="s3">–</b><span id="s3l"></span></div>
+    <div><b id="s4">–</b><span data-t="s4"></span></div>
+  </div>
+  <div class="legend"><span style="--c:var(--eus)" data-t="l1"></span><span style="--c:var(--rom)" data-t="l2"></span><span style="--c:var(--otr)" data-t="l3"></span><span style="--c:var(--band)" data-t="l4"></span></div>
+  <p class="small" data-t="low" style="margin:.1rem 0 .5rem"></p>
+  <div class="chart"><svg id="bars" role="img"></svg></div>
+  <details><summary data-t="tab"></summary><div class="tw"><table id="tbl"></table></div></details>
+
+  <h2 data-t="h2b"></h2>
+  <p data-t="pb"></p>
+  <div class="slider"><label for="k" data-t="kl"></label><input id="k" type="range" min="0" max="30" step="1" value="0"><b id="kv"></b></div>
+  <div class="chart"><svg id="swap" role="img"></svg></div>
+  <p class="mut small" data-t="pb2"></p>
+
+  <div class="note mut small"><p data-t="n1"></p><p data-t="n2"></p></div>
+</div>
+<div id="tip" hidden></div>
+<script>
+const T={es:{h1:'El ibérico de los plomos y el euskera, a prueba',sub:'Gráfico interactivo del estudio de D. Martín Valladolid. Compruebe usted mismo si el resultado depende de la lista de palabras. El ibérico es la referencia: cada punto es una lengua comparada con él, y el ibérico mismo no se representa.',
+intro:'El estudio compara 30 palabras de los plomos ibéricos, con el significado propuesto para cada una, con los diccionarios de 32 lenguas. Para cada lengua mide si las palabras ibéricas se parecen a las de su mismo significado más de lo que cabe esperar por azar. Cuanto más negativo es el valor, más lejos está del azar.',
+h2a:'1. Quite las palabras que quiera',how:'Pulse una palabra para quitarla o reponerla, o use un grupo. El gráfico se recalcula al momento con los datos del estudio.',
+p_all:'Las 30',p_sin:'Sin los 4 préstamos latinos',p_ext:'Solo dato externo',p_cas:'Solo casilla documental',p_top:'Solo toponimia',
+s1:'puesto del euskera',s2:'valor del euskera',s3l:'lengua siguiente',s4:'palabras en uso',de:'de',
+l1:'euskera',l2:'latín y lenguas romances',l3:'otras lenguas',l4:'valores próximos a cero (de −2 a +2)',low:'Cómo leerlo: cuanto más bajo (más negativo) es el valor, mayor es la relación con el ibérico. Los valores dentro de la franja gris no se distinguen del azar.',tab:'Ver los datos en tabla',
+th:['Puesto','Lengua','Valor','Palabras comparables'],ax:'valor (más a la izquierda = más lejos del azar)',few:'Con menos de 4 palabras no se calcula.',
+tip:(n,z,u)=>`<b>${n}</b><br>valor ${z}<br>${u} palabras comparables`,
+h2b:'2. ¿Y si los significados estuvieran mal?',pb:'Si la prueba mide de verdad una relación entre forma y significado, debe dejar de dar resultado cuando los significados se asignan mal. Mueva el mando: a ese número de palabras se les da el significado de otra palabra de la lista, al azar, 200 veces.',
+kl:'Palabras con el significado cambiado',kv:(k,m,a,b)=>`${k}: valor mediano ${m} (de ${a} a ${b})`,
+ax2:'palabras con el significado cambiado',ay2:'valor del euskera',pb2:'Diccionario: Open Data Euskadi. Línea: valor mediano. Franja azul: entre los percentiles 5 y 95. Con los 30 significados cambiados el valor queda en la franja del azar.',
+n1:'Cálculo: para cada palabra, distancia a la palabra más próxima del mismo significado en el diccionario de cada lengua (Wikcionario), frente a 500 sorteos de palabras al azar de la misma longitud. El valor es la diferencia con la media de los sorteos, medida en desviaciones típicas. Los datos y los programas están en el repositorio del estudio (programa t15_solidez_unidades.py).',
+n2:'Los significados ibéricos son propuestas del autor, no traducciones seguras.'},
+en:{h1:'The Iberian of the lead plaques and Basque, put to the test',sub:'Interactive chart from the study by D. Martín Valladolid. Check for yourself whether the result depends on the word list. Iberian is the reference: each dot is a language compared with it, and Iberian itself is not plotted.',
+intro:'The study compares 30 words from the Iberian lead plaques, each with its proposed meaning, with the dictionaries of 32 languages. For each language it measures whether the Iberian words resemble the words of the same meaning more than chance would lead us to expect. The more negative the value, the further from chance.',
+h2a:'1. Remove any words you like',how:'Click a word to remove or restore it, or use a group. The chart is recomputed at once from the study’s data.',
+p_all:'All 30',p_sin:'Without the 4 Latin loans',p_ext:'External evidence only',p_cas:'Documentary slot only',p_top:'Toponymy only',
+s1:'rank of Basque',s2:'value for Basque',s3l:'next language',s4:'words in use',de:'of',
+l1:'Basque',l2:'Latin and Romance languages',l3:'other languages',l4:'values close to zero (−2 to +2)',low:'How to read it: the lower (more negative) the value, the stronger the relationship with Iberian. Values inside the grey band cannot be told apart from chance.',tab:'Show the data as a table',
+th:['Rank','Language','Value','Comparable words'],ax:'value (further left = further from chance)',few:'Not computed with fewer than 4 words.',
+tip:(n,z,u)=>`<b>${n}</b><br>value ${z}<br>${u} comparable words`,
+h2b:'2. What if the meanings were wrong?',pb:'If the test really measures a relation between form and meaning, it must stop giving a result when meanings are wrongly assigned. Move the slider: that many words are given the meaning of another word of the list, at random, 200 times.',
+kl:'Words with a swapped meaning',kv:(k,m,a,b)=>`${k}: median value ${m} (from ${a} to ${b})`,
+ax2:'words with a swapped meaning',ay2:'value for Basque',pb2:'Dictionary: Open Data Euskadi. Line: median value. Blue band: between the 5th and 95th percentiles. With all 30 meanings swapped the value falls within the chance band.',
+n1:'Calculation: for each word, distance to the closest word of the same meaning in each language’s dictionary (Wiktionary), against 500 draws of random words of the same length. The value is the difference from the mean of the draws, in standard deviations. Data and programs are in the study’s repository (program t15_solidez_unidades.py).',
+n2:'The Iberian meanings are the author’s proposals, not secure translations.'}};
+const NOM={Basque:['euskera','Basque'],Latin:['latín','Latin'],Galician:['gallego','Galician'],Catalan:['catalán','Catalan'],Occitan:['occitano','Occitan'],Asturian:['asturiano','Asturian'],Romanian:['rumano','Romanian'],Sicilian:['siciliano','Sicilian'],Sardinian:['sardo','Sardinian'],Welsh:['galés','Welsh'],Irish:['irlandés','Irish'],Icelandic:['islandés','Icelandic'],German:['alemán','German'],Swedish:['sueco','Swedish'],Finnish:['finés','Finnish'],Estonian:['estonio','Estonian'],Hungarian:['húngaro','Hungarian'],Turkish:['turco','Turkish'],Albanian:['albanés','Albanian'],Lithuanian:['lituano','Lithuanian'],Maltese:['maltés','Maltese'],Swahili:['suajili','Swahili'],Quechua:['quechua','Quechua'],'Serbo-Croatian':['serbocroata','Serbo-Croatian'],Hawaiian:['hawaiano','Hawaiian'],Samoan:['samoano','Samoan'],Tongan:['tongano','Tongan'],Fijian:['fiyiano','Fijian'],Indonesian:['indonesio','Indonesian'],Malay:['malayo','Malay'],Tagalog:['tagalo','Tagalog'],Malagasy:['malgache','Malagasy'],Zulu:['zulú','Zulu'],Shona:['shona','Shona'],Hausa:['hausa','Hausa'],Yoruba:['yoruba','Yoruba'],Somali:['somalí','Somali'],'Classical Nahuatl':['náhuatl clásico','Classical Nahuatl']};
+const ROM=new Set(['Latin','Galician','Catalan','Occitan','Asturian','Romanian','Sicilian','Sardinian']);
+const GLOSA_EN={"A1": "silver", "A2": "half", "A3": "unit", "A4": "entry", "A5": "all", "A6": "value", "A7": "farm", "A8": "ditch", "A9": "fold", "A10": "calf", "A11": "garden", "A12": "pasture", "A13": "forest", "A14": "holm", "A15": "side", "A16": "tax", "A17": "writing", "A18": "lord", "A19": "companion", "A20": "witness", "A21": "give", "A22": "leave", "A23": "pledge", "A24": "earth", "A25": "valley", "A26": "spring", "A27": "grass", "A28": "road", "A29": "thicket", "A30": "make"};
+let L='en',D=null,act=new Set(),SW=null;
+try{const s=localStorage.getItem('lang');if(s==='en'||s==='es')L=s}catch(e){}
+const $=id=>document.getElementById(id),nom=n=>(NOM[n]||[n,n])[L==='es'?0:1];
+const num=(x,d=1)=>{const s=Math.abs(x).toFixed(d);return (x<0?'−':(x>0&&d?'':''))+(L==='es'?s.replace('.',','):s)};
+const col=n=>n==='Basque'?'var(--eus)':ROM.has(n)?'var(--rom)':'var(--otr)';
+function zde(l){const idx=[];l.ids.forEach((u,i)=>{if(act.has(u))idx.push(i)});if(idx.length<4)return null;
+  let r=0;for(const i of idx)r+=l.real[i];r/=idx.length;const S=l.azar.length;let m=0,q=0;
+  for(let s=0;s<S;s++){let a=0;const f=l.azar[s];for(const i of idx)a+=f[i];a/=idx.length;m+=a;q+=a*a}
+  m/=S;const sd=Math.sqrt(Math.max(q/S-m*m,1e-12));return{z:(r-m)/sd,n:idx.length}}
+function texto(){document.documentElement.lang=L;document.querySelectorAll('[data-t]').forEach(e=>e.textContent=T[L][e.dataset.t]);$('lang').textContent=L==='es'?'English':'Español';$('s3l').textContent=T[L].s3l}
+function controles(){const P=[['p_all',u=>true],['p_sin',u=>!u.prestamo],['p_ext',u=>u.origen==='externo'],['p_cas',u=>u.origen==='casilla'],['p_top',u=>u.origen==='toponimia']];
+  $('pre').innerHTML='';P.forEach(([k,f])=>{const b=document.createElement('button');b.type='button';b.textContent=T[L][k];const set=new Set(D.unidades.filter(f).map(u=>u.id));
+    b.setAttribute('aria-pressed',set.size===act.size&&[...set].every(x=>act.has(x)));b.onclick=()=>{act=set;pinta()};$('pre').appendChild(b)});
+  $('chips').innerHTML='';D.unidades.forEach(u=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-pressed',act.has(u.id));
+    const g=L==='es'?u.glosa:(GLOSA_EN[u.id]||u.glosa);b.innerHTML='<i></i> · ';b.firstChild.textContent=u.formas[0];b.append(g);
+    b.onclick=()=>{act.has(u.id)?act.delete(u.id):act.add(u.id);act=new Set(act);pinta()};$('chips').appendChild(b)})}
+function pinta(){controles();const R=D.lenguas.map(l=>({n:l.n,r:zde(l)})).filter(x=>x.r).sort((a,b)=>a.r.z-b.r.z);const sv=$('bars'),tb=$('tbl');
+  $('s4').textContent=act.size;
+  if(!R.length){sv.innerHTML='';sv.setAttribute('viewBox','0 0 10 10');tb.innerHTML='';['s1','s2','s3'].forEach(i=>$(i).textContent='–');$('s3l').textContent=T[L].few;return}
+  const ie=R.findIndex(x=>x.n==='Basque'),sig=R.find(x=>x.n!=='Basque');
+  $('s1').textContent=ie<0?'–':(L==='es'?`${ie+1}.º`:`${ie+1}${['st','nd','rd'][ie]||'th'}`)+` ${T[L].de} ${R.length}`;$('s2').textContent=ie<0?'–':num(R[ie].r.z);
+  $('s3').textContent=sig?num(sig.r.z):'–';$('s3l').textContent=T[L].s3l+(sig?': '+nom(sig.n):'');
+  const W=860,rh=19,ml=128,mr=44,mt=8,mb=38,H=mt+mb+R.length*rh,lo=Math.min(-13,Math.floor(R[0].r.z)-1),hi=Math.max(3,Math.ceil(R[R.length-1].r.z)+1),x=v=>ml+(v-lo)/(hi-lo)*(W-ml-mr);
+  let s=`<rect x="${x(-2)}" y="${mt}" width="${x(2)-x(-2)}" height="${R.length*rh}" fill="var(--band)"/>`;
+  for(let v=Math.ceil(lo/2)*2;v<=hi;v+=2)s+=`<line x1="${x(v)}" x2="${x(v)}" y1="${mt}" y2="${mt+R.length*rh}" stroke="var(--line)" stroke-width="${v===0?1.4:.6}"/><text class="ax" x="${x(v)}" y="${mt+R.length*rh+15}" text-anchor="middle">${num(v,0)}</text>`;
+  s+=`<text class="ax" x="${(ml+W-mr)/2}" y="${H-5}" text-anchor="middle">${T[L].ax}</text>`;
+  R.forEach((o,i)=>{const y=mt+i*rh+3,h=rh-6,x0=x(0),x1=x(o.r.z),a=Math.min(x0,x1),w=Math.max(Math.abs(x1-x0),1.5),e=o.n==='Basque';
+    s+=`<g data-i="${i}"><rect x="0" y="${mt+i*rh}" width="${W}" height="${rh}" fill="transparent"/><text x="${ml-8}" y="${y+h-2}" text-anchor="end" font-size="12.5" ${e?'font-weight="600"':''}>${nom(o.n)}</text><rect x="${a}" y="${y}" width="${w}" height="${h}" rx="3" fill="${col(o.n)}"/>`+
+      (e||o===sig?`<text x="${o.r.z<0?a-5:a+w+5}" y="${y+h-2}" text-anchor="${o.r.z<0?'end':'start'}" font-size="12" class="ax">${num(o.r.z)}</text>`:'')+`</g>`});
+  sv.setAttribute('viewBox',`0 0 ${W} ${H}`);sv.setAttribute('width',W);sv.innerHTML=s;sv.setAttribute('aria-label',T[L].h2a);
+  sv.querySelectorAll('g').forEach(g=>{const o=R[+g.dataset.i];g.onmousemove=e=>tip(e,T[L].tip(nom(o.n),num(o.r.z,2),o.r.n));g.onmouseleave=()=>$('tip').hidden=true});
+  tb.innerHTML='<tr>'+T[L].th.map(h=>`<th>${h}</th>`).join('')+'</tr>'+R.map((o,i)=>`<tr><td>${i+1}</td><td>${nom(o.n)}</td><td>${num(o.r.z,2)}</td><td>${o.r.n}</td></tr>`).join('');
+  cambio()}
+function tip(e,h){const t=$('tip');t.innerHTML=h;t.hidden=false;const w=t.offsetWidth,x=Math.min(e.clientX+14,innerWidth-w-8);t.style.left=Math.max(8,x)+'px';t.style.top=(e.clientY+14)+'px'}
+function mulberry(a){return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function prepara(){const ids=D.unidades.map(u=>u.id),P=D.pares,S=200,rnd=mulberry(20261120),zs=[];
+  const za=as=>{const k=[];for(const i of ids){const key=i+'|'+as[i];if(key in P.R)k.push(key)}let r=0;for(const q of k)r+=P.R[q];r/=k.length;let m=0,qq=0;
+    for(let s=0;s<S;s++){let a=0;for(const q of k)a+=P.A[q][s];a/=k.length;m+=a;qq+=a*a}m/=S;return(r-m)/Math.sqrt(Math.max(qq/S-m*m,1e-12))};
+  for(let k=0;k<=30;k++){const v=[];const rep=(k===0||k===1)?1:200;for(let t=0;t<rep;t++){const as={};ids.forEach(i=>as[i]=i);
+      if(k>=2){const p=ids.slice();for(let i=p.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[p[i],p[j]]=[p[j],p[i]]}const g=p.slice(0,k);g.forEach((u,i)=>as[u]=g[(i+1)%k])}v.push(za(as))}
+    v.sort((a,b)=>a-b);zs.push({k,m:v[Math.floor(v.length/2)],a:v[Math.floor(.05*v.length)],b:v[Math.min(v.length-1,Math.floor(.95*v.length))]})}
+  zs[1]=Object.assign({},zs[0],{k:1});SW=zs}
+function cambio(){if(!SW)return;const k=+$('k').value,o=SW[k];$('kv').textContent=T[L].kv(k,num(o.m),num(o.a),num(o.b));
+  const W=860,H=300,ml=54,mr=18,mt=14,mb=44,lo=-14,hi=4,x=v=>ml+v/30*(W-ml-mr),y=v=>mt+(hi-v)/(hi-lo)*(H-mt-mb);
+  let s=`<rect x="${ml}" y="${y(2)}" width="${W-ml-mr}" height="${y(-2)-y(2)}" fill="var(--band)"/>`;
+  for(let v=lo;v<=hi;v+=2)s+=`<line x1="${ml}" x2="${W-mr}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="${v===0?1.4:.6}"/><text class="ax" x="${ml-8}" y="${y(v)+4}" text-anchor="end">${num(v,0)}</text>`;
+  for(let v=0;v<=30;v+=5)s+=`<text class="ax" x="${x(v)}" y="${H-mb+16}" text-anchor="middle">${v}</text>`;
+  s+=`<text class="ax" x="${(ml+W-mr)/2}" y="${H-6}" text-anchor="middle">${T[L].ax2}</text><text class="ax" transform="translate(13 ${(mt+H-mb)/2}) rotate(-90)" text-anchor="middle">${T[L].ay2}</text>`;
+  s+=`<path d="M${SW.map(p=>x(p.k)+' '+y(p.a)).join('L')}L${SW.slice().reverse().map(p=>x(p.k)+' '+y(p.b)).join('L')}Z" fill="var(--eus)" opacity=".16"/>`;
+  s+=`<path d="M${SW.map(p=>x(p.k)+' '+y(p.m)).join('L')}" fill="none" stroke="var(--eus)" stroke-width="2"/>`;
+  s+=`<line x1="${x(k)}" x2="${x(k)}" y1="${mt}" y2="${H-mb}" stroke="var(--mut)" stroke-dasharray="3 3"/><circle cx="${x(k)}" cy="${y(o.m)}" r="6" fill="var(--eus)" stroke="var(--bg)" stroke-width="2"/>`;
+  const sv=$('swap');sv.setAttribute('viewBox',`0 0 ${W} ${H}`);sv.setAttribute('width',W);sv.innerHTML=s;sv.setAttribute('aria-label',T[L].h2b)}
+$('lang').onclick=()=>{L=L==='es'?'en':'es';try{localStorage.setItem('lang',L)}catch(e){}texto();pinta()};$('k').oninput=cambio;
+texto();
+fetch('datos.json').then(r=>r.json()).then(d=>{D=d;act=new Set(d.unidades.map(u=>u.id));prepara();pinta()}).catch(()=>{$('s3l').textContent='Data could not be loaded / No se han podido cargar los datos'});
+</script>
+
+</body>
+</html>
