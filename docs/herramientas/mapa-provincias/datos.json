@@ -1,0 +1,176 @@
+{
+"total": 1599,
+"plomos": 143,
+"puntos": [
+{
+"p": "AUD",
+"prov": "Aude",
+"cap": "Carcassonne",
+"lat": 43.213,
+"lon": 2.351,
+"n": 86,
+"plomo": 10
+},
+{
+"p": "HER",
+"prov": "Hérault",
+"cap": "Montpellier",
+"lat": 43.611,
+"lon": 3.877,
+"n": 371,
+"plomo": 2
+},
+{
+"p": "PYO",
+"prov": "Pyrénées-Orientales",
+"cap": "Perpignan",
+"lat": 42.699,
+"lon": 2.895,
+"n": 115,
+"plomo": 2
+},
+{
+"p": "HGA",
+"prov": "Haute-Garonne",
+"cap": "Toulouse",
+"lat": 43.605,
+"lon": 1.444,
+"n": 35,
+"plomo": 0
+},
+{
+"p": "GI",
+"prov": "Girona",
+"cap": "Girona",
+"lat": 41.979,
+"lon": 2.821,
+"n": 146,
+"plomo": 13
+},
+{
+"p": "B",
+"prov": "Barcelona",
+"cap": "Barcelona",
+"lat": 41.385,
+"lon": 2.173,
+"n": 231,
+"plomo": 14
+},
+{
+"p": "L",
+"prov": "Lleida",
+"cap": "Lleida",
+"lat": 41.617,
+"lon": 0.62,
+"n": 71,
+"plomo": 6
+},
+{
+"p": "T",
+"prov": "Tarragona",
+"cap": "Tarragona",
+"lat": 41.119,
+"lon": 1.245,
+"n": 64,
+"plomo": 14
+},
+{
+"p": "TE",
+"prov": "Teruel",
+"cap": "Teruel",
+"lat": 40.344,
+"lon": -1.107,
+"n": 64,
+"plomo": 0
+},
+{
+"p": "Z",
+"prov": "Zaragoza",
+"cap": "Zaragoza",
+"lat": 41.649,
+"lon": -0.889,
+"n": 24,
+"plomo": 0
+},
+{
+"p": "HU",
+"prov": "Huesca",
+"cap": "Huesca",
+"lat": 42.136,
+"lon": -0.409,
+"n": 5,
+"plomo": 1
+},
+{
+"p": "CS",
+"prov": "Castellón",
+"cap": "Castellón de la Plana",
+"lat": 39.986,
+"lon": -0.051,
+"n": 48,
+"plomo": 14
+},
+{
+"p": "V",
+"prov": "Valencia",
+"cap": "Valencia",
+"lat": 39.47,
+"lon": -0.376,
+"n": 221,
+"plomo": 36
+},
+{
+"p": "A",
+"prov": "Alicante",
+"cap": "Alicante",
+"lat": 38.345,
+"lon": -0.481,
+"n": 61,
+"plomo": 15
+},
+{
+"p": "MU",
+"prov": "Murcia",
+"cap": "Murcia",
+"lat": 37.992,
+"lon": -1.131,
+"n": 8,
+"plomo": 2
+},
+{
+"p": "AB",
+"prov": "Albacete",
+"cap": "Albacete",
+"lat": 38.994,
+"lon": -1.858,
+"n": 36,
+"plomo": 6
+},
+{
+"p": "NA",
+"prov": "Navarra",
+"cap": "Pamplona",
+"lat": 42.812,
+"lon": -1.645,
+"n": 1,
+"plomo": 0
+},
+{
+"p": "LO",
+"prov": "La Rioja",
+"cap": "Logroño",
+"lat": 42.466,
+"lon": -2.445,
+"n": 1,
+"plomo": 0
+}
+],
+"sin_mapa": {
+"SP": 9,
+"LAN": 2
+},
+"plomos_sin_mapa": {
+"SP": 8,
+"LAN": 0
+}
+}

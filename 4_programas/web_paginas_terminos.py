@@ -192,7 +192,7 @@ def main():
     # sitemap
     fijas = [(f'{SITIO}/', '1.0'), (f'{SITIO}/terminos/', '0.8'),
              (f'{SITIO}/herramientas/quitar-palabras/', '0.7'), (f'{SITIO}/herramientas/proximidad/', '0.6'),
-             (f'{SITIO}/herramientas/mapa-3d/', '0.5')]
+             (f'{SITIO}/herramientas/mapa-3d/', '0.5'), (f'{SITIO}/herramientas/mapa-provincias/', '0.5')]
     lin = [f' <url><loc>{u}</loc><lastmod>{FECHA}</lastmod><priority>{p}</priority></url>' for u, p in fijas]
     lin += [f' <url><loc>{u}</loc><lastmod>{FECHA}</lastmod><priority>0.6</priority></url>' for u in urls]
     with open(os.path.join(DOCS, 'sitemap.xml'), 'w', encoding='utf-8') as fh:

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iberian inscriptions by province — map</title>
+<meta name="description" content="Map of the 1,599 authentic Iberian inscriptions of the Hesperia database and the 143 lead plaques, counted by province. Mapa de las inscripciones ibéricas por provincia.">
+<link rel="canonical" href="https://iberico.martinva.org/herramientas/mapa-provincias/">
+<meta property="og:title" content="Iberian inscriptions by province — map"><meta property="og:url" content="https://iberico.martinva.org/herramientas/mapa-provincias/">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#fbfaf7;--panel:#f3f1eb;--fg:#17171a;--mut:#5d5c58;--line:#dcd9d0;--acc:#1b365d;--all:#8a8f99;--lead:#1f6fd0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--panel:#1e2026;--fg:#ecebe7;--mut:#a6a49d;--line:#33353c;--acc:#9cb8e0;--all:#9aa0aa;--lead:#6aa8f0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15161a;--panel:#1e2026;--fg:#ecebe7;--mut:#a6a49d;--line:#33353c;--acc:#9cb8e0;--all:#9aa0aa;--lead:#6aa8f0;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding-block:24px 50px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--acc)}.top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(24px,4vw,34px);color:var(--acc);margin:16px 0 4px}
+.lead{color:var(--mut);max-width:70ch;margin:0 0 12px}
+#map{height:520px;border:1px solid var(--line);border-radius:10px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;margin:10px 0}
+.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin-top:14px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line)}th{background:var(--panel)}td.n{text-align:right;font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--mut);max-width:80ch}
+.lang button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--panel);color:var(--fg);padding:3px 9px;border-radius:6px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
+[data-l]{display:none}html[lang="en"] [data-l="en"],html[lang="es"] [data-l="es"]{display:revert}
+</style>
+</head>
+<body><div class="wrap">
+<div class="top"><a href="../../"><span data-l="en">← Iberian lead-plaque lexicon and 107 languages</span><span data-l="es">← El léxico de los plomos ibéricos ante 107 lenguas</span></a>
+<span class="lang" role="group" aria-label="Language"><button type="button" data-set="en" aria-pressed="true">EN</button> <button type="button" data-set="es" aria-pressed="false">ES</button></span></div>
+<h1><span data-l="en">Iberian inscriptions by province</span><span data-l="es">Inscripciones ibéricas por provincia</span></h1>
+<p class="lead"><span data-l="en">The 1,599 authentic Iberian records of the Hesperia database (dump of 7 November 2026) and the 143 lead plaques among them, counted by province. Circle area is proportional to the count.</span><span data-l="es">Las 1.599 fichas ibéricas auténticas del Banco de datos Hesperia (volcado del 7 de noviembre de 2026) y los 143 plomos entre ellas, contados por provincia. El área de cada círculo es proporcional al recuento.</span></p>
+<div class="legend"><span style="--c:var(--all)" data-l="en">All inscriptions</span><span style="--c:var(--all)" data-l="es">Todas las inscripciones</span><span style="--c:var(--lead)" data-l="en">Lead plaques</span><span style="--c:var(--lead)" data-l="es">Plomos</span></div>
+<div id="map" role="img" aria-label="Map"></div>
+<p class="note"><span data-l="en">Each circle is placed at the provincial capital, not at the findspots: the data are counted by the province prefix of the Hesperia reference (e.g. V = Valencia, AUD = Aude). Not on the map:</span><span data-l="es">Cada círculo está en la capital de provincia, no en los lugares de hallazgo: los datos se cuentan por el prefijo provincial de la sigla de Hesperia (p. ej. V = Valencia, AUD = Aude). Fuera del mapa:</span> <span id="sinmapa"></span>.</p>
+<div class="tblwrap"><table><thead><tr><th><span data-l="en">Province</span><span data-l="es">Provincia</span></th><th><span data-l="en">Prefix</span><span data-l="es">Prefijo</span></th><th class="n"><span data-l="en">Inscriptions</span><span data-l="es">Inscripciones</span></th><th class="n"><span data-l="en">Lead plaques</span><span data-l="es">Plomos</span></th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="note"><span data-l="en">Source:</span><span data-l="es">Fuente:</span> <a href="https://hesperia.ucm.es/">Banco de datos Hesperia</a> · <span data-l="en">derived list in the repository:</span><span data-l="es">lista derivada en el repositorio:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/blob/main/1_fuentes_lexicas/iberico/hesperia_formas_reducidas.json"><code>hesperia_formas_reducidas.json</code></a>. <span data-l="en">Map tiles © OpenStreetMap contributors.</span><span data-l="es">Teselas del mapa © colaboradores de OpenStreetMap.</span></p>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+(function(){
+ var h=document.documentElement,b=document.querySelectorAll('.lang button');
+ function s(l){h.lang=l;b.forEach(function(x){x.setAttribute('aria-pressed',x.dataset.set===l?'true':'false')});try{localStorage.setItem('lang',l)}catch(e){}}
+ var v=null;try{v=localStorage.getItem('lang')}catch(e){}var q=(location.hash||'').slice(1);
+ s(q==='es'||q==='en'?q:(v||((navigator.language||'en').slice(0,2)==='es'?'es':'en')));
+ b.forEach(function(x){x.addEventListener('click',function(){s(x.dataset.set)})});
+ var css=getComputedStyle(h),cAll=css.getPropertyValue('--all').trim(),cLead=css.getPropertyValue('--lead').trim();
+ var map=L.map('map',{scrollWheelZoom:false}).setView([40.9,1.0],6);
+ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:10,attribution:'© OpenStreetMap'}).addTo(map);
+ function esc(t){return String(t).replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+ fetch('datos.json').then(function(r){return r.json()}).then(function(d){
+  var max=Math.max.apply(null,d.puntos.map(function(p){return p.n}));
+  d.puntos.sort(function(a,b){return b.n-a.n}).forEach(function(p){
+   var r=function(n){return 4+28*Math.sqrt(n/max)};
+   var tip='<b>'+esc(p.prov)+'</b> ('+esc(p.p)+')<br>'+p.n+' · '+p.plomo+' plomo(s)/lead';
+   L.circleMarker([p.lat,p.lon],{radius:r(p.n),color:cAll,weight:1,fillColor:cAll,fillOpacity:.35}).bindTooltip(tip).addTo(map);
+   if(p.plomo) L.circleMarker([p.lat,p.lon],{radius:r(p.plomo),color:cLead,weight:1,fillColor:cLead,fillOpacity:.75}).bindTooltip(tip).addTo(map);
+  });
+  document.getElementById('rows').innerHTML=d.puntos.map(function(p){return '<tr><td>'+esc(p.prov)+'</td><td><code>'+esc(p.p)+'</code></td><td class="n">'+p.n+'</td><td class="n">'+(p.plomo||'—')+'</td></tr>'}).join('');
+  var o=d.sin_mapa;document.getElementById('sinmapa').textContent=Object.keys(o).map(function(k){return k+' '+o[k]+(d.plomos_sin_mapa[k]?' ('+d.plomos_sin_mapa[k]+' plomos)':'')}).join(', ')+' (SP = '+(h.lang==='es'?'sin procedencia':'unknown provenance')+')';
+ });
+})();
+</script>
+</body>
+</html>
