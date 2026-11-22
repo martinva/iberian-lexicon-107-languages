@@ -1,0 +1,46 @@
+name: "Replication or objection / Réplica u objeción"
+description: "Report a replication (whatever the result), an error in a rule, a datum or a reading, or a test you ran with your own exclusions. / Comunique una réplica (salga lo que salga), un error en una regla, un dato o una lectura, o una prueba con sus propias exclusiones."
+title: "[Replication/Réplica] "
+labels: ["replication"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Objections that change a result are added to the article with credit; those that do not are answered as well. See CHALLENGE.md.
+        Gracias. Las objeciones que cambien un resultado se incorporan al artículo con su crédito; las que no, se contestan igualmente. Véase CHALLENGE.md.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: "Type / Tipo"
+      options:
+        - "Replication of a table or figure / Réplica de una tabla o figura"
+        - "Own exclusion of units (Colab EXCLUIR) / Exclusión propia de unidades"
+        - "Error in a rule, datum or reading / Error en una regla, dato o lectura"
+        - "Missing language or dictionary / Falta una lengua o diccionario"
+        - "Other / Otro"
+    validations:
+      required: true
+  - type: input
+    id: tabla
+    attributes:
+      label: "Table, section or program / Tabla, apartado o programa"
+      placeholder: "e.g. Table G6, t06_t07_significados.py"
+  - type: textarea
+    id: cambio
+    attributes:
+      label: "What did you change? / ¿Qué cambió?"
+      description: "Exact command, EXCLUIR list, edited file or rule. / Orden exacta, lista EXCLUIR, archivo o regla modificados."
+    validations:
+      required: true
+  - type: textarea
+    id: resultado
+    attributes:
+      label: "What did you get? / ¿Qué obtuvo?"
+      description: "Paste the relevant output; compare with resultados/EXPECTED_RESULTS_en.md. / Pegue la salida relevante; compare con resultados/RESULTADOS_ESPERADOS.md."
+    validations:
+      required: true
+  - type: input
+    id: entorno
+    attributes:
+      label: "Environment / Entorno"
+      placeholder: "Colab / Python 3.x, NumPy x.y, OS"
