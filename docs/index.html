@@ -4,24 +4,64 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Iberian lead-plaque lexicon and 107 languages</title>
-<meta name="description" content="Statistical comparison of the lexicon of the Iberian lead plaques with 107 languages: article, data, programs, interactive tools and audits. Comparación estadística del léxico de los plomos ibéricos con 107 lenguas.">
+<meta name="description" content="Statistical comparison of the lexicon of the Iberian lead plaques with 107 languages: article, open data (CLDF), programs, interactive tools and audits. Comparación estadística del léxico de los plomos ibéricos con 107 lenguas.">
+<link rel="canonical" href="https://iberico.martinva.org/">
+<meta name="author" content="David Martín Valladolid">
+<meta name="robots" content="index,follow">
+<!-- Google Scholar / Highwire -->
 <meta name="citation_title" content="The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First">
 <meta name="citation_author" content="Martín Valladolid, David">
+<meta name="citation_author_orcid" content="0009-0003-4884-2573">
 <meta name="citation_publication_date" content="2026/11/22">
+<meta name="citation_publisher" content="Zenodo">
 <meta name="citation_doi" content="10.5281/zenodo.24443589">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap">
+<meta name="citation_language" content="en">
+<meta name="citation_pdf_url" content="https://zenodo.org/records/24443589/files/Martin_Valladolid_2026_Iberian_lead_plaques_lexicon_107_languages_EN.pdf">
+<meta name="citation_abstract_html_url" content="https://zenodo.org/records/24443589">
+<!-- Open Graph / social cards -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="iberico.martinva.org">
+<meta property="og:title" content="The Lexicon of the Iberian Lead Plaques Compared with 107 Languages">
+<meta property="og:description" content="Blind to any proposed translation, the language whose sound profile is closest to the Iberian corpus among 107 is Basque. Open data, programs and audits.">
+<meta property="og:url" content="https://iberico.martinva.org/">
+<meta property="og:image" content="https://iberico.martinva.org/img/figura_1_v48_dos_pruebas_en.png">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://iberico.martinva.org/#en">
+<link rel="alternate" hreflang="es" href="https://iberico.martinva.org/#es">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"ScholarlyArticle","@id":"https://doi.org/10.5281/zenodo.24443589",
+  "headline":"The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First",
+  "alternativeHeadline":"El léxico de los plomos ibéricos ante 107 lenguas: una comparación estadística en la que el euskera ocupa el primer lugar",
+  "author":{"@type":"Person","name":"David Martín Valladolid","@id":"https://orcid.org/0009-0003-4884-2573"},
+  "datePublished":"2026-11-22","inLanguage":["en","es"],"publisher":{"@type":"Organization","name":"Zenodo"},
+  "license":"https://creativecommons.org/licenses/by/4.0/","url":"https://doi.org/10.5281/zenodo.24443589",
+  "isBasedOn":"https://github.com/martinva/iberian-lexicon-107-languages"},
+ {"@type":"Dataset","name":"Iberian lead-plaque lexicon: replication data and programs (CLDF)",
+  "description":"Data, criteria, algorithms, programs and functional specification to reproduce the quantitative comparison of the lexicon of the Iberian lead plaques with that of other languages; the Iberian word lists are provided in CLDF format.",
+  "creator":{"@type":"Person","name":"David Martín Valladolid","@id":"https://orcid.org/0009-0003-4884-2573"},
+  "url":"https://github.com/martinva/iberian-lexicon-107-languages","license":"https://spdx.org/licenses/MIT",
+  "keywords":["Iberian","Basque","Palaeohispanic languages","quantitative linguistics","CLDF","permutation test"],
+  "citation":"https://doi.org/10.5281/zenodo.24443589"}
+]}
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
 <style>
-:root{--bg:#fbfaf7;--panel:#f3f1eb;--fg:#17171a;--mut:#5d5c58;--line:#dcd9d0;--acc:#1b365d;--eus:#1f6fd0}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--panel:#1e2026;--fg:#ecebe7;--mut:#a6a49d;--line:#33353c;--acc:#9cb8e0;--eus:#6aa8f0;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#15161a;--panel:#1e2026;--fg:#ecebe7;--mut:#a6a49d;--line:#33353c;--acc:#9cb8e0;--eus:#6aa8f0;color-scheme:dark}
+:root{--bg:#fbfaf7;--panel:#f3f1eb;--fg:#17171a;--mut:#5d5c58;--line:#dcd9d0;--acc:#1b365d;--eus:#1f6fd0;--ok:#2d6a3e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--panel:#1e2026;--fg:#ecebe7;--mut:#a6a49d;--line:#33353c;--acc:#9cb8e0;--eus:#6aa8f0;--ok:#7fc495;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15161a;--panel:#1e2026;--fg:#ecebe7;--mut:#a6a49d;--line:#33353c;--acc:#9cb8e0;--eus:#6aa8f0;--ok:#7fc495;color-scheme:dark}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif}
 .wrap{max-width:980px;margin:0 auto;padding-block:28px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 header{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
 .series{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);font-weight:600}
 h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(26px,4vw,38px);line-height:1.2;color:var(--acc);margin:6px 0 4px;text-wrap:balance}
-h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:22px;color:var(--acc);border-bottom:1px solid var(--line);padding-bottom:4px;margin:38px 0 14px}
+h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:22px;color:var(--acc);border-bottom:1px solid var(--line);padding-bottom:4px;margin:42px 0 14px;scroll-margin-top:12px}
 .author{color:var(--mut);margin:0 0 18px}
+.author a{color:var(--acc)}
 .lang{display:flex;gap:4px}
 .lang button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--panel);color:var(--fg);padding:4px 10px;border-radius:6px;cursor:pointer}
 .lang button[aria-pressed="true"]{background:var(--acc);color:var(--bg);border-color:var(--acc)}
@@ -30,18 +70,41 @@ h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:22px;col
 .cta{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 8px}
 .cta a{display:inline-block;text-decoration:none;border:1px solid var(--acc);color:var(--acc);padding:9px 14px;border-radius:8px;font-weight:500}
 .cta a.primary{background:var(--acc);color:var(--bg)}
+.doors{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:22px 0 4px}
+.doors a{display:block;text-decoration:none;color:var(--fg);border:1px solid var(--line);border-left:3px solid var(--acc);background:var(--panel);border-radius:8px;padding:10px 14px}
+.doors b{display:block;color:var(--acc);font-weight:600}
+.doors span.s{font-size:13px;color:var(--mut)}
 figure{margin:20px 0}
 figure img{width:100%;border:1px solid var(--line);border-radius:8px;background:#fff}
 figcaption{font-size:14px;color:var(--mut);margin-top:6px;max-width:75ch}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;min-width:0}
-.card h3{margin:0 0 6px;font-size:16px}
+.card h3{margin:0 0 6px;font-size:16px;line-height:1.35}
 .card p{margin:0 0 8px;font-size:14px;color:var(--mut)}
 .card a{color:var(--acc);font-weight:500}
+.card.main{border-left:3px solid var(--acc)}
+.doi{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:13px;overflow-wrap:anywhere}
+.cite{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.cite button{font:inherit;font-size:12px;border:1px solid var(--line);background:var(--bg);color:var(--fg);padding:3px 9px;border-radius:6px;cursor:pointer}
+.cite button.done{border-color:var(--ok);color:var(--ok)}
 ul.plain{padding-left:18px;margin:0}
 ul.plain li{margin:4px 0}
-code{font-size:13px;background:var(--panel);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+code{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:13px;background:var(--panel);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.filters input,.filters select{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--fg)}
+.filters input{flex:1 1 220px;min-width:0}
+.count{font-size:13px;color:var(--mut);margin:0 0 6px}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--panel);font-weight:600;white-space:nowrap}
+td.f{font-style:italic;font-family:"Source Serif 4",Georgia,serif;font-size:15px;white-space:nowrap}
+td.l{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:12px;white-space:nowrap}
+td.n{color:var(--mut);font-size:13px}
+.note{font-size:13px;color:var(--mut);max-width:75ch}
 footer{margin-top:48px;font-size:13px;color:var(--mut);border-top:1px solid var(--line);padding-top:12px}
+footer a{color:var(--acc)}
+footer p{margin:6px 0}
 [data-l]{display:none}
 html[lang="en"] [data-l="en"],html[lang="es"] [data-l="es"]{display:revert}
 </style>
@@ -69,52 +132,98 @@ html[lang="en"] [data-l="en"],html[lang="es"] [data-l="es"]{display:revert}
  <a href="https://colab.research.google.com/github/martinva/iberian-lexicon-107-languages/blob/main/reproduce_results.ipynb"><span data-l="en">Run it in your browser (Colab)</span><span data-l="es">Ejecutarlo en el navegador (Colab)</span></a>
 </div>
 
+<nav class="doors" aria-label="Start here">
+ <a href="#tools"><b><span data-l="en">Linguists and statisticians</span><span data-l="es">Lingüistas y estadísticos</span></b><span class="s" data-l="en">Test the result yourself: remove words, change the reference language.</span><span class="s" data-l="es">Pon a prueba el resultado: quita palabras, cambia la lengua de referencia.</span></a>
+ <a href="#inventory"><b><span data-l="en">Epigraphists and historians</span><span data-l="es">Epigrafistas e historiadores</span></b><span class="s" data-l="en">The 64 Iberian forms compared, with their inscriptions and certainty level.</span><span class="s" data-l="es">Las 64 formas ibéricas comparadas, con sus inscripciones y su nivel de certeza.</span></a>
+ <a href="#check"><b><span data-l="en">Audit and citation</span><span data-l="es">Auditoría y cita</span></b><span class="s" data-l="en">Prior declarations, audits, replication and ready-made citations.</span><span class="s" data-l="es">Declaraciones previas, auditorías, réplica y citas listas para copiar.</span></a>
+</nav>
+
 <figure>
  <img data-l="en" src="img/figura_1_v48_dos_pruebas_en.png" alt="Two tests: by sound profile Basque is closest to Iberian among 107 languages; with proposed meanings Basque scores −12.8 against −4.3 for the next language.">
  <img data-l="es" src="img/figura_1_v48_dos_pruebas.png" alt="Dos pruebas: por perfil de sonidos el euskera es el más próximo al ibérico entre 107 lenguas; con los significados propuestos el euskera obtiene −12,8 frente a −4,3 de la siguiente lengua.">
  <figcaption><span data-l="en">Figure 1. Top, blind to translations: distance between the sound profile of the whole Iberian corpus (at 0) and 107 languages. Bottom, with the proposed meanings: value of each language against chance.</span><span data-l="es">Figura 1. Arriba, a ciegas respecto a las traducciones: distancia entre el perfil de sonidos de todo el corpus ibérico (en el 0) y 107 lenguas. Abajo, con los significados propuestos: valor de cada lengua frente al azar.</span></figcaption>
 </figure>
 
-<h2><span data-l="en">Interactive tools</span><span data-l="es">Herramientas interactivas</span></h2>
+<h2 id="tools"><span data-l="en">Test the result</span><span data-l="es">Pon a prueba el resultado</span></h2>
 <div class="grid">
+ <div class="card main"><h3><span data-l="en">Remove words</span><span data-l="es">Quitar palabras</span></h3><p><span data-l="en">Take words out of the list (for instance the proposed Latin loans, or everything but the units with external evidence) and watch what happens to each language's value.</span><span data-l="es">Quita palabras de la lista (por ejemplo, los préstamos latinos propuestos, o todo salvo las unidades con dato externo) y mira qué pasa con el valor de cada lengua.</span></p><a href="herramientas/quitar-palabras/"><span data-l="en">Open</span><span data-l="es">Abrir</span></a></div>
  <div class="card"><h3><span data-l="en">Proximity target and threshold</span><span data-l="es">Diana y umbral de proximidad</span></h3><p><span data-l="en">Place any language at the centre and see every other one at its real distance.</span><span data-l="es">Pon cualquier lengua en el centro y mira las demás a su distancia real.</span></p><a href="herramientas/proximidad/"><span data-l="en">Open</span><span data-l="es">Abrir</span></a></div>
- <div class="card"><h3><span data-l="en">Remove words</span><span data-l="es">Quitar palabras</span></h3><p><span data-l="en">Take words out of the list and watch what happens to the result.</span><span data-l="es">Quita palabras de la lista y mira qué pasa con el resultado.</span></p><a href="herramientas/quitar-palabras/"><span data-l="en">Open</span><span data-l="es">Abrir</span></a></div>
  <div class="card"><h3><span data-l="en">3D map</span><span data-l="es">Mapa en 3D</span></h3><p><span data-l="en">Projection of the distance matrix onto three axes (it distorts distances; the matrix is the reference).</span><span data-l="es">Proyección de la matriz en tres ejes (deforma las distancias; la referencia es la matriz).</span></p><a href="herramientas/mapa-3d/"><span data-l="en">Open</span><span data-l="es">Abrir</span></a></div>
 </div>
+<p class="note"><span data-l="en">Want to exclude something else? Edit the list of units and run the programs again in Colab, or open an issue on GitHub with what you changed and what you got: objections that change a result are added to the article with credit.</span><span data-l="es">¿Quieres excluir otra cosa? Edita la lista de unidades y vuelve a ejecutar los programas en Colab, o abre un issue en GitHub con lo que cambiaste y lo que obtuviste: las objeciones que cambien un resultado se incorporan al artículo con su crédito.</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/blob/main/CHALLENGE.md">CHALLENGE.md</a></p>
 
-<h2><span data-l="en">Check it yourself</span><span data-l="es">Compruébalo tú</span></h2>
+<h2 id="inventory"><span data-l="en">Inventory of Iberian forms (CLDF)</span><span data-l="es">Inventario de formas ibéricas (CLDF)</span></h2>
+<p class="note"><span data-l="en">The forms compared in the study, with their proposed meaning, certainty level (A: direct epigraphic or metrological basis; B: positional or arithmetical regularity; C: functional or loanword hypothesis), inscriptions and support. Proposed meanings are working hypotheses graded by level, not established translations.</span><span data-l="es">Las formas comparadas en el estudio, con su significado propuesto, nivel de certeza (A: base epigráfica o metrológica directa; B: regularidad posicional o aritmética; C: hipótesis funcional o de préstamo), inscripciones y apoyo. Los significados propuestos son hipótesis de trabajo graduadas por nivel, no traducciones establecidas.</span></p>
+<div class="filters">
+ <input id="q" type="search" placeholder="Search form, meaning or inscription…" aria-label="Search">
+ <select id="fg" aria-label="Group"><option value="">—</option></select>
+ <select id="fl" aria-label="Level"><option value="">—</option></select>
+</div>
+<p class="count" id="count"></p>
+<div class="tblwrap"><table>
+ <thead><tr><th data-l="en">Form</th><th data-l="es">Forma</th><th data-l="en">Proposed meaning</th><th data-l="es">Significado propuesto</th><th data-l="en">Level</th><th data-l="es">Nivel</th><th data-l="en">Inscriptions</th><th data-l="es">Inscripciones</th><th data-l="en">Support</th><th data-l="es">Apoyo</th></tr></thead>
+ <tbody id="rows"><tr><td colspan="5" class="n">…</td></tr></tbody>
+</table></div>
+<p class="note"><span data-l="en">Source:</span><span data-l="es">Fuente:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/tree/main/1_fuentes_lexicas/iberico/cldf"><code>1_fuentes_lexicas/iberico/cldf/</code></a> (forms.csv, parameters.csv).</p>
+
+<h2 id="check"><span data-l="en">Check it yourself</span><span data-l="es">Compruébalo tú</span></h2>
 <ul class="plain">
  <li><span data-l="en">Repository with data, one program per table, functional specification and expected results:</span><span data-l="es">Repositorio con datos, un programa por tabla, especificación funcional y resultados esperados:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages">github.com/martinva/iberian-lexicon-107-languages</a></li>
- <li><span data-l="en">Quick check in seconds:</span><span data-l="es">Comprobación rápida en segundos:</span> <code>python3 4_programas/comprobacion_rapida.py</code></li>
+ <li><span data-l="en">Quick check in seconds:</span><span data-l="es">Comprobación rápida en segundos:</span> <code>python3 4_programas/comprobacion_rapida.py</code> · <a href="https://colab.research.google.com/github/martinva/iberian-lexicon-107-languages/blob/main/reproduce_results.ipynb">Colab</a></li>
  <li><span data-l="en">Prior declarations, published before running each new test:</span><span data-l="es">Declaraciones previas, publicadas antes de ejecutar cada prueba nueva:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/blob/main/resultados/DECLARACIONES_PREVIAS.md">DECLARACIONES_PREVIAS.md</a> · <a href="https://github.com/martinva/iberian-lexicon-107-languages/blob/main/docs/HISTORIAL_DECLARACIONES.md"><span data-l="en">dates</span><span data-l="es">fechas</span></a></li>
  <li><span data-l="en">Computational audits (requests and reports):</span><span data-l="es">Auditorías computacionales (peticiones y actas):</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/tree/main/docs/auditoria_externa">docs/auditoria_externa</a></li>
  <li><span data-l="en">Replicated it? Tell us in an issue, whatever the result:</span><span data-l="es">¿Lo has replicado? Cuéntalo en un issue, salga lo que salga:</span> <a href="https://github.com/martinva/iberian-lexicon-107-languages/blob/main/CHALLENGE.md">CHALLENGE.md</a></li>
 </ul>
 
-<h2><span data-l="en">The series</span><span data-l="es">La serie</span></h2>
-<ul class="plain">
- <li><span data-l="en">Monograph I</span><span data-l="es">Monografía I</span> · <a href="https://doi.org/10.5281/zenodo.23610039">10.5281/zenodo.23610039</a></li>
- <li><span data-l="en">Monograph II</span><span data-l="es">Monografía II</span> · <a href="https://doi.org/10.5281/zenodo.23612741">10.5281/zenodo.23612741</a></li>
- <li><span data-l="en">Monograph III</span><span data-l="es">Monografía III</span> · <a href="https://doi.org/10.5281/zenodo.23614005">10.5281/zenodo.23614005</a></li>
- <li><span data-l="en">Monograph IV</span><span data-l="es">Monografía IV</span> · <a href="https://doi.org/10.5281/zenodo.23617694">10.5281/zenodo.23617694</a></li>
- <li><span data-l="en">Complete English edition (I–IV)</span><span data-l="es">Edición completa en inglés (I–IV)</span> · <a href="https://doi.org/10.5281/zenodo.23620146">10.5281/zenodo.23620146</a></li>
-</ul>
-
-<h2><span data-l="en">How to cite</span><span data-l="es">Cómo citar</span></h2>
-<p>Martín Valladolid, D. (2026): <em>The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First</em> <span data-l="es">[edición española: <em>El léxico de los plomos ibéricos ante 107 lenguas…</em>]</span>, Zenodo. <a href="https://doi.org/10.5281/zenodo.24443589">https://doi.org/10.5281/zenodo.24443589</a></p>
+<h2 id="publications"><span data-l="en">Publications</span><span data-l="es">Publicaciones</span></h2>
+<div class="grid" id="pubs"></div>
+<p class="note"><span data-l="en">The DOIs of the monographs are concept DOIs: they always resolve to the latest version (now v5.2).</span><span data-l="es">Los DOI de las monografías son DOI de concepto: llevan siempre a la última versión (ahora la v5.2).</span></p>
 
 <footer>
- <span data-l="en">Use of AI: programming, calculation checks, literature search and writing were supported by generative AI; the audits were run with a language model and are published. The author bears full responsibility for the work. Licence CC BY 4.0.</span>
- <span data-l="es">Uso de IA: la programación, la revisión de cálculos, la búsqueda bibliográfica y la redacción se apoyaron en IA generativa; las auditorías se hicieron con un modelo de lenguaje y están publicadas. El autor es el responsable íntegro del trabajo. Licencia CC BY 4.0.</span>
+ <p>David Martín Valladolid · <a href="https://orcid.org/0009-0003-4884-2573">ORCID</a> · <a href="https://github.com/martinva/iberian-lexicon-107-languages">GitHub</a> · <a href="https://doi.org/10.5281/zenodo.24443589">Zenodo</a> · <a href="https://martinva.org">martinva.org</a></p>
+ <p data-l="en">Texts CC BY 4.0; code MIT. Use of AI: programming, calculation checks, literature search and writing were supported by generative AI; the audits were run with a language model and are published. The author bears full responsibility for the work.</p>
+ <p data-l="es">Textos CC BY 4.0; código MIT. Uso de IA: la programación, la revisión de cálculos, la búsqueda bibliográfica y la redacción se apoyaron en IA generativa; las auditorías se hicieron con un modelo de lenguaje y están publicadas. El autor es el responsable íntegro del trabajo.</p>
 </footer>
 </div>
 <script>
 (function(){
  var html=document.documentElement,btns=document.querySelectorAll('.lang button');
- function set(l){html.lang=l;btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});try{localStorage.setItem('lang',l)}catch(e){}}
+ var PUBS=[
+  {main:true,en:'The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First',es:'El léxico de los plomos ibéricos ante 107 lenguas: una comparación estadística en la que el euskera ocupa el primer lugar',ken:'Article · English and Spanish editions',kes:'Artículo · ediciones inglesa y española',doi:'10.5281/zenodo.24443589',key:'MartinValladolid2026stat',bt:'The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First'},
+  {en:'Monograph I. Accounting formulas, obligation vocabulary and patrimonial units',es:'Monografía I. Fórmulas contables, vocabulario de obligación y unidades patrimoniales',ken:'Spanish and English · v5.2',kes:'Español e inglés · v5.2',doi:'10.5281/zenodo.23610039',key:'MartinValladolid2026m1',bt:'Contabilidad financiera, contratos mercantiles y catastros en la Hispania prerromana (I)'},
+  {en:'Monograph II. Rural estates, agrarian taxation and registration deeds',es:'Monografía II. Predios rústicos, fiscalidad agropecuaria y cédulas de registro',ken:'Spanish and English · v5.2',kes:'Español e inglés · v5.2',doi:'10.5281/zenodo.23612741',key:'MartinValladolid2026m2',bt:'Contabilidad financiera, contratos mercantiles y catastros en la Hispania prerromana (II)'},
+  {en:'Monograph III. Ownership, partnerships and bilateral clauses',es:'Monografía III. Titularidad, sociedades y cláusulas bilaterales',ken:'Spanish and English · v5.2',kes:'Español e inglés · v5.2',doi:'10.5281/zenodo.23614005',key:'MartinValladolid2026m3',bt:'Contabilidad financiera, contratos mercantiles y catastros en la Hispania prerromana (III)'},
+  {en:'Monograph IV. Synthesis, phonology and comparative evaluation',es:'Monografía IV. Síntesis, fonología y evaluación comparativa',ken:'Spanish and English · v5.2',kes:'Español e inglés · v5.2',doi:'10.5281/zenodo.23617694',key:'MartinValladolid2026m4',bt:'Contabilidad financiera, contratos mercantiles y catastros en la Hispania prerromana (IV)'},
+  {en:'Complete English edition (Monographs I–IV)',es:'Edición completa en inglés (Monografías I–IV)',ken:'English · v5.2',kes:'Inglés · v5.2',doi:'10.5281/zenodo.23620146',key:'MartinValladolid2026en',bt:'Financial Accounting, Mercantile Contracts, and Cadastres in Pre-Roman Hispania: Monographs I to IV'}
+ ];
+ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+ function apa(p){return 'Martín Valladolid, D. (2026). '+p.bt+'. Zenodo. https://doi.org/'+p.doi}
+ function bib(p){return '@misc{'+p.key+',\n  author = {Mart{\\\'i}n Valladolid, David},\n  title = {'+p.bt+'},\n  year = {2026},\n  publisher = {Zenodo},\n  doi = {'+p.doi+'},\n  url = {https://doi.org/'+p.doi+'}\n}'}
+ var pubs=document.getElementById('pubs');
+ pubs.innerHTML=PUBS.map(function(p,i){return '<div class="card'+(p.main?' main':'')+'"><h3><span data-l="en">'+esc(p.en)+'</span><span data-l="es">'+esc(p.es)+'</span></h3><p><span data-l="en">'+esc(p.ken)+'</span><span data-l="es">'+esc(p.kes)+'</span></p><a class="doi" href="https://doi.org/'+p.doi+'">'+p.doi+'</a><div class="cite"><button type="button" data-i="'+i+'" data-f="apa">APA</button><button type="button" data-i="'+i+'" data-f="bib">BibTeX</button></div></div>'}).join('');
+ pubs.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var p=PUBS[+b.dataset.i],t=b.dataset.f==='bib'?bib(p):apa(p);
+  function ok(){var o=b.textContent;b.textContent=html.lang==='es'?'Copiado':'Copied';b.classList.add('done');setTimeout(function(){b.textContent=o;b.classList.remove('done')},1600)}
+  function fb(){var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok()}catch(_){}ta.remove()}
+  try{navigator.clipboard.writeText(t).then(ok,fb)}catch(_){fb()}});
+ // inventory
+ var DATA=[],q=document.getElementById('q'),fg=document.getElementById('fg'),fl=document.getElementById('fl'),rows=document.getElementById('rows'),count=document.getElementById('count');
+ var GRP={'léxico de los plomos':{en:'lead-plaque lexicon',es:'léxico de los plomos'},'metrológico':{en:'metrological',es:'metrológico'}};
+ function labels(){var es=html.lang==='es';q.placeholder=es?'Buscar forma, significado o inscripción…':'Search form, meaning or inscription…';
+  fg.options[0].text=es?'Todos los grupos':'All groups';fl.options[0].text=es?'Todos los niveles':'All levels';
+  for(var i=1;i<fg.options.length;i++){var g=GRP[fg.options[i].value];fg.options[i].text=g?(es?g.es:g.en):fg.options[i].value}}
+ function render(){var s=q.value.trim().toLowerCase(),g=fg.value,l=fl.value,es=html.lang==='es';
+  var r=DATA.filter(function(d){return(!g||d.group===g)&&(!l||d.level===l)&&(!s||[d.form,d.en,d.es,d.inscr,d.note].join(' ').toLowerCase().indexOf(s)>=0)});
+  count.textContent=r.length+(es?' de ':' of ')+DATA.length+(es?' formas':' forms');
+  rows.innerHTML=r.map(function(d){return '<tr><td class="f">'+esc(d.form)+'</td><td>'+esc(es?d.es:d.en)+'</td><td class="l">'+esc(d.level)+'</td><td class="l">'+esc(d.inscr||'—')+'</td><td class="n">'+esc(d.note)+'</td></tr>'}).join('')||'<tr><td colspan="5" class="n">—</td></tr>'}
+ fetch('data/inventory.json').then(function(r){return r.json()}).then(function(d){DATA=d;
+  Array.from(new Set(d.map(function(x){return x.group}))).forEach(function(v){var o=document.createElement('option');o.value=v;fg.appendChild(o)});
+  Array.from(new Set(d.map(function(x){return x.level}))).sort().forEach(function(v){var o=document.createElement('option');o.value=v;o.text=v;fl.appendChild(o)});
+  labels();render()}).catch(function(){rows.innerHTML='<tr><td colspan="5" class="n">data/inventory.json</td></tr>'});
+ [q,fg,fl].forEach(function(el){el.addEventListener('input',render)});
+ function set(l){html.lang=l;btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});try{localStorage.setItem('lang',l)}catch(e){}labels();if(DATA.length)render()}
  var saved=null;try{saved=localStorage.getItem('lang')}catch(e){}
- var q=(location.hash||'').replace('#','');
- set(q==='es'||q==='en'?q:(saved||((navigator.language||'en').slice(0,2)==='es'?'es':'en')));
+ var h=(location.hash||'').replace('#','');
+ set(h==='es'||h==='en'?h:(saved||((navigator.language||'en').slice(0,2)==='es'?'es':'en')));
  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set)})});
 })();
 </script>
