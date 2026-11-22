@@ -16,6 +16,11 @@ keywords:
   - lingüística cuantitativa
   - Iberian
   - Basque
+doi: "10.5281/zenodo.24446155"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24446155"
+    description: "Concept DOI of the software (all versions)"
 license: MIT
 repository-code: "https://github.com/martinva/iberian-lexicon-107-languages"
 url: "https://iberico.martinva.org"

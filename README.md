@@ -6,7 +6,7 @@
 
 **Article:** Martín Valladolid, D. (2026). *The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First* (EN and ES editions). Zenodo. [https://doi.org/10.5281/zenodo.24443589](https://doi.org/10.5281/zenodo.24443589) · Web: [iberico.martinva.org](https://iberico.martinva.org)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24443589.svg)](https://doi.org/10.5281/zenodo.24443589)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24443589.svg)](https://doi.org/10.5281/zenodo.24443589) Software (data and programs): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24446155.svg)](https://doi.org/10.5281/zenodo.24446155)
 
 [![comprobacion](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/comprobacion.yml/badge.svg)](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/comprobacion.yml) [![cldf](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/cldf.yml/badge.svg)](https://github.com/martinva/iberian-lexicon-107-languages/actions/workflows/cldf.yml)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martinva/iberian-lexicon-107-languages/blob/main/reproduce_results.ipynb) — run everything in the browser, nothing to install.
