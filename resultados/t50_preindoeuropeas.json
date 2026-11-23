@@ -1,0 +1,1094 @@
+{
+ "lenguas_datos": {
+  "Mingrelian": 526,
+  "Laz": 1796,
+  "Svan": 236,
+  "Georgian": 14849,
+  "Abkhaz": 539,
+  "Chechen": 707,
+  "Ingush": 405,
+  "Avar": 368,
+  "Tashelhit": 752,
+  "Central Atlas Tamazight": 402,
+  "Akkadian": 519,
+  "Egyptian": 955,
+  "Etruscan": 113,
+  "Sumerian": 559,
+  "Azerbaijani": 8070,
+  "Kazakh": 8101,
+  "Uzbek": 2684,
+  "Tatar": 1231,
+  "Bashkir": 1962,
+  "Chuvash": 758,
+  "Yakut": 2497,
+  "Mongolian": 2458,
+  "Kalmyk": 421,
+  "Buryat": 386,
+  "Tamil": 6958,
+  "Ket": 240,
+  "Hebrew": 8159,
+  "Arabic": 10699
+ },
+ "plomos": {
+  "orden": [
+   [
+    "Basque",
+    "estudio (35)",
+    28,
+    -12.42
+   ],
+   [
+    "Galician",
+    "estudio (35)",
+    30,
+    -4.28
+   ],
+   [
+    "Tagalog",
+    "estudio (35)",
+    29,
+    -3.63
+   ],
+   [
+    "Asturian",
+    "estudio (35)",
+    29,
+    -3.47
+   ],
+   [
+    "Catalan",
+    "estudio (35)",
+    30,
+    -3.0
+   ],
+   [
+    "Albanian",
+    "estudio (35)",
+    30,
+    -2.69
+   ],
+   [
+    "Icelandic",
+    "estudio (35)",
+    30,
+    -2.4
+   ],
+   [
+    "Sicilian",
+    "estudio (35)",
+    24,
+    -2.22
+   ],
+   [
+    "Turkish",
+    "estudio (35)",
+    30,
+    -2.21
+   ],
+   [
+    "Malay",
+    "estudio (35)",
+    28,
+    -1.52
+   ],
+   [
+    "Tashelhit",
+    "bereber",
+    21,
+    -1.52
+   ],
+   [
+    "Welsh",
+    "estudio (35)",
+    30,
+    -1.49
+   ],
+   [
+    "Maltese",
+    "estudio (35)",
+    29,
+    -1.4
+   ],
+   [
+    "Irish",
+    "estudio (35)",
+    30,
+    -1.35
+   ],
+   [
+    "Egyptian",
+    "egipcia",
+    23,
+    -1.28
+   ],
+   [
+    "Tamil",
+    "drávida",
+    29,
+    -1.24
+   ],
+   [
+    "Romanian",
+    "estudio (35)",
+    29,
+    -1.22
+   ],
+   [
+    "Hawaiian",
+    "estudio (35)",
+    26,
+    -1.22
+   ],
+   [
+    "Georgian",
+    "kartvélica",
+    30,
+    -1.12
+   ],
+   [
+    "Yakut",
+    "túrquica",
+    26,
+    -1.07
+   ],
+   [
+    "Malagasy",
+    "estudio (35)",
+    22,
+    -1.05
+   ],
+   [
+    "Zulu",
+    "estudio (35)",
+    25,
+    -1.0
+   ],
+   [
+    "Bashkir",
+    "túrquica",
+    26,
+    -0.9
+   ],
+   [
+    "Occitan",
+    "estudio (35)",
+    25,
+    -0.88
+   ],
+   [
+    "Avar",
+    "caucásica NE",
+    16,
+    -0.88
+   ],
+   [
+    "Hebrew",
+    "semítica",
+    30,
+    -0.8
+   ],
+   [
+    "Tatar",
+    "túrquica",
+    22,
+    -0.76
+   ],
+   [
+    "Uzbek",
+    "túrquica",
+    25,
+    -0.75
+   ],
+   [
+    "Latin",
+    "estudio (35)",
+    30,
+    -0.56
+   ],
+   [
+    "Azerbaijani",
+    "túrquica",
+    30,
+    -0.54
+   ],
+   [
+    "Chuvash",
+    "túrquica",
+    18,
+    -0.51
+   ],
+   [
+    "Yoruba",
+    "estudio (35)",
+    25,
+    -0.49
+   ],
+   [
+    "Sumerian",
+    "aislada (sumerio)",
+    25,
+    -0.45
+   ],
+   [
+    "Mongolian",
+    "mongólica",
+    27,
+    -0.29
+   ],
+   [
+    "Indonesian",
+    "estudio (35)",
+    29,
+    -0.19
+   ],
+   [
+    "Lithuanian",
+    "estudio (35)",
+    30,
+    -0.18
+   ],
+   [
+    "Sardinian",
+    "estudio (35)",
+    16,
+    -0.06
+   ],
+   [
+    "Kazakh",
+    "túrquica",
+    30,
+    0.03
+   ],
+   [
+    "Mingrelian",
+    "kartvélica",
+    14,
+    0.08
+   ],
+   [
+    "Hungarian",
+    "estudio (35)",
+    30,
+    0.13
+   ],
+   [
+    "Fijian",
+    "estudio (35)",
+    13,
+    0.4
+   ],
+   [
+    "Ingush",
+    "caucásica NE",
+    12,
+    0.45
+   ],
+   [
+    "Laz",
+    "kartvélica",
+    23,
+    0.48
+   ],
+   [
+    "Somali",
+    "estudio (35)",
+    15,
+    0.49
+   ],
+   [
+    "Kalmyk",
+    "mongólica",
+    18,
+    0.54
+   ],
+   [
+    "Akkadian",
+    "semítica",
+    24,
+    0.63
+   ],
+   [
+    "Swahili",
+    "estudio (35)",
+    28,
+    0.65
+   ],
+   [
+    "Buryat",
+    "mongólica",
+    14,
+    0.7
+   ],
+   [
+    "Chechen",
+    "caucásica NE",
+    20,
+    0.73
+   ],
+   [
+    "Arabic",
+    "semítica",
+    30,
+    0.88
+   ],
+   [
+    "Quechua",
+    "estudio (35)",
+    22,
+    1.05
+   ],
+   [
+    "Finnish",
+    "estudio (35)",
+    30,
+    1.07
+   ],
+   [
+    "Classical Nahuatl",
+    "estudio (35)",
+    20,
+    1.12
+   ],
+   [
+    "Abkhaz",
+    "caucásica NO",
+    12,
+    1.13
+   ],
+   [
+    "Hausa",
+    "estudio (35)",
+    20,
+    1.33
+   ],
+   [
+    "Estonian",
+    "estudio (35)",
+    28,
+    1.44
+   ]
+  ],
+  "puesto_euskera": 1,
+  "mediana_z_familia": {
+   "bereber": -1.52,
+   "egipcia": -1.28,
+   "drávida": -1.24,
+   "kartvélica": 0.08,
+   "túrquica": -0.75,
+   "caucásica NE": 0.45,
+   "semítica": 0.63,
+   "aislada (sumerio)": -0.45,
+   "mongólica": 0.54,
+   "caucásica NO": 1.13
+  },
+  "mejor_nueva": [
+   "Tashelhit",
+   -1.52
+  ]
+ },
+ "numerales": {
+  "orden": [
+   [
+    "Basque",
+    "estudio (35)",
+    10,
+    -10.53
+   ],
+   [
+    "Tashelhit",
+    "bereber",
+    9,
+    -4.01
+   ],
+   [
+    "Turkish",
+    "estudio (35)",
+    10,
+    -3.46
+   ],
+   [
+    "Central Atlas Tamazight",
+    "bereber",
+    10,
+    -3.01
+   ],
+   [
+    "Azerbaijani",
+    "túrquica",
+    10,
+    -2.28
+   ],
+   [
+    "Akkadian",
+    "semítica",
+    9,
+    -2.23
+   ],
+   [
+    "Sicilian",
+    "estudio (35)",
+    10,
+    -2.2
+   ],
+   [
+    "Swahili",
+    "estudio (35)",
+    10,
+    -2.19
+   ],
+   [
+    "Irish",
+    "estudio (35)",
+    10,
+    -2.17
+   ],
+   [
+    "Lithuanian",
+    "estudio (35)",
+    10,
+    -2.13
+   ],
+   [
+    "Uzbek",
+    "túrquica",
+    10,
+    -1.94
+   ],
+   [
+    "Yakut",
+    "túrquica",
+    10,
+    -1.81
+   ],
+   [
+    "Tatar",
+    "túrquica",
+    10,
+    -1.77
+   ],
+   [
+    "Etruscan",
+    "tirsénica",
+    8,
+    -1.68
+   ],
+   [
+    "Hebrew",
+    "semítica",
+    10,
+    -1.57
+   ],
+   [
+    "Welsh",
+    "estudio (35)",
+    10,
+    -1.5
+   ],
+   [
+    "Hausa",
+    "estudio (35)",
+    10,
+    -1.39
+   ],
+   [
+    "Maltese",
+    "estudio (35)",
+    10,
+    -1.37
+   ],
+   [
+    "Asturian",
+    "estudio (35)",
+    10,
+    -1.22
+   ],
+   [
+    "Laz",
+    "kartvélica",
+    10,
+    -1.19
+   ],
+   [
+    "Shona",
+    "estudio (35)",
+    9,
+    -1.18
+   ],
+   [
+    "Bashkir",
+    "túrquica",
+    9,
+    -1.13
+   ],
+   [
+    "Sardinian",
+    "estudio (35)",
+    10,
+    -1.09
+   ],
+   [
+    "Tagalog",
+    "estudio (35)",
+    10,
+    -1.08
+   ],
+   [
+    "Romanian",
+    "estudio (35)",
+    10,
+    -1.04
+   ],
+   [
+    "Galician",
+    "estudio (35)",
+    10,
+    -1.03
+   ],
+   [
+    "Malay",
+    "estudio (35)",
+    9,
+    -1.01
+   ],
+   [
+    "Icelandic",
+    "estudio (35)",
+    10,
+    -0.9
+   ],
+   [
+    "Zulu",
+    "estudio (35)",
+    8,
+    -0.87
+   ],
+   [
+    "Occitan",
+    "estudio (35)",
+    10,
+    -0.85
+   ],
+   [
+    "Albanian",
+    "estudio (35)",
+    10,
+    -0.82
+   ],
+   [
+    "Arabic",
+    "semítica",
+    6,
+    -0.68
+   ],
+   [
+    "Buryat",
+    "mongólica",
+    10,
+    -0.64
+   ],
+   [
+    "Georgian",
+    "kartvélica",
+    10,
+    -0.63
+   ],
+   [
+    "Kazakh",
+    "túrquica",
+    10,
+    -0.52
+   ],
+   [
+    "Catalan",
+    "estudio (35)",
+    10,
+    -0.5
+   ],
+   [
+    "Kalmyk",
+    "mongólica",
+    10,
+    -0.49
+   ],
+   [
+    "Finnish",
+    "estudio (35)",
+    10,
+    -0.34
+   ],
+   [
+    "Mingrelian",
+    "kartvélica",
+    9,
+    -0.33
+   ],
+   [
+    "Sumerian",
+    "aislada (sumerio)",
+    9,
+    -0.29
+   ],
+   [
+    "Mongolian",
+    "mongólica",
+    10,
+    -0.29
+   ],
+   [
+    "Indonesian",
+    "estudio (35)",
+    10,
+    -0.21
+   ],
+   [
+    "Latin",
+    "estudio (35)",
+    10,
+    -0.14
+   ],
+   [
+    "Somali",
+    "estudio (35)",
+    10,
+    -0.13
+   ],
+   [
+    "Abkhaz",
+    "caucásica NO",
+    6,
+    -0.01
+   ],
+   [
+    "Chechen",
+    "caucásica NE",
+    5,
+    0.3
+   ],
+   [
+    "Chuvash",
+    "túrquica",
+    10,
+    0.32
+   ],
+   [
+    "Yoruba",
+    "estudio (35)",
+    10,
+    0.33
+   ],
+   [
+    "Ingush",
+    "caucásica NE",
+    5,
+    0.33
+   ],
+   [
+    "Egyptian",
+    "egipcia",
+    10,
+    0.51
+   ],
+   [
+    "Quechua",
+    "estudio (35)",
+    9,
+    0.52
+   ],
+   [
+    "Estonian",
+    "estudio (35)",
+    10,
+    0.58
+   ],
+   [
+    "Classical Nahuatl",
+    "estudio (35)",
+    9,
+    0.77
+   ],
+   [
+    "Hungarian",
+    "estudio (35)",
+    10,
+    0.8
+   ],
+   [
+    "Tamil",
+    "drávida",
+    10,
+    0.87
+   ],
+   [
+    "Svan",
+    "kartvélica",
+    9,
+    1.05
+   ],
+   [
+    "Avar",
+    "caucásica NE",
+    6,
+    1.13
+   ],
+   [
+    "Tongan",
+    "estudio (35)",
+    10,
+    1.15
+   ],
+   [
+    "Samoan",
+    "estudio (35)",
+    10,
+    1.45
+   ],
+   [
+    "Fijian",
+    "estudio (35)",
+    10,
+    1.68
+   ],
+   [
+    "Malagasy",
+    "estudio (35)",
+    10,
+    1.79
+   ],
+   [
+    "Hawaiian",
+    "estudio (35)",
+    10,
+    3.4
+   ]
+  ],
+  "puesto_euskera": 1,
+  "mediana_z_familia": {
+   "bereber": -3.51,
+   "túrquica": -1.77,
+   "semítica": -1.57,
+   "tirsénica": -1.68,
+   "kartvélica": -0.48,
+   "mongólica": -0.49,
+   "aislada (sumerio)": -0.29,
+   "caucásica NO": -0.01,
+   "caucásica NE": 0.33,
+   "egipcia": 0.51,
+   "drávida": 0.87
+  },
+  "mejor_nueva": [
+   "Tashelhit",
+   -4.01
+  ]
+ },
+ "perfil": {
+  "tamano": 326,
+  "orden": [
+   [
+    "Basque",
+    "estudio (35)",
+    0.1172
+   ],
+   [
+    "Finnish",
+    "estudio (35)",
+    0.1399
+   ],
+   [
+    "Occitan",
+    "estudio (35)",
+    0.1447
+   ],
+   [
+    "Sardinian",
+    "estudio (35)",
+    0.1475
+   ],
+   [
+    "Catalan",
+    "estudio (35)",
+    0.1481
+   ],
+   [
+    "Romanian",
+    "estudio (35)",
+    0.1499
+   ],
+   [
+    "Asturian",
+    "estudio (35)",
+    0.1529
+   ],
+   [
+    "Welsh",
+    "estudio (35)",
+    0.1559
+   ],
+   [
+    "Indonesian",
+    "estudio (35)",
+    0.1605
+   ],
+   [
+    "Estonian",
+    "estudio (35)",
+    0.1615
+   ],
+   [
+    "Latin",
+    "estudio (35)",
+    0.1628
+   ],
+   [
+    "Galician",
+    "estudio (35)",
+    0.1634
+   ],
+   [
+    "Lithuanian",
+    "estudio (35)",
+    0.1705
+   ],
+   [
+    "Malay",
+    "estudio (35)",
+    0.1818
+   ],
+   [
+    "Hungarian",
+    "estudio (35)",
+    0.1819
+   ],
+   [
+    "Icelandic",
+    "estudio (35)",
+    0.1874
+   ],
+   [
+    "Turkish",
+    "estudio (35)",
+    0.2024
+   ],
+   [
+    "Georgian",
+    "kartvélica",
+    0.2045
+   ],
+   [
+    "Yakut",
+    "túrquica",
+    0.2084
+   ],
+   [
+    "Albanian",
+    "estudio (35)",
+    0.2093
+   ],
+   [
+    "Yoruba",
+    "estudio (35)",
+    0.2096
+   ],
+   [
+    "Somali",
+    "estudio (35)",
+    0.2101
+   ],
+   [
+    "Tagalog",
+    "estudio (35)",
+    0.2131
+   ],
+   [
+    "Fijian",
+    "estudio (35)",
+    0.2159
+   ],
+   [
+    "Sicilian",
+    "estudio (35)",
+    0.2173
+   ],
+   [
+    "Irish",
+    "estudio (35)",
+    0.2203
+   ],
+   [
+    "Laz",
+    "kartvélica",
+    0.2227
+   ],
+   [
+    "Azerbaijani",
+    "túrquica",
+    0.224
+   ],
+   [
+    "Tatar",
+    "túrquica",
+    0.2293
+   ],
+   [
+    "Maltese",
+    "estudio (35)",
+    0.231
+   ],
+   [
+    "Sumerian",
+    "aislada (sumerio)",
+    0.2346
+   ],
+   [
+    "Kazakh",
+    "túrquica",
+    0.2349
+   ],
+   [
+    "Swahili",
+    "estudio (35)",
+    0.2372
+   ],
+   [
+    "Avar",
+    "caucásica NE",
+    0.2372
+   ],
+   [
+    "Hausa",
+    "estudio (35)",
+    0.24
+   ],
+   [
+    "Buryat",
+    "mongólica",
+    0.2429
+   ],
+   [
+    "Chechen",
+    "caucásica NE",
+    0.2468
+   ],
+   [
+    "Hebrew",
+    "semítica",
+    0.2486
+   ],
+   [
+    "Mongolian",
+    "mongólica",
+    0.2499
+   ],
+   [
+    "Bashkir",
+    "túrquica",
+    0.2593
+   ],
+   [
+    "Mingrelian",
+    "kartvélica",
+    0.2628
+   ],
+   [
+    "Chuvash",
+    "túrquica",
+    0.2766
+   ],
+   [
+    "Ingush",
+    "caucásica NE",
+    0.2779
+   ],
+   [
+    "Uzbek",
+    "túrquica",
+    0.2837
+   ],
+   [
+    "Classical Nahuatl",
+    "estudio (35)",
+    0.2928
+   ],
+   [
+    "Zulu",
+    "estudio (35)",
+    0.3015
+   ],
+   [
+    "Shona",
+    "estudio (35)",
+    0.302
+   ],
+   [
+    "Samoan",
+    "estudio (35)",
+    0.3206
+   ],
+   [
+    "Tongan",
+    "estudio (35)",
+    0.3208
+   ],
+   [
+    "Malagasy",
+    "estudio (35)",
+    0.3289
+   ],
+   [
+    "Tamil",
+    "drávida",
+    0.3307
+   ],
+   [
+    "Kalmyk",
+    "mongólica",
+    0.3473
+   ],
+   [
+    "Tashelhit",
+    "bereber",
+    0.3475
+   ],
+   [
+    "Hawaiian",
+    "estudio (35)",
+    0.3476
+   ],
+   [
+    "Central Atlas Tamazight",
+    "bereber",
+    0.3807
+   ],
+   [
+    "Akkadian",
+    "semítica",
+    0.3865
+   ],
+   [
+    "Arabic",
+    "semítica",
+    0.3889
+   ],
+   [
+    "Abkhaz",
+    "caucásica NO",
+    0.4048
+   ],
+   [
+    "Quechua",
+    "estudio (35)",
+    0.4064
+   ],
+   [
+    "Egyptian",
+    "egipcia",
+    0.7763
+   ]
+  ],
+  "puesto_euskera": 1
+ },
+ "previsiones": {
+  "1": true,
+  "2": false,
+  "3": true
+ }
+}
