@@ -1,0 +1,760 @@
+{
+ "plomos": {
+  "lenguas": 32,
+  "por_ventaja": [
+   [
+    "Basque",
+    {
+     "unidades": 28,
+     "real": 0.4321,
+     "inventadas_mediana": 0.8126,
+     "ventaja": 0.3805,
+     "frac_inventadas_menor_o_igual": 0.0
+    }
+   ],
+   [
+    "Galician",
+    {
+     "unidades": 30,
+     "real": 0.6122,
+     "inventadas_mediana": 0.7323,
+     "ventaja": 0.1201,
+     "frac_inventadas_menor_o_igual": 0.0
+    }
+   ],
+   [
+    "Asturian",
+    {
+     "unidades": 29,
+     "real": 0.717,
+     "inventadas_mediana": 0.8068,
+     "ventaja": 0.0897,
+     "frac_inventadas_menor_o_igual": 0.0
+    }
+   ],
+   [
+    "Catalan",
+    {
+     "unidades": 30,
+     "real": 0.6264,
+     "inventadas_mediana": 0.7131,
+     "ventaja": 0.0867,
+     "frac_inventadas_menor_o_igual": 0.0
+    }
+   ],
+   [
+    "Tagalog",
+    {
+     "unidades": 29,
+     "real": 0.6351,
+     "inventadas_mediana": 0.7098,
+     "ventaja": 0.0746,
+     "frac_inventadas_menor_o_igual": 0.002
+    }
+   ],
+   [
+    "Albanian",
+    {
+     "unidades": 30,
+     "real": 0.6427,
+     "inventadas_mediana": 0.7115,
+     "ventaja": 0.0688,
+     "frac_inventadas_menor_o_igual": 0.006
+    }
+   ],
+   [
+    "Icelandic",
+    {
+     "unidades": 30,
+     "real": 0.6758,
+     "inventadas_mediana": 0.7366,
+     "ventaja": 0.0607,
+     "frac_inventadas_menor_o_igual": 0.018
+    }
+   ],
+   [
+    "Sicilian",
+    {
+     "unidades": 24,
+     "real": 0.8056,
+     "inventadas_mediana": 0.86,
+     "ventaja": 0.0544,
+     "frac_inventadas_menor_o_igual": 0.048
+    }
+   ],
+   [
+    "Turkish",
+    {
+     "unidades": 30,
+     "real": 0.674,
+     "inventadas_mediana": 0.714,
+     "ventaja": 0.04,
+     "frac_inventadas_menor_o_igual": 0.068
+    }
+   ],
+   [
+    "Romanian",
+    {
+     "unidades": 29,
+     "real": 0.6419,
+     "inventadas_mediana": 0.674,
+     "ventaja": 0.0321,
+     "frac_inventadas_menor_o_igual": 0.109
+    }
+   ],
+   [
+    "Malay",
+    {
+     "unidades": 28,
+     "real": 0.7036,
+     "inventadas_mediana": 0.7339,
+     "ventaja": 0.0303,
+     "frac_inventadas_menor_o_igual": 0.117
+    }
+   ],
+   [
+    "Malagasy",
+    {
+     "unidades": 22,
+     "real": 0.8746,
+     "inventadas_mediana": 0.9043,
+     "ventaja": 0.0297,
+     "frac_inventadas_menor_o_igual": 0.203
+    }
+   ],
+   [
+    "Irish",
+    {
+     "unidades": 30,
+     "real": 0.714,
+     "inventadas_mediana": 0.7403,
+     "ventaja": 0.0263,
+     "frac_inventadas_menor_o_igual": 0.167
+    }
+   ],
+   [
+    "Latin",
+    {
+     "unidades": 30,
+     "real": 0.6721,
+     "inventadas_mediana": 0.6964,
+     "ventaja": 0.0243,
+     "frac_inventadas_menor_o_igual": 0.151
+    }
+   ],
+   [
+    "Maltese",
+    {
+     "unidades": 29,
+     "real": 0.7796,
+     "inventadas_mediana": 0.8027,
+     "ventaja": 0.0231,
+     "frac_inventadas_menor_o_igual": 0.2
+    }
+   ],
+   [
+    "Occitan",
+    {
+     "unidades": 25,
+     "real": 0.79,
+     "inventadas_mediana": 0.8106,
+     "ventaja": 0.0205,
+     "frac_inventadas_menor_o_igual": 0.273
+    }
+   ],
+   [
+    "Welsh",
+    {
+     "unidades": 30,
+     "real": 0.7103,
+     "inventadas_mediana": 0.7239,
+     "ventaja": 0.0136,
+     "frac_inventadas_menor_o_igual": 0.312
+    }
+   ],
+   [
+    "Hawaiian",
+    {
+     "unidades": 26,
+     "real": 0.8983,
+     "inventadas_mediana": 0.9117,
+     "ventaja": 0.0134,
+     "frac_inventadas_menor_o_igual": 0.329
+    }
+   ],
+   [
+    "Zulu",
+    {
+     "unidades": 25,
+     "real": 0.895,
+     "inventadas_mediana": 0.8901,
+     "ventaja": -0.0049,
+     "frac_inventadas_menor_o_igual": 0.57
+    }
+   ],
+   [
+    "Lithuanian",
+    {
+     "unidades": 30,
+     "real": 0.8213,
+     "inventadas_mediana": 0.8119,
+     "ventaja": -0.0095,
+     "frac_inventadas_menor_o_igual": 0.632
+    }
+   ],
+   [
+    "Indonesian",
+    {
+     "unidades": 29,
+     "real": 0.7058,
+     "inventadas_mediana": 0.6922,
+     "ventaja": -0.0136,
+     "frac_inventadas_menor_o_igual": 0.689
+    }
+   ],
+   [
+    "Yoruba",
+    {
+     "unidades": 25,
+     "real": 0.8992,
+     "inventadas_mediana": 0.8832,
+     "ventaja": -0.016,
+     "frac_inventadas_menor_o_igual": 0.697
+    }
+   ],
+   [
+    "Sardinian",
+    {
+     "unidades": 16,
+     "real": 0.9381,
+     "inventadas_mediana": 0.9183,
+     "ventaja": -0.0198,
+     "frac_inventadas_menor_o_igual": 0.699
+    }
+   ],
+   [
+    "Hungarian",
+    {
+     "unidades": 30,
+     "real": 0.7147,
+     "inventadas_mediana": 0.6943,
+     "ventaja": -0.0204,
+     "frac_inventadas_menor_o_igual": 0.783
+    }
+   ],
+   [
+    "Finnish",
+    {
+     "unidades": 30,
+     "real": 0.6956,
+     "inventadas_mediana": 0.6721,
+     "ventaja": -0.0235,
+     "frac_inventadas_menor_o_igual": 0.834
+    }
+   ],
+   [
+    "Quechua",
+    {
+     "unidades": 22,
+     "real": 0.9154,
+     "inventadas_mediana": 0.8739,
+     "ventaja": -0.0414,
+     "frac_inventadas_menor_o_igual": 0.924
+    }
+   ],
+   [
+    "Swahili",
+    {
+     "unidades": 28,
+     "real": 0.8374,
+     "inventadas_mediana": 0.7951,
+     "ventaja": -0.0422,
+     "frac_inventadas_menor_o_igual": 0.955
+    }
+   ],
+   [
+    "Hausa",
+    {
+     "unidades": 20,
+     "real": 0.9283,
+     "inventadas_mediana": 0.881,
+     "ventaja": -0.0473,
+     "frac_inventadas_menor_o_igual": 0.921
+    }
+   ],
+   [
+    "Somali",
+    {
+     "unidades": 15,
+     "real": 0.9804,
+     "inventadas_mediana": 0.9299,
+     "ventaja": -0.0504,
+     "frac_inventadas_menor_o_igual": 0.895
+    }
+   ],
+   [
+    "Estonian",
+    {
+     "unidades": 28,
+     "real": 0.8502,
+     "inventadas_mediana": 0.7987,
+     "ventaja": -0.0515,
+     "frac_inventadas_menor_o_igual": 0.968
+    }
+   ],
+   [
+    "Classical Nahuatl",
+    {
+     "unidades": 20,
+     "real": 0.9772,
+     "inventadas_mediana": 0.9235,
+     "ventaja": -0.0537,
+     "frac_inventadas_menor_o_igual": 0.944
+    }
+   ],
+   [
+    "Fijian",
+    {
+     "unidades": 13,
+     "real": 0.9778,
+     "inventadas_mediana": 0.8909,
+     "ventaja": -0.0869,
+     "frac_inventadas_menor_o_igual": 0.978
+    }
+   ]
+  ],
+  "puesto_euskera_por_ventaja": 1,
+  "puesto_euskera_bruto_inventadas": {
+   "mediana": 19,
+   "primero": 0,
+   "de": 1000
+  },
+  "ejemplo_inventadas": [
+   [
+    "SoKoR"
+   ],
+   [
+    "iTiRo",
+    "aNTeK"
+   ],
+   [
+    "KuTiR",
+    "RaNuS"
+   ],
+   [
+    "aMT"
+   ],
+   [
+    "NiKaSaR",
+    "aLKeaNaReR"
+   ],
+   [
+    "aTiT",
+    "aeReN"
+   ],
+   [
+    "ToLoS",
+    "Loiei",
+    "LuNiTiK"
+   ],
+   [
+    "RiSuP",
+    "LuNeR"
+   ]
+  ]
+ },
+ "numerales": {
+  "lenguas": 35,
+  "por_ventaja": [
+   [
+    "Basque",
+    {
+     "unidades": 10,
+     "real": 0.2386,
+     "inventadas_mediana": 0.9386,
+     "ventaja": 0.7,
+     "frac_inventadas_menor_o_igual": 0.0
+    }
+   ],
+   [
+    "Turkish",
+    {
+     "unidades": 10,
+     "real": 0.792,
+     "inventadas_mediana": 0.9494,
+     "ventaja": 0.1573,
+     "frac_inventadas_menor_o_igual": 0.006
+    }
+   ],
+   [
+    "Sicilian",
+    {
+     "unidades": 10,
+     "real": 0.8475,
+     "inventadas_mediana": 0.9563,
+     "ventaja": 0.1089,
+     "frac_inventadas_menor_o_igual": 0.051
+    }
+   ],
+   [
+    "Irish",
+    {
+     "unidades": 10,
+     "real": 0.7868,
+     "inventadas_mediana": 0.885,
+     "ventaja": 0.0982,
+     "frac_inventadas_menor_o_igual": 0.062
+    }
+   ],
+   [
+    "Lithuanian",
+    {
+     "unidades": 10,
+     "real": 0.8697,
+     "inventadas_mediana": 0.963,
+     "ventaja": 0.0934,
+     "frac_inventadas_menor_o_igual": 0.065
+    }
+   ],
+   [
+    "Icelandic",
+    {
+     "unidades": 10,
+     "real": 0.8863,
+     "inventadas_mediana": 0.9748,
+     "ventaja": 0.0885,
+     "frac_inventadas_menor_o_igual": 0.066
+    }
+   ],
+   [
+    "Asturian",
+    {
+     "unidades": 10,
+     "real": 0.8777,
+     "inventadas_mediana": 0.9509,
+     "ventaja": 0.0732,
+     "frac_inventadas_menor_o_igual": 0.103
+    }
+   ],
+   [
+    "Yoruba",
+    {
+     "unidades": 10,
+     "real": 0.8778,
+     "inventadas_mediana": 0.9504,
+     "ventaja": 0.0726,
+     "frac_inventadas_menor_o_igual": 0.094
+    }
+   ],
+   [
+    "Maltese",
+    {
+     "unidades": 10,
+     "real": 0.9409,
+     "inventadas_mediana": 1.0068,
+     "ventaja": 0.066,
+     "frac_inventadas_menor_o_igual": 0.12
+    }
+   ],
+   [
+    "Galician",
+    {
+     "unidades": 10,
+     "real": 0.8792,
+     "inventadas_mediana": 0.9434,
+     "ventaja": 0.0642,
+     "frac_inventadas_menor_o_igual": 0.148
+    }
+   ],
+   [
+    "Malay",
+    {
+     "unidades": 9,
+     "real": 0.7925,
+     "inventadas_mediana": 0.8478,
+     "ventaja": 0.0553,
+     "frac_inventadas_menor_o_igual": 0.178
+    }
+   ],
+   [
+    "Swahili",
+    {
+     "unidades": 10,
+     "real": 0.8693,
+     "inventadas_mediana": 0.9243,
+     "ventaja": 0.055,
+     "frac_inventadas_menor_o_igual": 0.174
+    }
+   ],
+   [
+    "Shona",
+    {
+     "unidades": 9,
+     "real": 0.9596,
+     "inventadas_mediana": 1.0124,
+     "ventaja": 0.0528,
+     "frac_inventadas_menor_o_igual": 0.198
+    }
+   ],
+   [
+    "Hausa",
+    {
+     "unidades": 10,
+     "real": 0.9176,
+     "inventadas_mediana": 0.97,
+     "ventaja": 0.0523,
+     "frac_inventadas_menor_o_igual": 0.187
+    }
+   ],
+   [
+    "Occitan",
+    {
+     "unidades": 10,
+     "real": 0.9131,
+     "inventadas_mediana": 0.9633,
+     "ventaja": 0.0503,
+     "frac_inventadas_menor_o_igual": 0.206
+    }
+   ],
+   [
+    "Romanian",
+    {
+     "unidades": 10,
+     "real": 0.8798,
+     "inventadas_mediana": 0.9269,
+     "ventaja": 0.0472,
+     "frac_inventadas_menor_o_igual": 0.22
+    }
+   ],
+   [
+    "Sardinian",
+    {
+     "unidades": 10,
+     "real": 0.9089,
+     "inventadas_mediana": 0.9551,
+     "ventaja": 0.0461,
+     "frac_inventadas_menor_o_igual": 0.224
+    }
+   ],
+   [
+    "Tagalog",
+    {
+     "unidades": 10,
+     "real": 0.8067,
+     "inventadas_mediana": 0.8435,
+     "ventaja": 0.0367,
+     "frac_inventadas_menor_o_igual": 0.256
+    }
+   ],
+   [
+    "Indonesian",
+    {
+     "unidades": 10,
+     "real": 0.8698,
+     "inventadas_mediana": 0.899,
+     "ventaja": 0.0293,
+     "frac_inventadas_menor_o_igual": 0.277
+    }
+   ],
+   [
+    "Welsh",
+    {
+     "unidades": 10,
+     "real": 0.933,
+     "inventadas_mediana": 0.9567,
+     "ventaja": 0.0237,
+     "frac_inventadas_menor_o_igual": 0.366
+    }
+   ],
+   [
+    "Finnish",
+    {
+     "unidades": 10,
+     "real": 0.8979,
+     "inventadas_mediana": 0.9132,
+     "ventaja": 0.0153,
+     "frac_inventadas_menor_o_igual": 0.399
+    }
+   ],
+   [
+    "Zulu",
+    {
+     "unidades": 8,
+     "real": 0.9906,
+     "inventadas_mediana": 0.9954,
+     "ventaja": 0.0048,
+     "frac_inventadas_menor_o_igual": 0.461
+    }
+   ],
+   [
+    "Latin",
+    {
+     "unidades": 10,
+     "real": 0.9051,
+     "inventadas_mediana": 0.9091,
+     "ventaja": 0.0039,
+     "frac_inventadas_menor_o_igual": 0.472
+    }
+   ],
+   [
+    "Albanian",
+    {
+     "unidades": 10,
+     "real": 0.9323,
+     "inventadas_mediana": 0.9334,
+     "ventaja": 0.0011,
+     "frac_inventadas_menor_o_igual": 0.495
+    }
+   ],
+   [
+    "Catalan",
+    {
+     "unidades": 10,
+     "real": 0.9363,
+     "inventadas_mediana": 0.9357,
+     "ventaja": -0.0006,
+     "frac_inventadas_menor_o_igual": 0.504
+    }
+   ],
+   [
+    "Somali",
+    {
+     "unidades": 10,
+     "real": 0.9611,
+     "inventadas_mediana": 0.9458,
+     "ventaja": -0.0154,
+     "frac_inventadas_menor_o_igual": 0.604
+    }
+   ],
+   [
+    "Estonian",
+    {
+     "unidades": 10,
+     "real": 1.038,
+     "inventadas_mediana": 0.9936,
+     "ventaja": -0.0444,
+     "frac_inventadas_menor_o_igual": 0.795
+    }
+   ],
+   [
+    "Tongan",
+    {
+     "unidades": 10,
+     "real": 1.1173,
+     "inventadas_mediana": 1.0647,
+     "ventaja": -0.0526,
+     "frac_inventadas_menor_o_igual": 0.857
+    }
+   ],
+   [
+    "Classical Nahuatl",
+    {
+     "unidades": 9,
+     "real": 1.0855,
+     "inventadas_mediana": 1.0262,
+     "ventaja": -0.0593,
+     "frac_inventadas_menor_o_igual": 0.915
+    }
+   ],
+   [
+    "Quechua",
+    {
+     "unidades": 9,
+     "real": 1.0301,
+     "inventadas_mediana": 0.9708,
+     "ventaja": -0.0594,
+     "frac_inventadas_menor_o_igual": 0.826
+    }
+   ],
+   [
+    "Hungarian",
+    {
+     "unidades": 10,
+     "real": 1.046,
+     "inventadas_mediana": 0.9791,
+     "ventaja": -0.067,
+     "frac_inventadas_menor_o_igual": 0.879
+    }
+   ],
+   [
+    "Samoan",
+    {
+     "unidades": 10,
+     "real": 1.1268,
+     "inventadas_mediana": 1.0461,
+     "ventaja": -0.0806,
+     "frac_inventadas_menor_o_igual": 0.944
+    }
+   ],
+   [
+    "Fijian",
+    {
+     "unidades": 10,
+     "real": 1.1274,
+     "inventadas_mediana": 1.0067,
+     "ventaja": -0.1207,
+     "frac_inventadas_menor_o_igual": 0.983
+    }
+   ],
+   [
+    "Malagasy",
+    {
+     "unidades": 10,
+     "real": 1.0997,
+     "inventadas_mediana": 0.9734,
+     "ventaja": -0.1263,
+     "frac_inventadas_menor_o_igual": 0.996
+    }
+   ],
+   [
+    "Hawaiian",
+    {
+     "unidades": 10,
+     "real": 1.1034,
+     "inventadas_mediana": 0.9612,
+     "ventaja": -0.1422,
+     "frac_inventadas_menor_o_igual": 1.0
+    }
+   ]
+  ],
+  "puesto_euskera_por_ventaja": 1,
+  "puesto_euskera_bruto_inventadas": {
+   "mediana": 15,
+   "primero": 29,
+   "de": 1000
+  },
+  "ejemplo_inventadas": [
+   [
+    "eRo"
+   ],
+   [
+    "Ne",
+    "KaK"
+   ],
+   [
+    "uNiK"
+   ],
+   [
+    "iuiS"
+   ],
+   [
+    "iRSTuR",
+    "NeRi"
+   ],
+   [
+    "TiN"
+   ],
+   [
+    "SaRKe"
+   ],
+   [
+    "oRoLT"
+   ]
+  ]
+ },
+ "previsiones": {
+  "1": true,
+  "2": true,
+  "3": true
+ }
+}
