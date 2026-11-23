@@ -954,3 +954,17 @@ La hora verificable de esta declaración es la de su commit.
 **Qué contaría en contra.** Que el EHHE quede fuera de las cinco primeras, o más cerca del celtibérico que del ibérico. Se publica sea cual sea.
 
 **Resultado de la declaración 35 (23-11-2026; `resultados/t49_perfil_ehhe.json`).** Cabeceras del EHHE: 945 formas (809 sin las marcadas como préstamo). Divergencia con el ibérico: **0,127** (sin préstamos, 0,132), **más cerca que cualquiera de las 107 lenguas**, incluido el euskera moderno de NorthEuraLex (0,153), el latín (0,174) y el finés (0,205). Con el celtibérico en signario: 0,194 (0,203). **Se cumplen las dos previsiones.** Lectura: el léxico vasco patrimonial y antiguo que reúne el diccionario de Lakarra está más cerca del ibérico que el euskera moderno; lo moderno no es lo que crea el parecido. (Matiz: el perfil mide inventario y forma silábica, no parentesco.)
+
+## 36. Lenguas no indoeuropeas y preindoeuropeas de Europa, el Mediterráneo y Asia occidental y central (declarada el 23-11-2026, antes de obtener los datos; artículo nuevo, línea de largo alcance)
+
+La hora verificable de esta declaración es la de su commit. Autorizada por el autor el 23-11-2026, 05:30.
+
+**Motivo.** Explorar si alguna otra familia no indoeuropea de la zona (las candidatas de las propuestas clásicas: caucásicas, bereber, etrusco, sumerio, hurrita; y las túrquicas y mongólicas por las que pregunta el autor) muestra una proximidad sistemática con el ibérico, o si el euskera sigue siendo un caso aislado. Se excluye Asia oriental.
+
+**Lenguas (fijadas ahora).** Kartvélicas: georgiano, megreliano, laz, svano. Caucásicas del noroeste: abjasio, adigué, kabardiano. Caucásicas del nordeste: checheno, ingusetio, ávaro, lezguio. Afroasiáticas: cabilio, tashelhit, tamazight del Atlas central, tuareg (tamahaq), árabe, hebreo, acadio, egipcio. Antiguas del Próximo Oriente y del Mediterráneo: etrusco, sumerio, hurrita, hático, elamita, urartio. Túrquicas: azerí, kazajo, uzbeko, tártaro, baskir, chuvasio, yakuto (el turco ya está en el Wikcionario del estudio). Mongólicas: mongol, calmuco, buriato. Otras: burushaski, tamil, ket. Fuente: Wikcionario inglés (extracción de kaikki.org), mismas reglas que las lenguas de control (`lexico_control`: romanización si existe, clases noun/verb/adj/adv/num/pron, glosa de una o dos palabras), con un normalizador general de romanización fijado antes de ver los resultados.
+
+**Pruebas.** (1) Prueba con significados (30 unidades de los plomos y 10 numerales), igual que en el artículo, con las lenguas que tengan candidatas para al menos el 40 % de las unidades, junto a las 35 del estudio. (2) Para las lenguas que no estén en NorthEuraLex y tengan al menos 300 formas distintas, prueba de perfil con su léxico del Wikcionario, a igual tamaño (submuestras del tamaño de la menor), comparando con el ibérico. Programa `4_programas/t50_preindoeuropeas.py`.
+
+**Previsiones.** (1) El euskera sigue primero por *z* en los plomos y en los numerales. (2) Ninguna familia nueva tiene una mediana de *z* menor que −2 (no hay una ventaja de familia). (3) En la prueba de perfil, ninguna lengua nueva queda más cerca del ibérico que el euskera a igual tamaño.
+
+**Qué contaría en contra.** Que una lengua nueva iguale o supere al euskera en la prueba con significados, o que una familia entera muestre ventaja: sería un indicio a favor de un fondo común más amplio (sustrato) y se estudiaría. Se publica sea cual sea.
