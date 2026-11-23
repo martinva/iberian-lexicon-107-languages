@@ -1,0 +1,71 @@
+{
+ "formas_asterisco": 1124,
+ "formas_reducidas": 1032,
+ "div_iberico": 0.1201,
+ "puesto": 1,
+ "primeras": [
+  [
+   "EHHE reconstruido",
+   0.1201
+  ],
+  [
+   "Basque",
+   0.1533
+  ],
+  [
+   "Latin",
+   0.1737
+  ],
+  [
+   "Finnish",
+   0.205
+  ],
+  [
+   "Bashkir",
+   0.2084
+  ]
+ ],
+ "ejemplos": [
+  "aaide",
+  "aait",
+  "abalda",
+  "abaltzis",
+  "abegada",
+  "abents",
+  "ad",
+  "adarka",
+  "adarreta",
+  "agi",
+  "agol",
+  "aguntz",
+  "aha",
+  "ahaka",
+  "ahakor",
+  "ahanhide",
+  "ahar",
+  "ahetz",
+  "aho",
+  "ahu",
+  "ahulatu",
+  "ahun",
+  "ai",
+  "aibon",
+  "ail",
+  "airtzur",
+  "aitaide",
+  "aitauna",
+  "aitaune",
+  "akurtu",
+  "alaba",
+  "ale",
+  "ali",
+  "amagin",
+  "amaona",
+  "amauna",
+  "amonea",
+  "amorrotz",
+  "an",
+  "ana"
+ ],
+ "prevision": true
+}
