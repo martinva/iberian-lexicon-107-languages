@@ -1,0 +1,5192 @@
+{
+ "lista": [
+  [
+   "dekam",
+   [
+    "ten"
+   ],
+   "diez"
+  ],
+  [
+   "sues",
+   [
+    "six"
+   ],
+   "seis"
+  ],
+  [
+   "novan",
+   [
+    "nine"
+   ],
+   "nueve"
+  ],
+  [
+   "ekuo",
+   [
+    "horse"
+   ],
+   "caballo"
+  ],
+  [
+   "ku",
+   [
+    "dog",
+    "hound"
+   ],
+   "perro"
+  ],
+  [
+   "duatir",
+   [
+    "daughter"
+   ],
+   "hija"
+  ],
+  [
+   "arganto",
+   [
+    "silver"
+   ],
+   "plata"
+  ],
+  [
+   "gentis",
+   [
+    "son",
+    "offspring",
+    "descendant"
+   ],
+   "hijo, descendencia"
+  ],
+  [
+   "kamanom",
+   [
+    "path",
+    "way",
+    "road"
+   ],
+   "camino"
+  ],
+  [
+   "okris",
+   [
+    "mountain",
+    "hill"
+   ],
+   "monte"
+  ],
+  [
+   "treba",
+   [
+    "settlement",
+    "village",
+    "town"
+   ],
+   "poblado"
+  ],
+  [
+   "briga",
+   [
+    "hill",
+    "town",
+    "fortress"
+   ],
+   "colina, ciudad"
+  ],
+  [
+   "teiuo",
+   [
+    "god"
+   ],
+   "dios"
+  ],
+  [
+   "boustom",
+   [
+    "cowshed",
+    "stable",
+    "byre"
+   ],
+   "establo"
+  ],
+  [
+   "eni",
+   [
+    "in",
+    "into"
+   ],
+   "en"
+  ],
+  [
+   "uta",
+   [
+    "and"
+   ],
+   "y"
+  ],
+  [
+   "as",
+   [
+    "we",
+    "us"
+   ],
+   "nosotros"
+  ],
+  [
+   "loutu",
+   [
+    "load",
+    "burden"
+   ],
+   "carga"
+  ],
+  [
+   "monima",
+   [
+    "memory"
+   ],
+   "memoria"
+  ],
+  [
+   "veizos",
+   [
+    "witness"
+   ],
+   "testigo"
+  ],
+  [
+   "ozas",
+   [
+    "foot",
+    "feet"
+   ],
+   "pies"
+  ],
+  [
+   "togias",
+   [
+    "roof",
+    "house"
+   ],
+   "techos, casas"
+  ],
+  [
+   "olokas",
+   [
+    "garden",
+    "orchard"
+   ],
+   "huertos"
+  ],
+  [
+   "erekaias",
+   [
+    "furrow",
+    "field"
+   ],
+   "surcos"
+  ],
+  [
+   "ablu",
+   [
+    "strong"
+   ],
+   "fuerte"
+  ],
+  [
+   "silabur",
+   [
+    "money",
+    "silver"
+   ],
+   "dinero"
+  ],
+  [
+   "kar",
+   [
+    "friendship",
+    "friend"
+   ],
+   "amistad"
+  ],
+  [
+   "dekez",
+   [
+    "do",
+    "make",
+    "did"
+   ],
+   "hizo"
+  ],
+  [
+   "datuz",
+   [
+    "give"
+   ],
+   "debe dar"
+  ],
+  [
+   "melmu",
+   [
+    "intelligence",
+    "mind"
+   ],
+   "inteligencia"
+  ]
+ ],
+ "filas": [
+  {
+   "diccionario": "Latin",
+   "formas": 33299,
+   "unidades": 29,
+   "real": 0.607,
+   "azar": 0.765,
+   "z": -6.130717155896835,
+   "p": 0.001996007984031936,
+   "iguales_o_menores": 0,
+   "ventaja": 0.157764,
+   "detalle": {
+    "C1": {
+     "distancia": 0.12,
+     "forma": "TeKeM",
+     "candidatas": 4
+    },
+    "C2": {
+     "distancia": 0.46,
+     "forma": "SeKS",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 0.62,
+     "forma": "NoPeM",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.36,
+     "forma": "eKuS",
+     "candidatas": 9
+    },
+    "C5": {
+     "distancia": 1.09,
+     "forma": "KaNiS",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 0.8,
+     "forma": "NaTa",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 0.33,
+     "forma": "aRKeNTuM",
+     "candidatas": 4
+    },
+    "C8": {
+     "distancia": 0.52,
+     "forma": "KeNeRaTio",
+     "candidatas": 17
+    },
+    "C9": {
+     "distancia": 0.36,
+     "forma": "KaMiNuS",
+     "candidatas": 17
+    },
+    "C10": {
+     "distancia": 0.5,
+     "forma": "KoLiS",
+     "candidatas": 7
+    },
+    "C11": {
+     "distancia": 0.88,
+     "forma": "ToMuS",
+     "candidatas": 15
+    },
+    "C12": {
+     "distancia": 0.53,
+     "forma": "ReKia",
+     "candidatas": 16
+    },
+    "C13": {
+     "distancia": 0.5,
+     "forma": "TeuS",
+     "candidatas": 9
+    },
+    "C14": {
+     "distancia": 0.92,
+     "forma": "STaPuLuM",
+     "candidatas": 7
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "iN",
+     "candidatas": 12
+    },
+    "C16": {
+     "distancia": 0.57,
+     "forma": "eT",
+     "candidatas": 5
+    },
+    "C18": {
+     "distancia": 0.71,
+     "forma": "PoNTuS",
+     "candidatas": 26
+    },
+    "C19": {
+     "distancia": 0.74,
+     "forma": "MeMoRia",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 0.63,
+     "forma": "TeSTiS",
+     "candidatas": 14
+    },
+    "C21": {
+     "distancia": 0.57,
+     "forma": "PaSiS",
+     "candidatas": 6
+    },
+    "C22": {
+     "distancia": 0.4,
+     "forma": "ToKa",
+     "candidatas": 14
+    },
+    "C23": {
+     "distancia": 0.71,
+     "forma": "oRTuS",
+     "candidatas": 8
+    },
+    "C24": {
+     "distancia": 0.63,
+     "forma": "SeKeS",
+     "candidatas": 15
+    },
+    "C25": {
+     "distancia": 0.5,
+     "forma": "aMPLuS",
+     "candidatas": 10
+    },
+    "C26": {
+     "distancia": 0.74,
+     "forma": "SiNuS",
+     "candidatas": 13
+    },
+    "C27": {
+     "distancia": 0.86,
+     "forma": "KRaTia",
+     "candidatas": 9
+    },
+    "C28": {
+     "distancia": 0.47,
+     "forma": "BaKeSo",
+     "candidatas": 30
+    },
+    "C29": {
+     "distancia": 0.83,
+     "forma": "aTo",
+     "candidatas": 15
+    },
+    "C30": {
+     "distancia": 0.67,
+     "forma": "MeNS",
+     "candidatas": 10
+    }
+   }
+  },
+  {
+   "diccionario": "Irish",
+   "formas": 13811,
+   "unidades": 30,
+   "real": 0.71,
+   "azar": 0.876,
+   "z": -6.015280427824536,
+   "p": 0.001996007984031936,
+   "iguales_o_menores": 0,
+   "ventaja": 0.165834,
+   "detalle": {
+    "C1": {
+     "distancia": 0.57,
+     "forma": "TeiK",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.67,
+     "forma": "Se",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.92,
+     "forma": "Naoi",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.67,
+     "forma": "eaK",
+     "candidatas": 8
+    },
+    "C5": {
+     "distancia": 0.0,
+     "forma": "Ku",
+     "candidatas": 6
+    },
+    "C6": {
+     "distancia": 1.12,
+     "forma": "iNioN",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.48,
+     "forma": "aiRKeaT",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 0.8,
+     "forma": "KiN",
+     "candidatas": 7
+    },
+    "C9": {
+     "distancia": 0.63,
+     "forma": "KoSaN",
+     "candidatas": 16
+    },
+    "C10": {
+     "distancia": 0.62,
+     "forma": "KRuaK",
+     "candidatas": 3
+    },
+    "C11": {
+     "distancia": 0.87,
+     "forma": "KRaiKPaiLe",
+     "candidatas": 8
+    },
+    "C12": {
+     "distancia": 0.62,
+     "forma": "KRuaK",
+     "candidatas": 4
+    },
+    "C13": {
+     "distancia": 0.6,
+     "forma": "Tia",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.76,
+     "forma": "PoiHeaK",
+     "candidatas": 5
+    },
+    "C15": {
+     "distancia": 1.17,
+     "forma": "iSTiK",
+     "candidatas": 2
+    },
+    "C16": {
+     "distancia": 1.2,
+     "forma": "aKuS",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.0,
+     "forma": "SiN",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 0.33,
+     "forma": "LoT",
+     "candidatas": 16
+    },
+    "C19": {
+     "distancia": 1.11,
+     "forma": "KuiPNe",
+     "candidatas": 1
+    },
+    "C20": {
+     "distancia": 0.7,
+     "forma": "BiaNaiSe",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 0.73,
+     "forma": "KoS",
+     "candidatas": 4
+    },
+    "C22": {
+     "distancia": 0.42,
+     "forma": "TeaKaiS",
+     "candidatas": 10
+    },
+    "C23": {
+     "distancia": 0.71,
+     "forma": "uLoRT",
+     "candidatas": 4
+    },
+    "C24": {
+     "distancia": 0.7,
+     "forma": "ReiMSe",
+     "candidatas": 15
+    },
+    "C25": {
+     "distancia": 0.88,
+     "forma": "PaLKaN",
+     "candidatas": 18
+    },
+    "C26": {
+     "distancia": 1.04,
+     "forma": "aiRKeaTaiK",
+     "candidatas": 4
+    },
+    "C27": {
+     "distancia": 0.18,
+     "forma": "KaRa",
+     "candidatas": 7
+    },
+    "C28": {
+     "distancia": 0.63,
+     "forma": "TeaNTuS",
+     "candidatas": 6
+    },
+    "C29": {
+     "distancia": 0.71,
+     "forma": "TaPaiR",
+     "candidatas": 1
+    },
+    "C30": {
+     "distancia": 0.47,
+     "forma": "MeaNMa",
+     "candidatas": 14
+    }
+   }
+  },
+  {
+   "diccionario": "Welsh",
+   "formas": 10983,
+   "unidades": 29,
+   "real": 0.743,
+   "azar": 0.902,
+   "z": -5.235710096078838,
+   "p": 0.001996007984031936,
+   "iguales_o_menores": 0,
+   "ventaja": 0.158452,
+   "detalle": {
+    "C1": {
+     "distancia": 0.46,
+     "forma": "TeK",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.92,
+     "forma": "KPeK",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "Nau",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.08,
+     "forma": "KeBiL",
+     "candidatas": 3
+    },
+    "C5": {
+     "distancia": 0.33,
+     "forma": "Ki",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 1.12,
+     "forma": "MeRK",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.56,
+     "forma": "aRiaN",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 0.59,
+     "forma": "KeNau",
+     "candidatas": 10
+    },
+    "C9": {
+     "distancia": 0.67,
+     "forma": "KeRiNT",
+     "candidatas": 14
+    },
+    "C10": {
+     "distancia": 0.67,
+     "forma": "PRiN",
+     "candidatas": 6
+    },
+    "C11": {
+     "distancia": 0.13,
+     "forma": "TReP",
+     "candidatas": 4
+    },
+    "C12": {
+     "distancia": 0.4,
+     "forma": "PRiN",
+     "candidatas": 8
+    },
+    "C13": {
+     "distancia": 0.67,
+     "forma": "Tu",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.67,
+     "forma": "PeuTi",
+     "candidatas": 6
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "iN",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 1.14,
+     "forma": "eiN",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 0.53,
+     "forma": "LPiTo",
+     "candidatas": 11
+    },
+    "C19": {
+     "distancia": 1.14,
+     "forma": "KoP",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 0.75,
+     "forma": "TiST",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.14,
+     "forma": "TRoeT",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.77,
+     "forma": "Toi",
+     "candidatas": 4
+    },
+    "C23": {
+     "distancia": 1.0,
+     "forma": "KaRT",
+     "candidatas": 3
+    },
+    "C24": {
+     "distancia": 0.74,
+     "forma": "RiKoL",
+     "candidatas": 7
+    },
+    "C25": {
+     "distancia": 0.75,
+     "forma": "KPeLiT",
+     "candidatas": 14
+    },
+    "C26": {
+     "distancia": 0.89,
+     "forma": "KLaS",
+     "candidatas": 3
+    },
+    "C27": {
+     "distancia": 0.0,
+     "forma": "KaR",
+     "candidatas": 9
+    },
+    "C28": {
+     "distancia": 0.94,
+     "forma": "KuNeuT",
+     "candidatas": 2
+    },
+    "C29": {
+     "distancia": 1.33,
+     "forma": "Roi",
+     "candidatas": 1
+    },
+    "C30": {
+     "distancia": 0.75,
+     "forma": "MeTuL",
+     "candidatas": 6
+    }
+   }
+  },
+  {
+   "diccionario": "Sardinian",
+   "formas": 865,
+   "unidades": 18,
+   "real": 0.746,
+   "azar": 0.95,
+   "z": -5.0895316114149765,
+   "p": 0.001996007984031936,
+   "iguales_o_menores": 0,
+   "ventaja": 0.203495,
+   "detalle": {
+    "C1": {
+     "distancia": 0.43,
+     "forma": "TeKe",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 0.18,
+     "forma": "SeS",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "Noe",
+     "candidatas": 2
+    },
+    "C4": {
+     "distancia": 1.14,
+     "forma": "KaPaTu",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.89,
+     "forma": "KaNe",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 0.36,
+     "forma": "aRSeNTu",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 0.88,
+     "forma": "BeTu",
+     "candidatas": 2
+    },
+    "C10": {
+     "distancia": 0.71,
+     "forma": "MoKoRo",
+     "candidatas": 1
+    },
+    "C11": {
+     "distancia": 1.0,
+     "forma": "PiTa",
+     "candidatas": 2
+    },
+    "C12": {
+     "distancia": 0.57,
+     "forma": "PiTa",
+     "candidatas": 3
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "iN",
+     "candidatas": 3
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "NoS",
+     "candidatas": 3
+    },
+    "C19": {
+     "distancia": 0.59,
+     "forma": "MeNTe",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 1.17,
+     "forma": "PeTe",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.8,
+     "forma": "ToMo",
+     "candidatas": 2
+    },
+    "C26": {
+     "distancia": 1.0,
+     "forma": "aRSeNTu",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.94,
+     "forma": "BaSeRe",
+     "candidatas": 1
+    },
+    "C30": {
+     "distancia": 0.62,
+     "forma": "MeNTe",
+     "candidatas": 2
+    }
+   }
+  },
+  {
+   "diccionario": "Galician",
+   "formas": 14754,
+   "unidades": 30,
+   "real": 0.736,
+   "azar": 0.874,
+   "z": -4.657579526223695,
+   "p": 0.001996007984031936,
+   "iguales_o_menores": 0,
+   "ventaja": 0.137456,
+   "detalle": {
+    "C1": {
+     "distancia": 0.77,
+     "forma": "TeS",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.33,
+     "forma": "SeiS",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.71,
+     "forma": "NoPe",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.91,
+     "forma": "PuRo",
+     "candidatas": 3
+    },
+    "C5": {
+     "distancia": 0.67,
+     "forma": "KuSo",
+     "candidatas": 7
+    },
+    "C6": {
+     "distancia": 1.2,
+     "forma": "BiLa",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.74,
+     "forma": "PRaTa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.67,
+     "forma": "KaSTa",
+     "candidatas": 3
+    },
+    "C9": {
+     "distancia": 0.3,
+     "forma": "KaMiNo",
+     "candidatas": 16
+    },
+    "C10": {
+     "distancia": 0.9,
+     "forma": "KoTaReLo",
+     "candidatas": 17
+    },
+    "C11": {
+     "distancia": 0.86,
+     "forma": "PoPo",
+     "candidatas": 5
+    },
+    "C12": {
+     "distancia": 0.38,
+     "forma": "PRaSa",
+     "candidatas": 18
+    },
+    "C13": {
+     "distancia": 0.5,
+     "forma": "TeuS",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.8,
+     "forma": "eSTaLa",
+     "candidatas": 5
+    },
+    "C15": {
+     "distancia": 0.29,
+     "forma": "eN",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 1.2,
+     "forma": "MaiS",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "NoS",
+     "candidatas": 3
+    },
+    "C18": {
+     "distancia": 0.8,
+     "forma": "BaRTo",
+     "candidatas": 7
+    },
+    "C19": {
+     "distancia": 0.59,
+     "forma": "MeNTe",
+     "candidatas": 5
+    },
+    "C20": {
+     "distancia": 0.8,
+     "forma": "BieL",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.14,
+     "forma": "BoNTo",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.57,
+     "forma": "KaS",
+     "candidatas": 7
+    },
+    "C23": {
+     "distancia": 0.82,
+     "forma": "PoMaR",
+     "candidatas": 2
+    },
+    "C24": {
+     "distancia": 0.5,
+     "forma": "aReKaR",
+     "candidatas": 17
+    },
+    "C25": {
+     "distancia": 0.86,
+     "forma": "SePRe",
+     "candidatas": 11
+    },
+    "C26": {
+     "distancia": 0.86,
+     "forma": "TiNeiRo",
+     "candidatas": 6
+    },
+    "C27": {
+     "distancia": 1.17,
+     "forma": "aMiKo",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.62,
+     "forma": "PeKaR",
+     "candidatas": 6
+    },
+    "C29": {
+     "distancia": 0.77,
+     "forma": "TaR",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.62,
+     "forma": "MeNTe",
+     "candidatas": 7
+    }
+   }
+  },
+  {
+   "diccionario": "Catalan",
+   "formas": 23392,
+   "unidades": 29,
+   "real": 0.712,
+   "azar": 0.835,
+   "z": -4.313510277539725,
+   "p": 0.001996007984031936,
+   "iguales_o_menores": 0,
+   "ventaja": 0.122745,
+   "detalle": {
+    "C1": {
+     "distancia": 0.83,
+     "forma": "Teu",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.36,
+     "forma": "SiS",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "Nou",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.08,
+     "forma": "KaPaL",
+     "candidatas": 5
+    },
+    "C5": {
+     "distancia": 0.33,
+     "forma": "Ka",
+     "candidatas": 4
+    },
+    "C6": {
+     "distancia": 1.0,
+     "forma": "aBiLaT",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 0.38,
+     "forma": "aRSeNT",
+     "candidatas": 6
+    },
+    "C8": {
+     "distancia": 0.8,
+     "forma": "TeSeNTeNT",
+     "candidatas": 7
+    },
+    "C9": {
+     "distancia": 0.7,
+     "forma": "MaNeRa",
+     "candidatas": 13
+    },
+    "C10": {
+     "distancia": 0.88,
+     "forma": "SeRaL",
+     "candidatas": 10
+    },
+    "C11": {
+     "distancia": 0.67,
+     "forma": "eNTReT",
+     "candidatas": 11
+    },
+    "C12": {
+     "distancia": 0.4,
+     "forma": "PuRK",
+     "candidatas": 8
+    },
+    "C13": {
+     "distancia": 0.4,
+     "forma": "Teu",
+     "candidatas": 4
+    },
+    "C14": {
+     "distancia": 0.89,
+     "forma": "KoRT",
+     "candidatas": 5
+    },
+    "C15": {
+     "distancia": 0.29,
+     "forma": "eN",
+     "candidatas": 4
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "MoS",
+     "candidatas": 5
+    },
+    "C18": {
+     "distancia": 0.57,
+     "forma": "LaST",
+     "candidatas": 11
+    },
+    "C19": {
+     "distancia": 0.74,
+     "forma": "MeMoRia",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 0.96,
+     "forma": "TeSTiMoNi",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "PoTa",
+     "candidatas": 3
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "KaSa",
+     "candidatas": 11
+    },
+    "C23": {
+     "distancia": 0.93,
+     "forma": "oRTa",
+     "candidatas": 5
+    },
+    "C24": {
+     "distancia": 0.59,
+     "forma": "ReKa",
+     "candidatas": 11
+    },
+    "C25": {
+     "distancia": 1.0,
+     "forma": "KoRaL",
+     "candidatas": 6
+    },
+    "C26": {
+     "distancia": 0.64,
+     "forma": "eSTaNaR",
+     "candidatas": 15
+    },
+    "C27": {
+     "distancia": 0.93,
+     "forma": "KoMPaN",
+     "candidatas": 3
+    },
+    "C28": {
+     "distancia": 0.62,
+     "forma": "PeKaR",
+     "candidatas": 8
+    },
+    "C29": {
+     "distancia": 0.75,
+     "forma": "ToNaR",
+     "candidatas": 5
+    },
+    "C30": {
+     "distancia": 0.67,
+     "forma": "MeNT",
+     "candidatas": 4
+    }
+   }
+  },
+  {
+   "diccionario": "Icelandic",
+   "formas": 13410,
+   "unidades": 30,
+   "real": 0.771,
+   "azar": 0.861,
+   "z": -3.348111650291665,
+   "p": 0.003992015968063872,
+   "iguales_o_menores": 1,
+   "ventaja": 0.089988,
+   "detalle": {
+    "C1": {
+     "distancia": 0.83,
+     "forma": "Tia",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 0.18,
+     "forma": "SeS",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "Nia",
+     "candidatas": 2
+    },
+    "C4": {
+     "distancia": 0.77,
+     "forma": "BaKuR",
+     "candidatas": 11
+    },
+    "C5": {
+     "distancia": 0.89,
+     "forma": "RaKi",
+     "candidatas": 3
+    },
+    "C6": {
+     "distancia": 0.24,
+     "forma": "ToTiR",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 1.24,
+     "forma": "SiLBuR",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.4,
+     "forma": "KuNTuR",
+     "candidatas": 12
+    },
+    "C9": {
+     "distancia": 0.82,
+     "forma": "KaTa",
+     "candidatas": 12
+    },
+    "C10": {
+     "distancia": 0.93,
+     "forma": "PeRK",
+     "candidatas": 4
+    },
+    "C11": {
+     "distancia": 0.4,
+     "forma": "ToRP",
+     "candidatas": 6
+    },
+    "C12": {
+     "distancia": 0.38,
+     "forma": "PiRKi",
+     "candidatas": 4
+    },
+    "C13": {
+     "distancia": 0.73,
+     "forma": "TuR",
+     "candidatas": 3
+    },
+    "C14": {
+     "distancia": 1.0,
+     "forma": "JaBNLuNTuR",
+     "candidatas": 3
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "iN",
+     "candidatas": 3
+    },
+    "C16": {
+     "distancia": 1.14,
+     "forma": "eN",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 1.25,
+     "forma": "PeR",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 0.46,
+     "forma": "LaTa",
+     "candidatas": 15
+    },
+    "C19": {
+     "distancia": 0.47,
+     "forma": "MiNiN",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 1.06,
+     "forma": "PiTNi",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "BoTuR",
+     "candidatas": 5
+    },
+    "C22": {
+     "distancia": 0.71,
+     "forma": "TaK",
+     "candidatas": 9
+    },
+    "C23": {
+     "distancia": 1.04,
+     "forma": "aLTiNaRTuR",
+     "candidatas": 2
+    },
+    "C24": {
+     "distancia": 0.84,
+     "forma": "KReiN",
+     "candidatas": 6
+    },
+    "C25": {
+     "distancia": 0.94,
+     "forma": "STLTuR",
+     "candidatas": 12
+    },
+    "C26": {
+     "distancia": 0.29,
+     "forma": "SiLBuR",
+     "candidatas": 7
+    },
+    "C27": {
+     "distancia": 0.83,
+     "forma": "KSKa",
+     "candidatas": 5
+    },
+    "C28": {
+     "distancia": 0.86,
+     "forma": "KeRa",
+     "candidatas": 13
+    },
+    "C29": {
+     "distancia": 1.12,
+     "forma": "SLaKa",
+     "candidatas": 5
+    },
+    "C30": {
+     "distancia": 0.89,
+     "forma": "MaNPiT",
+     "candidatas": 13
+    }
+   }
+  },
+  {
+   "diccionario": "Malay",
+   "formas": 6888,
+   "unidades": 30,
+   "real": 0.774,
+   "azar": 0.854,
+   "z": -3.019685814826762,
+   "p": 0.003992015968063872,
+   "iguales_o_menores": 1,
+   "ventaja": 0.080202,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "TaSa",
+     "candidatas": 3
+    },
+    "C2": {
+     "distancia": 1.17,
+     "forma": "eNaM",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.71,
+     "forma": "NaPa",
+     "candidatas": 3
+    },
+    "C4": {
+     "distancia": 0.73,
+     "forma": "KuTa",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.91,
+     "forma": "KuJuK",
+     "candidatas": 4
+    },
+    "C6": {
+     "distancia": 0.56,
+     "forma": "PuTeRi",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.33,
+     "forma": "aRKeNTuM",
+     "candidatas": 4
+    },
+    "C8": {
+     "distancia": 0.67,
+     "forma": "PeNiH",
+     "candidatas": 8
+    },
+    "C9": {
+     "distancia": 0.63,
+     "forma": "LaNaM",
+     "candidatas": 11
+    },
+    "C10": {
+     "distancia": 0.88,
+     "forma": "KuNuN",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.57,
+     "forma": "TeSa",
+     "candidatas": 5
+    },
+    "C12": {
+     "distancia": 0.62,
+     "forma": "PeKaN",
+     "candidatas": 3
+    },
+    "C13": {
+     "distancia": 0.67,
+     "forma": "TePa",
+     "candidatas": 3
+    },
+    "C14": {
+     "distancia": 0.86,
+     "forma": "KaNTaN",
+     "candidatas": 2
+    },
+    "C15": {
+     "distancia": 0.83,
+     "forma": "TeNaN",
+     "candidatas": 7
+    },
+    "C16": {
+     "distancia": 0.67,
+     "forma": "TaN",
+     "candidatas": 4
+    },
+    "C17": {
+     "distancia": 1.09,
+     "forma": "iNSuN",
+     "candidatas": 6
+    },
+    "C18": {
+     "distancia": 0.77,
+     "forma": "MuaT",
+     "candidatas": 3
+    },
+    "C19": {
+     "distancia": 0.8,
+     "forma": "KeNaNaN",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 0.94,
+     "forma": "SaKSi",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "KaKi",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.8,
+     "forma": "TeRaTaK",
+     "candidatas": 5
+    },
+    "C23": {
+     "distancia": 0.94,
+     "forma": "TaMaN",
+     "candidatas": 3
+    },
+    "C24": {
+     "distancia": 0.91,
+     "forma": "LaPaNaN",
+     "candidatas": 4
+    },
+    "C25": {
+     "distancia": 0.71,
+     "forma": "TePaL",
+     "candidatas": 7
+    },
+    "C26": {
+     "distancia": 0.6,
+     "forma": "SeLaKa",
+     "candidatas": 7
+    },
+    "C27": {
+     "distancia": 0.77,
+     "forma": "KaPaN",
+     "candidatas": 5
+    },
+    "C28": {
+     "distancia": 0.75,
+     "forma": "PiKiN",
+     "candidatas": 5
+    },
+    "C29": {
+     "distancia": 0.86,
+     "forma": "KaSi",
+     "candidatas": 7
+    },
+    "C30": {
+     "distancia": 0.75,
+     "forma": "MiNTa",
+     "candidatas": 11
+    }
+   }
+  },
+  {
+   "diccionario": "Asturian",
+   "formas": 6404,
+   "unidades": 28,
+   "real": 0.812,
+   "azar": 0.904,
+   "z": -2.9411315173865464,
+   "p": 0.003992015968063872,
+   "iguales_o_menores": 1,
+   "ventaja": 0.091526,
+   "detalle": {
+    "C1": {
+     "distancia": 0.86,
+     "forma": "TieS",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.33,
+     "forma": "SeiS",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.93,
+     "forma": "NuePe",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.14,
+     "forma": "KaPaLu",
+     "candidatas": 2
+    },
+    "C5": {
+     "distancia": 0.67,
+     "forma": "KuSu",
+     "candidatas": 3
+    },
+    "C6": {
+     "distancia": 1.23,
+     "forma": "Bia",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.84,
+     "forma": "PLaTa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.95,
+     "forma": "NaSioN",
+     "candidatas": 3
+    },
+    "C9": {
+     "distancia": 0.42,
+     "forma": "KaMiN",
+     "candidatas": 8
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "PoTaR",
+     "candidatas": 4
+    },
+    "C11": {
+     "distancia": 0.82,
+     "forma": "PuePLu",
+     "candidatas": 4
+    },
+    "C12": {
+     "distancia": 0.71,
+     "forma": "PoLa",
+     "candidatas": 6
+    },
+    "C13": {
+     "distancia": 0.67,
+     "forma": "TioS",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.84,
+     "forma": "KoRTe",
+     "candidatas": 5
+    },
+    "C15": {
+     "distancia": 0.29,
+     "forma": "eN",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "NoS",
+     "candidatas": 3
+    },
+    "C18": {
+     "distancia": 0.82,
+     "forma": "BLeTaR",
+     "candidatas": 5
+    },
+    "C19": {
+     "distancia": 0.74,
+     "forma": "MeMoRia",
+     "candidatas": 3
+    },
+    "C21": {
+     "distancia": 1.2,
+     "forma": "Pie",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "KaSa",
+     "candidatas": 5
+    },
+    "C23": {
+     "distancia": 1.0,
+     "forma": "SeLeRu",
+     "candidatas": 3
+    },
+    "C24": {
+     "distancia": 0.78,
+     "forma": "RieKu",
+     "candidatas": 4
+    },
+    "C25": {
+     "distancia": 0.8,
+     "forma": "TRaPau",
+     "candidatas": 3
+    },
+    "C26": {
+     "distancia": 0.84,
+     "forma": "PLaTa",
+     "candidatas": 5
+    },
+    "C27": {
+     "distancia": 1.17,
+     "forma": "aMiKu",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.88,
+     "forma": "BaSeR",
+     "candidatas": 3
+    },
+    "C29": {
+     "distancia": 0.77,
+     "forma": "TaR",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.62,
+     "forma": "MeNTe",
+     "candidatas": 3
+    }
+   }
+  },
+  {
+   "diccionario": "Lithuanian",
+   "formas": 6120,
+   "unidades": 28,
+   "real": 0.79,
+   "azar": 0.876,
+   "z": -2.9054370664560345,
+   "p": 0.003992015968063872,
+   "iguales_o_menores": 1,
+   "ventaja": 0.085795,
+   "detalle": {
+    "C1": {
+     "distancia": 0.56,
+     "forma": "TeSiMT",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.33,
+     "forma": "SeSi",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 0.82,
+     "forma": "TePiNi",
+     "candidatas": 2
+    },
+    "C4": {
+     "distancia": 1.07,
+     "forma": "aRKLiS",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.86,
+     "forma": "Suo",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 0.59,
+     "forma": "TuKRa",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 1.08,
+     "forma": "SiTaPRaS",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.59,
+     "forma": "aiNiS",
+     "candidatas": 3
+    },
+    "C9": {
+     "distancia": 0.9,
+     "forma": "KeLiaS",
+     "candidatas": 5
+    },
+    "C10": {
+     "distancia": 0.78,
+     "forma": "KaLNaS",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.93,
+     "forma": "MuRai",
+     "candidatas": 7
+    },
+    "C12": {
+     "distancia": 0.86,
+     "forma": "TPiRToPe",
+     "candidatas": 5
+    },
+    "C13": {
+     "distancia": 0.8,
+     "forma": "TiePaS",
+     "candidatas": 2
+    },
+    "C14": {
+     "distancia": 1.09,
+     "forma": "aRKLiTe",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 1.14,
+     "forma": "aR",
+     "candidatas": 3
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "MeS",
+     "candidatas": 3
+    },
+    "C19": {
+     "distancia": 0.78,
+     "forma": "aTMiNTiNe",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 0.92,
+     "forma": "LiuTiToJaS",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.17,
+     "forma": "PeTa",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.32,
+     "forma": "SToKaS",
+     "candidatas": 4
+    },
+    "C23": {
+     "distancia": 0.59,
+     "forma": "SoTaS",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 0.67,
+     "forma": "SRiTiS",
+     "candidatas": 6
+    },
+    "C25": {
+     "distancia": 1.0,
+     "forma": "STiPRuS",
+     "candidatas": 2
+    },
+    "C26": {
+     "distancia": 0.5,
+     "forma": "SiTaPRaS",
+     "candidatas": 3
+    },
+    "C27": {
+     "distancia": 0.88,
+     "forma": "KeRuMaS",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.74,
+     "forma": "uSTeKTi",
+     "candidatas": 7
+    },
+    "C29": {
+     "distancia": 0.67,
+     "forma": "PaTuoTi",
+     "candidatas": 6
+    },
+    "C30": {
+     "distancia": 0.75,
+     "forma": "KaLPa",
+     "candidatas": 4
+    }
+   }
+  },
+  {
+   "diccionario": "Occitan",
+   "formas": 3827,
+   "unidades": 25,
+   "real": 0.848,
+   "azar": 0.933,
+   "z": -2.6559417808607577,
+   "p": 0.007984031936127744,
+   "iguales_o_menores": 3,
+   "ventaja": 0.08507,
+   "detalle": {
+    "C1": {
+     "distancia": 0.77,
+     "forma": "TeC",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 0.31,
+     "forma": "SieiS",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "Nou",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.08,
+     "forma": "KaPaL",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.75,
+     "forma": "KaN",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 0.89,
+     "forma": "KoSaTa",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 0.38,
+     "forma": "aRSeNT",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.78,
+     "forma": "KoSaT",
+     "candidatas": 4
+    },
+    "C9": {
+     "distancia": 0.42,
+     "forma": "KaMiN",
+     "candidatas": 4
+    },
+    "C10": {
+     "distancia": 1.05,
+     "forma": "MoNTaNa",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.93,
+     "forma": "PiaLa",
+     "candidatas": 3
+    },
+    "C12": {
+     "distancia": 0.57,
+     "forma": "PueK",
+     "candidatas": 3
+    },
+    "C14": {
+     "distancia": 0.91,
+     "forma": "eSTaPLa",
+     "candidatas": 2
+    },
+    "C15": {
+     "distancia": 0.73,
+     "forma": "TeNS",
+     "candidatas": 6
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "NoS",
+     "candidatas": 5
+    },
+    "C19": {
+     "distancia": 0.74,
+     "forma": "MeMoRia",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.33,
+     "forma": "Pe",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "KaSa",
+     "candidatas": 4
+    },
+    "C23": {
+     "distancia": 1.16,
+     "forma": "SaRTiN",
+     "candidatas": 1
+    },
+    "C25": {
+     "distancia": 1.23,
+     "forma": "BoRT",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 1.14,
+     "forma": "aRSeNT",
+     "candidatas": 1
+    },
+    "C27": {
+     "distancia": 1.09,
+     "forma": "aMiK",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.89,
+     "forma": "BaRKaR",
+     "candidatas": 4
+    },
+    "C29": {
+     "distancia": 0.75,
+     "forma": "ToNaR",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 1.06,
+     "forma": "KaPeSa",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Sicilian",
+   "formas": 1781,
+   "unidades": 24,
+   "real": 0.854,
+   "azar": 0.946,
+   "z": -2.6432631039200944,
+   "p": 0.005988023952095809,
+   "iguales_o_menores": 2,
+   "ventaja": 0.092338,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "TeSi",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.6,
+     "forma": "Sei",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.71,
+     "forma": "NoPi",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.14,
+     "forma": "KaPaTu",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.89,
+     "forma": "KaNi",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 1.0,
+     "forma": "BiKSia",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.36,
+     "forma": "aRSeNTu",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.95,
+     "forma": "BiKSiu",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 0.4,
+     "forma": "KaMiNu",
+     "candidatas": 2
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "KoTu",
+     "candidatas": 4
+    },
+    "C11": {
+     "distancia": 1.06,
+     "forma": "PaSiSi",
+     "candidatas": 1
+    },
+    "C12": {
+     "distancia": 0.71,
+     "forma": "PaSiSi",
+     "candidatas": 4
+    },
+    "C13": {
+     "distancia": 0.4,
+     "forma": "Teu",
+     "candidatas": 2
+    },
+    "C15": {
+     "distancia": 0.86,
+     "forma": "Ti",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "Ni",
+     "candidatas": 3
+    },
+    "C21": {
+     "distancia": 1.17,
+     "forma": "PeTi",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "KaSa",
+     "candidatas": 4
+    },
+    "C23": {
+     "distancia": 1.2,
+     "forma": "SaRTiNu",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 1.05,
+     "forma": "PRaTu",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 0.8,
+     "forma": "TiNaRu",
+     "candidatas": 3
+    },
+    "C27": {
+     "distancia": 0.75,
+     "forma": "KuMPaRi",
+     "candidatas": 3
+    },
+    "C28": {
+     "distancia": 1.14,
+     "forma": "BaRi",
+     "candidatas": 1
+    },
+    "C29": {
+     "distancia": 0.71,
+     "forma": "TaRi",
+     "candidatas": 1
+    },
+    "C30": {
+     "distancia": 0.88,
+     "forma": "TeSTa",
+     "candidatas": 2
+    }
+   }
+  },
+  {
+   "diccionario": "Yoruba",
+   "formas": 2702,
+   "unidades": 26,
+   "real": 0.893,
+   "azar": 0.972,
+   "z": -2.3404809806692075,
+   "p": 0.011976047904191617,
+   "iguales_o_menores": 5,
+   "ventaja": 0.079033,
+   "detalle": {
+    "C1": {
+     "distancia": 0.8,
+     "forma": "MePaa",
+     "candidatas": 3
+    },
+    "C2": {
+     "distancia": 1.0,
+     "forma": "MeBa",
+     "candidatas": 3
+    },
+    "C3": {
+     "distancia": 0.71,
+     "forma": "eSaN",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.91,
+     "forma": "eSiN",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.89,
+     "forma": "KiTa",
+     "candidatas": 5
+    },
+    "C7": {
+     "distancia": 1.0,
+     "forma": "BaTaKa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 1.43,
+     "forma": "oMo",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 0.94,
+     "forma": "oKuN",
+     "candidatas": 3
+    },
+    "C10": {
+     "distancia": 0.67,
+     "forma": "oKiTi",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.8,
+     "forma": "oRiKi",
+     "candidatas": 10
+    },
+    "C12": {
+     "distancia": 0.4,
+     "forma": "oRiKi",
+     "candidatas": 9
+    },
+    "C13": {
+     "distancia": 1.0,
+     "forma": "eLeTaa",
+     "candidatas": 4
+    },
+    "C15": {
+     "distancia": 0.29,
+     "forma": "Ni",
+     "candidatas": 2
+    },
+    "C16": {
+     "distancia": 0.5,
+     "forma": "aTi",
+     "candidatas": 5
+    },
+    "C17": {
+     "distancia": 0.86,
+     "forma": "aPa",
+     "candidatas": 4
+    },
+    "C18": {
+     "distancia": 1.09,
+     "forma": "eRu",
+     "candidatas": 2
+    },
+    "C19": {
+     "distancia": 0.89,
+     "forma": "iRaNTi",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 0.6,
+     "forma": "oSe",
+     "candidatas": 3
+    },
+    "C22": {
+     "distancia": 1.12,
+     "forma": "oRuLe",
+     "candidatas": 5
+    },
+    "C23": {
+     "distancia": 1.08,
+     "forma": "oPa",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 1.18,
+     "forma": "PaPa",
+     "candidatas": 3
+    },
+    "C26": {
+     "distancia": 1.0,
+     "forma": "BaTaKa",
+     "candidatas": 4
+    },
+    "C27": {
+     "distancia": 0.89,
+     "forma": "iRa",
+     "candidatas": 6
+    },
+    "C28": {
+     "distancia": 1.09,
+     "forma": "Ta",
+     "candidatas": 3
+    },
+    "C29": {
+     "distancia": 0.91,
+     "forma": "Ta",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 1.17,
+     "forma": "iNu",
+     "candidatas": 4
+    }
+   }
+  },
+  {
+   "diccionario": "Albanian",
+   "formas": 8687,
+   "unidades": 30,
+   "real": 0.795,
+   "azar": 0.858,
+   "z": -2.2801787927541164,
+   "p": 0.00998003992015968,
+   "iguales_o_menores": 4,
+   "ventaja": 0.062148,
+   "detalle": {
+    "C1": {
+     "distancia": 0.88,
+     "forma": "TJeTe",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.0,
+     "forma": "KaSTe",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.88,
+     "forma": "NeNTe",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.91,
+     "forma": "KaLe",
+     "candidatas": 2
+    },
+    "C5": {
+     "distancia": 0.75,
+     "forma": "KeN",
+     "candidatas": 4
+    },
+    "C6": {
+     "distancia": 1.07,
+     "forma": "CuCe",
+     "candidatas": 4
+    },
+    "C7": {
+     "distancia": 0.19,
+     "forma": "aRKeNT",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.94,
+     "forma": "PiRT",
+     "candidatas": 11
+    },
+    "C9": {
+     "distancia": 0.76,
+     "forma": "TeRMaN",
+     "candidatas": 17
+    },
+    "C10": {
+     "distancia": 0.88,
+     "forma": "KoTeR",
+     "candidatas": 5
+    },
+    "C11": {
+     "distancia": 0.83,
+     "forma": "oRe",
+     "candidatas": 4
+    },
+    "C12": {
+     "distancia": 0.86,
+     "forma": "SuKe",
+     "candidatas": 4
+    },
+    "C13": {
+     "distancia": 0.67,
+     "forma": "Te",
+     "candidatas": 7
+    },
+    "C14": {
+     "distancia": 0.63,
+     "forma": "PaToS",
+     "candidatas": 6
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "Ne",
+     "candidatas": 4
+    },
+    "C16": {
+     "distancia": 0.5,
+     "forma": "eTe",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "Na",
+     "candidatas": 3
+    },
+    "C18": {
+     "distancia": 1.0,
+     "forma": "ReNTeSe",
+     "candidatas": 6
+    },
+    "C19": {
+     "distancia": 0.44,
+     "forma": "MeNiSe",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 0.74,
+     "forma": "TeSMoR",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 0.83,
+     "forma": "ReSe",
+     "candidatas": 3
+    },
+    "C22": {
+     "distancia": 0.71,
+     "forma": "PuLaS",
+     "candidatas": 12
+    },
+    "C23": {
+     "distancia": 0.89,
+     "forma": "KoPST",
+     "candidatas": 6
+    },
+    "C24": {
+     "distancia": 0.78,
+     "forma": "RaBS",
+     "candidatas": 15
+    },
+    "C25": {
+     "distancia": 0.83,
+     "forma": "SoLe",
+     "candidatas": 9
+    },
+    "C26": {
+     "distancia": 0.94,
+     "forma": "PaRa",
+     "candidatas": 7
+    },
+    "C27": {
+     "distancia": 0.71,
+     "forma": "SoKeRi",
+     "candidatas": 3
+    },
+    "C28": {
+     "distancia": 0.62,
+     "forma": "KeLaS",
+     "candidatas": 7
+    },
+    "C29": {
+     "distancia": 1.06,
+     "forma": "SPReH",
+     "candidatas": 6
+    },
+    "C30": {
+     "distancia": 0.67,
+     "forma": "MeNT",
+     "candidatas": 8
+    }
+   }
+  },
+  {
+   "diccionario": "Indonesian",
+   "formas": 20064,
+   "unidades": 30,
+   "real": 0.757,
+   "azar": 0.812,
+   "z": -2.185017209291233,
+   "p": 0.011976047904191617,
+   "iguales_o_menores": 5,
+   "ventaja": 0.054599,
+   "detalle": {
+    "C1": {
+     "distancia": 1.0,
+     "forma": "PuLuH",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 1.09,
+     "forma": "NaM",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 0.95,
+     "forma": "SeMPiLaN",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.73,
+     "forma": "KuTa",
+     "candidatas": 4
+    },
+    "C5": {
+     "distancia": 0.86,
+     "forma": "aSu",
+     "candidatas": 3
+    },
+    "C6": {
+     "distancia": 0.59,
+     "forma": "PuTRi",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.33,
+     "forma": "aRKeNTuM",
+     "candidatas": 7
+    },
+    "C8": {
+     "distancia": 0.75,
+     "forma": "PeNuTuRaN",
+     "candidatas": 14
+    },
+    "C9": {
+     "distancia": 0.63,
+     "forma": "MaCaM",
+     "candidatas": 15
+    },
+    "C10": {
+     "distancia": 0.57,
+     "forma": "KiRi",
+     "candidatas": 6
+    },
+    "C11": {
+     "distancia": 0.57,
+     "forma": "TeSa",
+     "candidatas": 9
+    },
+    "C12": {
+     "distancia": 0.57,
+     "forma": "PuRa",
+     "candidatas": 5
+    },
+    "C13": {
+     "distancia": 0.67,
+     "forma": "TePa",
+     "candidatas": 6
+    },
+    "C14": {
+     "distancia": 0.74,
+     "forma": "iSTaL",
+     "candidatas": 5
+    },
+    "C15": {
+     "distancia": 0.93,
+     "forma": "MeNCaTi",
+     "candidatas": 3
+    },
+    "C16": {
+     "distancia": 0.67,
+     "forma": "TaN",
+     "candidatas": 6
+    },
+    "C17": {
+     "distancia": 1.11,
+     "forma": "KaMi",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 0.82,
+     "forma": "PaNTuN",
+     "candidatas": 9
+    },
+    "C19": {
+     "distancia": 0.8,
+     "forma": "PeNeNaL",
+     "candidatas": 5
+    },
+    "C20": {
+     "distancia": 0.94,
+     "forma": "SaKSi",
+     "candidatas": 3
+    },
+    "C21": {
+     "distancia": 0.73,
+     "forma": "PeS",
+     "candidatas": 5
+    },
+    "C22": {
+     "distancia": 0.71,
+     "forma": "TaK",
+     "candidatas": 9
+    },
+    "C23": {
+     "distancia": 0.9,
+     "forma": "BiRTauS",
+     "candidatas": 5
+    },
+    "C24": {
+     "distancia": 0.74,
+     "forma": "SeKiP",
+     "candidatas": 17
+    },
+    "C25": {
+     "distancia": 0.83,
+     "forma": "KaPi",
+     "candidatas": 19
+    },
+    "C26": {
+     "distancia": 0.19,
+     "forma": "SiLPeR",
+     "candidatas": 14
+    },
+    "C27": {
+     "distancia": 0.77,
+     "forma": "KaNCa",
+     "candidatas": 15
+    },
+    "C28": {
+     "distancia": 0.75,
+     "forma": "KaKaP",
+     "candidatas": 13
+    },
+    "C29": {
+     "distancia": 1.0,
+     "forma": "aKiH",
+     "candidatas": 3
+    },
+    "C30": {
+     "distancia": 0.78,
+     "forma": "MeNTaL",
+     "candidatas": 13
+    }
+   }
+  },
+  {
+   "diccionario": "Romanian",
+   "formas": 62247,
+   "unidades": 30,
+   "real": 0.773,
+   "azar": 0.826,
+   "z": -2.1416956794883957,
+   "p": 0.023952095808383235,
+   "iguales_o_menores": 11,
+   "ventaja": 0.052782,
+   "detalle": {
+    "C1": {
+     "distancia": 1.0,
+     "forma": "SeSe",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.5,
+     "forma": "SaSe",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.53,
+     "forma": "NouaR",
+     "candidatas": 2
+    },
+    "C4": {
+     "distancia": 0.8,
+     "forma": "KaL",
+     "candidatas": 4
+    },
+    "C5": {
+     "distancia": 0.8,
+     "forma": "KaPau",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 0.8,
+     "forma": "BaTa",
+     "candidatas": 3
+    },
+    "C7": {
+     "distancia": 0.36,
+     "forma": "aRSiNTa",
+     "candidatas": 5
+    },
+    "C8": {
+     "distancia": 0.76,
+     "forma": "MaRaTiK",
+     "candidatas": 15
+    },
+    "C9": {
+     "distancia": 0.67,
+     "forma": "KoLNiK",
+     "candidatas": 15
+    },
+    "C10": {
+     "distancia": 0.78,
+     "forma": "KoPaST",
+     "candidatas": 8
+    },
+    "C11": {
+     "distancia": 0.86,
+     "forma": "oRaS",
+     "candidatas": 4
+    },
+    "C12": {
+     "distancia": 0.75,
+     "forma": "SaMKa",
+     "candidatas": 12
+    },
+    "C13": {
+     "distancia": 0.8,
+     "forma": "Seu",
+     "candidatas": 5
+    },
+    "C14": {
+     "distancia": 0.8,
+     "forma": "KRaST",
+     "candidatas": 9
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "iN",
+     "candidatas": 5
+    },
+    "C16": {
+     "distancia": 1.11,
+     "forma": "JaR",
+     "candidatas": 3
+    },
+    "C17": {
+     "distancia": 1.43,
+     "forma": "Noi",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 0.57,
+     "forma": "LeST",
+     "candidatas": 8
+    },
+    "C19": {
+     "distancia": 0.67,
+     "forma": "aMiNTiRe",
+     "candidatas": 5
+    },
+    "C20": {
+     "distancia": 0.95,
+     "forma": "MaRToR",
+     "candidatas": 5
+    },
+    "C21": {
+     "distancia": 0.83,
+     "forma": "PieS",
+     "candidatas": 4
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "KaSa",
+     "candidatas": 13
+    },
+    "C23": {
+     "distancia": 0.78,
+     "forma": "LiPaTa",
+     "candidatas": 11
+    },
+    "C24": {
+     "distancia": 0.63,
+     "forma": "BaKaS",
+     "candidatas": 15
+    },
+    "C25": {
+     "distancia": 1.12,
+     "forma": "PaRToS",
+     "candidatas": 9
+    },
+    "C26": {
+     "distancia": 0.75,
+     "forma": "KaSKaPaL",
+     "candidatas": 20
+    },
+    "C27": {
+     "distancia": 0.75,
+     "forma": "KaBaTaR",
+     "candidatas": 14
+    },
+    "C28": {
+     "distancia": 0.86,
+     "forma": "TuRa",
+     "candidatas": 12
+    },
+    "C29": {
+     "distancia": 0.53,
+     "forma": "TaRui",
+     "candidatas": 4
+    },
+    "C30": {
+     "distancia": 0.75,
+     "forma": "MiNTe",
+     "candidatas": 11
+    }
+   }
+  },
+  {
+   "diccionario": "Hungarian",
+   "formas": 28723,
+   "unidades": 30,
+   "real": 0.798,
+   "azar": 0.858,
+   "z": -2.132674732908495,
+   "p": 0.01996007984031936,
+   "iguales_o_menores": 9,
+   "ventaja": 0.060122,
+   "detalle": {
+    "C1": {
+     "distancia": 0.84,
+     "forma": "TiSePeS",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 1.33,
+     "forma": "aT",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.89,
+     "forma": "KiLeNC",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.0,
+     "forma": "Lo",
+     "candidatas": 3
+    },
+    "C5": {
+     "distancia": 0.67,
+     "forma": "KuTa",
+     "candidatas": 7
+    },
+    "C6": {
+     "distancia": 1.14,
+     "forma": "LaN",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.95,
+     "forma": "eSuST",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.74,
+     "forma": "KiSBiu",
+     "candidatas": 12
+    },
+    "C9": {
+     "distancia": 0.91,
+     "forma": "uTPoNaL",
+     "candidatas": 9
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "eTSeK",
+     "candidatas": 5
+    },
+    "C11": {
+     "distancia": 0.5,
+     "forma": "TeLeP",
+     "candidatas": 10
+    },
+    "C12": {
+     "distancia": 0.59,
+     "forma": "PaRoSi",
+     "candidatas": 7
+    },
+    "C13": {
+     "distancia": 1.0,
+     "forma": "iSTeN",
+     "candidatas": 3
+    },
+    "C14": {
+     "distancia": 0.8,
+     "forma": "iSTaLo",
+     "candidatas": 4
+    },
+    "C15": {
+     "distancia": 1.0,
+     "forma": "BeLe",
+     "candidatas": 7
+    },
+    "C16": {
+     "distancia": 0.57,
+     "forma": "aT",
+     "candidatas": 7
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "Mi",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 0.62,
+     "forma": "PaTu",
+     "candidatas": 10
+    },
+    "C19": {
+     "distancia": 0.74,
+     "forma": "MeMoRia",
+     "candidatas": 3
+    },
+    "C20": {
+     "distancia": 0.93,
+     "forma": "TaNuPiSoNSaK",
+     "candidatas": 3
+    },
+    "C21": {
+     "distancia": 0.91,
+     "forma": "LaP",
+     "candidatas": 5
+    },
+    "C22": {
+     "distancia": 0.6,
+     "forma": "LaKoHaS",
+     "candidatas": 13
+    },
+    "C23": {
+     "distancia": 0.82,
+     "forma": "TuMoLCoS",
+     "candidatas": 4
+    },
+    "C24": {
+     "distancia": 0.89,
+     "forma": "PeRSeNPaJa",
+     "candidatas": 19
+    },
+    "C25": {
+     "distancia": 0.67,
+     "forma": "aCeL",
+     "candidatas": 8
+    },
+    "C26": {
+     "distancia": 0.63,
+     "forma": "BiLeR",
+     "candidatas": 8
+    },
+    "C27": {
+     "distancia": 0.55,
+     "forma": "PaRi",
+     "candidatas": 6
+    },
+    "C28": {
+     "distancia": 0.25,
+     "forma": "PeKeS",
+     "candidatas": 28
+    },
+    "C29": {
+     "distancia": 0.67,
+     "forma": "ReNTeS",
+     "candidatas": 8
+    },
+    "C30": {
+     "distancia": 0.43,
+     "forma": "eLMe",
+     "candidatas": 13
+    }
+   }
+  },
+  {
+   "diccionario": "Quechua",
+   "formas": 1306,
+   "unidades": 23,
+   "real": 0.915,
+   "azar": 0.976,
+   "z": -1.9125046251364206,
+   "p": 0.03592814371257485,
+   "iguales_o_menores": 17,
+   "ventaja": 0.061439,
+   "detalle": {
+    "C1": {
+     "distancia": 0.88,
+     "forma": "CuNKa",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.71,
+     "forma": "SuKTa",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.88,
+     "forma": "iSKuN",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.14,
+     "forma": "KaPaLu",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.67,
+     "forma": "aLKu",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.95,
+     "forma": "KuLKi",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 1.0,
+     "forma": "NaN",
+     "candidatas": 1
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "KaKa",
+     "candidatas": 3
+    },
+    "C11": {
+     "distancia": 0.75,
+     "forma": "MaRKa",
+     "candidatas": 3
+    },
+    "C12": {
+     "distancia": 0.5,
+     "forma": "MaRKa",
+     "candidatas": 5
+    },
+    "C13": {
+     "distancia": 0.77,
+     "forma": "TJuS",
+     "candidatas": 2
+    },
+    "C16": {
+     "distancia": 0.75,
+     "forma": "iMa",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.43,
+     "forma": "NuKaJKu",
+     "candidatas": 2
+    },
+    "C19": {
+     "distancia": 1.05,
+     "forma": "JaRPaJ",
+     "candidatas": 3
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "CaKi",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.93,
+     "forma": "KaTa",
+     "candidatas": 2
+    },
+    "C23": {
+     "distancia": 1.07,
+     "forma": "MuJa",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 0.84,
+     "forma": "SuKaJ",
+     "candidatas": 5
+    },
+    "C25": {
+     "distancia": 1.0,
+     "forma": "KaLPa",
+     "candidatas": 4
+    },
+    "C26": {
+     "distancia": 0.95,
+     "forma": "KuLKi",
+     "candidatas": 1
+    },
+    "C27": {
+     "distancia": 0.91,
+     "forma": "MaSi",
+     "candidatas": 3
+    },
+    "C28": {
+     "distancia": 1.0,
+     "forma": "RuPaJ",
+     "candidatas": 2
+    },
+    "C29": {
+     "distancia": 0.88,
+     "forma": "KaRaJ",
+     "candidatas": 4
+    }
+   }
+  },
+  {
+   "diccionario": "Turkish",
+   "formas": 16733,
+   "unidades": 30,
+   "real": 0.814,
+   "azar": 0.86,
+   "z": -1.6212989488303298,
+   "p": 0.05588822355289421,
+   "iguales_o_menores": 27,
+   "ventaja": 0.045397,
+   "detalle": {
+    "C1": {
+     "distancia": 1.45,
+     "forma": "oN",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.18,
+     "forma": "SeS",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 0.88,
+     "forma": "ToKuS",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.93,
+     "forma": "PeJKiR",
+     "candidatas": 3
+    },
+    "C5": {
+     "distancia": 1.09,
+     "forma": "KaPiK",
+     "candidatas": 6
+    },
+    "C6": {
+     "distancia": 1.0,
+     "forma": "KeRiMe",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 0.95,
+     "forma": "SaPaT",
+     "candidatas": 4
+    },
+    "C8": {
+     "distancia": 0.8,
+     "forma": "MaHTuM",
+     "candidatas": 5
+    },
+    "C9": {
+     "distancia": 0.63,
+     "forma": "MaKaM",
+     "candidatas": 8
+    },
+    "C10": {
+     "distancia": 0.62,
+     "forma": "JoKuS",
+     "candidatas": 6
+    },
+    "C11": {
+     "distancia": 0.71,
+     "forma": "KaSaPa",
+     "candidatas": 7
+    },
+    "C12": {
+     "distancia": 0.62,
+     "forma": "ToRuK",
+     "candidatas": 13
+    },
+    "C13": {
+     "distancia": 0.83,
+     "forma": "TaPi",
+     "candidatas": 5
+    },
+    "C14": {
+     "distancia": 0.75,
+     "forma": "MuSTaKaR",
+     "candidatas": 5
+    },
+    "C15": {
+     "distancia": 0.91,
+     "forma": "iCiNe",
+     "candidatas": 3
+    },
+    "C16": {
+     "distancia": 1.0,
+     "forma": "iLe",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 0.75,
+     "forma": "PiS",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 0.82,
+     "forma": "KuLBeT",
+     "candidatas": 5
+    },
+    "C19": {
+     "distancia": 0.88,
+     "forma": "aBiSa",
+     "candidatas": 5
+    },
+    "C20": {
+     "distancia": 1.06,
+     "forma": "SaHiT",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 0.83,
+     "forma": "aJaK",
+     "candidatas": 4
+    },
+    "C22": {
+     "distancia": 0.86,
+     "forma": "TaM",
+     "candidatas": 8
+    },
+    "C23": {
+     "distancia": 0.95,
+     "forma": "PoSTaN",
+     "candidatas": 5
+    },
+    "C24": {
+     "distancia": 0.73,
+     "forma": "TeReLiK",
+     "candidatas": 7
+    },
+    "C25": {
+     "distancia": 0.71,
+     "forma": "CaNLi",
+     "candidatas": 15
+    },
+    "C26": {
+     "distancia": 0.63,
+     "forma": "SaPaT",
+     "candidatas": 11
+    },
+    "C27": {
+     "distancia": 0.4,
+     "forma": "JaR",
+     "candidatas": 16
+    },
+    "C28": {
+     "distancia": 0.75,
+     "forma": "eTMeK",
+     "candidatas": 8
+    },
+    "C29": {
+     "distancia": 0.84,
+     "forma": "TaNiMaK",
+     "candidatas": 4
+    },
+    "C30": {
+     "distancia": 0.86,
+     "forma": "TiMa",
+     "candidatas": 17
+    }
+   }
+  },
+  {
+   "diccionario": "Shona",
+   "formas": 402,
+   "unidades": 13,
+   "real": 0.946,
+   "azar": 1.006,
+   "z": -1.3142518581904026,
+   "p": 0.0998003992015968,
+   "iguales_o_menores": 49,
+   "ventaja": 0.059963,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "KuMi",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.29,
+     "forma": "TaNHaTu",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.13,
+     "forma": "PBuMPaMPe",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.11,
+     "forma": "aCi",
+     "candidatas": 2
+    },
+    "C5": {
+     "distancia": 1.33,
+     "forma": "iMPa",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 1.0,
+     "forma": "SiRiPHa",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 0.67,
+     "forma": "KPaNSa",
+     "candidatas": 2
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "KoMo",
+     "candidatas": 1
+    },
+    "C11": {
+     "distancia": 0.24,
+     "forma": "ToRoPa",
+     "candidatas": 2
+    },
+    "C12": {
+     "distancia": 0.71,
+     "forma": "ToRoPa",
+     "candidatas": 3
+    },
+    "C22": {
+     "distancia": 1.2,
+     "forma": "iMPa",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 0.64,
+     "forma": "SiRiPHa",
+     "candidatas": 2
+    },
+    "C29": {
+     "distancia": 1.27,
+     "forma": "Pa",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Basque",
+   "formas": 3814,
+   "unidades": 29,
+   "real": 0.92,
+   "azar": 0.954,
+   "z": -1.1065824156603354,
+   "p": 0.14171656686626746,
+   "iguales_o_menores": 70,
+   "ventaja": 0.034536,
+   "detalle": {
+    "C1": {
+     "distancia": 1.0,
+     "forma": "aMaR",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.6,
+     "forma": "Sei",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.1,
+     "forma": "PeTeRaCi",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.23,
+     "forma": "SaLTi",
+     "candidatas": 2
+    },
+    "C5": {
+     "distancia": 0.91,
+     "forma": "CaKuR",
+     "candidatas": 3
+    },
+    "C6": {
+     "distancia": 1.12,
+     "forma": "aLaPa",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 1.16,
+     "forma": "SiLaR",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.95,
+     "forma": "PeLauN",
+     "candidatas": 3
+    },
+    "C9": {
+     "distancia": 0.83,
+     "forma": "iKaRoPiTe",
+     "candidatas": 6
+    },
+    "C10": {
+     "distancia": 0.83,
+     "forma": "eKi",
+     "candidatas": 4
+    },
+    "C11": {
+     "distancia": 1.0,
+     "forma": "eRi",
+     "candidatas": 1
+    },
+    "C12": {
+     "distancia": 0.83,
+     "forma": "eRi",
+     "candidatas": 5
+    },
+    "C13": {
+     "distancia": 0.93,
+     "forma": "JaiNKo",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.63,
+     "forma": "PoRTa",
+     "candidatas": 3
+    },
+    "C15": {
+     "distancia": 1.27,
+     "forma": "PaiTa",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 0.25,
+     "forma": "eTa",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "Ku",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 1.08,
+     "forma": "SaMa",
+     "candidatas": 1
+    },
+    "C19": {
+     "distancia": 1.07,
+     "forma": "KoKo",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "oiN",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.9,
+     "forma": "eSTaLKi",
+     "candidatas": 3
+    },
+    "C23": {
+     "distancia": 0.86,
+     "forma": "LoRaTeKi",
+     "candidatas": 2
+    },
+    "C24": {
+     "distancia": 0.89,
+     "forma": "SeLai",
+     "candidatas": 5
+    },
+    "C25": {
+     "distancia": 1.0,
+     "forma": "aSKaR",
+     "candidatas": 4
+    },
+    "C26": {
+     "distancia": 0.32,
+     "forma": "SiLaR",
+     "candidatas": 3
+    },
+    "C27": {
+     "distancia": 0.92,
+     "forma": "LaKuN",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.71,
+     "forma": "eKiN",
+     "candidatas": 2
+    },
+    "C29": {
+     "distancia": 1.14,
+     "forma": "eMaN",
+     "candidatas": 1
+    },
+    "C30": {
+     "distancia": 0.8,
+     "forma": "aTiMeNTu",
+     "candidatas": 4
+    }
+   }
+  },
+  {
+   "diccionario": "Finnish",
+   "formas": 99103,
+   "unidades": 30,
+   "real": 0.774,
+   "azar": 0.801,
+   "z": -1.0511305682106333,
+   "p": 0.18363273453093812,
+   "iguales_o_menores": 91,
+   "ventaja": 0.027578,
+   "detalle": {
+    "C1": {
+     "distancia": 0.88,
+     "forma": "KuMPi",
+     "candidatas": 5
+    },
+    "C2": {
+     "distancia": 0.67,
+     "forma": "KuSi",
+     "candidatas": 3
+    },
+    "C3": {
+     "distancia": 0.95,
+     "forma": "uHTeKSaN",
+     "candidatas": 3
+    },
+    "C4": {
+     "distancia": 0.89,
+     "forma": "ePa",
+     "candidatas": 8
+    },
+    "C5": {
+     "distancia": 0.5,
+     "forma": "auKu",
+     "candidatas": 17
+    },
+    "C6": {
+     "distancia": 0.24,
+     "forma": "TuTaR",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.95,
+     "forma": "oPeiNeN",
+     "candidatas": 3
+    },
+    "C8": {
+     "distancia": 1.0,
+     "forma": "JaLKiKaSPu",
+     "candidatas": 3
+    },
+    "C9": {
+     "distancia": 0.67,
+     "forma": "KeiNo",
+     "candidatas": 22
+    },
+    "C10": {
+     "distancia": 0.62,
+     "forma": "KuNaS",
+     "candidatas": 4
+    },
+    "C11": {
+     "distancia": 0.84,
+     "forma": "SiRToLa",
+     "candidatas": 12
+    },
+    "C12": {
+     "distancia": 0.43,
+     "forma": "PaKa",
+     "candidatas": 11
+    },
+    "C13": {
+     "distancia": 1.2,
+     "forma": "JuMaLa",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.84,
+     "forma": "PaRSi",
+     "candidatas": 7
+    },
+    "C15": {
+     "distancia": 0.57,
+     "forma": "iN",
+     "candidatas": 13
+    },
+    "C16": {
+     "distancia": 0.5,
+     "forma": "uNa",
+     "candidatas": 5
+    },
+    "C17": {
+     "distancia": 1.25,
+     "forma": "MeT",
+     "candidatas": 4
+    },
+    "C18": {
+     "distancia": 0.56,
+     "forma": "LaTauTua",
+     "candidatas": 20
+    },
+    "C19": {
+     "distancia": 0.67,
+     "forma": "MuiSTaMa",
+     "candidatas": 4
+    },
+    "C20": {
+     "distancia": 0.9,
+     "forma": "ToTiSTa",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.12,
+     "forma": "aLaLiKi",
+     "candidatas": 11
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "ToLi",
+     "candidatas": 13
+    },
+    "C23": {
+     "distancia": 1.08,
+     "forma": "eTeLMaTaRHa",
+     "candidatas": 4
+    },
+    "C24": {
+     "distancia": 0.84,
+     "forma": "SaRKa",
+     "candidatas": 17
+    },
+    "C25": {
+     "distancia": 0.83,
+     "forma": "PiMa",
+     "candidatas": 21
+    },
+    "C26": {
+     "distancia": 0.94,
+     "forma": "PaLu",
+     "candidatas": 15
+    },
+    "C27": {
+     "distancia": 0.57,
+     "forma": "KaPeRi",
+     "candidatas": 7
+    },
+    "C28": {
+     "distancia": 0.75,
+     "forma": "TeHTa",
+     "candidatas": 39
+    },
+    "C29": {
+     "distancia": 0.75,
+     "forma": "KoiTua",
+     "candidatas": 9
+    },
+    "C30": {
+     "distancia": 0.53,
+     "forma": "MieLi",
+     "candidatas": 12
+    }
+   }
+  },
+  {
+   "diccionario": "Tagalog",
+   "formas": 18142,
+   "unidades": 30,
+   "real": 0.821,
+   "azar": 0.849,
+   "z": -0.9565075735972187,
+   "p": 0.17964071856287425,
+   "iguales_o_menores": 89,
+   "ventaja": 0.027028,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "TeSeNa",
+     "candidatas": 5
+    },
+    "C2": {
+     "distancia": 0.33,
+     "forma": "SeiS",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 0.82,
+     "forma": "NuPePe",
+     "candidatas": 2
+    },
+    "C4": {
+     "distancia": 1.0,
+     "forma": "KaPaJo",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.14,
+     "forma": "aSo",
+     "candidatas": 3
+    },
+    "C6": {
+     "distancia": 1.38,
+     "forma": "iHa",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.84,
+     "forma": "PLaTa",
+     "candidatas": 5
+    },
+    "C8": {
+     "distancia": 0.78,
+     "forma": "KaPiL",
+     "candidatas": 7
+    },
+    "C9": {
+     "distancia": 0.74,
+     "forma": "PaRaN",
+     "candidatas": 12
+    },
+    "C10": {
+     "distancia": 0.88,
+     "forma": "PuRoL",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.75,
+     "forma": "PaNPa",
+     "candidatas": 9
+    },
+    "C12": {
+     "distancia": 0.62,
+     "forma": "PuRoL",
+     "candidatas": 6
+    },
+    "C13": {
+     "distancia": 0.71,
+     "forma": "TiJoS",
+     "candidatas": 3
+    },
+    "C14": {
+     "distancia": 0.84,
+     "forma": "PiRMe",
+     "candidatas": 6
+    },
+    "C15": {
+     "distancia": 1.07,
+     "forma": "SaLaNiT",
+     "candidatas": 3
+    },
+    "C16": {
+     "distancia": 0.57,
+     "forma": "aT",
+     "candidatas": 3
+    },
+    "C17": {
+     "distancia": 1.11,
+     "forma": "KaMi",
+     "candidatas": 6
+    },
+    "C18": {
+     "distancia": 0.77,
+     "forma": "aKoT",
+     "candidatas": 12
+    },
+    "C19": {
+     "distancia": 0.56,
+     "forma": "KuNiTa",
+     "candidatas": 5
+    },
+    "C20": {
+     "distancia": 0.9,
+     "forma": "TeSTiKo",
+     "candidatas": 3
+    },
+    "C21": {
+     "distancia": 0.92,
+     "forma": "iPaPa",
+     "candidatas": 5
+    },
+    "C22": {
+     "distancia": 0.67,
+     "forma": "KaSa",
+     "candidatas": 9
+    },
+    "C23": {
+     "distancia": 0.86,
+     "forma": "aLaMaNaN",
+     "candidatas": 4
+    },
+    "C24": {
+     "distancia": 0.96,
+     "forma": "PaLaRuaN",
+     "candidatas": 3
+    },
+    "C25": {
+     "distancia": 0.83,
+     "forma": "PuRo",
+     "candidatas": 11
+    },
+    "C26": {
+     "distancia": 0.4,
+     "forma": "SaLaPi",
+     "candidatas": 18
+    },
+    "C27": {
+     "distancia": 0.55,
+     "forma": "iKaN",
+     "candidatas": 11
+    },
+    "C28": {
+     "distancia": 1.0,
+     "forma": "KaPiN",
+     "candidatas": 5
+    },
+    "C29": {
+     "distancia": 1.11,
+     "forma": "PiKJaN",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.82,
+     "forma": "TaLiNo",
+     "candidatas": 13
+    }
+   }
+  },
+  {
+   "diccionario": "Fijian",
+   "formas": 369,
+   "unidades": 18,
+   "real": 0.962,
+   "azar": 0.998,
+   "z": -0.9062057818008344,
+   "p": 0.17564870259481039,
+   "iguales_o_menores": 87,
+   "ventaja": 0.035742,
+   "detalle": {
+    "C1": {
+     "distancia": 0.86,
+     "forma": "TiNi",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 1.4,
+     "forma": "oNo",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.0,
+     "forma": "TiPa",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.11,
+     "forma": "oSe",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.86,
+     "forma": "Tui",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 1.0,
+     "forma": "NoNe",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 1.06,
+     "forma": "SaLa",
+     "candidatas": 1
+    },
+    "C10": {
+     "distancia": 1.14,
+     "forma": "PuKe",
+     "candidatas": 1
+    },
+    "C11": {
+     "distancia": 1.0,
+     "forma": "KoRo",
+     "candidatas": 1
+    },
+    "C12": {
+     "distancia": 0.57,
+     "forma": "PuKe",
+     "candidatas": 2
+    },
+    "C15": {
+     "distancia": 1.0,
+     "forma": "Mai",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 1.08,
+     "forma": "TaPa",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "JaPa",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 1.2,
+     "forma": "PaLe",
+     "candidatas": 1
+    },
+    "C23": {
+     "distancia": 1.2,
+     "forma": "PeRe",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 0.56,
+     "forma": "iLaPo",
+     "candidatas": 1
+    },
+    "C28": {
+     "distancia": 0.57,
+     "forma": "TaKa",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.71,
+     "forma": "LoMa",
+     "candidatas": 2
+    }
+   }
+  },
+  {
+   "diccionario": "Swahili",
+   "formas": 7816,
+   "unidades": 30,
+   "real": 0.907,
+   "azar": 0.921,
+   "z": -0.5361541120123736,
+   "p": 0.2954091816367265,
+   "iguales_o_menores": 147,
+   "ventaja": 0.014371,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "KuMi",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 0.83,
+     "forma": "SiTa",
+     "candidatas": 2
+    },
+    "C3": {
+     "distancia": 1.0,
+     "forma": "KeNTa",
+     "candidatas": 2
+    },
+    "C4": {
+     "distancia": 1.29,
+     "forma": "BaRaSi",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.91,
+     "forma": "KeLPu",
+     "candidatas": 3
+    },
+    "C6": {
+     "distancia": 0.82,
+     "forma": "PiNTi",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 1.06,
+     "forma": "BeTa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.8,
+     "forma": "KiSaLia",
+     "candidatas": 6
+    },
+    "C9": {
+     "distancia": 0.63,
+     "forma": "NaMNa",
+     "candidatas": 8
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "MLiMa",
+     "candidatas": 1
+    },
+    "C11": {
+     "distancia": 0.8,
+     "forma": "KaRia",
+     "candidatas": 6
+    },
+    "C12": {
+     "distancia": 0.75,
+     "forma": "MLiMa",
+     "candidatas": 6
+    },
+    "C13": {
+     "distancia": 1.0,
+     "forma": "MuNu",
+     "candidatas": 2
+    },
+    "C14": {
+     "distancia": 1.0,
+     "forma": "TaPiTi",
+     "candidatas": 3
+    },
+    "C15": {
+     "distancia": 0.83,
+     "forma": "NTaNi",
+     "candidatas": 2
+    },
+    "C16": {
+     "distancia": 0.86,
+     "forma": "Na",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 0.89,
+     "forma": "SiSi",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 1.07,
+     "forma": "MSiKo",
+     "candidatas": 3
+    },
+    "C19": {
+     "distancia": 0.96,
+     "forma": "KuMPuKuMPu",
+     "candidatas": 2
+    },
+    "C20": {
+     "distancia": 1.11,
+     "forma": "SaHiTi",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.17,
+     "forma": "BuTi",
+     "candidatas": 4
+    },
+    "C22": {
+     "distancia": 0.88,
+     "forma": "eSeKa",
+     "candidatas": 6
+    },
+    "C23": {
+     "distancia": 1.1,
+     "forma": "PuSTaNi",
+     "candidatas": 2
+    },
+    "C24": {
+     "distancia": 1.0,
+     "forma": "MeTaNi",
+     "candidatas": 4
+    },
+    "C25": {
+     "distancia": 0.8,
+     "forma": "SuPaPu",
+     "candidatas": 4
+    },
+    "C26": {
+     "distancia": 0.6,
+     "forma": "SiLiNi",
+     "candidatas": 6
+    },
+    "C27": {
+     "distancia": 0.91,
+     "forma": "JaHe",
+     "candidatas": 10
+    },
+    "C28": {
+     "distancia": 0.6,
+     "forma": "TeNeNeSa",
+     "candidatas": 5
+    },
+    "C29": {
+     "distancia": 1.0,
+     "forma": "Toa",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.82,
+     "forma": "PeRePu",
+     "candidatas": 5
+    }
+   }
+  },
+  {
+   "diccionario": "Estonian",
+   "formas": 5665,
+   "unidades": 29,
+   "real": 0.875,
+   "azar": 0.891,
+   "z": -0.534373441455382,
+   "p": 0.2654690618762475,
+   "iguales_o_menores": 132,
+   "ventaja": 0.016524,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "KuMe",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.55,
+     "forma": "KuS",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.18,
+     "forma": "uHeKSa",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.89,
+     "forma": "oPu",
+     "candidatas": 2
+    },
+    "C5": {
+     "distancia": 0.89,
+     "forma": "KoeR",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 0.24,
+     "forma": "TuTaR",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.86,
+     "forma": "oPeTaNe",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 1.13,
+     "forma": "JaRKLaNe",
+     "candidatas": 2
+    },
+    "C9": {
+     "distancia": 0.86,
+     "forma": "TeKoNT",
+     "candidatas": 8
+    },
+    "C10": {
+     "distancia": 0.62,
+     "forma": "KuNaS",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.71,
+     "forma": "aLeP",
+     "candidatas": 4
+    },
+    "C12": {
+     "distancia": 0.86,
+     "forma": "MaKi",
+     "candidatas": 5
+    },
+    "C13": {
+     "distancia": 1.14,
+     "forma": "JuMaL",
+     "candidatas": 1
+    },
+    "C15": {
+     "distancia": 1.11,
+     "forma": "SeS",
+     "candidatas": 3
+    },
+    "C16": {
+     "distancia": 0.86,
+     "forma": "Ja",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "Me",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 1.07,
+     "forma": "KoReM",
+     "candidatas": 2
+    },
+    "C19": {
+     "distancia": 0.93,
+     "forma": "MaLu",
+     "candidatas": 3
+    },
+    "C20": {
+     "distancia": 0.95,
+     "forma": "ToeSTaMa",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "JaLaM",
+     "candidatas": 3
+    },
+    "C22": {
+     "distancia": 0.82,
+     "forma": "KaTuS",
+     "candidatas": 4
+    },
+    "C23": {
+     "distancia": 1.07,
+     "forma": "aiaMa",
+     "candidatas": 2
+    },
+    "C24": {
+     "distancia": 0.86,
+     "forma": "KoRPuS",
+     "candidatas": 10
+    },
+    "C25": {
+     "distancia": 1.0,
+     "forma": "KoPa",
+     "candidatas": 9
+    },
+    "C26": {
+     "distancia": 1.0,
+     "forma": "PaP",
+     "candidatas": 6
+    },
+    "C27": {
+     "distancia": 0.92,
+     "forma": "SoPeR",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 0.35,
+     "forma": "TeKeMa",
+     "candidatas": 6
+    },
+    "C29": {
+     "distancia": 1.0,
+     "forma": "aNTMa",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.46,
+     "forma": "MeL",
+     "candidatas": 6
+    }
+   }
+  },
+  {
+   "diccionario": "Hausa",
+   "formas": 1357,
+   "unidades": 19,
+   "real": 0.947,
+   "azar": 0.967,
+   "z": -0.5321222205950866,
+   "p": 0.2994011976047904,
+   "iguales_o_menores": 149,
+   "ventaja": 0.019856,
+   "detalle": {
+    "C1": {
+     "distancia": 0.71,
+     "forma": "KoMa",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.83,
+     "forma": "SiTa",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.0,
+     "forma": "TaRa",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 0.91,
+     "forma": "ToKi",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.89,
+     "forma": "KaRe",
+     "candidatas": 2
+    },
+    "C7": {
+     "distancia": 1.0,
+     "forma": "aSuRBa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 1.05,
+     "forma": "SuRiJa",
+     "candidatas": 2
+    },
+    "C9": {
+     "distancia": 0.91,
+     "forma": "TaBaRKi",
+     "candidatas": 4
+    },
+    "C10": {
+     "distancia": 1.2,
+     "forma": "CauNi",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.88,
+     "forma": "PiRNi",
+     "candidatas": 3
+    },
+    "C12": {
+     "distancia": 0.62,
+     "forma": "PiRNi",
+     "candidatas": 4
+    },
+    "C15": {
+     "distancia": 1.2,
+     "forma": "SuPa",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "Mu",
+     "candidatas": 1
+    },
+    "C20": {
+     "distancia": 0.95,
+     "forma": "MaSaiTi",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 0.6,
+     "forma": "Sau",
+     "candidatas": 2
+    },
+    "C23": {
+     "distancia": 0.94,
+     "forma": "LaMPu",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 1.0,
+     "forma": "aSuRBa",
+     "candidatas": 2
+    },
+    "C27": {
+     "distancia": 1.14,
+     "forma": "LuMaNa",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.82,
+     "forma": "BaHaMi",
+     "candidatas": 2
+    }
+   }
+  },
+  {
+   "diccionario": "Classical Nahuatl",
+   "formas": 2014,
+   "unidades": 24,
+   "real": 0.987,
+   "azar": 0.993,
+   "z": -0.19641088766952056,
+   "p": 0.40718562874251496,
+   "iguales_o_menores": 203,
+   "ventaja": 0.006048,
+   "detalle": {
+    "C1": {
+     "distancia": 0.84,
+     "forma": "MaTaKTi",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 0.93,
+     "forma": "CiKaSe",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.05,
+     "forma": "CiKNaPi",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.0,
+     "forma": "KaPaLo",
+     "candidatas": 2
+    },
+    "C5": {
+     "distancia": 1.29,
+     "forma": "iCKiNTi",
+     "candidatas": 4
+    },
+    "C6": {
+     "distancia": 1.0,
+     "forma": "iCPoCTi",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.87,
+     "forma": "TeoKiTaT",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.96,
+     "forma": "TeLPoCTi",
+     "candidatas": 2
+    },
+    "C9": {
+     "distancia": 1.0,
+     "forma": "oKaLi",
+     "candidatas": 2
+    },
+    "C10": {
+     "distancia": 1.12,
+     "forma": "TePeT",
+     "candidatas": 1
+    },
+    "C11": {
+     "distancia": 0.96,
+     "forma": "aLTePeMaiT",
+     "candidatas": 2
+    },
+    "C12": {
+     "distancia": 0.89,
+     "forma": "JaoKaLi",
+     "candidatas": 2
+    },
+    "C13": {
+     "distancia": 0.67,
+     "forma": "TeoT",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.96,
+     "forma": "MaSaKaLi",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 1.0,
+     "forma": "iPaN",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 1.27,
+     "forma": "TePaN",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 0.73,
+     "forma": "SoT",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.9,
+     "forma": "TaPaNTi",
+     "candidatas": 1
+    },
+    "C23": {
+     "distancia": 1.0,
+     "forma": "SoCiKaLKaPTa",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 0.95,
+     "forma": "KeMiT",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 1.04,
+     "forma": "TeoKiTaT",
+     "candidatas": 1
+    },
+    "C27": {
+     "distancia": 1.12,
+     "forma": "iKNiPTi",
+     "candidatas": 1
+    },
+    "C28": {
+     "distancia": 1.14,
+     "forma": "CiPa",
+     "candidatas": 2
+    },
+    "C29": {
+     "distancia": 1.0,
+     "forma": "MaKa",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Zulu",
+   "formas": 2360,
+   "unidades": 26,
+   "real": 0.966,
+   "azar": 0.97,
+   "z": -0.14002991646613744,
+   "p": 0.4351297405189621,
+   "iguales_o_menores": 217,
+   "ventaja": 0.004006,
+   "detalle": {
+    "C1": {
+     "distancia": 0.93,
+     "forma": "iSuMi",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.0,
+     "forma": "iSiTuPa",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.17,
+     "forma": "iHaSi",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.17,
+     "forma": "iNKaNa",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 1.0,
+     "forma": "iNToTaKaSi",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 1.14,
+     "forma": "iSiLiPa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.91,
+     "forma": "iNToTaNa",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 0.91,
+     "forma": "uMKPaKo",
+     "candidatas": 3
+    },
+    "C10": {
+     "distancia": 0.82,
+     "forma": "iKKuMa",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.56,
+     "forma": "iToLoPa",
+     "candidatas": 2
+    },
+    "C12": {
+     "distancia": 0.94,
+     "forma": "iKKuMa",
+     "candidatas": 4
+    },
+    "C13": {
+     "distancia": 0.88,
+     "forma": "iSiTiKo",
+     "candidatas": 3
+    },
+    "C16": {
+     "distancia": 0.6,
+     "forma": "BuTi",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.33,
+     "forma": "TiNa",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 1.2,
+     "forma": "KKPaLiSa",
+     "candidatas": 2
+    },
+    "C19": {
+     "distancia": 1.04,
+     "forma": "iNKuMPuLo",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 0.92,
+     "forma": "uNaPo",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.78,
+     "forma": "LaLiSa",
+     "candidatas": 3
+    },
+    "C23": {
+     "distancia": 1.12,
+     "forma": "iNaTi",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 1.0,
+     "forma": "uMuNKa",
+     "candidatas": 3
+    },
+    "C25": {
+     "distancia": 1.14,
+     "forma": "NSiMa",
+     "candidatas": 3
+    },
+    "C26": {
+     "distancia": 0.48,
+     "forma": "iSiLiPa",
+     "candidatas": 2
+    },
+    "C27": {
+     "distancia": 1.14,
+     "forma": "uMNaNe",
+     "candidatas": 4
+    },
+    "C28": {
+     "distancia": 0.86,
+     "forma": "TaLa",
+     "candidatas": 4
+    },
+    "C29": {
+     "distancia": 1.14,
+     "forma": "NiKa",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.94,
+     "forma": "PoNeLa",
+     "candidatas": 3
+    }
+   }
+  },
+  {
+   "diccionario": "Malagasy",
+   "formas": 2897,
+   "unidades": 22,
+   "real": 0.999,
+   "azar": 1.002,
+   "z": -0.105051560931265,
+   "p": 0.44510978043912175,
+   "iguales_o_menores": 222,
+   "ventaja": 0.003467,
+   "detalle": {
+    "C1": {
+     "distancia": 1.14,
+     "forma": "BoLo",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.23,
+     "forma": "eNiNa",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.14,
+     "forma": "SiPi",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.33,
+     "forma": "SoaPaLi",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.0,
+     "forma": "aLiKa",
+     "candidatas": 2
+    },
+    "C6": {
+     "distancia": 1.05,
+     "forma": "BaRaPaPi",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 0.9,
+     "forma": "BiRaKa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.95,
+     "forma": "SaNaKa",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 0.7,
+     "forma": "LaLaNa",
+     "candidatas": 3
+    },
+    "C10": {
+     "distancia": 1.18,
+     "forma": "TaNeTi",
+     "candidatas": 3
+    },
+    "C11": {
+     "distancia": 0.71,
+     "forma": "TaNaNa",
+     "candidatas": 2
+    },
+    "C12": {
+     "distancia": 0.71,
+     "forma": "PoNa",
+     "candidatas": 3
+    },
+    "C13": {
+     "distancia": 1.18,
+     "forma": "aNTiaMaNiTa",
+     "candidatas": 1
+    },
+    "C15": {
+     "distancia": 0.73,
+     "forma": "aNaTi",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 1.0,
+     "forma": "aRi",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 1.12,
+     "forma": "eNTaNa",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 1.07,
+     "forma": "ToNoTa",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.93,
+     "forma": "TaNo",
+     "candidatas": 2
+    },
+    "C26": {
+     "distancia": 0.9,
+     "forma": "BiRaKa",
+     "candidatas": 2
+    },
+    "C27": {
+     "distancia": 0.93,
+     "forma": "SaKaiSa",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 1.0,
+     "forma": "Tao",
+     "candidatas": 3
+    },
+    "C30": {
+     "distancia": 1.07,
+     "forma": "SaiNa",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Samoan",
+   "formas": 391,
+   "unidades": 13,
+   "real": 1.075,
+   "azar": 1.079,
+   "z": -0.0973460942350574,
+   "p": 0.4471057884231537,
+   "iguales_o_menores": 223,
+   "ventaja": 0.004082,
+   "detalle": {
+    "C1": {
+     "distancia": 0.94,
+     "forma": "SeBuLu",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.4,
+     "forma": "oNo",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "iBa",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.33,
+     "forma": "SoLoBaNua",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.4,
+     "forma": "MaiLe",
+     "candidatas": 1
+    },
+    "C6": {
+     "distancia": 0.92,
+     "forma": "TaMaBaBiNe",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 0.91,
+     "forma": "TaMaTaNe",
+     "candidatas": 1
+    },
+    "C10": {
+     "distancia": 1.2,
+     "forma": "MauNa",
+     "candidatas": 1
+    },
+    "C13": {
+     "distancia": 0.73,
+     "forma": "aTua",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 0.86,
+     "forma": "Ma",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.2,
+     "forma": "TaTou",
+     "candidatas": 3
+    },
+    "C22": {
+     "distancia": 1.2,
+     "forma": "BaLe",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 1.06,
+     "forma": "TuPe",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Hawaiian",
+   "formas": 1773,
+   "unidades": 25,
+   "real": 1.008,
+   "azar": 1.005,
+   "z": 0.10028753583048479,
+   "p": 0.5289421157684631,
+   "iguales_o_menores": 264,
+   "ventaja": -0.00324,
+   "detalle": {
+    "C1": {
+     "distancia": 1.17,
+     "forma": "uMi",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.27,
+     "forma": "aoNo",
+     "candidatas": 3
+    },
+    "C3": {
+     "distancia": 1.08,
+     "forma": "aiPa",
+     "candidatas": 3
+    },
+    "C4": {
+     "distancia": 0.89,
+     "forma": "Lio",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.25,
+     "forma": "iLio",
+     "candidatas": 1
+    },
+    "C6": {
+     "distancia": 1.12,
+     "forma": "KaiKaMaHiNe",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.71,
+     "forma": "KeiKi",
+     "candidatas": 5
+    },
+    "C9": {
+     "distancia": 0.74,
+     "forma": "aLaNui",
+     "candidatas": 3
+    },
+    "C10": {
+     "distancia": 0.89,
+     "forma": "KuaHiPi",
+     "candidatas": 2
+    },
+    "C11": {
+     "distancia": 0.93,
+     "forma": "KaoNa",
+     "candidatas": 1
+    },
+    "C12": {
+     "distancia": 0.93,
+     "forma": "KaoNa",
+     "candidatas": 1
+    },
+    "C13": {
+     "distancia": 1.09,
+     "forma": "aKua",
+     "candidatas": 1
+    },
+    "C15": {
+     "distancia": 0.8,
+     "forma": "LuNa",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 0.62,
+     "forma": "LuHi",
+     "candidatas": 3
+    },
+    "C19": {
+     "distancia": 0.88,
+     "forma": "KeeNa",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 1.08,
+     "forma": "PaPae",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 1.38,
+     "forma": "aLe",
+     "candidatas": 1
+    },
+    "C23": {
+     "distancia": 1.05,
+     "forma": "KiHaPai",
+     "candidatas": 2
+    },
+    "C24": {
+     "distancia": 1.0,
+     "forma": "KaHua",
+     "candidatas": 2
+    },
+    "C25": {
+     "distancia": 0.83,
+     "forma": "KiLa",
+     "candidatas": 3
+    },
+    "C26": {
+     "distancia": 0.94,
+     "forma": "KaLa",
+     "candidatas": 2
+    },
+    "C27": {
+     "distancia": 1.14,
+     "forma": "oa",
+     "candidatas": 1
+    },
+    "C28": {
+     "distancia": 1.33,
+     "forma": "aNa",
+     "candidatas": 2
+    },
+    "C29": {
+     "distancia": 1.08,
+     "forma": "aaPi",
+     "candidatas": 1
+    },
+    "C30": {
+     "distancia": 1.0,
+     "forma": "aKaMai",
+     "candidatas": 3
+    }
+   }
+  },
+  {
+   "diccionario": "Maltese",
+   "formas": 7417,
+   "unidades": 29,
+   "real": 0.957,
+   "azar": 0.945,
+   "z": 0.4151034289915424,
+   "p": 0.6487025948103793,
+   "iguales_o_menores": 324,
+   "ventaja": -0.011631,
+   "detalle": {
+    "C1": {
+     "distancia": 0.8,
+     "forma": "TieCi",
+     "candidatas": 2
+    },
+    "C2": {
+     "distancia": 0.83,
+     "forma": "SiTa",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 1.0,
+     "forma": "TiSa",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.14,
+     "forma": "SieMeL",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.0,
+     "forma": "KeLP",
+     "candidatas": 1
+    },
+    "C6": {
+     "distancia": 1.0,
+     "forma": "PiNT",
+     "candidatas": 1
+    },
+    "C7": {
+     "distancia": 1.06,
+     "forma": "BiTa",
+     "candidatas": 1
+    },
+    "C8": {
+     "distancia": 0.89,
+     "forma": "NiSeL",
+     "candidatas": 4
+    },
+    "C9": {
+     "distancia": 0.87,
+     "forma": "MaNJieRa",
+     "candidatas": 8
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "oLJa",
+     "candidatas": 4
+    },
+    "C11": {
+     "distancia": 0.88,
+     "forma": "MTiNa",
+     "candidatas": 4
+    },
+    "C12": {
+     "distancia": 0.75,
+     "forma": "MTiNa",
+     "candidatas": 6
+    },
+    "C13": {
+     "distancia": 1.4,
+     "forma": "aLa",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 0.84,
+     "forma": "STaLa",
+     "candidatas": 2
+    },
+    "C15": {
+     "distancia": 1.0,
+     "forma": "CePa",
+     "candidatas": 2
+    },
+    "C17": {
+     "distancia": 1.11,
+     "forma": "aHNa",
+     "candidatas": 2
+    },
+    "C18": {
+     "distancia": 1.07,
+     "forma": "ToKoL",
+     "candidatas": 7
+    },
+    "C19": {
+     "distancia": 0.8,
+     "forma": "MeMoRJa",
+     "candidatas": 1
+    },
+    "C20": {
+     "distancia": 1.12,
+     "forma": "SHuT",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 0.83,
+     "forma": "SieK",
+     "candidatas": 2
+    },
+    "C22": {
+     "distancia": 0.71,
+     "forma": "SaKaB",
+     "candidatas": 4
+    },
+    "C23": {
+     "distancia": 1.18,
+     "forma": "CNieN",
+     "candidatas": 1
+    },
+    "C24": {
+     "distancia": 0.94,
+     "forma": "RaTa",
+     "candidatas": 5
+    },
+    "C25": {
+     "distancia": 0.83,
+     "forma": "KaPi",
+     "candidatas": 10
+    },
+    "C26": {
+     "distancia": 0.89,
+     "forma": "BLuS",
+     "candidatas": 8
+    },
+    "C27": {
+     "distancia": 1.09,
+     "forma": "aPiP",
+     "candidatas": 4
+    },
+    "C28": {
+     "distancia": 0.88,
+     "forma": "PeTaK",
+     "candidatas": 5
+    },
+    "C29": {
+     "distancia": 0.91,
+     "forma": "Ta",
+     "candidatas": 2
+    },
+    "C30": {
+     "distancia": 0.92,
+     "forma": "MoH",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Tongan",
+   "formas": 326,
+   "unidades": 12,
+   "real": 1.076,
+   "azar": 1.047,
+   "z": 0.6570515655917231,
+   "p": 0.7325349301397206,
+   "iguales_o_menores": 366,
+   "ventaja": -0.028813,
+   "detalle": {
+    "C1": {
+     "distancia": 1.11,
+     "forma": "oNoBuLu",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.4,
+     "forma": "oNo",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.83,
+     "forma": "iBa",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 0.67,
+     "forma": "KuLi",
+     "candidatas": 1
+    },
+    "C6": {
+     "distancia": 1.05,
+     "forma": "oBeBiNe",
+     "candidatas": 1
+    },
+    "C10": {
+     "distancia": 1.2,
+     "forma": "MouNa",
+     "candidatas": 1
+    },
+    "C11": {
+     "distancia": 1.14,
+     "forma": "KoLo",
+     "candidatas": 1
+    },
+    "C18": {
+     "distancia": 1.12,
+     "forma": "KaBeNa",
+     "candidatas": 1
+    },
+    "C21": {
+     "distancia": 1.0,
+     "forma": "Bae",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 1.2,
+     "forma": "BaLe",
+     "candidatas": 1
+    },
+    "C25": {
+     "distancia": 1.07,
+     "forma": "MaLoHi",
+     "candidatas": 1
+    },
+    "C26": {
+     "distancia": 1.11,
+     "forma": "PaaNa",
+     "candidatas": 1
+    }
+   }
+  },
+  {
+   "diccionario": "Somali",
+   "formas": 856,
+   "unidades": 20,
+   "real": 1.049,
+   "azar": 1.004,
+   "z": 1.0649686170932706,
+   "p": 0.8622754491017964,
+   "iguales_o_menores": 431,
+   "ventaja": -0.0444,
+   "detalle": {
+    "C1": {
+     "distancia": 0.62,
+     "forma": "ToPaN",
+     "candidatas": 1
+    },
+    "C2": {
+     "distancia": 1.09,
+     "forma": "LiH",
+     "candidatas": 1
+    },
+    "C3": {
+     "distancia": 0.88,
+     "forma": "SaKaL",
+     "candidatas": 1
+    },
+    "C4": {
+     "distancia": 1.23,
+     "forma": "BaRaS",
+     "candidatas": 1
+    },
+    "C5": {
+     "distancia": 1.33,
+     "forma": "eJ",
+     "candidatas": 1
+    },
+    "C6": {
+     "distancia": 0.94,
+     "forma": "KaPaT",
+     "candidatas": 2
+    },
+    "C8": {
+     "distancia": 1.0,
+     "forma": "iNaN",
+     "candidatas": 1
+    },
+    "C9": {
+     "distancia": 1.05,
+     "forma": "TaRiK",
+     "candidatas": 4
+    },
+    "C10": {
+     "distancia": 1.0,
+     "forma": "CiLiP",
+     "candidatas": 3
+    },
+    "C12": {
+     "distancia": 1.0,
+     "forma": "CiLiP",
+     "candidatas": 1
+    },
+    "C14": {
+     "distancia": 1.06,
+     "forma": "aSiL",
+     "candidatas": 1
+    },
+    "C15": {
+     "distancia": 1.14,
+     "forma": "Ku",
+     "candidatas": 1
+    },
+    "C16": {
+     "distancia": 1.0,
+     "forma": "iJo",
+     "candidatas": 1
+    },
+    "C17": {
+     "distancia": 1.2,
+     "forma": "aNaKa",
+     "candidatas": 2
+    },
+    "C21": {
+     "distancia": 1.11,
+     "forma": "aK",
+     "candidatas": 1
+    },
+    "C22": {
+     "distancia": 0.8,
+     "forma": "aKaL",
+     "candidatas": 3
+    },
+    "C25": {
+     "distancia": 1.33,
+     "forma": "oK",
+     "candidatas": 1
+    },
+    "C27": {
+     "distancia": 0.91,
+     "forma": "CaLe",
+     "candidatas": 2
+    },
+    "C28": {
+     "distancia": 1.0,
+     "forma": "SaMaJ",
+     "candidatas": 3
+    },
+    "C29": {
+     "distancia": 1.27,
+     "forma": "Si",
+     "candidatas": 1
+    }
+   }
+  }
+ ],
+ "puesto_euskera": 21,
+ "z_euskera": -1.1065824156603354,
+ "previsiones": {
+  "1": true,
+  "2": true,
+  "3": true
+ }
+}
