@@ -1,0 +1,462 @@
+{
+ "declaracion": 41,
+ "semilla": 41,
+ "rasgos_juego_2": [
+  "numerales por 100 letras",
+  "cierran línea (exceso)",
+  "abren línea (exceso)",
+  "numeral–palabra–numeral",
+  "numeral contiguo",
+  "concentración de la palabra previa",
+  "líneas con numeral",
+  "posición relativa del numeral",
+  "asimetría palabra antes / después"
+ ],
+ "plomos": 23,
+ "tamanos": {
+  "ENTRENAMIENTO papiros griegos ptolemaicos": {
+   "textos_con_clase": 5054,
+   "ventanas": 3669,
+   "por_clase": [
+    927,
+    1875,
+    867
+   ]
+  },
+  "E1 papiros griegos romanos": {
+   "textos_con_clase": 10596,
+   "ventanas": 8273,
+   "por_clase": [
+    1699,
+    2178,
+    4396
+   ]
+  },
+  "E2 papiros griegos bizantinos": {
+   "textos_con_clase": 8727,
+   "ventanas": 6105,
+   "por_clase": [
+    1603,
+    1148,
+    3354
+   ]
+  },
+  "S óstraca griegos": {
+   "textos_con_clase": 13649,
+   "ventanas": 10714,
+   "por_clase": [
+    1591,
+    379,
+    8744
+   ]
+  },
+  "L1 latín": {
+   "textos_con_clase": 400,
+   "ventanas": 94,
+   "por_clase": [
+    31,
+    46,
+    17
+   ]
+  },
+  "L2 copto": {
+   "textos_con_clase": 790,
+   "ventanas": 180,
+   "por_clase": [
+    10,
+    103,
+    67
+   ]
+  }
+ },
+ "juego_1": {
+  "validacion cruzada en el entrenamiento": {
+   "auc": 0.852,
+   "tasa_aciertos_y_falsos": [
+    0.716,
+    0.156
+   ]
+  },
+  "E1 papiros griegos romanos": {
+   "auc": 0.798,
+   "ic95": [
+    0.783,
+    0.811
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.516,
+   "tasa_aciertos": 0.609,
+   "tasa_falsos_positivos": 0.128
+  },
+  "E2 papiros griegos bizantinos": {
+   "auc": 0.85,
+   "ic95": [
+    0.838,
+    0.861
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.522,
+   "tasa_aciertos": 0.711,
+   "tasa_falsos_positivos": 0.141
+  },
+  "S óstraca griegos": {
+   "auc": 0.797,
+   "ic95": [
+    0.784,
+    0.812
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.509,
+   "tasa_aciertos": 0.771,
+   "tasa_falsos_positivos": 0.322
+  },
+  "L1 latín": {
+   "auc": 0.771,
+   "ic95": [
+    0.646,
+    0.877
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.52,
+   "tasa_aciertos": 0.581,
+   "tasa_falsos_positivos": 0.111
+  },
+  "L2 copto": {
+   "auc": 0.572,
+   "ic95": [
+    0.346,
+    0.786
+   ],
+   "p": 0.2248,
+   "exactitud_equilibrada_3_clases": 0.365,
+   "tasa_aciertos": 0.2,
+   "tasa_falsos_positivos": 0.053
+  },
+  "media_auc_cinco_conjuntos": 0.758,
+  "plomos_clasificados_como_cuentas": {
+   "n": 13,
+   "de": 23,
+   "proporcion": 0.565
+  },
+  "descriptivo_3_recuento_ajustado": {
+   "E1 papiros griegos romanos": {
+    "estimacion": 0.909,
+    "ic95": [
+     0.454,
+     1.0
+    ]
+   },
+   "E2 papiros griegos bizantinos": {
+    "estimacion": 0.745,
+    "ic95": [
+     0.377,
+     1.0
+    ]
+   },
+   "S óstraca griegos": {
+    "estimacion": 0.542,
+    "ic95": [
+     0.063,
+     0.965
+    ]
+   },
+   "L1 latín": {
+    "estimacion": 0.967,
+    "ic95": [
+     0.499,
+     1.0
+    ]
+   },
+   "L2 copto": {
+    "estimacion": 1,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "coeficientes": [
+   1.89,
+   0.27,
+   -0.23,
+   -0.61,
+   0.11,
+   0.26
+  ]
+ },
+ "juego_2": {
+  "validacion cruzada en el entrenamiento": {
+   "auc": 0.854,
+   "tasa_aciertos_y_falsos": [
+    0.738,
+    0.164
+   ]
+  },
+  "E1 papiros griegos romanos": {
+   "auc": 0.806,
+   "ic95": [
+    0.791,
+    0.818
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.552,
+   "tasa_aciertos": 0.632,
+   "tasa_falsos_positivos": 0.135
+  },
+  "E2 papiros griegos bizantinos": {
+   "auc": 0.863,
+   "ic95": [
+    0.852,
+    0.874
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.569,
+   "tasa_aciertos": 0.732,
+   "tasa_falsos_positivos": 0.143
+  },
+  "S óstraca griegos": {
+   "auc": 0.811,
+   "ic95": [
+    0.797,
+    0.824
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.588,
+   "tasa_aciertos": 0.789,
+   "tasa_falsos_positivos": 0.32
+  },
+  "L1 latín": {
+   "auc": 0.772,
+   "ic95": [
+    0.65,
+    0.873
+   ],
+   "p": 0.001,
+   "exactitud_equilibrada_3_clases": 0.485,
+   "tasa_aciertos": 0.548,
+   "tasa_falsos_positivos": 0.159
+  },
+  "L2 copto": {
+   "auc": 0.632,
+   "ic95": [
+    0.45,
+    0.806
+   ],
+   "p": 0.0739,
+   "exactitud_equilibrada_3_clases": 0.399,
+   "tasa_aciertos": 0.2,
+   "tasa_falsos_positivos": 0.071
+  },
+  "media_auc_cinco_conjuntos": 0.777,
+  "plomos_clasificados_como_cuentas": {
+   "n": 14,
+   "de": 23,
+   "proporcion": 0.609
+  },
+  "descriptivo_3_recuento_ajustado": {
+   "E1 papiros griegos romanos": {
+    "estimacion": 0.953,
+    "ic95": [
+     0.593,
+     1.0
+    ]
+   },
+   "E2 papiros griegos bizantinos": {
+    "estimacion": 0.791,
+    "ic95": [
+     0.44,
+     1.0
+    ]
+   },
+   "S óstraca griegos": {
+    "estimacion": 0.615,
+    "ic95": [
+     0.227,
+     1.0
+    ]
+   },
+   "L1 latín": {
+    "estimacion": 1,
+    "ic95": [
+     0.565,
+     1.0
+    ]
+   },
+   "L2 copto": {
+    "estimacion": 1,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "coeficientes": [
+   1.9,
+   -0.01,
+   0.01,
+   -0.55,
+   0.06,
+   0.26,
+   -0.02,
+   0.2,
+   0.29
+  ]
+ },
+ "medias_de_rasgos": {
+  "ENTRENAMIENTO papiros griegos ptolemaicos": {
+   "cuentas": [
+    9.199,
+    0.14,
+    -0.22,
+    0.216,
+    0.3,
+    0.141,
+    0.685,
+    0.717,
+    0.444
+   ],
+   "resto": [
+    3.089,
+    0.015,
+    -0.187,
+    0.271,
+    0.069,
+    0.039,
+    0.47,
+    0.607,
+    0.202
+   ]
+  },
+  "E1 papiros griegos romanos": {
+   "cuentas": [
+    6.409,
+    0.156,
+    -0.157,
+    0.142,
+    0.223,
+    0.227,
+    0.691,
+    0.7,
+    0.395
+   ],
+   "resto": [
+    2.382,
+    0.005,
+    -0.133,
+    0.062,
+    0.072,
+    0.029,
+    0.505,
+    0.569,
+    0.158
+   ]
+  },
+  "E2 papiros griegos bizantinos": {
+   "cuentas": [
+    6.51,
+    0.26,
+    -0.193,
+    0.148,
+    0.236,
+    0.244,
+    0.767,
+    0.78,
+    0.541
+   ],
+   "resto": [
+    2.484,
+    0.009,
+    -0.122,
+    0.11,
+    0.142,
+    0.045,
+    0.539,
+    0.589,
+    0.158
+   ]
+  },
+  "S óstraca griegos": {
+   "cuentas": [
+    8.278,
+    0.243,
+    -0.203,
+    0.132,
+    0.181,
+    0.203,
+    0.721,
+    0.758,
+    0.529
+   ],
+   "resto": [
+    4.301,
+    0.026,
+    -0.161,
+    0.212,
+    0.141,
+    0.024,
+    0.64,
+    0.611,
+    0.192
+   ]
+  },
+  "L1 latín": {
+   "cuentas": [
+    5.22,
+    0.222,
+    -0.145,
+    0.147,
+    0.0,
+    0.224,
+    0.696,
+    0.709,
+    0.274
+   ],
+   "resto": [
+    2.009,
+    -0.102,
+    -0.143,
+    0.026,
+    0.058,
+    0.024,
+    0.349,
+    0.531,
+    0.092
+   ]
+  },
+  "L2 copto": {
+   "cuentas": [
+    5.39,
+    -0.032,
+    0.002,
+    0.233,
+    0.033,
+    0.075,
+    0.567,
+    0.576,
+    -0.036
+   ],
+   "resto": [
+    2.061,
+    -0.089,
+    -0.168,
+    0.093,
+    0.02,
+    0.012,
+    0.366,
+    0.574,
+    0.079
+   ]
+  },
+  "ibérico": [
+   5.718,
+   0.037,
+   -0.396,
+   0.196,
+   0.044,
+   0.123,
+   0.389,
+   0.766,
+   0.518
+  ]
+ }
+}
