@@ -1,0 +1,40 @@
+{
+ "n_grecoiberico": 106,
+ "n_celtiberico_latino": 109,
+ "grecoiberico": {
+  "puesto": 1,
+  "div": 0.2016,
+  "frac_levantino_menor": 0.972
+ },
+ "celtiberico_latino": {
+  "puesto": 28,
+  "div": 0.3596,
+  "frac_signario_menor": 1.0
+ },
+ "levantino_submuestras": {
+  "entre_5": 500,
+  "primero": 492,
+  "de": 500,
+  "div_mediana": 0.1844,
+  "div_ic95": [
+   0.1676,
+   0.2018
+  ]
+ },
+ "celtiberico_signario_submuestras": {
+  "entre_5": 372,
+  "primero": 38,
+  "de": 500,
+  "div_mediana": 0.2396,
+  "div_ic95": [
+   0.2185,
+   0.2621
+  ]
+ },
+ "previsiones": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true
+ }
+}
