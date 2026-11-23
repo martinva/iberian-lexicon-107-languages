@@ -6,11 +6,11 @@
   }
  ],
  "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
- "dc:title": "Léxico ibérico con significado propuesto: soporte metrológico y plomos de contenido económico",
+ "dc:title": "Léxico ibérico con significado propuesto: soporte metrológico y plomos de contenido económico / EN: Iberian lexicon with proposed meanings: metrological support and economic lead plaques",
  "dc:creator": "David Martín Valladolid",
  "dc:license": "https://creativecommons.org/licenses/by/4.0/",
  "dc:source": "sources.bib",
- "dc:description": "Formas ibéricas con significado propuesto empleadas en la comparación matemática con el léxico de otras lenguas. Cada forma lleva su grupo, su grado de certeza (A, B, C) y su fuente. Los significados son propuestas, no lecturas establecidas.",
+ "dc:description": "Formas ibéricas con significado propuesto empleadas en la comparación matemática con el léxico de otras lenguas. Cada forma lleva su grupo, su grado de certeza (A, B, C) y su fuente. Los significados son propuestas, no lecturas establecidas. / EN: Iberian forms with proposed meanings used in the statistical comparison with the lexicon of other languages. Each form carries its group, certainty grade (A, B, C), provenance codings and source. The meanings are proposals, not established readings.",
  "tables": [
   {
    "url": "languages.csv",
@@ -56,16 +56,20 @@
       "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name"
      },
      {
-      "name": "Terminos_es"
+      "name": "Terminos_es",
+      "dc:description": "Términos españoles usados para buscar el significado en los diccionarios. / EN: Spanish search terms used to look up the meaning in dictionaries."
      },
      {
-      "name": "Terminos_en"
+      "name": "Terminos_en",
+      "dc:description": "Términos ingleses usados para buscar el significado en los diccionarios. / EN: English search terms used to look up the meaning in dictionaries."
      },
      {
-      "name": "Campo"
+      "name": "Campo",
+      "dc:description": "Campo semántico. / EN: semantic field."
      },
      {
-      "name": "Valor_numerico"
+      "name": "Valor_numerico",
+      "dc:description": "Valor numérico (solo numerales). / EN: numeric value (numerals only)."
      }
     ]
    }
@@ -124,21 +128,24 @@
       "separator": " "
      },
      {
-      "name": "Clases_SCA"
+      "name": "Clases_SCA",
+      "dc:description": "Forma reducida a clases de sonidos SCA (List 2012). / EN: form reduced to SCA sound classes (List 2012)."
      },
      {
-      "name": "Grupo"
+      "name": "Grupo",
+      "dc:description": "Grupo: léxico metrológico o léxico de los plomos. / EN: group: metrological lexicon or lead-plaque lexicon."
      },
      {
-      "name": "Grado"
+      "name": "Grado",
+      "dc:description": "Grado de certeza del significado: A (valor asegurado por la metrología o la bibliografía), B (regularidad documentada), C (hipótesis de trabajo). / EN: certainty grade of the meaning: A (secured by metrology or the literature), B (documented regularity), C (working hypothesis)."
      },
      {
       "name": "Procedencia_autor",
-      "dc:description": "Procedencia del significado según el autor (Monografía IV, tabla 5; artículo, anexo D.3): I, propuesta anterior de terceros o valor con apoyo externo; II, propuesta de las monografías por la casilla documental; III, convergente (obtención independiente, comprobación no independiente) o, en los numerales, valor asignado por la posición en la serie. / Provenance of the meaning according to the author (Monograph IV, table 5; article, appendix D.3)."
+      "dc:description": "Procedencia del significado según el autor (Monografía IV, tabla 5; artículo, anexo D.3): I, propuesta anterior de terceros o valor con apoyo externo; II, propuesta de las monografías por la casilla documental; III, convergente (obtención independiente, comprobación no independiente) o, en los numerales, valor asignado por la posición en la serie. / Provenance of the meaning according to the author (Monograph IV, table 5; article, appendix D.3). / EN: provenance of the meaning according to the author (Monograph IV, table 5): I earlier proposal by third parties or value with external support; II proposal from the documentary slot; III convergent, or numeral value assigned by position in the series."
      },
      {
       "name": "Procedencia_jurado",
-      "dc:description": "Procedencia según el jurado ciego, clasificación menos favorable (artículo, apartado 8.4; 2_criterios/jurado/respuestas/cruce_con_la_clave.tsv): I, prueba material externa o contexto sin otra lectura; II, distribución documental; III, requiere un parecido con otra lengua. Vacío: unidad no sometida al jurado. / Provenance according to the blind jury, least favourable classification; empty: not judged."
+      "dc:description": "Procedencia según el jurado ciego, clasificación menos favorable (artículo, apartado 8.4; 2_criterios/jurado/respuestas/cruce_con_la_clave.tsv): I, prueba material externa o contexto sin otra lectura; II, distribución documental; III, requiere un parecido con otra lengua. Vacío: unidad no sometida al jurado. / Provenance according to the blind jury, least favourable classification; empty: not judged. / EN: provenance according to the blind jury (least favourable classification of three language models): I external material evidence or context with no other reading; II documentary distribution; III no; empty for N3, N5, N6, N8."
      },
      {
       "name": "Source",
@@ -146,10 +153,12 @@
       "separator": ";"
      },
      {
-      "name": "Inscripciones"
+      "name": "Inscripciones",
+      "dc:description": "Inscripciones de Hesperia en que aparece la forma. / EN: Hesperia inscriptions attesting the form."
      },
      {
-      "name": "Apoyo"
+      "name": "Apoyo",
+      "dc:description": "Evidencia documental del significado, con referencia de página. / EN: documentary evidence for the meaning, with page references."
      }
     ]
    }
