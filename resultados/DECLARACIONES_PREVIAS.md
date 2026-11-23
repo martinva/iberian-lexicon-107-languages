@@ -952,3 +952,5 @@ La hora verificable de esta declaración es la de su commit.
 **Previsiones.** (1) El EHHE queda más cerca del ibérico que cualquiera de las 107 lenguas, incluido el euskera de NorthEuraLex, o a lo sumo segundo tras él. (2) La distancia ibérico–EHHE es menor que la distancia celtibérico (signario)–EHHE.
 
 **Qué contaría en contra.** Que el EHHE quede fuera de las cinco primeras, o más cerca del celtibérico que del ibérico. Se publica sea cual sea.
+
+**Resultado de la declaración 35 (23-11-2026; `resultados/t49_perfil_ehhe.json`).** Cabeceras del EHHE: 945 formas (809 sin las marcadas como préstamo). Divergencia con el ibérico: **0,127** (sin préstamos, 0,132), **más cerca que cualquiera de las 107 lenguas**, incluido el euskera moderno de NorthEuraLex (0,153), el latín (0,174) y el finés (0,205). Con el celtibérico en signario: 0,194 (0,203). **Se cumplen las dos previsiones.** Lectura: el léxico vasco patrimonial y antiguo que reúne el diccionario de Lakarra está más cerca del ibérico que el euskera moderno; lo moderno no es lo que crea el parecido. (Matiz: el perfil mide inventario y forma silábica, no parentesco.)

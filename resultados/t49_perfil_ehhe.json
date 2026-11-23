@@ -1,0 +1,62 @@
+{
+ "EHHE todas": {
+  "formas": 945,
+  "div_iberico": 0.127,
+  "puesto_entre_108": 1,
+  "primeras": [
+   [
+    "EHHE todas",
+    0.127
+   ],
+   [
+    "Basque",
+    0.1533
+   ],
+   [
+    "Latin",
+    0.1737
+   ],
+   [
+    "Finnish",
+    0.205
+   ],
+   [
+    "Bashkir",
+    0.2084
+   ]
+  ],
+  "div_celtiberico_signario": 0.1944
+ },
+ "EHHE sin préstamos": {
+  "formas": 809,
+  "div_iberico": 0.1315,
+  "puesto_entre_108": 1,
+  "primeras": [
+   [
+    "EHHE sin préstamos",
+    0.1315
+   ],
+   [
+    "Basque",
+    0.1533
+   ],
+   [
+    "Latin",
+    0.1737
+   ],
+   [
+    "Finnish",
+    0.205
+   ],
+   [
+    "Bashkir",
+    0.2084
+   ]
+  ],
+  "div_celtiberico_signario": 0.2034
+ },
+ "previsiones": {
+  "1": true,
+  "2": true
+ }
+}
