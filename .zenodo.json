@@ -1,13 +1,13 @@
 {
   "upload_type": "software",
   "title": "Iberian lead-plaque lexicon and 107 languages: replication data and programs",
-  "description": "<p>Replication repository of the article <em>The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First</em> (D. Martín Valladolid, 2026; <a href=\"https://doi.org/10.5281/zenodo.24443589\">10.5281/zenodo.24443589</a>). Data (with the Iberian word lists in CLDF format), criteria, algorithms, one program per table, functional specification, expected results, prior declarations and computational audits. Quick check: <code>python3 4_programas/comprobacion_rapida.py</code>; everything can also be run in the browser from the Colab notebook. Project website: <a href=\"https://iberico.martinva.org\">iberico.martinva.org</a>.</p><p>Repositorio de réplica del artículo «El léxico de los plomos ibéricos ante 107 lenguas: una comparación estadística en la que el euskera ocupa el primer lugar».</p>",
+  "description": "<p>Replication repository of the article <em>The Lexicon of the Iberian Lead Plaques Compared with 107 Languages: A Statistical Comparison in Which Basque Ranks First</em> (D. Martín Valladolid, 2026; <a href=\"https://doi.org/10.5281/zenodo.24443588\">10.5281/zenodo.24443588</a>). Data (with the Iberian word lists in CLDF format), criteria, algorithms, one program per table, functional specification, expected results, prior declarations and computational audits. Quick check: <code>python3 4_programas/comprobacion_rapida.py</code>; everything can also be run in the browser from the Colab notebook. Project website: <a href=\"https://iberico.martinva.org\">iberico.martinva.org</a>.</p><p>Repositorio de réplica del artículo «El léxico de los plomos ibéricos ante 107 lenguas: una comparación estadística en la que el euskera ocupa el primer lugar».</p>",
   "creators": [{"name": "Martín Valladolid, David", "orcid": "0009-0003-4884-2573"}],
   "license": "MIT",
   "language": "spa",
   "keywords": ["Iberian", "Basque", "Palaeohispanic languages", "quantitative linguistics", "CLDF", "permutation test", "reproducibility"],
   "related_identifiers": [
-    {"identifier": "10.5281/zenodo.24443589", "relation": "isSupplementTo", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.24443588", "relation": "isSupplementTo", "scheme": "doi", "resource_type": "publication-preprint"},
     {"identifier": "https://iberico.martinva.org", "relation": "isDocumentedBy", "scheme": "url"},
     {"identifier": "10.5281/zenodo.23610039", "relation": "references", "scheme": "doi"},
     {"identifier": "10.5281/zenodo.23612741", "relation": "references", "scheme": "doi"},

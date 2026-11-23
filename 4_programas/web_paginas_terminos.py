@@ -106,7 +106,7 @@ def cabecera(title, desc, canon, extra=''):
 
 PIE = """<footer><p><span data-l="en">Proposed meanings are working hypotheses graded by certainty level, not established translations. Data:</span><span data-l="es">Los significados propuestos son hipótesis de trabajo graduadas por nivel de certeza, no traducciones establecidas. Datos:</span>
 <a href="https://github.com/martinva/iberian-lexicon-107-languages/tree/main/1_fuentes_lexicas/iberico/cldf">CLDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.24443589"><span data-l="en">article</span><span data-l="es">artículo</span></a> ·
+<a href="https://doi.org/10.5281/zenodo.24443588"><span data-l="en">article</span><span data-l="es">artículo</span></a> ·
 David Martín Valladolid · <a href="https://orcid.org/0009-0003-4884-2573">ORCID</a> · CC BY 4.0</p></footer>
 </div>""" + JS + "\n</body>\n</html>\n"
 
@@ -163,7 +163,7 @@ def main():
 <span data-l="en">Transcription: Hesperia system (dual script not distinguished in the forms).</span><span data-l="es">Transcripción: sistema de Hesperia (sin distinguir la escritura dual en las formas).</span></p>
 <h2><span data-l="en">In the statistical comparison</span><span data-l="es">En la comparación estadística</span></h2>
 <p><span data-l="en">This unit is one of the 40 Iberian units compared with 107 languages. See the article, the tool to remove words and the full inventory.</span><span data-l="es">Esta unidad es una de las 40 unidades ibéricas comparadas con 107 lenguas. Véanse el artículo, la herramienta para quitar palabras y el inventario completo.</span></p>
-<p><a href="https://doi.org/10.5281/zenodo.24443589"><span data-l="en">Article</span><span data-l="es">Artículo</span></a> · <a href="{SITIO}/herramientas/quitar-palabras/"><span data-l="en">Remove words</span><span data-l="es">Quitar palabras</span></a> · <a href="{SITIO}/#inventory"><span data-l="en">Inventory</span><span data-l="es">Inventario</span></a> · <a href="{SITIO}/terminos/"><span data-l="en">All terms</span><span data-l="es">Todos los términos</span></a></p>
+<p><a href="https://doi.org/10.5281/zenodo.24443588"><span data-l="en">Article</span><span data-l="es">Artículo</span></a> · <a href="{SITIO}/herramientas/quitar-palabras/"><span data-l="en">Remove words</span><span data-l="es">Quitar palabras</span></a> · <a href="{SITIO}/#inventory"><span data-l="en">Inventory</span><span data-l="es">Inventario</span></a> · <a href="{SITIO}/terminos/"><span data-l="en">All terms</span><span data-l="es">Todos los términos</span></a></p>
 """
         d = os.path.join(base, s)
         os.makedirs(d, exist_ok=True)
