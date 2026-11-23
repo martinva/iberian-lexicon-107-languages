@@ -1,0 +1,49 @@
+Celtibérico: 161 fichas, 132 auténticas, 1162 palabras, 764 formas distintas
+
+===== clases completas: celtibérico (764 formas)
+  formas_celtibericas: 764
+  primeras_10: [('Latin', 0.1996, 'Indo-European'), ('Forest Enets', 0.2114, 'Uralic'), ('Olonets Karelian', 0.2121, 'Uralic'), ('Basque', 0.214, 'Basque'), ('Burushaski', 0.214, 'Burushaski'), ('Finnish', 0.2152, 'Uralic'), ('North Karelian', 0.2171, 'Uralic'), ('Veps', 0.221, 'Uralic'), ('Estonian', 0.2299, 'Uralic'), ('Hokkaido Ainu', 0.2312, 'Ainu')]
+  p1_mas_proxima_indoeuropea: True
+  p1_celtica_entre_5: False
+  indoeuropea_entre_5: True
+  puesto_euskera_desde_celtiberico: 4
+  div_celtiberico_euskera: 0.214
+  div_iberico_euskera: 0.1533
+  p3_euskera_fuera_de_5_y_mas_lejos: False
+  div_iberico_celtiberico: 0.1273
+  puesto_celtiberico_entre_107_desde_iberico: 1
+  primeras_5_desde_iberico: [('Basque', 0.1533), ('Latin', 0.1737), ('Finnish', 0.205), ('Bashkir', 0.2084), ('Burushaski', 0.2112)]
+  remuestreo_familia_de_la_primera: {'Indo-European': 492, 'Burushaski': 6, 'Uralic': 2}
+  remuestreos: 500
+
+===== lenguas reducidas a lo que anota el signario: celtibérico (759 formas)
+  formas_celtibericas: 759
+  primeras_10: [('Basque', 0.1064, 'Basque'), ('Finnish', 0.1143, 'Uralic'), ('Sakha', 0.1182, 'Turkic'), ('Olonets Karelian', 0.1232, 'Uralic'), ('North Karelian', 0.1311, 'Uralic'), ('Nanai', 0.1347, 'Tungusic'), ('Tsez', 0.1381, 'Nakh-Daghestanian'), ('Veps', 0.1384, 'Uralic'), ('Buryat', 0.1401, 'Mongolic-Khitan'), ('Burushaski', 0.1417, 'Burushaski')]
+  p1_mas_proxima_indoeuropea: False
+  p1_celtica_entre_5: False
+  indoeuropea_entre_5: False
+  puesto_euskera_desde_celtiberico: 1
+  div_celtiberico_euskera: 0.1064
+  div_iberico_euskera: 0.0696
+  p3_euskera_fuera_de_5_y_mas_lejos: False
+  div_iberico_celtiberico: 0.0994
+  puesto_celtiberico_entre_107_desde_iberico: 3
+  primeras_5_desde_iberico: [('Basque', 0.0696), ('Sakha', 0.0938), ('Bashkir', 0.1037), ('Livonian', 0.1052), ('Veps', 0.1166)]
+  remuestreo_familia_de_la_primera: {'Basque': 479, 'Uralic': 21}
+  remuestreos: 500
+
+===== variante z->S (sensibilidad): celtibérico (767 formas)
+  formas_celtibericas: 767
+  primeras_10: [('Latin', 0.1943, 'Indo-European'), ('Forest Enets', 0.1993, 'Uralic'), ('Burushaski', 0.2108, 'Burushaski'), ('Basque', 0.2124, 'Basque'), ('Olonets Karelian', 0.2124, 'Uralic'), ('Finnish', 0.2133, 'Uralic'), ('Veps', 0.2154, 'Uralic'), ('North Karelian', 0.2176, 'Uralic'), ('Udmurt', 0.2263, 'Uralic'), ('Estonian', 0.2265, 'Uralic')]
+  p1_mas_proxima_indoeuropea: True
+  p1_celtica_entre_5: False
+  indoeuropea_entre_5: True
+  puesto_euskera_desde_celtiberico: 4
+  div_celtiberico_euskera: 0.2124
+  div_iberico_euskera: 0.1533
+  p3_euskera_fuera_de_5_y_mas_lejos: False
+  div_iberico_celtiberico: 0.1273
+  puesto_celtiberico_entre_107_desde_iberico: 1
+  primeras_5_desde_iberico: [('Basque', 0.1533), ('Latin', 0.1737), ('Finnish', 0.205), ('Bashkir', 0.2084), ('Burushaski', 0.2112)]
+  remuestreo_familia_de_la_primera: {'Indo-European': 440, 'Uralic': 60}
+  remuestreos: 500
