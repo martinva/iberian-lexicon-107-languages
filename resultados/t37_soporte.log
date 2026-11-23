@@ -1,0 +1,5 @@
+1. {'Plomo': {'palabras': 1171, 'media': 882.2, 'ic95': [873, 892]}, 'Cerámica': {'palabras': 1237, 'media': 712.5, 'ic95': [699, 726]}, 'plomo_mayor_en': 1000, 'de': 1000, 'prevision_cumplida': True}
+2. {'proporcion_plomo': 0.67, 'elegibles_plomo': 648, 'proporcion_ceramica': 0.47, 'elegibles_ceramica': 381, 'diferencia_bruta': 0.2, 'diferencia_con_longitud_controlada': 0.149, 'p_permutacion': 0.0009, 'permutaciones': 10000, 'prevision_cumplida': True}
+3. Plomo [(2.2, 'SaLiR', 11), (2.19, 'iuNSTiR', 13), (1.34, 'iuSTiR', 6), (1.32, 'PaSiR', 4), (1.14, 'uRi', 3), (1.14, 'iLTiR', 3), (1.14, 'aa', 3), (1.14, 'SaLiPoS', 3), (1.14, 'SaL', 3), (1.14, 'PiLoS', 3)]
+3. Cerámica [(2.21, 'Ti', 18), (2.1, 'La', 15), (1.8, 'PaL', 8), (1.68, 'Kai', 7), (1.51, 'PaN', 18), (1.45, 'aN', 9), (1.42, 'iL', 5), (1.42, 'SaLeiTaRTiN', 5), (1.42, 'Pai', 5), (1.42, 'NLTuNSoR', 5)]
+3. Piedra [(2.93, 'uRTaL', 9), (1.69, 'ePaNeN', 3), (1.69, 'aRe', 3), (1.38, 'eRN', 2), (1.38, 'eKeRSoRe', 2), (1.38, 'aRTiuNaNeR', 2), (1.38, 'TaN', 2), (1.38, 'TaKe', 2), (1.38, 'PaLKeaTiN', 2), (1.38, 'KuTuN', 2)]
