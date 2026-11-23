@@ -911,3 +911,28 @@ La hora verificable de esta declaración es la de su commit. Autorizada por el a
 Celtiberian control for the meaning test (pilot), declared before computing: 30 Celtiberian words of accepted meaning and IE etymology (list fixed now, from English Wikipedia's compilation of Wodtko, Prósper, Jordán Cólera, Matasović; to be checked against MLH V.1 before final use), run through the unchanged meaning test against the 35 Wiktionary dictionaries. Predictions: Basque not first; a Celtic language or Latin in the top three; Basque z not below −2. Program `t46_celtiberico_significados.py`.
 
 **Resultado de la declaración 32 (piloto; 23-11-2026; `resultados/t46_celtiberico_significados.json`).** 35 diccionarios. Primeros: **latín** (*z* −6,13), **irlandés** (−6,02), **galés** (−5,24), sardo (−5,09), gallego (−4,66), catalán (−4,31). **Euskera, puesto 21, *z* −1,11 (p = 0,14), no significativo.** Se cumplen las tres previsiones. Lectura: la prueba con significados, sin cambiar nada, identifica correctamente la filiación del celtibérico (las dos lenguas célticas del Wikcionario y el latín, que comparte con él el fondo itálico-céltico y préstamos, en cabeza) y no le atribuye ninguna proximidad al euskera, pese a ser un corpus paleohispánico escrito en parte con el signario. Es la respuesta directa a que la prueba favorezca al euskera por la escritura o por el área. Pendiente: cotejar la lista en MLH V.1 o Jordán Cólera (2019) antes de usarla como prueba definitiva.
+
+## 33. Cronología con el EHHE: ¿se parece el ibérico más a las formas vascas antiguas que a las modernas? (declarada el 23-11-2026, antes de tener los datos en el contenedor; artículo nuevo, línea Lakarra)
+
+La hora verificable de esta declaración es la de su commit. Autorizada por el autor el 23-11-2026, 04:33.
+
+**Motivo.** Lakarra (2010, *Veleia* 27) objeta que los parecidos vasco-ibéricos no respetan los cambios fonéticos del vasco ni su cronología. Si el parecido fuera casual o se apoyara en formas vascas tardías, el ibérico no tendría por qué parecerse más a las formas antiguas. Si el parecido es antiguo (herencia o contacto antiguo), debería parecerse más a las formas antiguas.
+
+**Datos.** EHHE-200 (Lakarra, Manterola y Segurola 2019; 2.ª ed. en línea 2021, euskaltzaindia.eus), extraído el 23-11-2026 para análisis privado (no se redistribuye). De cada entrada, la cabecera y las variantes fechadas de la sección «Historia» (forma seguida de fecha). *Forma antigua*: la variante con la fecha más antigua; *forma moderna*: la cabecera. Solo cuentan las entradas en que ambas difieren una vez reducidas a clases.
+
+**Procedimiento.** (1) Para cada una de las 40 unidades, la candidata vasca usada en `t25` (la más próxima del Wikcionario); si tiene entrada en el EHHE con forma antigua distinta, se calcula la distancia del estudio entre la forma ibérica y la forma antigua, y entre la forma ibérica y la moderna. Estadístico: proporción de unidades en que la antigua está más cerca (empates a la mitad). (2) Nulo: la misma proporción emparejando cada forma ibérica con entradas del EHHE elegidas al azar (con forma antigua distinta), 10.000 sorteos; controla la tendencia general de las formas antiguas (más largas o con más vocales) a parecerse más a cualquier forma ibérica. Programa `4_programas/t47_cronologia_ehhe.py`.
+
+**Previsiones.** (1) En las unidades emparejadas, la forma antigua está más cerca en más de la mitad de los casos. (2) Esa proporción supera a la del nulo (p < 0,05). Muestra previsiblemente pequeña (las unidades con entrada en el EHHE y variante antigua distinta): se informa como indicio.
+
+**Qué contaría en contra.** Que la proporción de las unidades emparejadas no supere a la del nulo: el parecido no sería más antiguo que el de cualquier palabra. Se publica sea cual sea.
+
+## 34. Regularidad de correspondencias contra las formas vascas antiguas del EHHE (declarada el 23-11-2026, antes de tener los datos en el contenedor)
+
+**Procedimiento.** Se repite la prueba de la declaración 8 (`t25`: alineación, R′, 1.000 permutaciones) sustituyendo cada candidata vasca por su forma antigua del EHHE cuando la tiene (si no, se mantiene la moderna). Programa `4_programas/t48_correspondencias_ehhe.py`.
+
+**Previsiones.** (1) R′ con formas antiguas por encima de todas las permutaciones (percentil ≥ 99). (2) R′ con formas antiguas igual o mayor que con las modernas (0,442).
+
+**Qué contaría en contra.** R′ antiguo por debajo del percentil 95 de la permutación, o claramente menor que el moderno. Se publica sea cual sea.
+
+### 33–34. English summary
+33: chronology test with Lakarra's own EHHE: for the 40 units, is the Iberian form closer to the earliest-dated Basque variant than to the modern headword, more often than for Iberian forms paired with random EHHE entries (10,000 draws)? 34: the regularity-of-correspondences test of declaration 8 rerun with the earliest EHHE variants; predictions R′ ≥ 99th permutation percentile and ≥ the modern value 0.442. Both published whatever the result.
