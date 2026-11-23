@@ -6,8 +6,8 @@ authors:
   - family-names: "Martín Valladolid"
     given-names: "David"
     orcid: "https://orcid.org/0009-0003-4884-2573"
-date-released: "2026-11-22"
-version: "1.0.0"
+date-released: "2026-11-23"
+version: "1.1.0"
 abstract: "Datos, criterios, algoritmos, programas y especificación funcional para reproducir la comparación cuantitativa del léxico de los plomos ibéricos con el de otras lenguas."
 keywords:
   - ibérico
