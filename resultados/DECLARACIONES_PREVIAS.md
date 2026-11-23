@@ -940,3 +940,15 @@ La hora verificable de esta declaración es la de su commit. Autorizada por el a
 **Resultado de la declaración 33 (23-11-2026; `resultados/t47_cronologia_ehhe.json`).** Datos: extracción del EHHE-200 en línea (243 bloques de familia, 967 entradas principales, 901 con atestiguaciones fechadas; 211 con una variante antigua distinta de la cabecera). De las 40 unidades, 17 tienen su candidata vasca en el EHHE, pero **solo 5 tienen una variante antigua distinta**: *zilar* (ant. *zirar* 1386), *gutun* (*guthun* 1571), *eman* (*emun* 1457), *ekin* (*akio* 1490), *bortz/bost* (cabecera *bortz*; la atestiguación más antigua es *bost*, 1051). La forma antigua está más cerca del ibérico en 1,5 de 5 (0,30), frente a 0,45 en el nulo; p = 0,84. **No se cumplen las previsiones.** Lectura: la prueba no tiene potencia (cinco casos) y es sensible a la grafía de las atestiguaciones antiguas (la *h* de *guthun*, la disimilación *zirar*); no habla ni a favor ni en contra de la cronología del parecido. Observación cualitativa (no estadística): el propio EHHE recoge, en la entrada *bortz/bost*, la comparación con el ibérico *borste* del plomo de Ullastret, y propone a la vez una etimología interna (*bor-tz*).
 
 **Resultado de la declaración 34 (23-11-2026; `resultados/t48_correspondencias_ehhe.json`).** Con las formas antiguas del EHHE en las 5 unidades en que existen: R′ 0,419 (moderno 0,442); permutación: mediana 0,312, percentil 90 0,333; **percentil 100** (ninguna de las 1.000 lo alcanza). Se cumple la previsión 1; no la 2 (baja ligeramente, por las mismas variantes gráficas). Lectura: la regularidad por encima del azar no depende de usar formas modernas.
+
+## 35. Prueba de perfil con el léxico patrimonial del EHHE como capa vasca (declarada el 23-11-2026, antes de calcular; línea Lakarra)
+
+La hora verificable de esta declaración es la de su commit.
+
+**Motivo.** Responder a «se compara con el euskera moderno» con el diccionario del propio Lakarra: cabeceras del EHHE-200 (el léxico patrimonial más antiguo y mejor estudiado), en lugar de la lista moderna de NorthEuraLex.
+
+**Procedimiento.** Formas: todas las cabeceras de entradas principales del EHHE (variante «/» incluidas), reducidas con `reducida`; variante (b): excluidas las entradas cuya etimología menciona préstamo (*mailegu*, *latinetik*, *erromantzetik*, *gaztelaniatik*, *frantsesetik*, «< lat.», «< gazt.»; detección automática y aproximada). Se calcula su perfil (`t08`) y su divergencia con el ibérico (formas de `fuentes.hesperia()`), y se sitúa entre las 107 lenguas de NorthEuraLex. Mismo cálculo con el celtibérico en signario como referencia paleohispánica. Programa `4_programas/t49_perfil_ehhe.py`.
+
+**Previsiones.** (1) El EHHE queda más cerca del ibérico que cualquiera de las 107 lenguas, incluido el euskera de NorthEuraLex, o a lo sumo segundo tras él. (2) La distancia ibérico–EHHE es menor que la distancia celtibérico (signario)–EHHE.
+
+**Qué contaría en contra.** Que el EHHE quede fuera de las cinco primeras, o más cerca del celtibérico que del ibérico. Se publica sea cual sea.
