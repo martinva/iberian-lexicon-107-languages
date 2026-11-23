@@ -1,0 +1,38 @@
+{
+ "cambios": [
+  [
+   "A1",
+   "SiLaR",
+   "SiRaR"
+  ],
+  [
+   "A17",
+   "KuTuN",
+   "KuTHuN"
+  ],
+  [
+   "A21",
+   "eMaN",
+   "eMuN"
+  ],
+  [
+   "A30",
+   "eKiN",
+   "aKio"
+  ],
+  [
+   "N5",
+   "PoST",
+   "PoST"
+  ]
+ ],
+ "R_prima_moderno": 0.44155844155844154,
+ "R_prima_antiguo": 0.41874999999999996,
+ "percentil": 100.0,
+ "mediana_perm": 0.31210191082802546,
+ "p90": 0.33333333333333337,
+ "previsiones": {
+  "1": true,
+  "2": false
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "unidades_con_variante_antigua": 5,
+ "filas": [
+  {
+   "id": "A1",
+   "iberico": "SaLiR",
+   "entrada": "200-020406",
+   "cabecera": "zilar",
+   "antigua": "zirar",
+   "anio": 1386,
+   "d_antigua": 0.5,
+   "d_moderna": 0.25,
+   "punto": 0.0
+  },
+  {
+   "id": "A17",
+   "iberico": "KuTu",
+   "entrada": "094-",
+   "cabecera": "gutun",
+   "antigua": "guthun",
+   "anio": 1571,
+   "d_antigua": 0.5,
+   "d_moderna": 0.2857142857142857,
+   "punto": 0.0
+  },
+  {
+   "id": "A21",
+   "iberico": "PaRPiN",
+   "entrada": "067-",
+   "cabecera": "eman",
+   "antigua": "emun",
+   "anio": 1457,
+   "d_antigua": 1.0,
+   "d_moderna": 1.0,
+   "punto": 0.5
+  },
+  {
+   "id": "A30",
+   "iberico": "eKiaR",
+   "entrada": "064-01",
+   "cabecera": "ekin",
+   "antigua": "akio",
+   "anio": 1490,
+   "d_antigua": 0.6666666666666666,
+   "d_moderna": 0.46153846153846156,
+   "punto": 0.0
+  },
+  {
+   "id": "N5",
+   "iberico": "PoRSTe",
+   "entrada": "047-",
+   "cabecera": "bortz",
+   "antigua": "bost",
+   "anio": 1051,
+   "d_antigua": 0.35294117647058826,
+   "d_moderna": 0.5882352941176471,
+   "punto": 1.0
+  }
+ ],
+ "proporcion_antigua_mas_cerca": 0.3,
+ "nulo_media": 0.44593,
+ "p": 0.8363163683631637,
+ "entradas_ehhe": 967,
+ "entradas_con_variante_antigua": 211,
+ "previsiones": {
+  "1": false,
+  "2": false
+ }
+}
