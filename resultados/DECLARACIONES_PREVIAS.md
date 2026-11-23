@@ -968,3 +968,11 @@ La hora verificable de esta declaración es la de su commit. Autorizada por el a
 **Previsiones.** (1) El euskera sigue primero por *z* en los plomos y en los numerales. (2) Ninguna familia nueva tiene una mediana de *z* menor que −2 (no hay una ventaja de familia). (3) En la prueba de perfil, ninguna lengua nueva queda más cerca del ibérico que el euskera a igual tamaño.
 
 **Qué contaría en contra.** Que una lengua nueva iguale o supere al euskera en la prueba con significados, o que una familia entera muestre ventaja: sería un indicio a favor de un fondo común más amplio (sustrato) y se estudiaría. Se publica sea cual sea.
+
+## 37. Prueba de perfil con las formas reconstruidas (con asterisco) del EHHE (declarada el 23-11-2026, antes de calcular)
+
+**Motivo.** Pregunta del autor (05:32): Lakarra trabaja también con el protovasco y el pre-protovasco. El EHHE da, en sus secciones de protohistoria y etimología, formas marcadas con asterisco (reconstruidas o intermedias). Se usan como capa «reconstruida» de Lakarra.
+
+**Procedimiento.** Todas las formas precedidas de asterisco en el texto del EHHE (minúsculas, 2–12 letras), excluidas las que terminan como étimos latinos o romances (*-us*, *-um*, *-are*, *-ere*, *-ire*, *-ari*, *-iu*, *-ia* con *-ia* solo si la forma tiene más de cinco letras) o contienen letras ajenas al vasco antiguo (*v*, *y*, *w*, *c* salvo *ç*). Perfil (`t08`) y divergencia con el ibérico, situada entre las 107 lenguas de NorthEuraLex, el EHHE de la declaración 35 y el celtibérico. Programa `4_programas/t51_perfil_ehhe_reconstruido.py`.
+
+**Previsión.** El conjunto reconstruido queda entre los dos primeros puestos (con el EHHE de cabeceras) y más cerca del ibérico que el euskera moderno. **Límite:** el filtrado de étimos latinos es automático y aproximado, y algunas formas con asterisco son intermedias, no protovascas.
