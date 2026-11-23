@@ -133,6 +133,14 @@
       "name": "Grado"
      },
      {
+      "name": "Procedencia_autor",
+      "dc:description": "Procedencia del significado según el autor (Monografía IV, tabla 5; artículo, anexo D.3): I, propuesta anterior de terceros o valor con apoyo externo; II, propuesta de las monografías por la casilla documental; III, convergente (obtención independiente, comprobación no independiente) o, en los numerales, valor asignado por la posición en la serie. / Provenance of the meaning according to the author (Monograph IV, table 5; article, appendix D.3)."
+     },
+     {
+      "name": "Procedencia_jurado",
+      "dc:description": "Procedencia según el jurado ciego, clasificación menos favorable (artículo, apartado 8.4; 2_criterios/jurado/respuestas/cruce_con_la_clave.tsv): I, prueba material externa o contexto sin otra lectura; II, distribución documental; III, requiere un parecido con otra lengua. Vacío: unidad no sometida al jurado. / Provenance according to the blind jury, least favourable classification; empty: not judged."
+     },
+     {
       "name": "Source",
       "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
       "separator": ";"
