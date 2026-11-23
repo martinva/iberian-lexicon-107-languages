@@ -62,8 +62,8 @@ def lee_griego(xml):
             if '\x04' in tok: items.append(('G',)); continue
             if '\x05' in tok: items.append(('N',)); continue
             w = unicodedata.normalize('NFD', tok)
-            w = ''.join(ch for ch in w if unicodedata.category(ch) in ('Ll', 'Lu', 'Lo')).lower().replace('ς', 'σ')
-            if w: items.append(('W', w))
+            w = ''.join(ch for ch in w if unicodedata.category(ch) in ('Ll', 'Lu', 'Lo'))
+            if w: items.append(('W', w.lower().replace('ς', 'σ'), w[0].isupper()))   # el tercer campo (mayúscula inicial) lo usa la declaración 42
         if items: lineas.append(items)
     return lineas
 
