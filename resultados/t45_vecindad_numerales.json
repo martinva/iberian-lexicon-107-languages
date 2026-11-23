@@ -1,0 +1,66 @@
+{
+ "textos_con_numerales": 31,
+ "elementos_numerales": 70,
+ "palabras": 316,
+ "formas_frecuentes": 6,
+ "tabla": [
+  {
+   "forma": "ki",
+   "apariciones": 4,
+   "vecinas": 3,
+   "esperadas": 1.2,
+   "razon": 2.5,
+   "p": 0.050094990500949906
+  },
+  {
+   "forma": "ir",
+   "apariciones": 5,
+   "vecinas": 3,
+   "esperadas": 1.34,
+   "razon": 2.23,
+   "p": 0.0988901109889011
+  },
+  {
+   "forma": "ka",
+   "apariciones": 3,
+   "vecinas": 2,
+   "esperadas": 1.38,
+   "razon": 1.45,
+   "p": 0.34966503349665035
+  },
+  {
+   "forma": "te",
+   "apariciones": 3,
+   "vecinas": 0,
+   "esperadas": 0.12,
+   "razon": 0.0,
+   "p": 1.0
+  },
+  {
+   "forma": "bale",
+   "apariciones": 3,
+   "vecinas": 0,
+   "esperadas": 0.29,
+   "razon": 0.0,
+   "p": 1.0
+  },
+  {
+   "forma": "keltibeleste",
+   "apariciones": 3,
+   "vecinas": 0,
+   "esperadas": 0.06,
+   "razon": 0.0,
+   "p": 1.0
+  }
+ ],
+ "contraste": {
+  "Q_apariciones": 5,
+  "Q_vecinas": 0,
+  "R_apariciones": 12,
+  "R_vecinas": 1,
+  "Q_prop": 0.0,
+  "R_prop": 0.083,
+  "Q_prop_esperada": 0.217,
+  "p_diferencia": 0.7622237776222378
+ }
+}
