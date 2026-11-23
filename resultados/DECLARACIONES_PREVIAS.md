@@ -715,3 +715,67 @@ La hora verificable de esta declaración es la de su commit.
 ### 22. English summary
 
 Optional exclusion in the meaning-based test: `t06_t07_significados.py` accepts an `EXCLUIR` environment variable (unit ids or forms, comma-separated) for the Colab cell `EXCLUIR = [...]`. Without it, the program and its reference output are unchanged (checked byte for byte before publishing); with it, results go to a separate file that is not part of the article's results. No new test, no change to any published figure.
+
+
+## 23. Vocabulario por soporte: plomo frente a cerámica y piedra (declarada el 23-11-2026, antes de calcular; artículo III, serie)
+
+La hora verificable de esta declaración es la de su commit. Aprobada por el autor el 23-11-2026, 03:33.
+
+**Pregunta.** ¿El vocabulario de los plomos difiere del de la cerámica y la piedra más de lo que explica la mayor longitud de sus textos?
+
+**Datos.** Las 1.599 fichas auténticas de Hesperia (7 y 12-11-2026), con el soporte definido como en `t01_t02_corpus.py` (plomo, piedra, cerámica, otros) y las palabras tokenizadas y reducidas como en `ibcomp.fuentes.hesperia()`. Formantes onomásticos: lista de Rodríguez Ramos (2014) ya en el repositorio, con el criterio de nombre propio de la tabla G1. Programa nuevo: `4_programas/t37_soporte.py`; salida `resultados/t37_soporte.json`. Semilla fija.
+
+**Pruebas y previsiones.**
+1. *Riqueza léxica a igual tamaño* (rarefacción): formas distintas en submuestras de 1.000 palabras (1.000 repeticiones) en plomo y en cerámica. Previsión: más formas distintas en plomo.
+2. *Proporción de palabras no onomásticas*, con la longitud controlada: de cada inscripción de plomo se toma una ventana aleatoria de tantas palabras como tiene una inscripción de cerámica sorteada (1.000 repeticiones), y se compara la proporción de palabras sin formante onomástico. Significación por permutación de la etiqueta de soporte entre inscripciones (10.000 permutaciones). Previsión: proporción mayor en plomo (p < 0,01).
+3. *Formas características* de cada soporte (log-odds con prior de Dirichlet informativo; Monroe, Colaresi y Quinn 2008): lista descriptiva de las 20 primeras por soporte, sin contraste.
+
+**Qué contaría en contra.** Que a igual tamaño no haya más formas distintas en plomo, o que la diferencia en la proporción no onomástica desaparezca al controlar la longitud. Se publica igual.
+
+**Lo que no se hace.** Ninguna comparación con otras lenguas; no se usan los significados propuestos.
+
+### 23. English summary
+Support-specific vocabulary (lead vs pottery and stone), declared before computing. Data: the 1,599 authentic Hesperia records, supports as in `t01_t02_corpus.py`, words as in `fuentes.hesperia()`; new program `t37_soporte.py`. Tests: (1) rarefaction to 1,000 words, 1,000 draws — prediction: more distinct forms on lead; (2) share of non-onomastic words with length controlled by random windows matched to pottery inscription lengths, inscription-level permutation (10,000) — prediction: higher on lead (p < 0.01); (3) descriptive Dirichlet-prior log-odds lists. Against: no difference once length is controlled. Published whatever the outcome.
+
+
+## 24. Control con el celtibérico y triángulo ibérico–celtibérico–euskera en la prueba de perfil (declarada el 23-11-2026, antes de calcular; artículo II, serie)
+
+La hora verificable de esta declaración es la de su commit. Aprobada por el autor el 23-11-2026, 03:33.
+
+**Pregunta.** (a) ¿Reconoce la prueba de perfil la filiación de una lengua paleohispánica de familia conocida, escrita con el mismo tipo de signario y tomada del mismo banco de datos? (b) ¿La proximidad del ibérico al euskera es un efecto de la escritura o de la región, que debería aparecer también en el celtibérico?
+
+**Datos.** Corpus celtibérico de Hesperia en la extracción pública de Martínez-Fernández et al. (arXiv:2604.13070), archivo `src/celtiberian_raw.csv` del repositorio `gonmarfer2/palaeohispanic-dataset-generator`, commit `789d03e` (2-3-2026): 161 fichas, de las que se excluyen las 29 marcadas en la sigla como FALSA, SUSPECTA o LATINA (quedan 132). Tokenización y reducción idénticas a las del ibérico (`fuentes.hesperia()` y `clases.red_ib`), sin ningún cambio. Lenguas: las 107 de NorthEuraLex, como en `t08_perfil.py`, con las mismas funciones (`perfil`, `divergencia`) y 500 remuestreos. Programa nuevo: `4_programas/t38_celtiberico.py`; salida `resultados/t38_celtiberico.json`.
+
+**Previsiones.**
+1. La lengua más próxima al celtibérico es indoeuropea, y entre las cinco primeras hay al menos una céltica (galés, bretón, irlandés o gaélico escocés).
+2. Con las lenguas reducidas a lo que anota el signario (como en el paso 4 de `t08`): al menos una indoeuropea entre las cinco primeras.
+3. El euskera no está entre las cinco más próximas al celtibérico, y la divergencia celtibérico–euskera es mayor que la ibérico–euskera (0,153 con el corpus ibérico completo).
+4. Descriptivo: divergencia ibérico–celtibérico, y posición del celtibérico entre las 107 lenguas vistas desde el ibérico.
+
+**Variante de sensibilidad** (declarada aquí, no principal): la letra *z* del celtibérico, que `red_ib` no asigna a ninguna clase, se asigna a la clase S.
+
+**Qué contaría en contra.** Si la más próxima al celtibérico no es indoeuropea, la prueba de perfil no distingue filiación en un corpus de este tipo y su valor como indicio se rebaja también para el ibérico. Si el euskera queda entre las cinco primeras del celtibérico, la proximidad ibérico–euskera puede deberse a la escritura o a la región. Se publica sea cual sea el resultado.
+
+### 24. English summary
+Celtiberian control and the Iberian–Celtiberian–Basque triangle in the profile test, declared before computing. Data: Celtiberian Hesperia records from the public extraction by Martínez-Fernández et al. (repository `gonmarfer2/palaeohispanic-dataset-generator`, commit `789d03e`), 132 authentic records after excluding 29 flagged forged/suspect/Latin; tokenization and reduction identical to Iberian; 107 NorthEuraLex languages, same functions, 500 resamples; new program `t38_celtiberico.py`. Predictions: (1) nearest language Indo-European, with a Celtic language in the top five; (2) with reduced languages, an Indo-European language still in the top five; (3) Basque not in the top five for Celtiberian, and Celtiberian–Basque divergence greater than Iberian–Basque (0.153); (4) descriptive Iberian–Celtiberian divergence. Sensitivity variant: Celtiberian *z* → class S. Against: a non-Indo-European nearest language (the test does not detect affiliation here), or Basque in Celtiberian's top five (script or regional effect). Published whatever the outcome.
+
+
+## 25. Tipología frente a historia en la prueba de perfil: el «efecto yakuto» (declarada el 23-11-2026, antes de calcular; artículo II, serie)
+
+La hora verificable de esta declaración es la de su commit. Aprobada por el autor el 23-11-2026, 03:33.
+
+**Pregunta.** ¿Cuánto de la proximidad de cada lengua al ibérico en la prueba de perfil se explica por la tipología y cuánto queda sin explicar?
+
+**Datos.** Perfiles de las 107 lenguas de NorthEuraLex (como en `t08`, clases completas y lenguas reducidas). Tipología externa: WALS (Dryer y Haspelmath, eds.), edición CLDF `cldf-datasets/wals`, rasgos 12A (estructura silábica) y 26A (prefijación frente a sufijación), unidos por glotocódigo. Para el ibérico se asignan de antemano 12A = «Moderately complex» (sílabas CVC documentadas, sin grupos iniciales complejos) y 26A = «Strongly suffixing». Programa nuevo: `4_programas/t39_tipologia.py`; salida `resultados/t39_tipologia.json`.
+
+**Procedimiento.** (1) Con todos los pares de lenguas de NorthEuraLex de familias distintas que tienen 12A, se ajusta por mínimos cuadrados la divergencia entre perfiles en función de dos indicadores: misma 12A y misma 26A (si falta 26A en un par, solo 12A). (2) Para cada lengua con 12A se calcula el residuo de su divergencia con el ibérico respecto de lo que predice el modelo con la tipología asignada al ibérico. (3) Descriptivo: los pares de símbolos que más contribuyen a la divergencia ibérico–yakuto y ibérico–euskera.
+
+**Previsiones.**
+1. El residuo del euskera es el más negativo (más próximo de lo que predice la tipología) de todas las lenguas con 12A, o está entre los tres más negativos.
+2. Los residuos del yakuto y del finés son menos negativos que el del euskera.
+3. Se cumple lo mismo con las lenguas reducidas.
+
+**Qué contaría en contra.** Que el euskera no esté entre los tres residuos más negativos: en ese caso su proximidad en la prueba de perfil se explica en buena parte por la tipología, y se rebaja la interpretación de esa prueba. Se publica sea cual sea el resultado.
+
+### 25. English summary
+Typology vs history in the profile test (the "Sakha effect"), declared before computing. Data: profiles of the 107 NorthEuraLex languages (full and reduced); WALS CLDF features 12A (syllable structure) and 26A (prefixing vs suffixing) joined by Glottocode; Iberian assigned a priori 12A = Moderately complex, 26A = Strongly suffixing; new program `t39_tipologia.py`. Procedure: OLS of profile divergence on same-12A and same-26A indicators over all cross-family NorthEuraLex pairs with 12A; residual of each language's divergence from Iberian; descriptive decomposition of the Iberian–Sakha and Iberian–Basque divergences by symbol pair. Predictions: Basque has the most negative residual (or among the three most negative); Sakha and Finnish less negative than Basque; the same with reduced languages. Against: Basque not among the three most negative residuals. Published whatever the outcome.
