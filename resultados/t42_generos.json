@@ -1,0 +1,825 @@
+{
+ "estela_lapida": {
+  "textos_ib": 52,
+  "textos_ce": 9,
+  "palabras_por_texto_ib": 2.9,
+  "palabras_por_texto_ce": 2.6,
+  "finales_ib": [
+   [
+    "N",
+    {
+     "interior": 17,
+     "ultima": 7,
+     "primera": 7,
+     "unica": 2
+    }
+   ],
+   [
+    "e",
+    {
+     "primera": 8,
+     "interior": 13,
+     "ultima": 7
+    }
+   ],
+   [
+    "R",
+    {
+     "interior": 12,
+     "ultima": 6,
+     "primera": 5,
+     "unica": 3
+    }
+   ],
+   [
+    "i",
+    {
+     "interior": 5,
+     "primera": 4,
+     "ultima": 7,
+     "unica": 5
+    }
+   ],
+   [
+    "a",
+    {
+     "ultima": 3,
+     "interior": 6,
+     "primera": 3,
+     "unica": 1
+    }
+   ],
+   [
+    "aR",
+    {
+     "interior": 7,
+     "ultima": 2,
+     "unica": 2,
+     "primera": 1
+    }
+   ],
+   [
+    "S",
+    {
+     "primera": 4,
+     "unica": 2,
+     "interior": 5
+    }
+   ],
+   [
+    "iN",
+    {
+     "ultima": 3,
+     "interior": 3,
+     "unica": 1,
+     "primera": 4
+    }
+   ]
+  ],
+  "finales_ce": [
+   [
+    "S",
+    {
+     "ultima": 2,
+     "unica": 1,
+     "primera": 1,
+     "interior": 2
+    }
+   ],
+   [
+    "o",
+    {
+     "primera": 2,
+     "interior": 1,
+     "unica": 1
+    }
+   ],
+   [
+    "N",
+    {
+     "interior": 3
+    }
+   ],
+   [
+    "oS",
+    {
+     "unica": 1,
+     "primera": 1,
+     "ultima": 1
+    }
+   ]
+  ],
+  "pares_mas_semejantes": [
+   [
+    0.011,
+    "i",
+    "S",
+    21,
+    6
+   ],
+   [
+    0.018,
+    "R",
+    "S",
+    26,
+    6
+   ],
+   [
+    0.03,
+    "a",
+    "S",
+    13,
+    6
+   ],
+   [
+    0.033,
+    "S",
+    "o",
+    11,
+    4
+   ],
+   [
+    0.04,
+    "iN",
+    "S",
+    11,
+    6
+   ],
+   [
+    0.044,
+    "N",
+    "S",
+    33,
+    6
+   ],
+   [
+    0.056,
+    "aR",
+    "S",
+    12,
+    6
+   ],
+   [
+    0.073,
+    "TiN",
+    "S",
+    7,
+    6
+   ],
+   [
+    0.073,
+    "u",
+    "S",
+    7,
+    6
+   ],
+   [
+    0.1,
+    "eN",
+    "S",
+    7,
+    6
+   ],
+   [
+    0.105,
+    "TiN",
+    "oS",
+    7,
+    3
+   ],
+   [
+    0.105,
+    "u",
+    "oS",
+    7,
+    3
+   ]
+  ]
+ },
+ "lamina": {
+  "textos_ib": 141,
+  "textos_ce": 11,
+  "palabras_por_texto_ib": 9.2,
+  "palabras_por_texto_ce": 76.7,
+  "finales_ib": [
+   [
+    "R",
+    {
+     "interior": 233,
+     "primera": 22,
+     "ultima": 17,
+     "unica": 6
+    }
+   ],
+   [
+    "e",
+    {
+     "interior": 201,
+     "ultima": 18,
+     "primera": 18,
+     "unica": 1
+    }
+   ],
+   [
+    "i",
+    {
+     "interior": 158,
+     "primera": 24,
+     "ultima": 19,
+     "unica": 3
+    }
+   ],
+   [
+    "a",
+    {
+     "primera": 20,
+     "interior": 137,
+     "ultima": 22,
+     "unica": 2
+    }
+   ],
+   [
+    "N",
+    {
+     "primera": 12,
+     "interior": 101,
+     "ultima": 21,
+     "unica": 3
+    }
+   ],
+   [
+    "iR",
+    {
+     "interior": 83,
+     "primera": 11,
+     "ultima": 5,
+     "unica": 2
+    }
+   ],
+   [
+    "S",
+    {
+     "interior": 81,
+     "primera": 12,
+     "ultima": 8
+    }
+   ],
+   [
+    "u",
+    {
+     "interior": 62,
+     "ultima": 9,
+     "primera": 6,
+     "unica": 2
+    }
+   ]
+  ],
+  "finales_ce": [
+   [
+    "M",
+    {
+     "interior": 245,
+     "primera": 1,
+     "ultima": 1
+    }
+   ],
+   [
+    "uM",
+    {
+     "interior": 213
+    }
+   ],
+   [
+    "KuM",
+    {
+     "interior": 206
+    }
+   ],
+   [
+    "S",
+    {
+     "interior": 184,
+     "primera": 1,
+     "ultima": 2
+    }
+   ],
+   [
+    "oS",
+    {
+     "interior": 138
+    }
+   ],
+   [
+    "u",
+    {
+     "interior": 95,
+     "ultima": 1
+    }
+   ],
+   [
+    "a",
+    {
+     "interior": 87,
+     "primera": 3
+    }
+   ],
+   [
+    "i",
+    {
+     "primera": 2,
+     "interior": 79,
+     "ultima": 4
+    }
+   ]
+  ],
+  "pares_mas_semejantes": [
+   [
+    0.001,
+    "Ke",
+    "o",
+    73,
+    44
+   ],
+   [
+    0.002,
+    "e",
+    "o",
+    238,
+    44
+   ],
+   [
+    0.006,
+    "S",
+    "o",
+    101,
+    44
+   ],
+   [
+    0.006,
+    "Te",
+    "o",
+    54,
+    44
+   ],
+   [
+    0.009,
+    "Ke",
+    "i",
+    73,
+    85
+   ],
+   [
+    0.01,
+    "Ka",
+    "o",
+    63,
+    44
+   ],
+   [
+    0.011,
+    "R",
+    "o",
+    278,
+    44
+   ],
+   [
+    0.013,
+    "ai",
+    "i",
+    42,
+    85
+   ],
+   [
+    0.013,
+    "ai",
+    "o",
+    42,
+    44
+   ],
+   [
+    0.013,
+    "eR",
+    "o",
+    45,
+    44
+   ],
+   [
+    0.015,
+    "i",
+    "o",
+    204,
+    44
+   ],
+   [
+    0.015,
+    "iR",
+    "o",
+    101,
+    44
+   ]
+  ]
+ },
+ "recipiente": {
+  "textos_ib": 1069,
+  "textos_ce": 42,
+  "palabras_por_texto_ib": 1.3,
+  "palabras_por_texto_ce": 1.4,
+  "finales_ib": [
+   [
+    "i",
+    {
+     "unica": 178,
+     "ultima": 22,
+     "primera": 13,
+     "interior": 20
+    }
+   ],
+   [
+    "R",
+    {
+     "unica": 128,
+     "primera": 24,
+     "interior": 42,
+     "ultima": 23
+    }
+   ],
+   [
+    "e",
+    {
+     "unica": 126,
+     "primera": 19,
+     "ultima": 16,
+     "interior": 45
+    }
+   ],
+   [
+    "a",
+    {
+     "unica": 134,
+     "ultima": 28,
+     "primera": 25,
+     "interior": 11
+    }
+   ],
+   [
+    "N",
+    {
+     "unica": 88,
+     "ultima": 15,
+     "interior": 12,
+     "primera": 21
+    }
+   ],
+   [
+    "S",
+    {
+     "unica": 69,
+     "primera": 15,
+     "ultima": 13,
+     "interior": 7
+    }
+   ],
+   [
+    "o",
+    {
+     "unica": 79,
+     "ultima": 9,
+     "interior": 5,
+     "primera": 7
+    }
+   ],
+   [
+    "aR",
+    {
+     "unica": 47,
+     "primera": 8,
+     "interior": 21,
+     "ultima": 13
+    }
+   ]
+  ],
+  "finales_ce": [
+   [
+    "a",
+    {
+     "unica": 9,
+     "ultima": 1,
+     "interior": 1
+    }
+   ],
+   [
+    "S",
+    {
+     "interior": 3,
+     "primera": 3,
+     "unica": 1
+    }
+   ],
+   [
+    "u",
+    {
+     "unica": 5,
+     "ultima": 1,
+     "interior": 1
+    }
+   ],
+   [
+    "o",
+    {
+     "primera": 2,
+     "unica": 5
+    }
+   ],
+   [
+    "M",
+    {
+     "primera": 2,
+     "unica": 2,
+     "ultima": 2
+    }
+   ],
+   [
+    "uM",
+    {
+     "primera": 2,
+     "unica": 2,
+     "ultima": 2
+    }
+   ],
+   [
+    "KuM",
+    {
+     "primera": 2,
+     "unica": 2,
+     "ultima": 2
+    }
+   ],
+   [
+    "N",
+    {
+     "primera": 1,
+     "interior": 1,
+     "unica": 4
+    }
+   ]
+  ],
+  "pares_mas_semejantes": [
+   [
+    0.029,
+    "i",
+    "a",
+    233,
+    11
+   ],
+   [
+    0.037,
+    "i",
+    "u",
+    233,
+    7
+   ],
+   [
+    0.04,
+    "o",
+    "a",
+    100,
+    11
+   ],
+   [
+    0.042,
+    "Ti",
+    "a",
+    41,
+    11
+   ],
+   [
+    0.044,
+    "Mi",
+    "u",
+    49,
+    7
+   ],
+   [
+    0.05,
+    "e",
+    "N",
+    206,
+    6
+   ],
+   [
+    0.053,
+    "iN",
+    "N",
+    39,
+    6
+   ],
+   [
+    0.057,
+    "aN",
+    "N",
+    38,
+    6
+   ],
+   [
+    0.058,
+    "o",
+    "u",
+    100,
+    7
+   ],
+   [
+    0.059,
+    "Mi",
+    "a",
+    49,
+    11
+   ],
+   [
+    0.06,
+    "R",
+    "N",
+    217,
+    6
+   ],
+   [
+    0.062,
+    "e",
+    "u",
+    206,
+    7
+   ]
+  ]
+ },
+ "tesera": {
+  "textos_ib": 5,
+  "textos_ce": 30,
+  "palabras_por_texto_ib": 1.4,
+  "palabras_por_texto_ce": 3.3,
+  "finales_ib": [
+   [
+    "N",
+    {
+     "ultima": 2,
+     "primera": 1
+    }
+   ]
+  ],
+  "finales_ce": [
+   [
+    "a",
+    {
+     "unica": 2,
+     "interior": 9,
+     "ultima": 8,
+     "primera": 7
+    }
+   ],
+   [
+    "S",
+    {
+     "primera": 4,
+     "interior": 13,
+     "ultima": 6,
+     "unica": 1
+    }
+   ],
+   [
+    "Ka",
+    {
+     "unica": 2,
+     "ultima": 5,
+     "primera": 6,
+     "interior": 2
+    }
+   ],
+   [
+    "o",
+    {
+     "interior": 8,
+     "primera": 5,
+     "ultima": 1,
+     "unica": 1
+    }
+   ],
+   [
+    "oS",
+    {
+     "primera": 3,
+     "interior": 7,
+     "ultima": 3
+    }
+   ],
+   [
+    "R",
+    {
+     "ultima": 8,
+     "interior": 3
+    }
+   ],
+   [
+    "M",
+    {
+     "interior": 4,
+     "unica": 1,
+     "ultima": 1,
+     "primera": 3
+    }
+   ],
+   [
+    "uM",
+    {
+     "interior": 4,
+     "unica": 1,
+     "ultima": 1,
+     "primera": 3
+    }
+   ]
+  ],
+  "pares_mas_semejantes": [
+   [
+    0.176,
+    "N",
+    "Ka",
+    3,
+    15
+   ],
+   [
+    0.234,
+    "N",
+    "aR",
+    3,
+    9
+   ],
+   [
+    0.24,
+    "N",
+    "aKa",
+    3,
+    6
+   ],
+   [
+    0.263,
+    "N",
+    "a",
+    3,
+    26
+   ],
+   [
+    0.298,
+    "N",
+    "ioS",
+    3,
+    5
+   ],
+   [
+    0.304,
+    "N",
+    "R",
+    3,
+    11
+   ],
+   [
+    0.311,
+    "N",
+    "iKa",
+    3,
+    6
+   ],
+   [
+    0.356,
+    "N",
+    "oS",
+    3,
+    13
+   ],
+   [
+    0.383,
+    "N",
+    "S",
+    3,
+    24
+   ],
+   [
+    0.437,
+    "N",
+    "M",
+    3,
+    9
+   ],
+   [
+    0.437,
+    "N",
+    "uM",
+    3,
+    9
+   ],
+   [
+    0.47,
+    "N",
+    "KuM",
+    3,
+    6
+   ]
+  ]
+ }
+}
