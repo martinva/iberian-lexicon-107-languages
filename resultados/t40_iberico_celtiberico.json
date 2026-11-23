@@ -1,0 +1,31 @@
+{
+ "clases completas": {
+  "formas_iberico": 2229,
+  "tamano_submuestra": 764,
+  "div_celtiberico_euskera": 0.214,
+  "div_iberico_euskera_media": 0.1562,
+  "ic95": [
+   0.1514,
+   0.1615
+  ],
+  "iberico_mas_cerca_en": 500,
+  "euskera_primero_en": 500,
+  "de": 500,
+  "p1_cumplida": true
+ },
+ "reducidas": {
+  "formas_iberico": 2214,
+  "tamano_submuestra": 759,
+  "div_celtiberico_euskera": 0.1064,
+  "div_iberico_euskera_media": 0.0724,
+  "ic95": [
+   0.0676,
+   0.0768
+  ],
+  "iberico_mas_cerca_en": 500,
+  "euskera_primero_en": 500,
+  "de": 500,
+  "p1_cumplida": true
+ },
+ "p2_euskera_primero_90pc_completas": true
+}
