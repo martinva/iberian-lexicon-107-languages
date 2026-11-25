@@ -151,7 +151,7 @@ def pie(L):
 <a href="https://doi.org/10.5281/zenodo.24443588">{tr(L, 'article', 'artículo')}</a> ·
 <a href="{SITIO}{PRE[L]}/terminos/">{tr(L, 'all terms', 'todos los términos')}</a> ·
 <a href="{SITIO}{PRE[L]}/inscripciones/">{tr(L, 'inscriptions cited', 'inscripciones citadas')}</a> ·
-David Martín Valladolid · <a href="https://orcid.org/0009-0003-4884-2573">ORCID</a> · CC BY 4.0</p></footer>
+David Martín Valladolid · <a href="https://orcid.org/0009-0003-4884-2573">ORCID</a> · <a href="{SITIO}{PRE[L]}/#contact">{tr(L, 'contact', 'contacto')}</a> · CC BY 4.0</p></footer>
 </div>
 </body>
 </html>
